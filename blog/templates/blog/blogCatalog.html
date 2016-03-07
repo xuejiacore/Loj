@@ -1,0 +1,20 @@
+{% load humanize %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客目录</title>
+</head>
+<body>
+<h2>博客目录页</h2>
+{% for blog in blogs %}
+    <div><h3><a href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">{{ blog.blog_title }}</a></h3></div>
+    <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}</span>
+    <br/>
+    {% autoescape off %}
+        {{ blog.blog_content | striptags | truncatechars:512 }}
+    {% endautoescape %}
+    <a href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">阅读全文</a>
+{% endfor %}
+</body>
+</html>

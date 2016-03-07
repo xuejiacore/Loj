@@ -1,0 +1,74 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>编写博客</title>
+    <script type="text/javascript" src="{% static 'pure/ckeditor4.5.7/ckeditor.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js' %}"></script>
+    <script type="text/javascript">
+        function doSubmit() {
+            $.ajax({
+                url: '{% url 'blog:publishBlog' request.session.host %}',
+                method: 'POST',
+                dataType: "json",
+                data: {
+                    blogTitle: $('#blogTitle').val(),
+                    blogCategory: $("#blogCatalog").find("option:selected").val(),
+                    blogContent: CKEDITOR.instances.editor.getData()
+                },
+                success: function (req) {
+                    if (req.error == 'success') {
+                        alert('提交博客成功');
+                    } else {
+                        alert('提交失败:' + req.msg);
+                    }
+                },
+                error: function () {
+                    alert('请求失败');
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+
+<a href="{% url 'main' request.session.host %}">返回博客首页</a>
+
+<label for="blogTitle">博客标题</label>
+<input type="text" id="blogTitle" placeholder="请输入博客的标题">
+<select id="blogCatalog">
+    {% for category in blog_categories %}
+        <option name="{{ category.name }}" value="{{ category.category_id }}">{{ category.name }}</option>
+    {% endfor %}
+</select>
+<input type="button" id="publish" value="发表" onclick="doSubmit();">
+<input type="button" id="saveDraft" value="保存至草稿箱" onclick="alert('保存到草稿箱(开发中)');">
+<br/>
+<br/>
+<textarea style="overflow:visible" name="blogEditor" id="editor" rows="10" cols="80"></textarea>
+<br/>
+<br/>
+<script>
+    var oCKeditor = CKEDITOR.replace('blogEditor', {
+        customConfig: '{% static 'js/blog_ckeditor_config.js' %}'
+    });
+
+    oCKeditor.on('instanceReady', function (event) {
+        var editor = event.editor;
+        setTimeout(function () {
+            // Delay bit more if editor is still not ready.
+            if (!editor.element) {
+                setTimeout(arguments.callee, 100);
+                return;
+            }
+            event.removeListener('instanceReady', this.callee);
+            if (editor.name == 'content') {
+                editor.resize(editor.container.getStyle('width'), CKEDITOR.document.getById('cke_' + 'content').getParent().$.offsetHeight);
+            }
+        }, 0);
+    }, null, null, 9999);
+</script>
+
+</body>
+</html>

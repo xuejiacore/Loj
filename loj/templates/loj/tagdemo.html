@@ -1,0 +1,24 @@
+{% load staticfiles %}
+{% load tag_demo %}
+{% load humanize %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if users %}
+    <ul>
+        {% for q in users %}
+            <li><a href="/{{ q.id }}/question">{{ q.real_name | append }}</a></li>
+            {{ q.reg_date | naturaltime }}
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>没有匹配的数据</p>
+{% endif %}
+{% tagdemo '---' %}
+{{ 15 | ordinal}}
+</body>
+</html>

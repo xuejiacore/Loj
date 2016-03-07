@@ -1,0 +1,2241 @@
+ï»¿- [DEBUG] [Thu, 25 Feb 2016 23:41:37] [Thread-4:3532] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Thu, 25 Feb 2016 23:41:38] [Thread-7:12600] [views.py:16] - * ·ÃÎÊ zigui µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Thu, 25 Feb 2016 23:48:05] [Thread-1:10836] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ
+- [DEBUG] [Thu, 25 Feb 2016 23:48:27] [Thread-37:13032] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ
+- [DEBUG] [Thu, 25 Feb 2016 23:48:50] [Thread-78:14608] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Thu, 25 Feb 2016 23:54:30] [Thread-1:7336] [views.py:18] - xuejia µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Thu, 25 Feb 2016 23:54:49] [Thread-17:8696] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Thu, 25 Feb 2016 23:54:50] [Thread-16:6284] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ
+- [DEBUG] [Thu, 25 Feb 2016 23:55:16] [Thread-30:2432] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Thu, 25 Feb 2016 23:55:17] [Thread-31:15248] [views.py:18] - xuejia µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Thu, 25 Feb 2016 23:55:34] [Thread-42:15148] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Thu, 25 Feb 2016 23:55:34] [Thread-43:6512] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ
+- [DEBUG] [Thu, 25 Feb 2016 23:56:07] [Thread-1:14444] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:12:33] [Thread-1:4508] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:12:50] [Thread-10:14728] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:12:51] [Thread-11:11772] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:13:03] [Thread-21:6452] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:13:04] [Thread-22:12576] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:13:07] [Thread-24:7352] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:13:40] [Thread-3:15120] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:13:47] [Thread-7:14568] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:13:48] [Thread-6:12172] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:14:36] [Thread-1:15180] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:16:18] [Thread-43:14800] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:16:52] [Thread-87:10468] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:16:56] [Thread-88:14300] [views.py:18] - * ·ÃÎÊ xuejia µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:16:59] [Thread-89:13500] [views.py:18] - * ·ÃÎÊ xuejia µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:17:24] [Thread-3:13628] [views.py:18] - * ·ÃÎÊ xuejia µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:17:37] [Thread-1:11880] [views.py:18] - * ·ÃÎÊ xuejia µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:17:51] [Thread-4:11284] [views.py:18] - * ·ÃÎÊ xuejia µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:18:19] [Thread-9:3780] [authorization_view.py:30] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:18:20] [Thread-10:15168] [views.py:18] - * ·ÃÎÊ xuejia µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:20:31] [Thread-6:10900] [authorization_view.py:32] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:20:31] [Thread-7:8692] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:21:12] [Thread-20:4720] [authorization_view.py:32] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:21:13] [Thread-21:6852] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:23:58] [Thread-6:1228] [authorization_view.py:33] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:23:58] [Thread-7:11380] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:29:16] [Thread-1:488] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:29:31] [Thread-6:13112] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:40:00] [Thread-8:8256] [authorization_view.py:33] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:40:00] [Thread-9:5040] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Fri, 26 Feb 2016 00:40:21] [Thread-18:15116] [authorization_view.py:33] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Fri, 26 Feb 2016 00:40:22] [Thread-21:6492] [views.py:18] - * ·ÃÎÊ Õ²Ñ§¼Ñ µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Sun, 28 Feb 2016 23:28:25] [Thread-24:146924] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Sun, 28 Feb 2016 23:28:45] [Thread-82:109644] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Sun, 28 Feb 2016 23:29:04] [Thread-101:130144] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Sun, 28 Feb 2016 23:31:43] [Thread-157:123988] [authorization_view.py:35] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Sun, 28 Feb 2016 23:37:07] [Thread-41:146500] [authorization_view.py:35] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Mon, 29 Feb 2016 12:48:02] [Thread-8:75100] [authorization_view.py:35] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Mon, 29 Feb 2016 12:51:43] [Thread-6:77160] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Mon, 29 Feb 2016 23:37:15] [Thread-13:138508] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Mon, 29 Feb 2016 23:38:10] [Thread-22:138036] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Mon, 29 Feb 2016 23:38:14] [Thread-23:140364] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Mon, 29 Feb 2016 23:39:33] [Thread-4:142560] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Mon, 29 Feb 2016 23:41:43] [Thread-28:8868] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Mon, 29 Feb 2016 23:41:48] [Thread-32:127228] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Mon, 29 Feb 2016 23:42:27] [Thread-38:124100] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Mon, 29 Feb 2016 23:42:34] [Thread-74:35560] [blogViews.py:39] - * BLOG TITLE:
+- [DEBUG] [Mon, 29 Feb 2016 23:42:34] [Thread-74:35560] [blogViews.py:40] - * BLOG CONTENT:
+- [DEBUG] [Mon, 29 Feb 2016 23:42:34] [Thread-74:35560] [blogViews.py:50] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Mon, 29 Feb 2016 23:42:43] [Thread-75:35480] [blogViews.py:39] - * BLOG TITLE:asd
+- [DEBUG] [Mon, 29 Feb 2016 23:42:43] [Thread-75:35480] [blogViews.py:40] - * BLOG CONTENT:
+- [DEBUG] [Mon, 29 Feb 2016 23:42:43] [Thread-75:35480] [blogViews.py:50] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Mon, 29 Feb 2016 23:43:43] [Thread-80:146528] [blogViews.py:39] - * BLOG TITLE:asd
+- [DEBUG] [Mon, 29 Feb 2016 23:43:43] [Thread-80:146528] [blogViews.py:40] - * BLOG CONTENT:<ul>
+	<li>
+	<div class="title"><a class="question-link" href="https://www.zhihu.com/question/22536096" target="_blank">Python³õÑ§Õß»ùÓÚ<em>Django¿ª·¢</em>Ò»¸öCMSÏµÍ³£¬Ó¦¸Ã×¼±¸ÄÄĞ©ÖªÊ¶£¿</a></div>
+
+	<div class="content">
+	<ul>
+		<li>
+		<div class="entry answer">
+		<div class="entry-left hidden-phone">0</div>
+
+		<div class="entry-body">
+		<div class="entry-meta"><strong><a class="author" href="https://www.zhihu.com/people/zhang-ya-yun-2">ÕÅÑÇÔË</a>£¬½»»¥Éè¼Æ£¬Ç°¶Ë£¬°ë¸ö¹¤ÒµÉè¼Æ</strong></div>
+
+		<div class="entry-content js-collapse-body">
+		<div class="summary hidden-expanded">×îĞèÒª×¼±¸µÄÖªÊ¶:ËÑË÷...Èç¹ûÖ»ÊÇ<em>¿ª·¢</em>µÄ»°,python+<em>django</em>»ù´¡¾Í¹»ÁË°¡...<em>¿ª·¢</em>¹ı ³ÌÖĞ¿ÉÄÜ»áÓöµ½¸÷ÖÖ¸÷ÑùµÄÎÊÌâ,´ó¶àÊıËÑË÷Ò»ÏÂ¶¼¿ÉÒÔ¸ã¶¨.ÖÁÓÚÉè¼Æ,Èç¹ûÄãÖ»ÊÇÏë×÷³ÌĞòÔ±µÄ»°,²Î¿¼Ò»ÏÂÏÖÓĞµÄcms¶¼ÓĞÄÄĞ©¹¦ÄÜ,Ä£·Â×ÅÀ´¾Í¿ÉÒÔÁË. Èç¹ûÒª²¿ÊğµÄ»°,¿ÉÒÔ¿´¿´»ù±¾µÄlinux,nginx(apache),uwsgiµÈµÈÖ®ÀàµÄ·şÎñÆ÷ÅäÖÃ·½ÃæµÄÄÚÈİ,...<a class="toggle-expand inline" href="https://www.zhihu.com/question/22536096/answer/21735693">ÏÔÊ¾È«²¿</a></div>
+		</div>
+
+		<div class="actions clearfix"><a class="action-item zg-follow" href="https://www.zhihu.com/search?type=question&amp;q=django%E5%BC%80%E5%8F%91#">¹Ø×¢ÎÊÌâ</a><a class="action-item js-toggle-commentbox" href="https://www.zhihu.com/search?type=question&amp;q=django%E5%BC%80%E5%8F%91#">Ìí¼ÓÆÀÂÛ</a>&bull;<a class="action-item js-copyright hidden-phone" href="https://www.zhihu.com/terms#sec-licence-1" target="_blank"> ×÷Õß±£ÁôÈ¨Àû </a></div>
+		</div>
+		</div>
+		</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<div class="title"><a class="question-link" href="https://www.zhihu.com/question/22728808" target="_blank">ÓĞÄÄĞ©ÏÖÓĞµÄµØÍ¼·şÎñÊÇ»ùÓÚgeo<em>django¿ª·¢</em>µÄ£¿</a></div>
+
+	<div class="content">
+	<ul>
+		<li>
+		<div class="entry answer">
+		<div class="entry-left hidden-phone">1</div>
+
+		<div class="entry-body">
+		<div class="entry-meta"><strong><a class="author" href="https://www.zhihu.com/people/chen-da-chui-39-60">³Â´ó´¸</a>£¬³ÌĞòÔ³</strong></div>
+
+		<div class="entry-content js-collapse-body">
+		<div class="summary hidden-expanded">...geodjangoµÄ×ÊÁÏÉÙÖ®ÓÖÉÙ,Éî¸ĞÊÇ¸ö¿Ó.</div>
+		</div>
+
+		<div class="actions clearfix"><a class="action-item zg-follow" href="https://www.zhihu.com/search?type=question&amp;q=django%E5%BC%80%E5%8F%91#">¹Ø×¢ÎÊÌâ</a><a class="action-item js-toggle-commentbox" href="https://www.zhihu.com/search?type=question&amp;q=django%E5%BC%80%E5%8F%91#">Ìí¼ÓÆÀÂÛ</a>&bull;<a class="action-item js-copyright hidden-phone" href="https://www.zhihu.com/terms#sec-licence-1" target="_blank"> ×÷Õß±£ÁôÈ¨Àû </a></div>
+		</div>
+		</div>
+		</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<div class="title"><a class="question-link" href="https://www.zhihu.com/question/23290813" target="_blank">ÄÄĞ©ÍøÕ¾ÓÉ<em>django¿ª·¢</em>£¬²¢ÇÒÓĞÔ´Âë£¿</a></div>
+	</li>
+</ul>
+
+- [DEBUG] [Mon, 29 Feb 2016 23:43:43] [Thread-80:146528] [blogViews.py:45] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 09:55:53] [Thread-4:55316] [authorization_view.py:35] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Tue, 01 Mar 2016 09:55:53] [Thread-6:34844] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 09:56:02] [Thread-11:29428] [blogViews.py:40] - * BLOG TITLE:123
+- [DEBUG] [Tue, 01 Mar 2016 09:56:02] [Thread-11:29428] [blogViews.py:41] - * BLOG CONTENT:123
+- [DEBUG] [Tue, 01 Mar 2016 09:56:02] [Thread-11:29428] [blogViews.py:46] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 09:57:05] [Thread-3:56740] [blogViews.py:40] - * BLOG TITLE:123
+- [DEBUG] [Tue, 01 Mar 2016 09:57:05] [Thread-3:56740] [blogViews.py:41] - * BLOG CONTENT:123
+- [DEBUG] [Tue, 01 Mar 2016 09:57:05] [Thread-3:56740] [blogViews.py:46] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 09:57:37] [Thread-1:61388] [blogViews.py:40] - * BLOG TITLE:123
+- [DEBUG] [Tue, 01 Mar 2016 09:57:37] [Thread-1:61388] [blogViews.py:41] - * BLOG CONTENT:123
+- [DEBUG] [Tue, 01 Mar 2016 09:57:37] [Thread-1:61388] [blogViews.py:46] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 09:58:29] [Thread-1:24224] [blogViews.py:40] - * BLOG TITLE:123
+- [DEBUG] [Tue, 01 Mar 2016 09:58:29] [Thread-1:24224] [blogViews.py:41] - * BLOG CONTENT:123
+- [DEBUG] [Tue, 01 Mar 2016 09:58:29] [Thread-1:24224] [blogViews.py:46] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:12:28] [Thread-1:88760] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 10:12:41] [Thread-7:92008] [blogViews.py:43] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:12:41] [Thread-7:92008] [blogViews.py:44] - * BLOG CONTENT:sdssxx
+- [DEBUG] [Tue, 01 Mar 2016 10:12:41] [Thread-7:92008] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:13:02] [Thread-9:90956] [blogViews.py:43] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:13:02] [Thread-9:90956] [blogViews.py:44] - * BLOG CONTENT:sdssxx
+- [DEBUG] [Tue, 01 Mar 2016 10:13:02] [Thread-9:90956] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:13:02] [Thread-10:91436] [blogViews.py:43] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:13:02] [Thread-10:91436] [blogViews.py:44] - * BLOG CONTENT:sdssxx
+- [DEBUG] [Tue, 01 Mar 2016 10:13:02] [Thread-10:91436] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:13:51] [Thread-1:61680] [blogViews.py:43] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:13:51] [Thread-1:61680] [blogViews.py:44] - * BLOG CONTENT:sdssxx
+- [DEBUG] [Tue, 01 Mar 2016 10:13:51] [Thread-1:61680] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:17:11] [Thread-4:74884] [blogViews.py:43] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:17:11] [Thread-4:74884] [blogViews.py:44] - * BLOG CONTENT:sdssxx
+- [DEBUG] [Tue, 01 Mar 2016 10:17:11] [Thread-4:74884] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:19:24] [Thread-3:65832] [blogViews.py:43] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:19:24] [Thread-3:65832] [blogViews.py:44] - * BLOG CONTENT:sdssxx
+- [DEBUG] [Tue, 01 Mar 2016 10:19:24] [Thread-3:65832] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:20:04] [Thread-3:49752] [blogViews.py:43] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:20:04] [Thread-3:49752] [blogViews.py:44] - * BLOG CONTENT:sdssxx
+- [DEBUG] [Tue, 01 Mar 2016 10:20:04] [Thread-3:49752] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:20:54] [Thread-7:96192] [blogViews.py:43] - * BLOG TITLE:³¤ÎÄÕÂ·¢±í
+- [DEBUG] [Tue, 01 Mar 2016 10:20:54] [Thread-7:96192] [blogViews.py:44] - * BLOG CONTENT:<p><strong>HttpRequest</strong></p>
+
+<p>HttpRequest´ú±íÒ»¸öÀ´×Ôuesr-agentµÄHTTPÇëÇó¡£</p>
+
+<p>´ó¶àÖØÒªµÄÇëÇóĞÅÏ¢¶¼ÊÇ×÷ÎªHttpRequest ¶ÔÏóµÄÊôĞÔ³öÏÖ(see Table H-1). ³ıÁËsessionÍâ£¬ÆäËûËùÓĞÊôĞÔ¶¼ÊÇÖ»¶ÁµÄ¡£</p>
+
+<p>Table H-1. HttpRequest¶ÔÏóµÄÊôĞÔ</p>
+
+<div>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #c0c0c0">
+	<tbody>
+		<tr>
+			<td>
+			<p><strong>Attribute</strong></p>
+			</td>
+			<td>
+			<p><strong>Description</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>path</p>
+			</td>
+			<td>
+			<p>ÇëÇóÒ³ÃæµÄÈ«Â·¾¶,²»°üÀ¨ÓòÃû&mdash;ÀıÈç, &quot;/music/bands/the_beatles/&quot;¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>method</p>
+			</td>
+			<td>
+			<p>ÇëÇóÖĞÊ¹ÓÃµÄHTTP·½·¨µÄ×Ö·û´®±íÊ¾¡£È«´óĞ´±íÊ¾¡£ÀıÈç:</p>
+
+			<p>if&nbsp;request.method&nbsp;==&nbsp;&#39;GET&#39;:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;do_something()<br />
+			elif&nbsp;request.method&nbsp;==&nbsp;&#39;POST&#39;:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;do_something_else()</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>GET</p>
+			</td>
+			<td>
+			<p>°üº¬ËùÓĞHTTP GET²ÎÊıµÄÀà×Öµä¶ÔÏó¡£²Î¼ûQueryDict ÎÄµµ¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>POST</p>
+			</td>
+			<td>
+			<p>°üº¬ËùÓĞHTTP POST²ÎÊıµÄÀà×Öµä¶ÔÏó¡£²Î¼ûQueryDict ÎÄµµ¡£</p>
+
+			<p>·şÎñÆ÷ÊÕµ½¿ÕµÄ POSTÇëÇóµÄÇé¿öÒ²ÊÇÓĞ¿ÉÄÜ·¢ÉúµÄ¡£Ò²¾ÍÊÇËµ£¬±íµ¥formÍ¨¹ıHTTP POST·½·¨Ìá½»ÇëÇó£¬µ«ÊÇ±íµ¥ÖĞ¿ÉÒÔÃ»ÓĞÊı¾İ¡£Òò´Ë£¬²»ÄÜÊ¹ÓÃÓï¾äif request.POSTÀ´ÅĞ¶ÏÊÇ·ñÊ¹ÓÃHTTP POST·½·¨£»Ó¦¸ÃÊ¹ÓÃif request.method == &quot;POST&quot; (²Î¼û±¾±íµÄmethodÊôĞÔ)¡£</p>
+
+			<p>×¢Òâ: POST²»°üÀ¨file-uploadĞÅÏ¢¡£²Î¼ûFILESÊôĞÔ¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>REQUEST</p>
+			</td>
+			<td>
+			<p>ÎªÁË·½±ã£¬¸ÃÊôĞÔÊÇPOSTºÍGETÊôĞÔµÄ¼¯ºÏÌå£¬µ«ÊÇÓĞÌØÊâĞÔ£¬ÏÈ²éÕÒPOSTÊôĞÔ£¬È»ºóÔÙ²éÕÒGETÊôĞÔ¡£½è¼øPHP&rsquo;s $_REQUEST¡£</p>
+
+			<p>ÀıÈç£¬Èç¹ûGET = {&quot;name&quot;: &quot;john&quot;} ºÍPOST = {&quot;age&quot;: &#39;34&#39;},Ôò REQUEST[&quot;name&quot;] µÄÖµÊÇ&quot;john&quot;, REQUEST[&quot;age&quot;]µÄÖµÊÇ&quot;34&quot;.</p>
+
+			<p>Ç¿ÁÒ½¨ÒéÊ¹ÓÃGET and POST,ÒòÎªÕâÁ½¸öÊôĞÔ¸ü¼ÓÏÔÊ½»¯£¬Ğ´³öµÄ´úÂëÒ²¸üÒ×Àí½â¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>COOKIES</p>
+			</td>
+			<td>
+			<p>°üº¬ËùÓĞcookiesµÄ±ê×¼Python×Öµä¶ÔÏó¡£KeysºÍvalues¶¼ÊÇ×Ö·û´®¡£²Î¼ûµÚ12ÕÂ£¬ÓĞ¹ØÓÚcookies¸üÏêÏ¸µÄ½²½â¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>FILES</p>
+			</td>
+			<td>
+			<p>°üº¬ËùÓĞÉÏ´«ÎÄ¼şµÄÀà×Öµä¶ÔÏó¡£FILESÖĞµÄÃ¿¸öKey¶¼ÊÇ&lt;input type=&quot;file&quot; name=&quot;&quot; /&gt;±êÇ©ÖĞnameÊôĞÔµÄÖµ. FILESÖĞµÄÃ¿¸övalue Í¬Ê±Ò²ÊÇÒ»¸ö±ê×¼Python×Öµä¶ÔÏó£¬°üº¬ÏÂÃæÈı¸öKeys:</p>
+
+			<ul style="margin-left:45px; margin-right:0px">
+				<li style="text-align:left">filename: ÉÏ´«ÎÄ¼şÃû,ÓÃPython×Ö·û´®±íÊ¾</li>
+				<li style="text-align:left">content-type: ÉÏ´«ÎÄ¼şµÄContent type</li>
+				<li style="text-align:left">content: ÉÏ´«ÎÄ¼şµÄÔ­Ê¼ÄÚÈİ</li>
+			</ul>
+
+			<p>×¢Òâ£ºÖ»ÓĞÔÚÇëÇó·½·¨ÊÇPOST£¬²¢ÇÒÇëÇóÒ³ÃæÖĞ&lt;form&gt;ÓĞenctype=&quot;multipart/form-data&quot;ÊôĞÔÊ±FILES²ÅÓµÓĞÊı¾İ¡£·ñÔò£¬FILES ÊÇÒ»¸ö¿Õ×Öµä¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>META</p>
+			</td>
+			<td>
+			<p>°üº¬ËùÓĞ¿ÉÓÃHTTPÍ·²¿ĞÅÏ¢µÄ×Öµä¡£ ÀıÈç:</p>
+
+			<ul style="margin-left:45px; margin-right:0px">
+				<li style="text-align:left">CONTENT_LENGTH</li>
+				<li style="text-align:left">CONTENT_TYPE</li>
+				<li style="text-align:left">QUERY_STRING: Î´½âÎöµÄÔ­Ê¼²éÑ¯×Ö·û´®</li>
+				<li style="text-align:left">REMOTE_ADDR: ¿Í»§¶ËIPµØÖ·</li>
+				<li style="text-align:left">REMOTE_HOST: ¿Í»§¶ËÖ÷»úÃû</li>
+				<li style="text-align:left">SERVER_NAME: ·şÎñÆ÷Ö÷»úÃû</li>
+				<li style="text-align:left">SERVER_PORT: ·şÎñÆ÷¶Ë¿Ú</li>
+			</ul>
+
+			<p>META ÖĞÕâĞ©Í·¼ÓÉÏÇ°×ºHTTP_×îÎªKey, ÀıÈç:</p>
+
+			<ul style="margin-left:45px; margin-right:0px">
+				<li style="text-align:left">HTTP_ACCEPT_ENCODING</li>
+				<li style="text-align:left">HTTP_ACCEPT_LANGUAGE</li>
+				<li style="text-align:left">HTTP_HOST: ¿Í»§·¢ËÍµÄHTTPÖ÷»úÍ·ĞÅÏ¢</li>
+				<li style="text-align:left">HTTP_REFERER: referringÒ³</li>
+				<li style="text-align:left">HTTP_USER_AGENT: ¿Í»§¶ËµÄuser-agent×Ö·û´®</li>
+				<li style="text-align:left">HTTP_X_BENDER: X-BenderÍ·ĞÅÏ¢</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>user</p>
+			</td>
+			<td>
+			<p>ÊÇÒ»¸ö django.contrib.auth.models.User ¶ÔÏó£¬´ú±íµ±Ç°µÇÂ¼µÄÓÃ»§¡£Èç¹û·ÃÎÊÓÃ»§µ±Ç°Ã»ÓĞµÇÂ¼£¬user½«±»³õÊ¼»¯Îª django.contrib.auth.models.AnonymousUserµÄÊµÀı¡£Äã¿ÉÒÔÍ¨¹ıuserµÄis_authenticated() ·½·¨À´±æ±ğÓÃ»§ÊÇ·ñµÇÂ¼£º</p>
+
+			<p>if&nbsp;request.user.is_authenticated():<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Do&nbsp;something&nbsp;for&nbsp;logged-in&nbsp;users.<br />
+			else:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Do&nbsp;something&nbsp;for&nbsp;anonymous&nbsp;users.</p>
+
+			<p>Ö»ÓĞ¼¤»îDjangoÖĞµÄAuthenticationMiddlewareÊ±¸ÃÊôĞÔ²Å¿ÉÓÃ</p>
+
+			<p>¹ØÓÚÈÏÖ¤ºÍÓÃ»§µÄ¸üÏêÏ¸½²½â,²Î¼ûµÚ12ÕÂ¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>session</p>
+			</td>
+			<td>
+			<p>Î¨Ò»¿É¶ÁĞ´µÄÊôĞÔ£¬´ú±íµ±Ç°»á»°µÄ×Öµä¶ÔÏó¡£Ö»ÓĞ¼¤»îDjangoÖĞµÄsessionÖ§³ÖÊ±¸ÃÊôĞÔ²Å¿ÉÓÃ¡£ ²Î¼ûµÚ12ÕÂ¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>raw_post_data</p>
+			</td>
+			<td>
+			<p>Ô­Ê¼HTTP POSTÊı¾İ£¬Î´½âÎö¹ı¡£ ¸ß¼¶´¦ÀíÊ±»áÓĞÓÃ´¦¡£</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p>Request¶ÔÏóÒ²ÓĞÒ»Ğ©ÓĞÓÃµÄ·½·¨,¼ûTable H-2£º</p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #c0c0c0">
+	<tbody>
+		<tr>
+			<td>
+			<p>Table H-2. HttpRequest Methods</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Method</strong></p>
+			</td>
+			<td>
+			<p><strong>Description</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>__getitem__(key)</p>
+			</td>
+			<td>
+			<p>·µ»ØGET/POSTµÄ¼üÖµ,ÏÈÈ¡POST,ºóÈ¡GET¡£Èç¹û¼ü²»´æÔÚÅ×³ö KeyError¡£</p>
+
+			<p>ÕâÊÇÎÒÃÇ¿ÉÒÔÊ¹ÓÃ×ÖµäÓï·¨·ÃÎÊHttpRequest¶ÔÏó¡£</p>
+
+			<p>ÀıÈç,request[&quot;foo&quot;]µÈÍ¬ÓÚÏÈrequest.POST[&quot;foo&quot;] È»ºó request.GET[&quot;foo&quot;]µÄ²Ù×÷¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>has_key()</p>
+			</td>
+			<td>
+			<p>¼ì²érequest.GET or request.POSTÖĞÊÇ·ñ°üº¬²ÎÊıÖ¸¶¨µÄKey¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>get_full_path()</p>
+			</td>
+			<td>
+			<p>·µ»Ø°üº¬²éÑ¯×Ö·û´®µÄÇëÇóÂ·¾¶¡£ÀıÈç£¬ &quot;/music/bands/the_beatles/?print=true&quot;</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>is_secure()</p>
+			</td>
+			<td>
+			<p>Èç¹ûÇëÇóÊÇ°²È«µÄ£¬·µ»ØTrue£¬¾ÍÊÇËµ£¬·¢³öµÄÊÇHTTPSÇëÇó¡£</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong>QueryDict</strong><strong>¶ÔÏó</strong></p>
+
+<p>ÔÚ HttpRequest¶ÔÏóÖĞ, GETºÍPOSTÊôĞÔÊÇdjango.http.QueryDictÀàµÄÊµÀı¡£ QueryDictÀàËÆ×ÖµäµÄ×Ô¶¨ÒåÀà£¬ÓÃÀ´´¦Àíµ¥¼ü¶ÔÓ¦¶àÖµµÄÇé¿ö¡£ÒòÎªÒ»Ğ©HTML formÔªËØ£¬ÀıÈç£¬&lt;selectmultiple=&quot;multiple&quot;&gt;, ¾Í»á´«¶à¸öÖµ¸øµ¥¸ö¼ü¡£</p>
+
+<p>QueryDict¶ÔÏóÊÇimmutable(²»¿É¸ü¸ÄµÄ),³ı·Ç´´½¨ËüÃÇµÄcopy()¡£ÕâÒâÎ¶×ÅÎÒÃÇ²»ÄÜÖ±½Ó¸Ä±ärequest.POST and request.GETµÄÊôĞÔ¡£</p>
+
+<p>QueryDictÊµÏÖËùÓĞ±ê×¼µÄ×Öµä·½·¨¡£»¹°üÀ¨Ò»Ğ©ÌØÓĞµÄ·½·¨£¬¼ûTable H-3.</p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #c0c0c0">
+	<tbody>
+		<tr>
+			<td>
+			<p>Table H-3. How QueryDicts Differ from Standard Dictionaries.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Method</strong></p>
+			</td>
+			<td>
+			<p><strong>Differences from Standard dict Implementation</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>__getitem__</p>
+			</td>
+			<td>
+			<p>ºÍ±ê×¼×ÖµäµÄ´¦ÀíÓĞÒ»µã²»Í¬£¬¾ÍÊÇ£¬Èç¹ûKey¶ÔÓ¦¶à¸öValue£¬__getitem__()·µ»Ø×îºóÒ»¸övalue¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>__setitem__</p>
+			</td>
+			<td>
+			<p>ÉèÖÃ²ÎÊıÖ¸¶¨keyµÄvalueÁĞ±í(Ò»¸öPython list)¡£×¢Òâ£ºËüÖ»ÄÜÔÚÒ»¸ömutable QueryDict ¶ÔÏóÉÏ±»µ÷ÓÃ(¾ÍÊÇÍ¨¹ıcopy()²úÉúµÄÒ»¸öQueryDict¶ÔÏóµÄ¿½±´).</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>get()</p>
+			</td>
+			<td>
+			<p>Èç¹ûkey¶ÔÓ¦¶à¸övalue£¬get()·µ»Ø×îºóÒ»¸övalue¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>update()</p>
+			</td>
+			<td>
+			<p>²ÎÊı¿ÉÒÔÊÇQueryDict£¬Ò²¿ÉÒÔÊÇ±ê×¼×Öµä¡£ºÍ±ê×¼×ÖµäµÄupdate·½·¨²»Í¬£¬¸Ã·½·¨Ìí¼Ó×Öµä items£¬¶ø²»ÊÇÌæ»»ËüÃÇ:</p>
+
+			<p>&gt;&gt;&gt;&nbsp;q&nbsp;=&nbsp;QueryDict(&#39;a=1&#39;)<br />
+			<br />
+			&gt;&gt;&gt;&nbsp;q&nbsp;=&nbsp;q.copy()&nbsp;#&nbsp;to&nbsp;make&nbsp;it&nbsp;mutable<br />
+			<br />
+			&gt;&gt;&gt;&nbsp;q.update({&#39;a&#39;:&nbsp;&#39;2&#39;})<br />
+			<br />
+			&gt;&gt;&gt;&nbsp;q.getlist(&#39;a&#39;)</p>
+
+			<p>&nbsp;[&#39;1&#39;,&nbsp;&#39;2&#39;]<br />
+			<br />
+			&gt;&gt;&gt;&nbsp;q[&#39;a&#39;]&nbsp;#&nbsp;returns&nbsp;the&nbsp;last<br />
+			<br />
+			[&#39;2&#39;]</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>items()</p>
+			</td>
+			<td>
+			<p>ºÍ±ê×¼×ÖµäµÄitems()·½·¨ÓĞÒ»µã²»Í¬,¸Ã·½·¨Ê¹ÓÃµ¥ÖµÂß¼­µÄ__getitem__():</p>
+
+			<p>&gt;&gt;&gt;&nbsp;q&nbsp;=&nbsp;QueryDict(&#39;a=1&amp;a=2&amp;a=3&#39;)<br />
+			<br />
+			&gt;&gt;&gt;&nbsp;q.items()<br />
+			<br />
+			[(&#39;a&#39;,&nbsp;&#39;3&#39;)]</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>values()</p>
+			</td>
+			<td>
+			<p>ºÍ±ê×¼×ÖµäµÄvalues()·½·¨ÓĞÒ»µã²»Í¬,¸Ã·½·¨Ê¹ÓÃµ¥ÖµÂß¼­µÄ__getitem__():</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>´ËÍâ, QueryDictÒ²ÓĞÒ»Ğ©·½·¨£¬¼ûTable H-4.</p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #c0c0c0">
+	<tbody>
+		<tr>
+			<td>
+			<p>H-4. ¶îÍâµÄ (·Ç×ÖµäµÄ) QueryDict ·½·¨</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Method</strong></p>
+			</td>
+			<td>
+			<p><strong>Description</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>copy()</p>
+			</td>
+			<td>
+			<p>·µ»Ø¶ÔÏóµÄ¿½±´£¬ÄÚ²¿ÊµÏÖÊÇÓÃPython±ê×¼¿âµÄcopy.deepcopy()¡£¸Ã¿½±´ÊÇmutable(¿É¸ü¸ÄµÄ) &mdash; ¾ÍÊÇËµ£¬¿ÉÒÔ¸ü¸Ä¸Ã¿½±´µÄÖµ¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>getlist(key)</p>
+			</td>
+			<td>
+			<p>·µ»ØºÍ²ÎÊıkey¶ÔÓ¦µÄËùÓĞÖµ£¬×÷ÎªÒ»¸öPython list·µ»Ø¡£Èç¹ûkey²»´æÔÚ£¬Ôò·µ»Ø¿Õlist¡£ It&rsquo;s guaranteed to return a list of some sort..</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>setlist(key,list_)</p>
+			</td>
+			<td>
+			<p>ÉèÖÃkeyµÄÖµÎªlist_ (unlike __setitem__()).</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>appendlist(key,item)</p>
+			</td>
+			<td>
+			<p>Ìí¼Óitemµ½ºÍkey¹ØÁªµÄÄÚ²¿list.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>setlistdefault(key,list)</p>
+			</td>
+			<td>
+			<p>ºÍsetdefaultÓĞÒ»µã²»Í¬£¬Ëü½ÓÊÜlist¶ø²»ÊÇµ¥¸övalue×÷Îª²ÎÊı¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>lists()</p>
+			</td>
+			<td>
+			<p>ºÍitems()ÓĞÒ»µã²»Í¬, Ëü»á·µ»ØkeyµÄËùÓĞÖµ£¬×÷ÎªÒ»¸ölist,&nbsp;ÀıÈç:</p>
+
+			<p>&gt;&gt;&gt;&nbsp;q&nbsp;=&nbsp;QueryDict(&#39;a=1&amp;a=2&amp;a=3&#39;)<br />
+			<br />
+			&gt;&gt;&gt;&nbsp;q.lists()<br />
+			<br />
+			[(&#39;a&#39;,&nbsp;[&#39;1&#39;,&nbsp;&#39;2&#39;,&nbsp;&#39;3&#39;])]</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>urlencode()</p>
+			</td>
+			<td>
+			<p>·µ»ØÒ»¸öÒÔ²éÑ¯×Ö·û´®¸ñÊ½½øĞĞ¸ñÊ½»¯ºóµÄ×Ö·û´®(e.g., &quot;a=2&amp;b=3&amp;b=5&quot;).</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong>A Complete Example</strong></p>
+
+<p>ÀıÈç, ÏÂÃæÊÇÒ»¸öHTML form:</p>
+
+<p>&lt;form&nbsp;action=&quot;/foo/bar/&quot;&nbsp;method=&quot;post&quot;&gt;<br />
+&lt;input&nbsp;type=&quot;text&quot;&nbsp;name=&quot;your_name&quot;&nbsp;/&gt;<br />
+&lt;select&nbsp;multiple=&quot;multiple&quot;&nbsp;name=&quot;bands&quot;&gt;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;beatles&quot;&gt;The&nbsp;Beatles&lt;/option&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;who&quot;&gt;The&nbsp;Who&lt;/option&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;zombies&quot;&gt;The&nbsp;Zombies&lt;/option&gt;<br />
+&lt;/select&gt;<br />
+&lt;input&nbsp;type=&quot;submit&quot;&nbsp;/&gt;<br />
+&lt;/form&gt;</p>
+
+<p>Èç¹ûÓÃ»§ÔÚyour_nameÓòÖĞÊäÈë&quot;JohnSmith&quot;£¬Í¬Ê±ÔÚ¶àÑ¡¿òÖĞÑ¡ÔñÁË&ldquo;The Beatles&rdquo;ºÍ&ldquo;The Zombies&rdquo;£¬ÏÂÃæÊÇDjangoÇëÇó¶ÔÏóµÄÄÚÈİ:</p>
+
+<p>&gt;&gt;&gt;&nbsp;request.GET{}<br />
+&gt;&gt;&gt;&nbsp;request.POST<br />
+{&#39;your_name&#39;:&nbsp;[&#39;John&nbsp;Smith&#39;],&nbsp;&#39;bands&#39;:&nbsp;[&#39;beatles&#39;,&nbsp;&#39;zombies&#39;]}<br />
+&gt;&gt;&gt;&nbsp;request.POST[&#39;your_name&#39;]<br />
+&#39;John&nbsp;Smith&#39;&nbsp;<br />
+&gt;&gt;&gt;&nbsp;request.POST[&#39;bands&#39;]<br />
+&#39;zombies&#39;<br />
+&gt;&gt;&gt;&nbsp;request.POST.getlist(&#39;bands&#39;)<br />
+[&#39;beatles&#39;,&nbsp;&#39;zombies&#39;]<br />
+&gt;&gt;&gt;&nbsp;request.POST.get(&#39;your_name&#39;,&nbsp;&#39;Adrian&#39;)<br />
+&#39;John&nbsp;Smith&#39;<br />
+&gt;&gt;&gt;&nbsp;request.POST.get(&#39;nonexistent_field&#39;,&nbsp;&#39;Nowhere&nbsp;Man&#39;)<br />
+&#39;Nowhere&nbsp;Man&#39;</p>
+
+<p><strong>HttpResponse</strong></p>
+
+<p>¶ÔÓÚHttpRequest ¶ÔÏóÀ´Ëµ£¬ÊÇÓÉDjango×Ô¶¯´´½¨, µ«ÊÇ£¬HttpResponse¶ÔÏó¾Í±ØĞëÎÒÃÇ×Ô¼º´´½¨¡£Ã¿¸öView·½·¨±ØĞë·µ»ØÒ»¸öHttpResponse¶ÔÏó¡£</p>
+
+<p>HttpResponseÀàÔÚdjango.http.HttpResponse¡£</p>
+
+<p><strong>¹¹Ôì</strong><strong>HttpResponses</strong></p>
+
+<p>Ò»°ãµØ, Äã¿ÉÒÔÍ¨¹ı¸øHttpResponseµÄ¹¹Ôìº¯Êı´«µİ×Ö·û´®±íÊ¾µÄÒ³ÃæÄÚÈİÀ´¹¹ÔìHttpResponse¶ÔÏó:</p>
+
+<p>&gt;&gt;&gt;&nbsp;response&nbsp;=&nbsp;HttpResponse(&quot;Here&#39;s&nbsp;the&nbsp;text&nbsp;of&nbsp;the&nbsp;Web&nbsp;page.&quot;)<br />
+&gt;&gt;&gt;&nbsp;response&nbsp;=&nbsp;HttpResponse(&quot;Text&nbsp;only,&nbsp;please.&quot;,&nbsp;mimetype=&quot;text/plain&quot;)</p>
+
+<p>µ«ÊÇÈç¹ûÏëÒªÔöÁ¿Ìí¼ÓÄÚÈİ, Äã¿ÉÒÔ°Ñresponseµ±×÷filelike¶ÔÏóÊ¹ÓÃ:</p>
+
+<p>&gt;&gt;&gt;&nbsp;response&nbsp;=&nbsp;HttpResponse()<br />
+&gt;&gt;&gt;&nbsp;response.write(&quot;&lt;p&gt;Here&#39;s&nbsp;the&nbsp;text&nbsp;of&nbsp;the&nbsp;Web&nbsp;page.&lt;/p&gt;&quot;)<br />
+&gt;&gt;&gt;&nbsp;response.write(&quot;&lt;p&gt;Here&#39;s&nbsp;another&nbsp;paragraph.&lt;/p&gt;&quot;)</p>
+
+<p>Ò²¿ÉÒÔ¸øHttpResponse´«µİÒ»¸öiterator×÷Îª²ÎÊı£¬¶ø²»ÓÃ´«µİÓ²±àÂë×Ö·û´®¡£ Èç¹ûÄãÊ¹ÓÃÕâÖÖ¼¼Êõ, ÏÂÃæÊÇĞèÒª×¢ÒâµÄÒ»Ğ©ÊÂÏî:</p>
+
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iteratorÓ¦¸Ã·µ»Ø×Ö·û´®.</p>
+
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Èç¹ûHttpResponseÊ¹ÓÃiterator½øĞĞ³õÊ¼»¯£¬¾Í²»ÄÜ°ÑHttpResponseÊµÀı×÷Îªfilelike ¶ÔÏóÊ¹ÓÃ¡£ÕâÑù×ö½«»áÅ×³öÒì³£¡£</p>
+
+<p>×îºó£¬ÔÙËµÃ÷Ò»ÏÂ£¬HttpResponseÊµÏÖÁËwrite()·½·¨, ¿ÉÒÔÔÚÈÎºÎĞèÒªfilelike¶ÔÏóµÄµØ·½Ê¹ÓÃHttpResponse¶ÔÏó¡£²Î¼ûµÚ11ÕÂ£¬ÓĞÒ»Ğ©Àı×Ó¡£</p>
+
+<p><strong>ÉèÖÃ</strong><strong>Headers</strong></p>
+
+<p>Äã¿ÉÒÔÊ¹ÓÃ×ÖµäÓï·¨Ìí¼Ó£¬É¾³ıheaders:</p>
+
+<p>&gt;&gt;&gt;&nbsp;response&nbsp;=&nbsp;HttpResponse()&nbsp;<br />
+&gt;&gt;&gt;&nbsp;response[&#39;X-DJANGO&#39;]&nbsp;=&nbsp;&quot;It&#39;s&nbsp;the&nbsp;best.&quot;<br />
+&gt;&gt;&gt;&nbsp;del&nbsp;response[&#39;X-PHP&#39;]<br />
+&gt;&gt;&gt;&nbsp;response[&#39;X-DJANGO&#39;]<br />
+&quot;It&#39;s&nbsp;the&nbsp;best.&quot;</p>
+
+<p>ÄãÒ²¿ÉÒÔÊ¹ÓÃhas_header(header)·½·¨¼ì²âÄ³¸öheaderÊÇ·ñ´æÔÚ¡£</p>
+
+<p>²»ÒªÊÖ¶¯ÉèÖÃCookie headers£»¾ßÌåµÄ×ö·¨£¬²Î¼ûµÚ12ÕÂ£¬ÓĞ¹ØÓÚÔõÑùÔÚDjangoÖĞ´¦ÀícookiesµÄÏêÏ¸½²½â¡£</p>
+
+<p><strong>HttpResponse</strong><strong>×ÓÀà</strong></p>
+
+<p>Django°üº¬ºÜ¶àHttpResponse×ÓÀà£¬ÓÃÀ´´¦Àí²»Í¬µÄHTTPÏìÓ¦ÀàĞÍ(¼ûTable H-5). ºÍHttpResponseÒ»Ñù, ÕâĞ©×ÓÀàÔÚdjango.httpÖĞ.</p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #c0c0c0">
+	<tbody>
+		<tr>
+			<td>
+			<p>Table H-5. HttpResponse Subclasses</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Class</strong></p>
+			</td>
+			<td>
+			<p><strong>Description</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponseRedirect</p>
+			</td>
+			<td>
+			<p>¹¹Ôìº¯Êı½ÓÊÜµ¥¸ö²ÎÊı£ºÖØ¶¨Ïòµ½µÄURL¡£¿ÉÒÔÊÇÈ«URL (e.g., &#39;http://search.yahoo.com/&#39;)»òÕßÏà¶ÔURL(e.g., &#39;/search/&#39;). ×¢Òâ£ºÕâ½«·µ»ØHTTP×´Ì¬Âë302¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponsePermanentRedirect</p>
+			</td>
+			<td>
+			<p>Í¬HttpResponseRedirectÒ»Ñù£¬µ«ÊÇ·µ»ØÓÀ¾ÃÖØ¶¨Ïò(HTTP ×´Ì¬Âë 301)¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponseNotModified</p>
+			</td>
+			<td>
+			<p>¹¹Ôìº¯Êı²»ĞèÒª²ÎÊı¡£Use this to designate that a page hasn&rsquo;t been modified since the user&rsquo;s last request.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponseBadRequest</p>
+			</td>
+			<td>
+			<p>·µ»Ø400 status code¡£</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponseNotFound</p>
+			</td>
+			<td>
+			<p>·µ»Ø404 status code.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponseForbidden</p>
+			</td>
+			<td>
+			<p>·µ»Ø403 status code.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponseNotAllowed</p>
+			</td>
+			<td>
+			<p>·µ»Ø405 status code. ËüĞèÒªÒ»¸ö±ØĞëµÄ²ÎÊı£ºÒ»¸öÔÊĞíµÄ·½·¨µÄlist (e.g., [&#39;GET&#39;,&#39;POST&#39;]).</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponseGone</p>
+			</td>
+			<td>
+			<p>·µ»Ø410 status code.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>HttpResponseServerError</p>
+			</td>
+			<td>
+			<p>·µ»Ø500 status code.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>µ±È»£¬ÄãÒ²¿ÉÒÔ×Ô¼º¶¨Òå²»°üº¬ÔÚÉÏ±íÖĞµÄHttpResponse×ÓÀà¡£</p>
+
+<p><strong>·µ»Ø</strong><strong>Errors</strong></p>
+
+<p>ÔÚDjangoÖĞ·µ»ØHTTP´íÎóÂëÊÇºÜÈİÒ×µÄ¡£ÉÏÃæ½éÉÜÁËHttpResponseNotFound, HttpResponseForbidden, HttpResponseServerErrorµÈÒ»Ğ©×ÓÀà¡£View·½·¨ÖĞ·µ»ØÕâĞ©×ÓÀàµÄÊµÀı¾ÍOKÁË,ÀıÈç:</p>
+
+<p>def&nbsp;my_view(request):&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;&nbsp;...&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;foo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;HttpResponseNotFound(&#39;&lt;h1&gt;Page&nbsp;not&nbsp;found&lt;/h1&gt;&#39;)&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;else:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;HttpResponse(&#39;&lt;h1&gt;Page&nbsp;was&nbsp;found&lt;/h1&gt;&#39;)</p>
+
+<p>µ±·µ»ØHttpResponseNotFoundÊ±,ÄãĞèÒª¶¨Òå´íÎóÒ³ÃæµÄHTML:</p>
+
+<p>return HttpResponseNotFound(&#39;&lt;h1&gt;Page not found&lt;/h1&gt;&#39;)</p>
+
+<p>ÒòÎª404´íÎóÊÇ×î³£Ê¹ÓÃµÄHTTP´íÎó, ÓĞÒ»¸ö¸ü·½±ãµÄ·½·¨´¦ÀíËü¡£</p>
+
+<p>ÎªÁË·½±ã£¬¶øÇÒÕû¸öÕ¾µãÓĞÒ»ÖÂµÄ404´íÎóÒ³ÃæÒ²ÊÇÓÑºÃµÄ,DjangoÌá¹©Ò»¸öHttp404Òì³£Àà¡£Èç¹ûÔÚÒ»¸öView·½·¨ÖĞÅ×³öHttp404,Django½«»á²¶»ñËü²¢ÇÒ·µ»Ø±ê×¼´íÎóÒ³Ãæ,Í¬Ê±·µ»Ø´íÎóÂë404¡£</p>
+
+<p>from&nbsp;django.http&nbsp;import&nbsp;Http404<br />
+<br />
+def&nbsp;detail(request,&nbsp;poll_id):&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;try:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p&nbsp;=&nbsp;Poll.objects.get(pk=poll_id)&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;except&nbsp;Poll.DoesNotExist:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raise&nbsp;Http404&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;render_to_response(&#39;polls/detail.html&#39;,&nbsp;{&#39;poll&#39;:&nbsp;p})</p>
+
+<p>ÎªÁËÊ¹ÓÃHttp404Òì³£, ÄãĞèÒª´´½¨Ò»¸öÄ£°åÎÄ¼ş¡£µ±Òì³£Å×³öÊ±£¬¾Í»áÏÔÊ¾¸ÃÄ£°åÎÄ¼ş¡£¸ÃÄ£°åÎÄ¼şµÄÎÄ¼şÃûÊÇ404.html,ÔÚÄ£°å¸ùÄ¿Â¼ÏÂ´´½¨¡£</p>
+
+<p><strong>×Ô¶¨Òå</strong><strong>404 (Not Found) View</strong><strong>·½·¨</strong></p>
+
+<p>µ±Å×³öHttp404Òì³£Ê±, Django»á¼ÓÔØÒ»¸öÌØÊâµÄview·½·¨´¦Àí404´íÎó¡£Ä¬ÈÏµØ, ËüÊÇdjango.views.defaults.page_not_found,¸ºÔğ¼ÓÔØºÍäÖÈ¾404.htmlÄ£°åÎÄ¼ş¡£</p>
+
+<p>ÕâÒâÎ¶×ÅÎÒÃÇ±ØĞëÔÚÄ£°å¸ùÄ¿Â¼¶¨Òå404.htmlÄ£°åÎÄ¼ş£¬¸ÃÄ£°åÎÄ¼şÓ¦ÓÃÓÚËùÓĞµÄ404Òì³£¡£</p>
+
+<p>¸Ãpage_not_found view·½·¨Ó¦¸Ã¿ÉÒÔÓ¦¶Ô¼¸ºõ99%µÄWeb App£¬µ«ÊÇÈç¹ûÏëÒªÖØÔØ¸Ãview·½·¨Ê±, Äã¿ÉÒÔÔÚURLConfÎÄ¼şÖĞÖ¸¶¨handler404Îª×Ô¶¨ÒåµÄ404 errpr view·½·¨, ÏñÕâÑù:</p>
+
+<p>from&nbsp;django.conf.urls.defaults&nbsp;import&nbsp;*<br />
+<br />
+urlpatterns&nbsp;=&nbsp;patterns(&#39;&#39;,&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;...<br />
+)<br />
+<br />
+handler404&nbsp;=&nbsp;&#39;mysite.views.my_custom_404_view&#39;</p>
+
+<p>Django¾ÍÊÇÍ¨¹ıÔÚURLConfÎÄ¼şÖĞ²éÕÒhandler404À´¾ö¶¨404 view·½·¨µÄ¡£Ä¬ÈÏµØ, URLconfs°üº¬ÏÂÃæÒ»ĞĞ´úÂë:</p>
+
+<p>from django.conf.urls.defaults import *</p>
+
+<p>ÔÚ django/conf/urls/defaults.pyÄ£¿éÖĞ, handler404¸³ÖµÎª &#39;django.views.defaults.page_not_found&#39;¡£</p>
+
+<p>×¢Òâ:</p>
+
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Èç¹ûÇëÇóURLÃ»ÓĞºÍDjangoµÄURLConfÎÄ¼şÖĞµÄÈÎºÎÒ»¸öÕıÔò±íÊ¾Ê½Æ¥Åä£¬404 view·½·¨¾Í»á±»µ÷ÓÃ¡£</p>
+
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Èç¹ûÃ»ÓĞ¶¨Òå×Ô¼ºµÄ404 view &mdash; Ê¹ÓÃÄ¬ÈÏµØ404 view£¬ÄãÈÔÈ»ÓĞÒ»¸ö¹¤×÷Òª×ö£ºÔÚÄ£°å¸ùÄ¿Â¼´´½¨404.htmlÄ£°åÎÄ¼ş¡£Ä¬ÈÏµØ404 view½«Ê¹ÓÃ¸ÃÄ£°å´¦ÀíËùÓĞ404´íÎó¡£</p>
+
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Èç¹û DEBUGÉèÖÃÎªTrue (ÔÚsettingÄ£¿éÖĞ)£¬404 view·½·¨²»»á±»Ê¹ÓÃ£¬È¡¶ø´úÖ®µÄÊÇ£¬tracebackĞÅÏ¢¡£</p>
+
+<p><strong>×Ô¶¨Òå</strong><strong>500 (Server Error) View</strong><strong>·½·¨</strong></p>
+
+<p>Í¬ÑùµØ£¬µ±view´úÂë·¢ÉúÔËĞĞÊ±´íÎóÊ±£¬DjangoÒ²»á²úÉúÌØÊâĞĞÎª¡£Èç¹ûview·½·¨²úÉúÒì³££¬Django½«»áµ÷ÓÃÄ¬ÈÏµØview·½·¨django.views.defaults.server_error, ¸Ã·½·¨¼ÓÔØäÖÈ¾500.htmlÄ£°åÎÄ¼ş¡£</p>
+
+<p>ÕâÒâÎ¶×ÅÎÒÃÇ±ØĞëÔÚÄ£°å¸ùÄ¿Â¼¶¨Òå500.htmlÄ£°åÎÄ¼ş£¬¸ÃÄ£°åÎÄ¼şÓ¦ÓÃÓÚËùÓĞµÄ·şÎñÆ÷´íÎó¡£</p>
+
+<p>¸Ãserver_error view·½·¨Ó¦¸Ã¿ÉÒÔÓ¦¶Ô¼¸ºõ99%µÄWeb App£¬µ«ÊÇÈç¹ûÏëÒªÖØÔØ¸Ãview·½·¨Ê±, Äã¿ÉÒÔÔÚURLConfÎÄ¼şÖĞÖ¸¶¨handler500Îª×Ô¶¨ÒåµÄserver error view·½·¨, ÏñÕâÑù:</p>
+
+<p>from&nbsp;django.conf.urls.defaults&nbsp;import&nbsp;*</p>
+
+<p>&nbsp;&nbsp; urlpatterns&nbsp;=&nbsp;patterns(&#39;&#39;,&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...</p>
+
+<p>&nbsp;&nbsp;&nbsp;)</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;&nbsp; handler500&nbsp;=&nbsp;&#39;mysite.views.my_custom_error_view&#39;</p>
+
+- [DEBUG] [Tue, 01 Mar 2016 10:20:54] [Thread-7:96192] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:22:57] [Thread-10:132176] [blogViews.py:43] - * BLOG TITLE:Django²¿Êğ
+- [DEBUG] [Tue, 01 Mar 2016 10:22:57] [Thread-10:132176] [blogViews.py:44] - * BLOG CONTENT:<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<hr /><strong>·şÎñÆ÷»·¾³ÈçÏÂ£º</strong></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">Centos 7 64Î»(¹Ù·½³õÊ¼»·¾³)</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">Linux&nbsp;version&nbsp;3.10.0-123.9.3.el7.x86_64&nbsp;(<a href="mailto:builder@kbuilder.dev.centos.org" style="background-color: inherit; cursor: pointer;">builder@kbuilder.dev.centos.org</a>)&nbsp;(gcc&nbsp;version&nbsp;4.8.2&nbsp;20140120&nbsp;(Red&nbsp;Hat&nbsp;4.8.2-16)&nbsp;(GCC)&nbsp;)&nbsp;#1&nbsp;SMP&nbsp;Thu&nbsp;Nov&nbsp;6&nbsp;15:06:03&nbsp;UTC&nbsp;2014</div>
+</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">
+<hr /></div>
+<strong>Ò»¡¢Pyenv»·¾³ÅäÖÃ</strong>
+
+<div style="background-color: inherit;"><strong>&nbsp; &nbsp;</strong></div>
+&nbsp; &nbsp; ÍøÂçÉÏÓĞºÜ¶à¹ØÓÚpyenvµÄÅäÖÃËµÃ÷£¬µ«ÊÇ´ó¶àÊÇÊ¹ÓÃµÄ×Ô¶¯°²×°£¬ÔÚÊ¹ÓÃµÄ¹ı³ÌÖĞ¿ÉÄÜ»á³öÏÖĞíĞí¶à¶àµÄµÄÎÊÌâ£¬Îª´Ë£¬ÔÚ±¾ËµÃ÷ÖĞ£¬Ö»ÓÃpyenv½øĞĞpython°æ±¾µÄ¹ÜÀí£¬¶øÊµ¼ÊµÄ°²×°pythonÎÒÃÇÍ¨¹ıÊÖ¶¯½øĞĞ°²×°¡£
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">ÔÚ°²×°pyenvÖ®Ç°ĞèÒª¼ì²é²¢°²×°Ò»Ğ©±ØÒªµÄÒÀÀµ°ü</div>
+
+<div style="background-color: inherit;"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">[<a href="mailto:root@foo" style="background-color: inherit; cursor: pointer;">root@foo</a>&nbsp;~]# yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel</span></div>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½¨Òé°²×°Ä¿Â¼Îª$HOME/.pyenv</div>
+<strong>1¡¢´ÓGithubÖĞ¼ì³öÏîÄ¿</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); font-family:monaco,consolas,courier,lucida console,monospace">$ git clone git://github.com/yyuu/pyenv.git $HOME/.pyenv</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px"><strong>2¡¢Ìí¼Ó»·¾³±äÁ¿¡£<span style="background-color:inherit">PYENV_ROOT</span> Ö¸Ïò pyenv ¼ì³öµÄ¸ùÄ¿Â¼£¬²¢Ïò <span style="background-color:inherit">$PATH</span> Ìí¼Ó <span style="background-color:inherit">$PYENV_ROOT/bin</span> ÒÔÌá¹©·ÃÎÊ <span style="background-color:inherit">pyenv</span> ÕâÌõÃüÁîµÄÂ·¾¶</strong></span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo &#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">export</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> PYENV_ROOT=</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&quot;$HOME/.pyenv&quot;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39; &gt;&gt; ~/.bash_profile</span></p>
+
+<p><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo &#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">export</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> PATH=</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&quot;$PYENV_ROOT/bin:$PATH&quot;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39; &gt;&gt; ~/.bash_profile</span></p>
+ÕâÀïµÄ shell ÅäÖÃÎÄ¼ş£¨<span style="background-color:inherit">~/.bash_profile</span>£©ÒÀ²»Í¬ Linux ¶øĞè×÷ĞŞ¸Ä&mdash;&mdash;Zsh£º<span style="background-color:inherit">~/.zshenv</span>£»Ubuntu£º<span style="background-color:inherit">~/.bashrc</span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+</div>
+</div>
+<strong>3¡¢Ïò shell Ìí¼Ó <span style="background-color:inherit">pyenv init</span> ÒÔÆôÓÃ shims ºÍÃüÁî²¹Íê¹¦ÄÜ</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo </span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39;eval &quot;$(pyenv init -)&quot;&#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> &gt;&gt; ~/</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">.bash_profile</span></span></p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit">ÅäÖÃÎÄ¼şµÄÎ»ÖÃÍ¬ÉÏÒ»ÌõÒ»ÑùĞèÒªĞŞ¸Ä</span></span></p>
+
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<strong>4¡¢ÖØÆô shell£¨ÒòÎªĞŞ¸ÄÁË <span style="background-color:inherit">$PATH</span>£©</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ </span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">exec</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$SHELL</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit">Ê¹ÓÃ pyenv versions ²é¿´µ±Ç°ÒÑ¾­°²×°µÄpython°æ±¾</span></p>
+</div>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><code>¸üÏêÏ¸µÄÅäÖÃ¿ÉÒÔ²ÎÕÕ£º</code></div>
+
+<div style="background-color: inherit;"><span style="background-color:inherit">Linux ÏÂµÄ Python ¶à°æ±¾¹ÜÀí£¨pyenv£©</span></div>
+</div>
+</div>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><a href="http://my.oschina.net/lionets/blog/267469" style="background-color: inherit; cursor: pointer; font-family: Monaco, Consolas, Courier, 'Lucida Console', monospace; line-height: 1.5;">http://my.oschina.net/lionets/blog/267469</a>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><strong>¶ş¡¢°²×°¸ß°æ±¾Python</strong></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">Ê¹ÓÃpyenv install ÃüÁî°²×°ÆäËû°æ±¾µÄpythonµÄÊ±ºò£¬²»ÄÜ½øĞĞ±àÒëÆÚµÄpythonÅäÖÃ£¬»áµ¼ÖÂºóÆÚµÄmod_wsgiµÄ±àÒëÊ§°Ü£¬Òò´Ë£¬ÎÒÃÇÊ¹ÓÃÊÖ¶¯±àÒëÔ´Âë°²×°µÄĞÎÊ½°²×°python3.5.1</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Ê×ÏÈÏÈÏÂÔØ&nbsp;<span style="background-color:inherit">Python-3.5.1.tgz&nbsp;</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½âÑ¹ tar -xzvf Python-3.5.1.tgz</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½øÈëPython-3.5.1Ä¿Â¼ÖĞ</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ./configurate --prefix=/home/.pyenv/versions/3.5.1 <strong>--enable-shared</strong></div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÔÚÕâÀïÎŞ±ÈÒª¼ÓÉÏenable-shared²ÎÊı½øĞĞÅäÖÃ£¬·ñÔòºóÆÚ±àÒëmod_wsgi»á±¨´í</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ make &amp;&amp; make install</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÎÒÃÇÊÖ¶¯°²×°pythonµ½pyenvÖĞ£¬pyenvÎŞ·¨ÕıÈ·Ê¶±ğ£¬ÎÒÃÇĞèÒª×ö¼òµ¥µÄÉèÖµ¼´¿É£º</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½øÈëpythonµÄ°²×°Ä¿Â¼/home/.pyenv/versions/3.5.1/bin</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ln -s python3 python</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ln -s pip3 pip</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÁíÍâÔÚ&nbsp;<span style="background-color:inherit">/etc/ld.so.conf.d/ Ä¿Â¼ÏÂ´´½¨Ò»¸öpythonµÄÅäÖÃ</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">[<a href="mailto:root@foo" style="background-color: inherit; cursor: pointer;">root@foo</a>&nbsp;~] # vim /etc/ld.so.conf.d/python-3.5.1.conf</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÔÚÀïÃæÌí¼ÓpythonµÄ¿â</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"># fileName:&nbsp;<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">/etc/ld.so.conf.d/python-3.5.1.conf</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">/home/.pyenv/versions/3.5.1/lib</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÏÖÔÚ¿ÉÒÔÓÃpyenv½øĞĞpythonµÄ°æ±¾¹ÜÀíÁË</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;"><strong>Èı¡¢Ê¹ÓÃpip°²×°Django</strong></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">pip install django</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><br />
+<strong>ËÄ¡¢°²×°ApacheÒÔ¼°Ïà¹ØµÄÆäËûÒÀÀµ</strong></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÏÂÔØºÃApache°²×°°ü£¨</span><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">httpd-2.4.18.tar.gz</span><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">£©</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½âÑ¹±àÒë°²×°£º</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">./confugure --prefix=/usr/local/apache --with-apr=/usr/local/apr --with-apr-util=/usr/local/apr-util --with-pcre=/usr/local/pcre</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">¿É¼ûĞèÒªÏÈ°²×°apr¡¢apr-util¡¢pcre£¬·ñÔò»á³öÏÖ¶ÔÓ¦µÄ³ÌĞò²»´æÔÚµÄ´íÎó¡£</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">make &amp;&amp;&nbsp;<span style="background-color:inherit">make install</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">1¡¢°²×°apr(<span style="background-color:inherit">apr-1.5.2.tar.gz</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit"> [root@localhost bin]# tar -zxf apr-1.4.5.tar.gz</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# ./configure --prefix=/usr/local/apr</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# make</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# make install</span></pre>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:inherit">2¡¢°²×°apr-util(</span><span style="background-color:inherit">apr-util-1.5.4.tar.gz</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit">[root@localhost bin]# tar -zxf apr-util-1.3.12.tar.gz</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# ./configure --prefix=/usr/local/apr-util -with-apr=/usr/local/apr/bin/apr-1-config</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# make</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# make install</span></pre>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:inherit">3¡¢°²×°pcre(</span><span style="background-color:inherit">pcre-8.38.zip</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit">[root@localhost ~]# unzip pcre-8.38.zip</span></pre>
+
+<pre>
+<span style="background-color:inherit"><span style="background-color:inherit">[root@localhost ~]# cd pcre-8.38</span></span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost pcre-8.38]# ./configure --prefix=/usr/local/pcre
+</span></pre>
+</div>
+
+<pre style="text-align:left">
+<span style="background-color:inherit">[root@localhost pcre-8.38]# make</span></pre>
+
+<pre style="text-align:left">
+<span style="background-color:inherit">[root@localhost pcre-8.38]# make install</span></pre>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+
+&nbsp;</pre>
+
+<pre>
+
+&nbsp;</pre>
+
+<pre>
+
+&nbsp;</pre>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">²âÊÔÎÒÃÇµÄapacheÊÇ·ñÄÜ¹»Õı³£Æô¶¯</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">/usr/local/apache/bin/apachectl start</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">/usr/local/apache/bin/apachectl stop
+<div style="background-color: inherit;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">
+<div style="background-color: inherit;"><strong>Îå¡¢°²×°mod_wsgi</strong></div>
+
+<div style="background-color: inherit;"><br />
+<strong>Áù¡¢ÅäÖÃDjangoÏîÄ¿</strong></div>
+
+<div style="background-color: inherit;"><br />
+<strong>Æß¡¢ÅäÖÃApache</strong></div>
+
+<div style="background-color: inherit;"><br />
+<strong>°Ë¡¢Æô¶¯·şÎñÆ÷²¢·ÃÎÊ²âÊÔ</strong></div>
+</div>
+</div>
+</div>
+</div>
+
+- [DEBUG] [Tue, 01 Mar 2016 10:22:57] [Thread-10:132176] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:24:34] [Thread-14:99968] [blogViews.py:43] - * BLOG TITLE:Django²¿Êğ
+- [DEBUG] [Tue, 01 Mar 2016 10:24:34] [Thread-14:99968] [blogViews.py:44] - * BLOG CONTENT:<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<hr /><strong>·şÎñÆ÷»·¾³ÈçÏÂ£º</strong></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">Centos 7 64Î»(¹Ù·½³õÊ¼»·¾³)</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">Linux&nbsp;version&nbsp;3.10.0-123.9.3.el7.x86_64&nbsp;(<a href="mailto:builder@kbuilder.dev.centos.org" style="background-color: inherit; cursor: pointer;">builder@kbuilder.dev.centos.org</a>)&nbsp;(gcc&nbsp;version&nbsp;4.8.2&nbsp;20140120&nbsp;(Red&nbsp;Hat&nbsp;4.8.2-16)&nbsp;(GCC)&nbsp;)&nbsp;#1&nbsp;SMP&nbsp;Thu&nbsp;Nov&nbsp;6&nbsp;15:06:03&nbsp;UTC&nbsp;2014</div>
+</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">
+<hr /></div>
+<strong>Ò»¡¢Pyenv»·¾³ÅäÖÃ</strong>
+
+<div style="background-color: inherit;"><strong>&nbsp; &nbsp;</strong></div>
+&nbsp; &nbsp; ÍøÂçÉÏÓĞºÜ¶à¹ØÓÚpyenvµÄÅäÖÃËµÃ÷£¬µ«ÊÇ´ó¶àÊÇÊ¹ÓÃµÄ×Ô¶¯°²×°£¬ÔÚÊ¹ÓÃµÄ¹ı³ÌÖĞ¿ÉÄÜ»á³öÏÖĞíĞí¶à¶àµÄµÄÎÊÌâ£¬Îª´Ë£¬ÔÚ±¾ËµÃ÷ÖĞ£¬Ö»ÓÃpyenv½øĞĞpython°æ±¾µÄ¹ÜÀí£¬¶øÊµ¼ÊµÄ°²×°pythonÎÒÃÇÍ¨¹ıÊÖ¶¯½øĞĞ°²×°¡£
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">ÔÚ°²×°pyenvÖ®Ç°ĞèÒª¼ì²é²¢°²×°Ò»Ğ©±ØÒªµÄÒÀÀµ°ü</div>
+
+<div style="background-color: inherit;"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">[<a href="mailto:root@foo" style="background-color: inherit; cursor: pointer;">root@foo</a>&nbsp;~]# yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel</span></div>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½¨Òé°²×°Ä¿Â¼Îª$HOME/.pyenv</div>
+<strong>1¡¢´ÓGithubÖĞ¼ì³öÏîÄ¿</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); font-family:monaco,consolas,courier,lucida console,monospace">$ git clone git://github.com/yyuu/pyenv.git $HOME/.pyenv</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px"><strong>2¡¢Ìí¼Ó»·¾³±äÁ¿¡£<span style="background-color:inherit">PYENV_ROOT</span> Ö¸Ïò pyenv ¼ì³öµÄ¸ùÄ¿Â¼£¬²¢Ïò <span style="background-color:inherit">$PATH</span> Ìí¼Ó <span style="background-color:inherit">$PYENV_ROOT/bin</span> ÒÔÌá¹©·ÃÎÊ <span style="background-color:inherit">pyenv</span> ÕâÌõÃüÁîµÄÂ·¾¶</strong></span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo &#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">export</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> PYENV_ROOT=</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&quot;$HOME/.pyenv&quot;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39; &gt;&gt; ~/.bash_profile</span></p>
+
+<p><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo &#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">export</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> PATH=</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&quot;$PYENV_ROOT/bin:$PATH&quot;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39; &gt;&gt; ~/.bash_profile</span></p>
+ÕâÀïµÄ shell ÅäÖÃÎÄ¼ş£¨<span style="background-color:inherit">~/.bash_profile</span>£©ÒÀ²»Í¬ Linux ¶øĞè×÷ĞŞ¸Ä&mdash;&mdash;Zsh£º<span style="background-color:inherit">~/.zshenv</span>£»Ubuntu£º<span style="background-color:inherit">~/.bashrc</span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+</div>
+</div>
+<strong>3¡¢Ïò shell Ìí¼Ó <span style="background-color:inherit">pyenv init</span> ÒÔÆôÓÃ shims ºÍÃüÁî²¹Íê¹¦ÄÜ</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo </span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39;eval &quot;$(pyenv init -)&quot;&#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> &gt;&gt; ~/</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">.bash_profile</span></span></p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit">ÅäÖÃÎÄ¼şµÄÎ»ÖÃÍ¬ÉÏÒ»ÌõÒ»ÑùĞèÒªĞŞ¸Ä</span></span></p>
+
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<strong>4¡¢ÖØÆô shell£¨ÒòÎªĞŞ¸ÄÁË <span style="background-color:inherit">$PATH</span>£©</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ </span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">exec</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$SHELL</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit">Ê¹ÓÃ pyenv versions ²é¿´µ±Ç°ÒÑ¾­°²×°µÄpython°æ±¾</span></p>
+</div>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><code>¸üÏêÏ¸µÄÅäÖÃ¿ÉÒÔ²ÎÕÕ£º</code></div>
+
+<div style="background-color: inherit;"><span style="background-color:inherit">Linux ÏÂµÄ Python ¶à°æ±¾¹ÜÀí£¨pyenv£©</span></div>
+</div>
+</div>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><a href="http://my.oschina.net/lionets/blog/267469" style="background-color: inherit; cursor: pointer; font-family: Monaco, Consolas, Courier, 'Lucida Console', monospace; line-height: 1.5;">http://my.oschina.net/lionets/blog/267469</a>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><span style="color:#006400"><strong>¶ş¡¢°²×°¸ß°æ±¾Python</strong></span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">Ê¹ÓÃpyenv install ÃüÁî°²×°ÆäËû°æ±¾µÄpythonµÄÊ±ºò£¬²»ÄÜ½øĞĞ±àÒëÆÚµÄpythonÅäÖÃ£¬»áµ¼ÖÂºóÆÚµÄmod_wsgiµÄ±àÒëÊ§°Ü£¬Òò´Ë£¬ÎÒÃÇÊ¹ÓÃÊÖ¶¯±àÒëÔ´Âë°²×°µÄĞÎÊ½°²×°python3.5.1</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Ê×ÏÈÏÈÏÂÔØ&nbsp;<span style="background-color:inherit">Python-3.5.1.tgz&nbsp;</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½âÑ¹ tar -xzvf Python-3.5.1.tgz</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½øÈëPython-3.5.1Ä¿Â¼ÖĞ</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ./configurate --prefix=/home/.pyenv/versions/3.5.1 <strong>--enable-shared</strong></div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÔÚÕâÀïÎŞ±ÈÒª¼ÓÉÏenable-shared²ÎÊı½øĞĞÅäÖÃ£¬·ñÔòºóÆÚ±àÒëmod_wsgi»á±¨´í</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ make &amp;&amp; make install</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÎÒÃÇÊÖ¶¯°²×°pythonµ½pyenvÖĞ£¬pyenvÎŞ·¨ÕıÈ·Ê¶±ğ£¬ÎÒÃÇĞèÒª×ö¼òµ¥µÄÉèÖµ¼´¿É£º</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½øÈëpythonµÄ°²×°Ä¿Â¼/home/.pyenv/versions/3.5.1/bin</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ln -s python3 python</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ln -s pip3 pip</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÁíÍâÔÚ&nbsp;<span style="background-color:inherit">/etc/ld.so.conf.d/ Ä¿Â¼ÏÂ´´½¨Ò»¸öpythonµÄÅäÖÃ</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">[<a href="mailto:root@foo" style="background-color: inherit; cursor: pointer;">root@foo</a>&nbsp;~] # vim /etc/ld.so.conf.d/python-3.5.1.conf</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÔÚÀïÃæÌí¼ÓpythonµÄ¿â</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"># fileName:&nbsp;<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">/etc/ld.so.conf.d/python-3.5.1.conf</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">/home/.pyenv/versions/3.5.1/lib</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÏÖÔÚ¿ÉÒÔÓÃpyenv½øĞĞpythonµÄ°æ±¾¹ÜÀíÁË</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;"><span style="color:#00FF00"><strong>Èı¡¢Ê¹ÓÃpip°²×°Django</strong></span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">pip install django</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><br />
+<span style="color:#FF8C00"><strong>ËÄ¡¢°²×°ApacheÒÔ¼°Ïà¹ØµÄÆäËûÒÀÀµ</strong></span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÏÂÔØºÃApache°²×°°ü£¨</span><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">httpd-2.4.18.tar.gz</span><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">£©</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½âÑ¹±àÒë°²×°£º</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">./confugure --prefix=/usr/local/apache --with-apr=/usr/local/apr --with-apr-util=/usr/local/apr-util --with-pcre=/usr/local/pcre</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">¿É¼ûĞèÒªÏÈ°²×°apr¡¢apr-util¡¢pcre£¬·ñÔò»á³öÏÖ¶ÔÓ¦µÄ³ÌĞò²»´æÔÚµÄ´íÎó¡£</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">make &amp;&amp;&nbsp;<span style="background-color:inherit">make install</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">1¡¢°²×°apr(<span style="background-color:inherit">apr-1.5.2.tar.gz</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit"> [root@localhost bin]# tar -zxf apr-1.4.5.tar.gz</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# ./configure --prefix=/usr/local/apr</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# make</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# make install</span></pre>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:inherit">2¡¢°²×°apr-util(</span><span style="background-color:inherit">apr-util-1.5.4.tar.gz</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit">[root@localhost bin]# tar -zxf apr-util-1.3.12.tar.gz</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# ./configure --prefix=/usr/local/apr-util -with-apr=/usr/local/apr/bin/apr-1-config</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# make</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# make install</span></pre>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:inherit">3¡¢°²×°pcre(</span><span style="background-color:inherit">pcre-8.38.zip</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit">[root@localhost ~]# unzip pcre-8.38.zip</span></pre>
+
+<pre>
+<span style="background-color:inherit"><span style="background-color:inherit">[root@localhost ~]# cd pcre-8.38</span></span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost pcre-8.38]# ./configure --prefix=/usr/local/pcre
+</span></pre>
+</div>
+
+<pre style="text-align:left">
+<span style="background-color:inherit">[root@localhost pcre-8.38]# make</span></pre>
+
+<pre style="text-align:left">
+<span style="background-color:inherit">[root@localhost pcre-8.38]# make install</span></pre>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+
+&nbsp;</pre>
+
+<pre>
+
+&nbsp;</pre>
+
+<pre>
+
+&nbsp;</pre>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">²âÊÔÎÒÃÇµÄapacheÊÇ·ñÄÜ¹»Õı³£Æô¶¯</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">/usr/local/apache/bin/apachectl start</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">/usr/local/apache/bin/apachectl stop
+<div style="background-color: inherit;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">
+<div style="background-color: inherit;"><span style="color:#FF8C00"><strong>Îå¡¢°²×°mod_wsgi</strong></span></div>
+
+<div style="background-color: inherit;"><br />
+<span style="color:#FF8C00"><strong>Áù¡¢ÅäÖÃDjangoÏîÄ¿</strong></span></div>
+
+<div style="background-color: inherit;"><br />
+<span style="color:#FF8C00"><strong>Æß¡¢ÅäÖÃApache</strong></span></div>
+
+<div style="background-color: inherit;"><br />
+<span style="color:#FF8C00"><strong>°Ë¡¢Æô¶¯·şÎñÆ÷²¢·ÃÎÊ²âÊÔ</strong></span></div>
+</div>
+</div>
+</div>
+</div>
+
+- [DEBUG] [Tue, 01 Mar 2016 10:24:34] [Thread-15:72276] [blogViews.py:43] - * BLOG TITLE:Django²¿Êğ
+- [DEBUG] [Tue, 01 Mar 2016 10:24:34] [Thread-14:99968] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:24:34] [Thread-15:72276] [blogViews.py:44] - * BLOG CONTENT:<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<hr /><strong>·şÎñÆ÷»·¾³ÈçÏÂ£º</strong></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">Centos 7 64Î»(¹Ù·½³õÊ¼»·¾³)</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">Linux&nbsp;version&nbsp;3.10.0-123.9.3.el7.x86_64&nbsp;(<a href="mailto:builder@kbuilder.dev.centos.org" style="background-color: inherit; cursor: pointer;">builder@kbuilder.dev.centos.org</a>)&nbsp;(gcc&nbsp;version&nbsp;4.8.2&nbsp;20140120&nbsp;(Red&nbsp;Hat&nbsp;4.8.2-16)&nbsp;(GCC)&nbsp;)&nbsp;#1&nbsp;SMP&nbsp;Thu&nbsp;Nov&nbsp;6&nbsp;15:06:03&nbsp;UTC&nbsp;2014</div>
+</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">
+<hr /></div>
+<strong>Ò»¡¢Pyenv»·¾³ÅäÖÃ</strong>
+
+<div style="background-color: inherit;"><strong>&nbsp; &nbsp;</strong></div>
+&nbsp; &nbsp; ÍøÂçÉÏÓĞºÜ¶à¹ØÓÚpyenvµÄÅäÖÃËµÃ÷£¬µ«ÊÇ´ó¶àÊÇÊ¹ÓÃµÄ×Ô¶¯°²×°£¬ÔÚÊ¹ÓÃµÄ¹ı³ÌÖĞ¿ÉÄÜ»á³öÏÖĞíĞí¶à¶àµÄµÄÎÊÌâ£¬Îª´Ë£¬ÔÚ±¾ËµÃ÷ÖĞ£¬Ö»ÓÃpyenv½øĞĞpython°æ±¾µÄ¹ÜÀí£¬¶øÊµ¼ÊµÄ°²×°pythonÎÒÃÇÍ¨¹ıÊÖ¶¯½øĞĞ°²×°¡£
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">ÔÚ°²×°pyenvÖ®Ç°ĞèÒª¼ì²é²¢°²×°Ò»Ğ©±ØÒªµÄÒÀÀµ°ü</div>
+
+<div style="background-color: inherit;"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">[<a href="mailto:root@foo" style="background-color: inherit; cursor: pointer;">root@foo</a>&nbsp;~]# yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel</span></div>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½¨Òé°²×°Ä¿Â¼Îª$HOME/.pyenv</div>
+<strong>1¡¢´ÓGithubÖĞ¼ì³öÏîÄ¿</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); font-family:monaco,consolas,courier,lucida console,monospace">$ git clone git://github.com/yyuu/pyenv.git $HOME/.pyenv</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px"><strong>2¡¢Ìí¼Ó»·¾³±äÁ¿¡£<span style="background-color:inherit">PYENV_ROOT</span> Ö¸Ïò pyenv ¼ì³öµÄ¸ùÄ¿Â¼£¬²¢Ïò <span style="background-color:inherit">$PATH</span> Ìí¼Ó <span style="background-color:inherit">$PYENV_ROOT/bin</span> ÒÔÌá¹©·ÃÎÊ <span style="background-color:inherit">pyenv</span> ÕâÌõÃüÁîµÄÂ·¾¶</strong></span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo &#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">export</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> PYENV_ROOT=</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&quot;$HOME/.pyenv&quot;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39; &gt;&gt; ~/.bash_profile</span></p>
+
+<p><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo &#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">export</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> PATH=</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&quot;$PYENV_ROOT/bin:$PATH&quot;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39; &gt;&gt; ~/.bash_profile</span></p>
+ÕâÀïµÄ shell ÅäÖÃÎÄ¼ş£¨<span style="background-color:inherit">~/.bash_profile</span>£©ÒÀ²»Í¬ Linux ¶øĞè×÷ĞŞ¸Ä&mdash;&mdash;Zsh£º<span style="background-color:inherit">~/.zshenv</span>£»Ubuntu£º<span style="background-color:inherit">~/.bashrc</span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+</div>
+</div>
+<strong>3¡¢Ïò shell Ìí¼Ó <span style="background-color:inherit">pyenv init</span> ÒÔÆôÓÃ shims ºÍÃüÁî²¹Íê¹¦ÄÜ</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo </span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39;eval &quot;$(pyenv init -)&quot;&#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> &gt;&gt; ~/</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">.bash_profile</span></span></p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit">ÅäÖÃÎÄ¼şµÄÎ»ÖÃÍ¬ÉÏÒ»ÌõÒ»ÑùĞèÒªĞŞ¸Ä</span></span></p>
+
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<strong>4¡¢ÖØÆô shell£¨ÒòÎªĞŞ¸ÄÁË <span style="background-color:inherit">$PATH</span>£©</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ </span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">exec</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$SHELL</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit">Ê¹ÓÃ pyenv versions ²é¿´µ±Ç°ÒÑ¾­°²×°µÄpython°æ±¾</span></p>
+</div>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><code>¸üÏêÏ¸µÄÅäÖÃ¿ÉÒÔ²ÎÕÕ£º</code></div>
+
+<div style="background-color: inherit;"><span style="background-color:inherit">Linux ÏÂµÄ Python ¶à°æ±¾¹ÜÀí£¨pyenv£©</span></div>
+</div>
+</div>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><a href="http://my.oschina.net/lionets/blog/267469" style="background-color: inherit; cursor: pointer; font-family: Monaco, Consolas, Courier, 'Lucida Console', monospace; line-height: 1.5;">http://my.oschina.net/lionets/blog/267469</a>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><span style="color:#006400"><strong>¶ş¡¢°²×°¸ß°æ±¾Python</strong></span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">Ê¹ÓÃpyenv install ÃüÁî°²×°ÆäËû°æ±¾µÄpythonµÄÊ±ºò£¬²»ÄÜ½øĞĞ±àÒëÆÚµÄpythonÅäÖÃ£¬»áµ¼ÖÂºóÆÚµÄmod_wsgiµÄ±àÒëÊ§°Ü£¬Òò´Ë£¬ÎÒÃÇÊ¹ÓÃÊÖ¶¯±àÒëÔ´Âë°²×°µÄĞÎÊ½°²×°python3.5.1</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Ê×ÏÈÏÈÏÂÔØ&nbsp;<span style="background-color:inherit">Python-3.5.1.tgz&nbsp;</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½âÑ¹ tar -xzvf Python-3.5.1.tgz</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½øÈëPython-3.5.1Ä¿Â¼ÖĞ</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ./configurate --prefix=/home/.pyenv/versions/3.5.1 <strong>--enable-shared</strong></div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÔÚÕâÀïÎŞ±ÈÒª¼ÓÉÏenable-shared²ÎÊı½øĞĞÅäÖÃ£¬·ñÔòºóÆÚ±àÒëmod_wsgi»á±¨´í</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ make &amp;&amp; make install</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÎÒÃÇÊÖ¶¯°²×°pythonµ½pyenvÖĞ£¬pyenvÎŞ·¨ÕıÈ·Ê¶±ğ£¬ÎÒÃÇĞèÒª×ö¼òµ¥µÄÉèÖµ¼´¿É£º</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½øÈëpythonµÄ°²×°Ä¿Â¼/home/.pyenv/versions/3.5.1/bin</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ln -s python3 python</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ln -s pip3 pip</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÁíÍâÔÚ&nbsp;<span style="background-color:inherit">/etc/ld.so.conf.d/ Ä¿Â¼ÏÂ´´½¨Ò»¸öpythonµÄÅäÖÃ</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">[<a href="mailto:root@foo" style="background-color: inherit; cursor: pointer;">root@foo</a>&nbsp;~] # vim /etc/ld.so.conf.d/python-3.5.1.conf</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÔÚÀïÃæÌí¼ÓpythonµÄ¿â</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"># fileName:&nbsp;<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">/etc/ld.so.conf.d/python-3.5.1.conf</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">/home/.pyenv/versions/3.5.1/lib</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÏÖÔÚ¿ÉÒÔÓÃpyenv½øĞĞpythonµÄ°æ±¾¹ÜÀíÁË</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;"><span style="color:#00FF00"><strong>Èı¡¢Ê¹ÓÃpip°²×°Django</strong></span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">pip install django</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><br />
+<span style="color:#FF8C00"><strong>ËÄ¡¢°²×°ApacheÒÔ¼°Ïà¹ØµÄÆäËûÒÀÀµ</strong></span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÏÂÔØºÃApache°²×°°ü£¨</span><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">httpd-2.4.18.tar.gz</span><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">£©</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½âÑ¹±àÒë°²×°£º</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">./confugure --prefix=/usr/local/apache --with-apr=/usr/local/apr --with-apr-util=/usr/local/apr-util --with-pcre=/usr/local/pcre</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">¿É¼ûĞèÒªÏÈ°²×°apr¡¢apr-util¡¢pcre£¬·ñÔò»á³öÏÖ¶ÔÓ¦µÄ³ÌĞò²»´æÔÚµÄ´íÎó¡£</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">make &amp;&amp;&nbsp;<span style="background-color:inherit">make install</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">1¡¢°²×°apr(<span style="background-color:inherit">apr-1.5.2.tar.gz</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit"> [root@localhost bin]# tar -zxf apr-1.4.5.tar.gz</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# ./configure --prefix=/usr/local/apr</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# make</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# make install</span></pre>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:inherit">2¡¢°²×°apr-util(</span><span style="background-color:inherit">apr-util-1.5.4.tar.gz</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit">[root@localhost bin]# tar -zxf apr-util-1.3.12.tar.gz</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# ./configure --prefix=/usr/local/apr-util -with-apr=/usr/local/apr/bin/apr-1-config</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# make</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# make install</span></pre>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:inherit">3¡¢°²×°pcre(</span><span style="background-color:inherit">pcre-8.38.zip</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit">[root@localhost ~]# unzip pcre-8.38.zip</span></pre>
+
+<pre>
+<span style="background-color:inherit"><span style="background-color:inherit">[root@localhost ~]# cd pcre-8.38</span></span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost pcre-8.38]# ./configure --prefix=/usr/local/pcre
+</span></pre>
+</div>
+
+<pre style="text-align:left">
+<span style="background-color:inherit">[root@localhost pcre-8.38]# make</span></pre>
+
+<pre style="text-align:left">
+<span style="background-color:inherit">[root@localhost pcre-8.38]# make install</span></pre>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+
+&nbsp;</pre>
+
+<pre>
+
+&nbsp;</pre>
+
+<pre>
+
+&nbsp;</pre>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">²âÊÔÎÒÃÇµÄapacheÊÇ·ñÄÜ¹»Õı³£Æô¶¯</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">/usr/local/apache/bin/apachectl start</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">/usr/local/apache/bin/apachectl stop
+<div style="background-color: inherit;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">
+<div style="background-color: inherit;"><span style="color:#FF8C00"><strong>Îå¡¢°²×°mod_wsgi</strong></span></div>
+
+<div style="background-color: inherit;"><br />
+<span style="color:#FF8C00"><strong>Áù¡¢ÅäÖÃDjangoÏîÄ¿</strong></span></div>
+
+<div style="background-color: inherit;"><br />
+<span style="color:#FF8C00"><strong>Æß¡¢ÅäÖÃApache</strong></span></div>
+
+<div style="background-color: inherit;"><br />
+<span style="color:#FF8C00"><strong>°Ë¡¢Æô¶¯·şÎñÆ÷²¢·ÃÎÊ²âÊÔ</strong></span></div>
+</div>
+</div>
+</div>
+</div>
+
+- [DEBUG] [Tue, 01 Mar 2016 10:24:34] [Thread-15:72276] [blogViews.py:49] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 10:29:01] [Thread-36:103752] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 10:29:08] [Thread-42:38376] [blogViews.py:43] - * BLOG TITLE:
+- [DEBUG] [Tue, 01 Mar 2016 10:29:08] [Thread-42:38376] [blogViews.py:44] - * BLOG CONTENT:
+- [DEBUG] [Tue, 01 Mar 2016 10:29:08] [Thread-42:38376] [blogViews.py:72] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:29:11] [Thread-43:105948] [blogViews.py:43] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:29:11] [Thread-43:105948] [blogViews.py:44] - * BLOG CONTENT:
+- [DEBUG] [Tue, 01 Mar 2016 10:29:11] [Thread-43:105948] [blogViews.py:72] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:35:33] [Thread-1:113280] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 10:35:42] [Thread-10:117956] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 10:36:28] [Thread-20:112988] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 10:45:08] [Thread-3:121516] [blogViews.py:45] - * ´ø·Ç·¨²ÎÊıÇëÇó£¬ÒÑ¾­¾Ü¾øÓÃ»§
+- [DEBUG] [Tue, 01 Mar 2016 10:45:21] [Thread-7:138988] [blogViews.py:48] - * BLOG TITLE:
+- [DEBUG] [Tue, 01 Mar 2016 10:45:21] [Thread-7:138988] [blogViews.py:49] - * BLOG CONTENT:
+- [DEBUG] [Tue, 01 Mar 2016 10:45:21] [Thread-7:138988] [blogViews.py:50] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 10:45:21] [Thread-7:138988] [blogViews.py:78] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:45:27] [Thread-9:66576] [blogViews.py:48] - * BLOG TITLE:
+- [DEBUG] [Tue, 01 Mar 2016 10:45:27] [Thread-9:66576] [blogViews.py:49] - * BLOG CONTENT:
+- [DEBUG] [Tue, 01 Mar 2016 10:45:27] [Thread-9:66576] [blogViews.py:50] - * BLOG CATALOG:2
+- [DEBUG] [Tue, 01 Mar 2016 10:45:27] [Thread-9:66576] [blogViews.py:78] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:52:08] [Thread-3:116548] [blogViews.py:48] - * BLOG TITLE:
+- [DEBUG] [Tue, 01 Mar 2016 10:52:08] [Thread-3:116548] [blogViews.py:49] - * BLOG CONTENT:
+- [DEBUG] [Tue, 01 Mar 2016 10:52:08] [Thread-3:116548] [blogViews.py:50] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 10:52:08] [Thread-3:116548] [blogViews.py:78] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:52:15] [Thread-6:53976] [blogViews.py:48] - * BLOG TITLE:sad
+- [DEBUG] [Tue, 01 Mar 2016 10:52:15] [Thread-6:53976] [blogViews.py:49] - * BLOG CONTENT:
+- [DEBUG] [Tue, 01 Mar 2016 10:52:15] [Thread-6:53976] [blogViews.py:50] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 10:52:15] [Thread-6:53976] [blogViews.py:78] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:52:20] [Thread-7:67028] [blogViews.py:48] - * BLOG TITLE:sad
+- [DEBUG] [Tue, 01 Mar 2016 10:52:20] [Thread-7:67028] [blogViews.py:49] - * BLOG CONTENT:sd
+- [DEBUG] [Tue, 01 Mar 2016 10:52:20] [Thread-7:67028] [blogViews.py:50] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 10:52:20] [Thread-7:67028] [blogViews.py:78] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:55:21] [Thread-5:139228] [blogViews.py:48] - * BLOG TITLE:sad
+- [DEBUG] [Tue, 01 Mar 2016 10:55:21] [Thread-5:139228] [blogViews.py:49] - * BLOG CONTENT:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:55:21] [Thread-5:139228] [blogViews.py:50] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 10:55:21] [Thread-5:139228] [blogViews.py:79] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:55:46] [Thread-6:128084] [blogViews.py:48] - * BLOG TITLE:sad
+- [DEBUG] [Tue, 01 Mar 2016 10:55:46] [Thread-6:128084] [blogViews.py:49] - * BLOG CONTENT:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:55:46] [Thread-6:128084] [blogViews.py:50] - * BLOG CATALOG:2
+- [DEBUG] [Tue, 01 Mar 2016 10:55:46] [Thread-6:128084] [blogViews.py:79] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 10:56:41] [Thread-3:56020] [blogViews.py:48] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:56:41] [Thread-3:56020] [blogViews.py:49] - * BLOG CONTENT:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:56:41] [Thread-3:56020] [blogViews.py:50] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 10:56:51] [Thread-4:47364] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 10:57:01] [Thread-9:75660] [blogViews.py:48] - * BLOG TITLE:sad
+- [DEBUG] [Tue, 01 Mar 2016 10:57:01] [Thread-9:75660] [blogViews.py:49] - * BLOG CONTENT:asdasd
+- [DEBUG] [Tue, 01 Mar 2016 10:57:01] [Thread-9:75660] [blogViews.py:50] - * BLOG CATALOG:2
+- [DEBUG] [Tue, 01 Mar 2016 10:57:37] [Thread-5:61028] [blogViews.py:48] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:57:37] [Thread-5:61028] [blogViews.py:49] - * BLOG CONTENT:asd
+- [DEBUG] [Tue, 01 Mar 2016 10:57:37] [Thread-5:61028] [blogViews.py:50] - * BLOG CATALOG:2
+- [DEBUG] [Tue, 01 Mar 2016 10:57:37] [Thread-5:61028] [blogViews.py:78] - * ²©¿ÍÄÚÈİ²»ÍêÕû
+- [DEBUG] [Tue, 01 Mar 2016 11:00:00] [Thread-8:62708] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 11:00:09] [Thread-12:103928] [blogViews.py:45] - * ´ø·Ç·¨²ÎÊıÇëÇó£¬ÒÑ¾­¾Ü¾øÓÃ»§
+- [DEBUG] [Tue, 01 Mar 2016 11:00:54] [Thread-18:69580] [blogViews.py:48] - * BLOG TITLE:asdasd
+- [DEBUG] [Tue, 01 Mar 2016 11:00:54] [Thread-18:69580] [blogViews.py:49] - * BLOG CONTENT:asdasd
+- [DEBUG] [Tue, 01 Mar 2016 11:00:54] [Thread-18:69580] [blogViews.py:50] - * BLOG CATALOG:2
+- [DEBUG] [Tue, 01 Mar 2016 11:00:54] [Thread-18:69580] [blogViews.py:55] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 11:02:48] [Thread-35:17824] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 11:03:22] [Thread-44:97468] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 11:21:49] [Thread-7:96760] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 11:21:57] [Thread-11:77396] [blogViews.py:52] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 11:21:57] [Thread-11:77396] [blogViews.py:53] - * BLOG CONTENT:asdasd
+- [DEBUG] [Tue, 01 Mar 2016 11:21:57] [Thread-11:77396] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 11:21:57] [Thread-11:77396] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 11:22:22] [Thread-17:87948] [blogViews.py:52] - * BLOG TITLE:ĞÂ·¢²¼µÄ²©¿Í
+- [DEBUG] [Tue, 01 Mar 2016 11:22:22] [Thread-17:87948] [blogViews.py:53] - * BLOG CONTENT:¶î¡£¡£Õâ¸ö¡£¡£¡£
+- [DEBUG] [Tue, 01 Mar 2016 11:22:22] [Thread-17:87948] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 11:22:22] [Thread-17:87948] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:00:14] [Thread-31:86504] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 14:01:50] [Thread-39:79344] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 14:02:44] [Thread-81:37628] [blogViews.py:52] - * BLOG TITLE:ÓĞÑùÊ½
+- [DEBUG] [Tue, 01 Mar 2016 14:02:44] [Thread-81:37628] [blogViews.py:53] - * BLOG CONTENT:<span style="color:#FF8C00"><strong>ÑùÊ½±êÌâ</strong></span><br />
+´óËÕ´ò°¡Êµ´òÊµµÄ
+<div style="text-align: right;">Ê¿´ó·òÊ¿´ó·ò</div>
+
+<div style="text-align: right;">&nbsp;</div>
+
+- [DEBUG] [Tue, 01 Mar 2016 14:02:44] [Thread-81:37628] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:02:44] [Thread-81:37628] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:03:54] [Thread-85:100868] [blogViews.py:52] - * BLOG TITLE:°¢Ë¹¶Ù
+- [DEBUG] [Tue, 01 Mar 2016 14:03:54] [Thread-85:100868] [blogViews.py:53] - * BLOG CONTENT:s&#39;da&#39;s&#39;d
+- [DEBUG] [Tue, 01 Mar 2016 14:03:54] [Thread-85:100868] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:03:54] [Thread-85:100868] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:03:58] [Thread-86:144492] [blogViews.py:52] - * BLOG TITLE:°¢Ë¹¶Ù°¡ÊÇµÄÇëÎÊ22
+- [DEBUG] [Tue, 01 Mar 2016 14:03:58] [Thread-86:144492] [blogViews.py:53] - * BLOG CONTENT:s&#39;da&#39;s&#39;d
+- [DEBUG] [Tue, 01 Mar 2016 14:03:58] [Thread-86:144492] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:03:58] [Thread-86:144492] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:04:02] [Thread-87:43216] [blogViews.py:52] - * BLOG TITLE:1123
+- [DEBUG] [Tue, 01 Mar 2016 14:04:02] [Thread-87:43216] [blogViews.py:53] - * BLOG CONTENT:s&#39;da&#39;s&#39;d
+- [DEBUG] [Tue, 01 Mar 2016 14:04:02] [Thread-87:43216] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:04:02] [Thread-87:43216] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:04:06] [Thread-88:94636] [blogViews.py:52] - * BLOG TITLE:1123Ê®·ÖÊ¿´ó·ò
+- [DEBUG] [Tue, 01 Mar 2016 14:04:06] [Thread-88:94636] [blogViews.py:53] - * BLOG CONTENT:s&#39;da&#39;s&#39;d
+- [DEBUG] [Tue, 01 Mar 2016 14:04:06] [Thread-88:94636] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:04:06] [Thread-88:94636] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:04:11] [Thread-89:89048] [blogViews.py:52] - * BLOG TITLE:asd341
+- [DEBUG] [Tue, 01 Mar 2016 14:04:11] [Thread-89:89048] [blogViews.py:53] - * BLOG CONTENT:s&#39;da&#39;s&#39;d
+- [DEBUG] [Tue, 01 Mar 2016 14:04:11] [Thread-89:89048] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:04:11] [Thread-89:89048] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:15:03] [Thread-98:65360] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 14:20:35] [Thread-143:98228] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 14:21:08] [Thread-180:92740] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 14:22:48] [Thread-218:100408] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 14:23:44] [Thread-261:102364] [blogViews.py:52] - * BLOG TITLE:Èöµ©
+- [DEBUG] [Tue, 01 Mar 2016 14:23:44] [Thread-261:102364] [blogViews.py:53] - * BLOG CONTENT:<span style="color:#FF8C00">ÑÕÉ«</span>
+- [DEBUG] [Tue, 01 Mar 2016 14:23:44] [Thread-261:102364] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:23:44] [Thread-261:102364] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:30:45] [Thread-13:113016] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 14:30:52] [Thread-18:104188] [blogViews.py:52] - * BLOG TITLE:ad
+- [DEBUG] [Tue, 01 Mar 2016 14:30:52] [Thread-18:104188] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:30:52] [Thread-18:104188] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:32:00] [Thread-27:113556] [blogViews.py:52] - * BLOG TITLE:asd
+- [DEBUG] [Tue, 01 Mar 2016 14:32:00] [Thread-27:113556] [blogViews.py:53] - * BLOG CONTENT:<p>ÊéÖĞÔ´ÂëÏÂÔØµØÖ·£º<a href="http://download.csdn.net/detail/sinyu890807/7747691" target="_blank">http://download.csdn.net/detail/sinyu890807/7747691</a></p>
+
+<h2><a name="t0"></a>Ç°ÑÔ</h2>
+
+<p>ÆäÊµÎÒµ±³õ¾ö¶¨¿ªÊ¼Ğ´²©¿ÍµÄÏë·¨Í¦¼òµ¥µÄ£¬¾õµÃ×Ô¼º¸ã¼¼ÊõÕâÃ´¶àÄêÁË£¬×ÜÓ¦¸ÃÒªÁôÏÂµãÊ²Ã´¡£¼ÈÈ»Ã»ÄÜĞ´³öÊ²Ã´³öÉ«µÄÓ¦ÓÃ£¬ÄÇÖÁÉÙÒ²ÒªÁôÏÂµãÎÄ×Ö·ÖÏí¸ø´ó¼Ò£¬ÒÔÖ¸ÒıÔÚÎÒºóÃæµÄ¿ª·¢ÕßÃÇ£¬±Ï¾¹ÎÒÒ²´ÓÇ°±²ÃÇµÄ²©¿ÍÄÇÀïÊÜ»İÁËºÜ¶à¡£</p>
+
+<h2><a name="t1"></a>ÊÜÑû</h2>
+
+<p>ÏÂ ¶¨¾öĞÄÖ®ºóÎÒ¾Í¿ªÊ¼ÁËÎÒµÄ²©¿ÍÖ®ÂÃ£¬ÁîÎÒÃ»Ïëµ½µÄÊÇ£¬ÎÒĞ´µÄÎÄÕÂ¾¹È»·Ç³£ÊÜ´ó¼ÒµÄ»¶Ó­£¬¶ÌÊ±¼äÄÚ¾Í¾Û¼¯ÁË´óÁ¿µÄÈËÆø¡£¸üÁîÎÒÃ»Ïëµ½µÄÊÂ£¬ÔÚÎÒ¿ªÊ¼Ğ´²©¿Í²» ¾ÃÖ®ºó£¬ÈËÃñÓÊµç³ö°æÉçÍ¼Áé¹«Ë¾µÄ¸±×Ü±à¼­³Â±ùÀÏÊ¦¾ÍÁªÏµÉÏÁËÎÒ£¬Ï£ÍûÎÒ¿ÉÒÔĞ´Ò»±¾¹ØÓÚAndroid¿ª·¢¼¼ÊõµÄÊé¼®£¡</p>
+
+<p>³Â±ù£¬µÚÒ»´ÎÌıµ½Õâ ¸öÃû×ÖµÄÊ±ºòÏàĞÅ´ó¼ÒºÍÎÒÒ»Ñù¶¼²»»á¸Ğµ½ÊìÏ¤£¬µ«ÊÇµ±Ëû¸æËßÎÒ£¬ËûÖ®Ç°Ò»ÊÖ²ß»®¹ı¡¶´ó»°Éè¼ÆÄ£Ê½¡·Õâ±¾ÊéÊ±£¬ÎÒÁ¢¿Ì³åÏòÁËÎÒµÄÊé¹ñ²¢ÕÒµ½Ëü£¬·­¿ªìéÒ³ºóºÕ È»¾ÍÔÚÔğÈÎ±à¼­ÄÇÒ»À¸¿´µ½ÁË³Â±ùµÄÃû×Ö£¬Íùºó·­»¹¿ÉÒÔ¿´µ½ËûÎª¡¶´ó»°Éè¼ÆÄ£Ê½¡·Ğ´µÄĞò¡£ÕâÊ±ÎÒµÄĞÄÀïÖ»ÓĞÒ»¸öÄîÍ·£¬ËûÑûÇëÎÒĞ´µÄÕâ±¾ÊéÎÒÊÇÎŞÂÛÈçºÎ¶¼¾Ü¾ø ²»ÁËÁË£¡</p>
+
+<h2><a name="t2"></a>´´×÷</h2>
+
+- [DEBUG] [Tue, 01 Mar 2016 14:32:00] [Thread-27:113556] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:32:00] [Thread-27:113556] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:32:43] [Thread-35:103076] [blogViews.py:52] - * BLOG TITLE:Django
+- [DEBUG] [Tue, 01 Mar 2016 14:32:43] [Thread-35:103076] [blogViews.py:53] - * BLOG CONTENT:<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<hr /><strong>·şÎñÆ÷»·¾³ÈçÏÂ£º</strong></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">Centos 7 64Î»(¹Ù·½³õÊ¼»·¾³)</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">Linux&nbsp;version&nbsp;3.10.0-123.9.3.el7.x86_64&nbsp;(<a href="mailto:builder@kbuilder.dev.centos.org" style="background-color: inherit; cursor: pointer;">builder@kbuilder.dev.centos.org</a>)&nbsp;(gcc&nbsp;version&nbsp;4.8.2&nbsp;20140120&nbsp;(Red&nbsp;Hat&nbsp;4.8.2-16)&nbsp;(GCC)&nbsp;)&nbsp;#1&nbsp;SMP&nbsp;Thu&nbsp;Nov&nbsp;6&nbsp;15:06:03&nbsp;UTC&nbsp;2014</div>
+</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">
+<hr /></div>
+<strong>Ò»¡¢Pyenv»·¾³ÅäÖÃ</strong>
+
+<div style="background-color: inherit;"><strong>&nbsp; &nbsp;</strong></div>
+&nbsp; &nbsp; ÍøÂçÉÏÓĞºÜ¶à¹ØÓÚpyenvµÄÅäÖÃËµÃ÷£¬µ«ÊÇ´ó¶àÊÇÊ¹ÓÃµÄ×Ô¶¯°²×°£¬ÔÚÊ¹ÓÃµÄ¹ı³ÌÖĞ¿ÉÄÜ»á³öÏÖĞíĞí¶à¶àµÄµÄÎÊÌâ£¬Îª´Ë£¬ÔÚ±¾ËµÃ÷ÖĞ£¬Ö»ÓÃpyenv½øĞĞpython°æ±¾µÄ¹ÜÀí£¬¶øÊµ¼ÊµÄ°²×°pythonÎÒÃÇÍ¨¹ıÊÖ¶¯½øĞĞ°²×°¡£
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">ÔÚ°²×°pyenvÖ®Ç°ĞèÒª¼ì²é²¢°²×°Ò»Ğ©±ØÒªµÄÒÀÀµ°ü</div>
+
+<div style="background-color: inherit;"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">[<a href="mailto:root@foo" style="background-color: inherit; cursor: pointer;">root@foo</a>&nbsp;~]# yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel</span></div>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½¨Òé°²×°Ä¿Â¼Îª$HOME/.pyenv</div>
+<strong>1¡¢´ÓGithubÖĞ¼ì³öÏîÄ¿</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); font-family:monaco,consolas,courier,lucida console,monospace">$ git clone git://github.com/yyuu/pyenv.git $HOME/.pyenv</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px"><strong>2¡¢Ìí¼Ó»·¾³±äÁ¿¡£<span style="background-color:inherit">PYENV_ROOT</span> Ö¸Ïò pyenv ¼ì³öµÄ¸ùÄ¿Â¼£¬²¢Ïò <span style="background-color:inherit">$PATH</span> Ìí¼Ó <span style="background-color:inherit">$PYENV_ROOT/bin</span> ÒÔÌá¹©·ÃÎÊ <span style="background-color:inherit">pyenv</span> ÕâÌõÃüÁîµÄÂ·¾¶</strong></span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo &#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">export</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> PYENV_ROOT=</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&quot;$HOME/.pyenv&quot;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39; &gt;&gt; ~/.bash_profile</span></p>
+
+<p><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo &#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">export</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> PATH=</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&quot;$PYENV_ROOT/bin:$PATH&quot;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39; &gt;&gt; ~/.bash_profile</span></p>
+ÕâÀïµÄ shell ÅäÖÃÎÄ¼ş£¨<span style="background-color:inherit">~/.bash_profile</span>£©ÒÀ²»Í¬ Linux ¶øĞè×÷ĞŞ¸Ä&mdash;&mdash;Zsh£º<span style="background-color:inherit">~/.zshenv</span>£»Ubuntu£º<span style="background-color:inherit">~/.bashrc</span></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+</div>
+</div>
+<strong>3¡¢Ïò shell Ìí¼Ó <span style="background-color:inherit">pyenv init</span> ÒÔÆôÓÃ shims ºÍÃüÁî²¹Íê¹¦ÄÜ</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ echo </span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">&#39;eval &quot;$(pyenv init -)&quot;&#39;</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace"> &gt;&gt; ~/</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">.bash_profile</span></span></p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit">ÅäÖÃÎÄ¼şµÄÎ»ÖÃÍ¬ÉÏÒ»ÌõÒ»ÑùĞèÒªĞŞ¸Ä</span></span></p>
+
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<strong>4¡¢ÖØÆô shell£¨ÒòÎªĞŞ¸ÄÁË <span style="background-color:inherit">$PATH</span>£©</strong>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit"><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$ </span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">exec</span><span style="background-color:inherit; font-family:monaco,consolas,courier,lucida console,monospace">$SHELL</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="background-color:inherit">Ê¹ÓÃ pyenv versions ²é¿´µ±Ç°ÒÑ¾­°²×°µÄpython°æ±¾</span></p>
+</div>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><code>¸üÏêÏ¸µÄÅäÖÃ¿ÉÒÔ²ÎÕÕ£º</code></div>
+
+<div style="background-color: inherit;"><span style="background-color:inherit">Linux ÏÂµÄ Python ¶à°æ±¾¹ÜÀí£¨pyenv£©</span></div>
+</div>
+</div>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><a href="http://my.oschina.net/lionets/blog/267469" style="background-color: inherit; cursor: pointer; font-family: Monaco, Consolas, Courier, 'Lucida Console', monospace; line-height: 1.5;">http://my.oschina.net/lionets/blog/267469</a>
+
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><strong>¶ş¡¢°²×°¸ß°æ±¾Python</strong></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">Ê¹ÓÃpyenv install ÃüÁî°²×°ÆäËû°æ±¾µÄpythonµÄÊ±ºò£¬²»ÄÜ½øĞĞ±àÒëÆÚµÄpythonÅäÖÃ£¬»áµ¼ÖÂºóÆÚµÄmod_wsgiµÄ±àÒëÊ§°Ü£¬Òò´Ë£¬ÎÒÃÇÊ¹ÓÃÊÖ¶¯±àÒëÔ´Âë°²×°µÄĞÎÊ½°²×°python3.5.1</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">Ê×ÏÈÏÈÏÂÔØ&nbsp;<span style="background-color:inherit">Python-3.5.1.tgz&nbsp;</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½âÑ¹ tar -xzvf Python-3.5.1.tgz</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½øÈëPython-3.5.1Ä¿Â¼ÖĞ</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ./configurate --prefix=/home/.pyenv/versions/3.5.1 <strong>--enable-shared</strong></div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÔÚÕâÀïÎŞ±ÈÒª¼ÓÉÏenable-shared²ÎÊı½øĞĞÅäÖÃ£¬·ñÔòºóÆÚ±àÒëmod_wsgi»á±¨´í</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ make &amp;&amp; make install</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÎÒÃÇÊÖ¶¯°²×°pythonµ½pyenvÖĞ£¬pyenvÎŞ·¨ÕıÈ·Ê¶±ğ£¬ÎÒÃÇĞèÒª×ö¼òµ¥µÄÉèÖµ¼´¿É£º</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½øÈëpythonµÄ°²×°Ä¿Â¼/home/.pyenv/versions/3.5.1/bin</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ln -s python3 python</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">$ ln -s pip3 pip</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÁíÍâÔÚ&nbsp;<span style="background-color:inherit">/etc/ld.so.conf.d/ Ä¿Â¼ÏÂ´´½¨Ò»¸öpythonµÄÅäÖÃ</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">[<a href="mailto:root@foo" style="background-color: inherit; cursor: pointer;">root@foo</a>&nbsp;~] # vim /etc/ld.so.conf.d/python-3.5.1.conf</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ÔÚÀïÃæÌí¼ÓpythonµÄ¿â</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"># fileName:&nbsp;<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">/etc/ld.so.conf.d/python-3.5.1.conf</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">/home/.pyenv/versions/3.5.1/lib</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÏÖÔÚ¿ÉÒÔÓÃpyenv½øĞĞpythonµÄ°æ±¾¹ÜÀíÁË</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;"><strong>Èı¡¢Ê¹ÓÃpip°²×°Django</strong></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">pip install django</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;"><br />
+<strong>ËÄ¡¢°²×°ApacheÒÔ¼°Ïà¹ØµÄÆäËûÒÀÀµ</strong></div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+
+<div style="background-color: inherit;">&nbsp;</div>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">ÏÂÔØºÃApache°²×°°ü£¨</span><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">httpd-2.4.18.tar.gz</span><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">£©</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">½âÑ¹±àÒë°²×°£º</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">./confugure --prefix=/usr/local/apache --with-apr=/usr/local/apr --with-apr-util=/usr/local/apr-util --with-pcre=/usr/local/pcre</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">¿É¼ûĞèÒªÏÈ°²×°apr¡¢apr-util¡¢pcre£¬·ñÔò»á³öÏÖ¶ÔÓ¦µÄ³ÌĞò²»´æÔÚµÄ´íÎó¡£</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">make &amp;&amp;&nbsp;<span style="background-color:inherit">make install</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">1¡¢°²×°apr(<span style="background-color:inherit">apr-1.5.2.tar.gz</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit"> [root@localhost bin]# tar -zxf apr-1.4.5.tar.gz</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# ./configure --prefix=/usr/local/apr</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# make</span></pre>
+
+<pre>
+<span style="background-color:inherit"> [root@localhost apr-1.5.2]# make install</span></pre>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:inherit">2¡¢°²×°apr-util(</span><span style="background-color:inherit">apr-util-1.5.4.tar.gz</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit">[root@localhost bin]# tar -zxf apr-util-1.3.12.tar.gz</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# ./configure --prefix=/usr/local/apr-util -with-apr=/usr/local/apr/bin/apr-1-config</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# make</span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost apr-util-1.5.4]# make install</span></pre>
+</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><span style="background-color:inherit">3¡¢°²×°pcre(</span><span style="background-color:inherit">pcre-8.38.zip</span><span style="background-color:inherit">)</span></div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+<span style="background-color:inherit">[root@localhost ~]# unzip pcre-8.38.zip</span></pre>
+
+<pre>
+<span style="background-color:inherit"><span style="background-color:inherit">[root@localhost ~]# cd pcre-8.38</span></span></pre>
+
+<pre>
+<span style="background-color:inherit">[root@localhost pcre-8.38]# ./configure --prefix=/usr/local/pcre
+</span></pre>
+</div>
+
+<pre style="text-align:left">
+<span style="background-color:inherit">[root@localhost pcre-8.38]# make</span></pre>
+
+<pre style="text-align:left">
+<span style="background-color:inherit">[root@localhost pcre-8.38]# make install</span></pre>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<pre>
+
+&nbsp;</pre>
+
+<pre>
+
+&nbsp;</pre>
+
+<pre>
+
+&nbsp;</pre>
+</div>
+<span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:Î¢ÈíÑÅºÚ; font-size:14px">²âÊÔÎÒÃÇµÄapacheÊÇ·ñÄÜ¹»Õı³£Æô¶¯</span>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">/usr/local/apache/bin/apachectl start</div>
+
+<div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">/usr/local/apache/bin/apachectl stop
+<div style="background-color: inherit;">&nbsp;
+<div style="background-color: inherit;">
+<div style="background-color: inherit;">
+<div style="background-color: inherit;"><strong>Îå¡¢°²×°mod_wsgi</strong></div>
+
+<div style="background-color: inherit;"><br />
+<strong>Áù¡¢ÅäÖÃDjangoÏîÄ¿</strong></div>
+
+<div style="background-color: inherit;"><br />
+<strong>Æß¡¢ÅäÖÃApache</strong></div>
+
+<div style="background-color: inherit;"><br />
+<strong>°Ë¡¢Æô¶¯·şÎñÆ÷²¢·ÃÎÊ²âÊÔ</strong></div>
+</div>
+</div>
+</div>
+</div>
+
+- [DEBUG] [Tue, 01 Mar 2016 14:32:43] [Thread-35:103076] [blogViews.py:54] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 14:32:43] [Thread-35:103076] [blogViews.py:59] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Tue, 01 Mar 2016 14:36:14] [Thread-51:32988] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:00:01] [Thread-191:36188] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:00:58] [Thread-200:55184] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:06:46] [Thread-254:61100] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:16:30] [Thread-371:51192] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:24:13] [Thread-47:15944] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:36:39] [Thread-41:90712] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:36:49] [Thread-46:101152] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:37:06] [Thread-48:80252] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:37:53] [Thread-54:111136] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:39:12] [Thread-57:107804] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:40:54] [Thread-72:46156] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:40:57] [Thread-74:111908] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:41:31] [Thread-85:96112] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:42:05] [Thread-98:112280] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:44:53] [Thread-121:116928] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:45:00] [Thread-176:114720] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:46:34] [Thread-1:39776] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:50:14] [Thread-3:130368] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:50:26] [Thread-10:127332] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:50:59] [Thread-1:129316] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:51:52] [Thread-4:134056] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:53:05] [Thread-1:81180] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:53:19] [Thread-11:108432] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:53:26] [Thread-16:105268] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:54:31] [Thread-48:141088] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:54:42] [Thread-87:116712] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:55:52] [Thread-100:99664] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:56:00] [Thread-111:140284] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:56:12] [Thread-140:143824] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:56:22] [Thread-180:137052] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:57:00] [Thread-14:102736] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 15:57:09] [Thread-71:113184] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 16:00:25] [Thread-12:89648] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 16:01:12] [Thread-38:32048] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 16:02:17] [Thread-57:11416] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Tue, 01 Mar 2016 16:06:37] [Thread-90:5600] [blogViews.py:58] - * BLOG TITLE:.....
+- [DEBUG] [Tue, 01 Mar 2016 16:06:37] [Thread-90:5600] [blogViews.py:59] - * BLOG CONTENT:<table align="center" border="0" cellpadding="0" cellspacing="0" style="height:99px; width:1002px">
+	<tbody>
+		<tr>
+			<td><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r1_c3.jpg" style="height:99px; width:18px" /></td>
+			<td>
+			<div id="aa1" style="position:absolute; width:268px; height:180px; z-index:20;  visibility: visible;">
+			<table border="0" cellpadding="0" cellspacing="0" style="height:99px; width:268px">
+				<tbody>
+					<tr>
+						<td>&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border="0" cellpadding="0" cellspacing="0" style="width:268px">
+				<tbody>
+					<tr>
+						<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="401" width="268"><embed height="401" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-flash-B-10.swf" type="application/x-shockwave-flash" width="268" wmode="transparent"></embed></object></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			<img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-0928-9_r1_c4.jpg" style="height:99px; width:268px" /></td>
+			<td><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r1_c5.jpg" style="height:99px; width:716px" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="height:620px; width:1002px">
+	<tbody>
+		<tr>
+			<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-58_r3_c1.jpg" style="height:27px; width:18px" /></td>
+			<td>
+			<table border="0" cellpadding="0" cellspacing="0" style="width:268px">
+				<tbody>
+					<tr>
+						<td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="377" width="268"><embed height="377" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-flash-A-1.swf" type="application/x-shockwave-flash" width="268" wmode="transparent"></embed></object></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>
+			<table border="0" cellpadding="0" cellspacing="0" style="width:716px">
+				<tbody>
+					<tr>
+						<td><a href="http://www.zhuhai.gov.cn/wifi2/"><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r2_c5.jpg" style="height:71px; width:46px" /></a></td>
+						<td><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r2_c8.jpg" style="height:71px; width:1px" /></td>
+						<td><a href="http://www.zhuhai.gov.cn/wifi2/wxzhzs/" target="_blank"><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-0928-9_r2_c9.jpg" style="height:71px; width:142px" /></a></td>
+						<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-58_r3_c23.jpg" style="height:71px; width:1px" /></td>
+						<td><a href="http://www.zhuhai.gov.cn/wifi2/zxxx/" target="_blank"><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r2_c11.jpg" style="height:71px; width:76px" /></a></td>
+						<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-58.jpg" style="height:71px; width:1px" /></td>
+						<td><a href="http://www.zhuhai.gov.cn/wifi2/fgqsyt20131219V.htm" target="_blank"><img src="http://www.zhuhai.gov.cn/images/2013-WXZHZF-images-0928-9_r2_c13.jpg" style="height:71px; width:103px" /></a></td>
+						<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-57.jpg" style="height:71px; width:1px" /></td>
+						<td><a href="http://www.zhuhai.gov.cn/wifi2/zhfbt/" target="_blank"><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r2_c15.jpg" style="height:71px; width:75px" /></a></td>
+						<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-57.jpg" style="height:71px; width:1px" /></td>
+						<td><a href="http://www.zhuhai.gov.cn/wifi2/rstg/" target="_blank"><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r2_c17.jpg" style="height:71px; width:114px" /></a></td>
+						<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-57.jpg" style="height:71px; width:1px" /></td>
+						<td><a href="http://www.zhuhai.gov.cn/wifi2/cjwt/" target="_blank"><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r2_c19.jpg" style="height:71px; width:75px" /></a></td>
+						<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-57.jpg" style="height:71px; width:1px" /></td>
+						<td><a href="http://www.zhuhai.gov.cn/wifi2/lxwm/" target="_blank"><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r2_c21.jpg" style="height:71px; width:78px" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border="0" cellpadding="0" cellspacing="0" style="width:716px">
+				<tbody>
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+						<table border="0" cellpadding="0" cellspacing="0" style="width:100px">
+							<tbody>
+								<tr>
+									<td><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r4_c6.jpg" style="height:12px; width:20px" /></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" style="width:100px">
+							<tbody>
+								<tr>
+									<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-0928-9_r6_c6.jpg" style="height:282px; width:683px" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-58_r5_c44.jpg" style="height:21px; width:11px" /></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border="0" cellpadding="0" cellspacing="0" style="height:244px; width:716px">
+				<tbody>
+					<tr>
+						<td><img src="http://www.zhuhai.gov.cn/images/2010-WXZHZF-images-0928-9_r4_c5.jpg" style="height:48px; width:22px" /></td>
+						<td><iframe frameborder="NO" height="150" name="ldxxdj" scrolling="no" src="http://125.88.60.241/portal/zhwuxian/pc/index.html?greenchannel=eshore" width="300"></iframe></td>
+						<td><img src="http://www.zhuhai.gov.cn/wifi2/images/2010-WXZHZF-images-58_r5_c44.jpg" style="height:21px; width:11px" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+- [DEBUG] [Tue, 01 Mar 2016 16:06:37] [Thread-90:5600] [blogViews.py:60] - * BLOG CATALOG:1
+- [DEBUG] [Tue, 01 Mar 2016 16:06:37] [Thread-90:5600] [blogViews.py:65] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Wed, 02 Mar 2016 21:22:02] [Thread-7:30584] [authorization_view.py:35] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Wed, 02 Mar 2016 21:22:02] [Thread-8:27332] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 21:39:42] [Thread-6:44808] [authorization_view.py:35] - Ã»ÓĞ²¶»ñ req_target = 
+- [DEBUG] [Wed, 02 Mar 2016 21:39:43] [Thread-7:7800] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 21:47:22] [Thread-3:21224] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 21:50:07] [Thread-72:15232] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 21:50:37] [Thread-110:14568] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 21:51:06] [Thread-151:30740] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 21:51:31] [Thread-157:2852] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 21:51:59] [Thread-196:9832] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 21:53:25] [Thread-234:28520] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 22:00:27] [Thread-270:19960] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 22:02:18] [Thread-291:19540] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 22:25:34] [Thread-345:1144] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 22:41:51] [Thread-1:18816] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 22:47:44] [Thread-1:31524] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 22:51:17] [Thread-10:37196] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 22:52:51] [Thread-6:43852] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 22:57:07] [Thread-5:16172] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 23:00:12] [Thread-3:20112] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 23:00:57] [Thread-16:15284] [blogViews.py:70] - * BLOG TITLE:ÕâÊÇÒ»ÆªÎÄÕÂ
+- [DEBUG] [Wed, 02 Mar 2016 23:00:57] [Thread-16:15284] [blogViews.py:71] - * BLOG CONTENT:ÎÄÕÂµÄÄÚÈİ
+<div>×ó¶ÔÆë</div>
+&nbsp;
+
+<div style="text-align: right;">ÓÒ¶ÔÆë</div>
+
+<h1><strong><span style="color:#008000">ÑÕÉ«</span></strong></h1>
+
+- [DEBUG] [Wed, 02 Mar 2016 23:00:57] [Thread-16:15284] [blogViews.py:72] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 02 Mar 2016 23:00:57] [Thread-16:15284] [blogViews.py:77] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Wed, 02 Mar 2016 23:04:47] [Thread-27:35468] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 23:04:57] [Thread-33:29540] [blogViews.py:70] - * BLOG TITLE:²âÊÔ
+- [DEBUG] [Wed, 02 Mar 2016 23:04:57] [Thread-33:29540] [blogViews.py:71] - * BLOG CONTENT:²âµØ·½
+- [DEBUG] [Wed, 02 Mar 2016 23:04:57] [Thread-33:29540] [blogViews.py:72] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 02 Mar 2016 23:04:57] [Thread-33:29540] [blogViews.py:77] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Wed, 02 Mar 2016 23:05:21] [Thread-42:32716] [blogViews.py:70] - * BLOG TITLE:°¢Ë¹¶Ù
+- [DEBUG] [Wed, 02 Mar 2016 23:05:21] [Thread-42:32716] [blogViews.py:71] - * BLOG CONTENT:°¢Ë¹¶Ù
+- [DEBUG] [Wed, 02 Mar 2016 23:05:21] [Thread-42:32716] [blogViews.py:72] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 02 Mar 2016 23:05:21] [Thread-42:32716] [blogViews.py:77] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Wed, 02 Mar 2016 23:06:26] [Thread-46:36984] [views.py:17] - * ·ÃÎÊ ÑÔ×Ó¹ç µÄ²©¿ÍÊ×Ò³
+- [DEBUG] [Wed, 02 Mar 2016 23:06:34] [Thread-51:36108] [blogViews.py:70] - * BLOG TITLE:°¢Ë¹¶Ù
+- [DEBUG] [Wed, 02 Mar 2016 23:06:34] [Thread-51:36108] [blogViews.py:71] - * BLOG CONTENT:ÊÇµ¥·â°¢Èıf
+- [DEBUG] [Wed, 02 Mar 2016 23:06:34] [Thread-51:36108] [blogViews.py:72] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 02 Mar 2016 23:06:34] [Thread-51:36108] [blogViews.py:77] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â
+- [DEBUG] [Wed, 02 Mar 2016 23:06:40] [Thread-53:39292] [blogViews.py:70] - * BLOG TITLE:ÊÇµ¥·â
+- [DEBUG] [Wed, 02 Mar 2016 23:06:40] [Thread-53:39292] [blogViews.py:71] - * BLOG CONTENT:ÊÇµ¥·â°¢ÈıfÎÊÇëÎÊ
+- [DEBUG] [Wed, 02 Mar 2016 23:06:40] [Thread-53:39292] [blogViews.py:72] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 02 Mar 2016 23:06:40] [Thread-53:39292] [blogViews.py:77] - * ĞÅÏ¢¾ùÒÑ¾­ÌîĞ´ÍêÕû£¬Í¨¹ı±íµ¥ÑéÖ¤£¬Ğ´ÈëÊı¾İ¿â

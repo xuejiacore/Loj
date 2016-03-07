@@ -1,0 +1,29 @@
+[
+  {
+    "model": "blog.BlogCatalog",
+    "fields": {
+      "login_id": "root",
+      "password": "root",
+      "real_name": "超级管理员",
+      "status": 0
+    }
+  },
+  {
+    "model": "author.user",
+    "fields": {
+      "login_id": "zigui",
+      "password": "admin",
+      "real_name": "言子圭",
+      "status": 0
+    }
+  },
+  {
+    "model": "author.user",
+    "fields": {
+      "login_id": "xuejia",
+      "password": "root",
+      "real_name": "詹学佳",
+      "status": 0
+    }
+  }
+]

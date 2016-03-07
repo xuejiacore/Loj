@@ -1,0 +1,35 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>富文本编辑器测试</title>
+    <script type="text/javascript" src="{% static 'pure/ckeditor4.5.7/ckeditor.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+    <script type="text/javascript">
+        function doSubmit() {
+            alert(CKEDITOR.instances.editor.getData());
+        }
+
+        function setData() {
+            CKEDITOR.instances.editor.setData("<h1>这个是测试用的数据输入</h1>");
+        }
+    </script>
+</head>
+<body>
+<textarea name="editor" id="editor" rows="10" cols="80">
+        This is my textarea to be replaced with CKEditor.
+    </textarea>
+<input type="submit" value="提交" onclick="doSubmit()">
+<input type="button" value="测试输入" onclick="setData()">
+
+
+<script>
+    // Replace the <textarea id="editor1"> with a CKEditor
+    // instance, using default configuration.
+    CKEDITOR.replace('editor', {
+        customConfig: '{% static 'js/ckeditor_config.js' %}'
+    });
+</script>
+</body>
+</html>

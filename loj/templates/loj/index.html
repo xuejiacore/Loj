@@ -1,0 +1,375 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>詹学佳的个人网站</title>
+    <link rel="stylesheet" href="{% static 'loj/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'loj/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'loj/css/simple-line-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'loj/css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'loj/css/templatemo_style.css' %}">
+</head>
+<body>
+
+
+<header class="site-header container animated fadeInDown">
+    <div class="header-wrapper">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="site-branding">
+                    <a href="javascript:void(0);"><h1>life of join</h1><h5 style="font-size: 14px;color: #5e5e5e;">
+                        生活，就像一个繁忙的高速通道，何时，才能找到服务区，让心停靠。</h5></a>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="toggle-nav hidden-md hidden-lg">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="col-md-8">
+                <nav id="nav" class="main-navigation hidden-xs hidden-sm">
+                    <ul class="main-menu">
+                        <li><a class="show-1 active homebutton" href="javascript:void(0);">主页</a></li>
+                        <li><a class="show-2 aboutbutton" href="javascript:void(0);">自然·生活</a></li>
+                        <li><a class="show-3 projectbutton" href="javascript:void(0);">项目·工具</a></li>
+                        <li><a class="show-4 blogbutton" href="javascript:void(0);">博客入口</a></li>
+                        <li><a class="show-5 contactbutton" href="javascript:void(0);">联系我</a></li>
+                        <li><a href="{% url 'admin:index' %}">管理员入口[安全限制]</a></li>
+                    </ul>
+                </nav>
+                <nav class="main-navigation menu-responsive hidden-md hidden-lg">
+                    <ul class="main-menu">
+                        <li><a class="show-1 active homebutton" href="javascript:void(0);">主页</a></li>
+                        <li><a class="show-2 aboutbutton" href="javascript:void(0);">自然·生活</a></li>
+                        <li><a class="show-3 projectbutton" href="javascript:void(0);">项目·工具</a></li>
+                        <li><a class="show-4 blogbutton" href="javascript:void(0);">博客入口</a></li>
+                        <li><a class="show-5 contactbutton" href="javascript:void(0);">联系我</a></li>
+                        <li><a href="{% url 'admin:index' %}">管理员入口[安全限制]</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" title="网站模板">网站模板</a></div>
+<div id="menu-container">
+    <div id="menu-1" class="homepage home-section container">
+        <div class="home-intro text-center">
+            <h2 class="welcome-title animated fadeInLeft">Welcome!</h2>
+            <p class="animated fadeInRight">欢迎您来到我的个人网站
+                <span class="blue">Loj</span>
+                <span class="green">（生活）</span>
+                。本站使用Django搭建，主要用于技术以及个人生活的记录，同时欢迎您到我的
+                <a href="{% url 'anonymous' 'zigui' %}">博客</a>&nbsp;中做客!同时，如果有任何建议或意见，请联系我，谢谢!:)</p>
+            <ul class="list-icons animated fadeInUp">
+                <li><i class="icon-trophy"></i></li>
+                <li><i class="icon-badge"></i></li>
+                <li><i class="icon-magic-wand"></i></li>
+                <li><i class="icon-screen-desktop"></i></li>
+            </ul>
+        </div>
+        <div class="home-projects">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="project-title animated fadeInUp">
+                        <h2>最新动态</h2>
+                        <p>Sed eu turpis vehicula, iaculis sapien eu, molestie libero. Cras ac urna in neque commodo
+                            sodales vel et dolor. Pellentesque aliquam semper lectus, nec consequat ex lacinia nec. <br><br>Nunc
+                            eget velit nec felis ultrices vulputate venenatis interdum arcu. In ac auctor quam. </p>
+                        <a href="javascript:void(0);" class="pink-button">浏览原文</a>
+                    </div>
+                </div>
+                <div class="project-home-holder col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="project-item one animated fadeInRight">
+                                <img src="{% static 'loj/img/1.jpg' %}" alt="">
+                                <div class="overlay">
+                                    <h4><a href="javascript:void(0);">Project One</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="project-item two animated fadeInRight">
+                                <img src="{% static 'loj/img/2.jpg' %}" alt="">
+                                <div class="overlay">
+                                    <h4><a href="javascript:void(0);">Project Two</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="project-item three animated fadeInRight">
+                                <img src="{% static 'loj/img/3.jpg' %}" alt="">
+                                <div class="overlay">
+                                    <h4><a href="javascript:void(0);">Project Three</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="project-item four animated fadeInRight">
+                                <img src="{% static 'loj/img/4.jpg' %}" alt="">
+                                <div class="overlay">
+                                    <h4><a href="javascript:void(0);">Project Four</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu-2" class="content about-section container">
+        <div class="our-story">
+            <div class="story-bg animated fadeIn"></div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="inner-story animated fadeInRight text-center">
+                        <h2>ABOUT US</h2>
+                        <p>Cras placerat, est ac sollicitudin laoreet, ante enim egestas lorem, vel auctor nibh massa
+                            sit amet lacus. Cras mollis tellus id sollicitudin vulputate. Vestibulum ante ipsum primis
+                            in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam gravida arcu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our-offers">
+            <div class="offer-bg animated fadeIn"></div>
+            <div class="offer-header">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <div class="offer-title animated fadeInDown">
+                            <h2>OUR WORK</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offer-holder">
+                    <div class="col-md-6">
+                        <div class="offer-item offer-1 animated fadeInLeft">
+                            <figure>
+                                <img src="{% static 'loj/img/a1.jpg' %}" alt="">
+                            </figure>
+                            <div class="offer-content text-center">
+                                <h4>HAPPY WORKING WITH US</h4>
+                                <p>Sed sagittis nunc vel tellus ultricies auctor. Class aptent taciti sociosqu ad litora
+                                    torquent per conubia , per inceptos himenaeos. Integer eleifend tellu.</p>
+                                <span class="offer-left"><i></i></span>
+                                <span class="offer-right"><i></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="offer-item offer-2 animated fadeInRight">
+                            <figure>
+                                <img src="{% static 'loj/img/a2.jpg' %}" alt="">
+                            </figure>
+                            <div class="offer-content text-center">
+                                <h4>OUR COMPANY BACKGROUND</h4>
+                                <p>Sed sagittis nunc vel tellus ultricies auctor. Class aptent taciti sociosqu ad litora
+                                    torquent per conubia , per inceptos himenaeos. Integer eleifend tellu.</p>
+                                <span class="offer-left"><i></i></span>
+                                <span class="offer-right"><i></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu-3" class="content project-section container">
+        <div class="projects-header">
+            <h2 class="animated fadeInRight">我的项目入口</h2>
+            <p class="animated fadeInLeft">以下展示了我在工作之余进行开发的小型工具项目展示</p>
+        </div>
+        <div class="projects-holder">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 p-1 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="{% static 'loj/img/1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <h4><a href="javascript:void(0);">数据抽取工具入口</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-2 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="{% static 'loj/img/2.jpg' %}" alt="">
+                        <div class="overlay">
+                            <h4><a href="javascript:void(0);">代码编辑工具入口</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-3 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="{% static 'loj/img/3.jpg' %}" alt="">
+                        <div class="overlay">
+                            <h4><a href="javascript:void(0);">Project Three</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
+                    <div class="project-item animated umScaleIn">
+                        <img src="{% static 'loj/img/4.jpg' %}" alt="">
+                        <div class="overlay">
+                            <h4><a href="javascript:void(0);">Project Four</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-5 animated umScaleIn">
+                        <img src="{% static 'loj/img/5.jpg' %}" alt="">
+                        <div class="overlay">
+                            <h4><a href="javascript:void(0);">Project Five</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-6 animated umScaleIn">
+                        <img src="{% static 'loj/img/6.jpg' %}" alt="">
+                        <div class="overlay">
+                            <h4><a href="javascript:void(0);">Project Six</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-7 animated umScaleIn">
+                        <img src="{% static 'loj/img/7.jpg' %}" alt="">
+                        <div class="overlay">
+                            <h4><a href="javascript:void(0);">Project Seven</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu-4" class="content blog-section container">
+        <div class="blog-header text-center">
+            <h2 class="animated fadeInRight">关于我的博客</h2>
+            <p class="animated fadeInLeft">这里是关于博客的一些简介内容，介绍博客的功能和特点</p>
+            <a href="{% url 'anonymous' 'zigui' %}" class="blog-button animated fadeInUp">进入博客</a>
+        </div>
+        <div class="row blog-posts">
+            <div class="col-md-4 col-sm-12">
+                <div class="blog-item post-1 animated zoomIn">
+                    <div class="blog-bg blog-pink"></div>
+                    <div class="blog-content">
+                        <h3><a href="javascript:void(0);">Django技术</a></h3>
+                        <span class="solid-line"></span>
+                        <p>关于Django开发一个博客网站过程中遇到的技术难题，在解决困难的同时进行记录</p>
+                        <a href="javascript:void(0);" class="post-button">阅读原文</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="blog-item post-2 animated zoomIn">
+                    <div class="blog-bg blog-blue"></div>
+                    <div class="blog-content">
+                        <h3><a href="javascript:void(0);">生活感言</a></h3>
+                        <span class="solid-line"></span>
+                        <p>生活类的博客文章首页置顶</p>
+                        <a href="javascript:void(0);" class="post-button">阅读原文</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="blog-item post-3 animated zoomIn">
+                    <div class="blog-bg blog-green"></div>
+                    <div class="blog-content">
+                        <h3><a href="javascript:void(0);"><span class="blue">template</span>mo</a></h3>
+                        <span class="solid-line"></span>
+                        <p>Etiam aliquam sem vel velit tempus, quis porttitor nunc rutrum. Ut a tempus arcu. Sed velit
+                            felis, pretium a lacus in, cursus scelerisque ex.</p>
+                        <a href="javascript:void(0);" class="post-button">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu-5" class="content contact-section container">
+        <div class="contact-header text-center">
+            <h2 class="animated fadeInLeft">Get in Touch</h2>
+            <p class="animated fadeInRight">Feel free to talk to us about anything.</p>
+            <ul class="contact-social animated fadeInUp">
+                <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="javascript:void(0);"><i class="fa fa-share-alt"></i></a></li>
+            </ul>
+        </div>
+        <div class="contact-holder">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="googlemap-wrapper animated fadeInLeft">
+                        <div id="map_canvas" class="map-canvas"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="contact-form animated fadeInUp">
+                        <h4>Send us a Message</h4>
+                        <div class="row">
+                            <fieldset class="col-md-6">
+                                <input type="text" name="name" placeholder="Your name">
+                            </fieldset>
+                            <fieldset class="col-md-6">
+                                <input type="email" name="email" placeholder="Your name">
+                            </fieldset>
+                            <fieldset class="col-md-12">
+                                <input type="text" name="subject" placeholder="Subject">
+                            </fieldset>
+                            <fieldset class="col-md-12">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                          placeholder="Describe your Project"></textarea>
+                            </fieldset>
+                            <fieldset class="col-md-12">
+                                <a href="javascript:void(0);" class="message-button">Submit Message</a>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="site-footer container text-center">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-footer">
+                <ul class="social">
+                    <li><a href="javascript:void(0);">Facebook</a></li>
+                    <li><a href="javascript:void(0);">Twitter</a></li>
+                    <li><a href="javascript:void(0);">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 copyright">
+            <p>Copyright &copy; 2084 <a href="javascript:void(0);">Company Name</a></p>
+            <p>Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a> - More Templates <a
+                    href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></p>
+        </div>
+    </div>
+</footer>
+<!-- templatemo 421 raleway -->
+<span class="border-top"></span>
+<span class="border-left"></span>
+<span class="border-right"></span>
+<span class="border-bottom"></span>
+<span class="shape-1"></span>
+<span class="shape-2"></span>
+
+<script src="{% static 'loj/js/main/jquery.min.js' %}"></script>
+<script src="{% static 'loj/js/main/templatemo_custom.js' %}"></script>
+
+</body>
+</html>

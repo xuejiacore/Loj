@@ -1,0 +1,44 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客详文</title>
+    <script src="{% static 'js/jquery-2.2.1.min.js' %}"></script>
+</head>
+
+<script type="text/javascript">
+    function onBlogDelete() {
+        if (confirm('确认删除这篇文章吗？')) {
+            $.ajax({
+                url: "{% url 'blog:blogDelete' request.session.host blog.blog_id %}",
+                method: "POST",
+                dataType: "json",
+                success: function (resp) {
+                    if (resp.error == "ok") {
+                        alert('文章删除成功');
+                        window.location.href = '{% url 'blog:blogCatalog' request.session.host %}';
+                    } else {
+                        alert('文章删除失败');
+                    }
+                }
+            })
+        }
+    }
+</script>
+
+<body>
+<h2>博客的详细内容</h2>
+{% if request.session.visit_role == 'user' %}
+    <a href="javascript:alert('编辑博文');">编辑</a>
+    <a href="javascript:" onclick="onBlogDelete()">删除</a>
+{% endif %}
+<h1>{{ blog.blog_title }}</h1>
+<h5>标签：{{ blog.keywords }}</h5>
+<span>{{ blog.publish_date }}</span>
+<span>阅读次数：{{ blog.read_times }}, 评论数：{{ blog.replied_times }}</span><br/>
+{% autoescape off %}
+    {{ blog.blog_content }}
+{% endautoescape %}
+</body>
+</html>
