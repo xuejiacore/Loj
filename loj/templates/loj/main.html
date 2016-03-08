@@ -71,10 +71,8 @@
             if (!!window.ActiveXObject || "ActiveXObject" in window)
                 isIE = true;
             reinitIframe(iframeId, minHeight);
-            if (iframeTime != null) {
+            if (iframeTime != null)
                 clearInterval(iframeTime);
-                alert('clear');
-            }
             else
                 iframeTime = window.setInterval("reinitIframe('" + iframeId + "'," + minHeight + ")", 100);
         }
