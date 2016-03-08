@@ -4417,3 +4417,13 @@ Traceback (most recent call last):
     self.model._meta.object_name
 blog.models.DoesNotExist: Blog matching query does not exist.
 - [WARNING] [Wed, 02 Mar 2016 23:04:47] [Thread-28:30884] [base.py:182] - Not Found: /zigui/main
+- [WARNING] [Mon, 07 Mar 2016 13:02:32] [Thread-1:11436] [base.py:182] - Not Found: /welcome
+- [WARNING] [Mon, 07 Mar 2016 13:02:33] [Thread-24:11460] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 07 Mar 2016 13:02:33] [Thread-23:11164] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 07 Mar 2016 13:02:47] [Thread-60:12744] [base.py:182] - Not Found: /zigui/main
+- [WARNING] [Mon, 07 Mar 2016 20:13:41] [Thread-3:17588] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 07 Mar 2016 20:13:41] [Thread-4:14548] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 07 Mar 2016 20:22:58] [Thread-54:8048] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 07 Mar 2016 20:22:58] [Thread-55:16172] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Tue, 08 Mar 2016 13:01:29] [Thread-3:9180] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Tue, 08 Mar 2016 13:01:29] [Thread-4:9184] [base.py:182] - Not Found: /favicon.ico

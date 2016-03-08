@@ -52,7 +52,7 @@
 
                 var dHeight = 0;
                 if (isFireFox == true)
-                    dHeight = iframe.contentWindow.document.documentElement.offsetHeight + 2;
+                    dHeight = iframe.contentWindow.document.documentElement.offsetHeight;
                 else if (isIE == false && isOpera == false)
                     dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
                 else
@@ -71,9 +71,12 @@
             if (!!window.ActiveXObject || "ActiveXObject" in window)
                 isIE = true;
             reinitIframe(iframeId, minHeight);
-            if (iframeTime != null)
-                clearInterval(iframeTime)
-            iframeTime = window.setInterval("reinitIframe('" + iframeId + "'," + minHeight + ")", 100);
+            if (iframeTime != null) {
+                clearInterval(iframeTime);
+                alert('clear');
+            }
+            else
+                iframeTime = window.setInterval("reinitIframe('" + iframeId + "'," + minHeight + ")", 100);
         }
     </script>
 </head>
@@ -1059,25 +1062,9 @@
 <div class="page-container">
     <!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
     <div class="main-content">
-        <div class="breadcrumb-env">
-
-            <ol class="breadcrumb bc-1">
-                <li>
-                    <a href="dashboard-1.html"><i class="fa-home"></i>Home</a>
-                </li>
-                <li>
-
-                    <a href="{% url 'blog:blogCatalog' request.session.host %}" target="mainFrame">UI Elements</a>
-                </li>
-                <li class="active">
-
-                    <strong>Breadcrumbs</strong>
-                </li>
-            </ol>
-
-        </div>
-        <iframe class="main-frame" id="mainFrame" name="mainFrame" scrolling="no" src="http://demo1.cssmoban.com/cssthemes/awt_businesportal/index.html"
-                frameborder="0" style="padding: 0px; width: 100%; height: 1000px;"
+        <iframe class="main-frame" id="mainFrame" name="mainFrame" scrolling="no"
+                src="{% url 'blog:demo' request.session.host %}"
+                frameborder="0" style="padding: 0px; width: 100%; height: 768px;"
                 onload="startInit('mainFrame', 560);"></iframe>
         <div class="fbg">
             <div class="fbg_resize">

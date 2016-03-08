@@ -10,7 +10,7 @@ logger = logging.getLogger('app')
 
 def demo(request, whose):
     print("username = {}".format(whose))
-    return render(request, 'blog/upload.html')
+    return render(request, 'blog/index.html')
 
 
 def ckeditor(request, whose):

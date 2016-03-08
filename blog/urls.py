@@ -6,7 +6,7 @@ from blog.views.blog.blogViews import blog_editor, blog_publish, blog_catalog, b
 app_name = 'blog'
 
 urlpatterns = [
-    url(r'^demo$', demo, name='demo'),
+    url(r'^demo/$', demo, name='demo'),
     url(r'^ck/$', ckeditor, name='ckeditor'),
     url(r'^upload/$', upload_file, name='upload'),
     url(r'^download/$', download_file, name='download'),
