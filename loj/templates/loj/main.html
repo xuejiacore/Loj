@@ -9,7 +9,7 @@
     <meta name="description" content="Xenon Boostrap Admin Panel"/>
     <meta name="author" content=""/>
 
-    <title>LOJ框架首页</title>
+    <title>詹学佳的个人博客</title>
 
     <link rel="stylesheet" href="http://fonts.useso.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="{% static 'css/fonts/linecons/css/linecons.css' %}">
@@ -78,7 +78,7 @@
         }
     </script>
 </head>
-<body class="page-body" style="opacity:0.95;">
+<body class="page-body" style="background: url('{% static 'loj/images/charcoal.gif' %}'); background-repeat: repeat">
 
 <div class="settings-pane">
 
@@ -99,15 +99,15 @@
 
                     <div class="user-details">
                         <h3>
-                            <a href="#">John Smith</a>
+                            <a href="#">詹学佳</a>
                             <!-- Available statuses: is-online, is-idle, is-busy and is-offline -->
                             <span class="user-status is-online"></span>
                         </h3>
 
-                        <p class="user-title">Web Developer</p>
+                        <p class="user-title">Python工程师Nus</p>
 
                         <div class="user-links">
-                            <a href="#" class="btn btn-primary">Edit Profile</a>
+                            <a href="#" class="btn btn-primary">编辑简介</a>
                             <a href="#" class="btn btn-success">Upgrade</a>
                         </div>
                     </div>
@@ -231,43 +231,34 @@
 
         <ul class="navbar-nav">
             <li>
+                <a href="{% url 'blog:demo' request.session.host %}" target="mainFrame">
+                    <i class="linecons-cog"></i>
+                    <span class="title">首页</span>
+                </a>
+            </li>
+            <li>
                 <a href="#">
                     <i class="linecons-cog"></i>
-                    <span class="title">插件测试区</span>
+                    <span class="title">个人项目</span>
                 </a>
                 <ul>
                     <li>
                         <a href="{% url 'blog:ckeditor' request.session.host %}"
                            target="mainFrame">
-                            <span class="title">富文本编辑器CKeditor</span>
+                            <span class="title">Echarts使用</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <span class="title">Dashboard 2</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Dashboard 3</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Dashboard 4</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Skin Generator</span>
+                            <span class="title">Pandas实例</span>
                         </a>
                     </li>
                 </ul>
             </li>
-            <li class="opened active">
+            <li>
                 <a href="#">
                     <i class="linecons-desktop"></i>
-                    <span class="title">功能上架</span>
+                    <span class="title">博客管理</span>
                 </a>
                 <ul>
                     {% if request.session.visit_role != 'anonymous' %}
@@ -287,67 +278,12 @@
             <li>
                 <a href="#">
                     <i class="linecons-note"></i>
-                    <span class="title">UI Elements</span>
+                    <span class="title">自研发工具</span>
                 </a>
                 <ul>
                     <li>
                         <a href="#">
-                            <span class="title">Panels</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Buttons</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Tabs &amp; Accordions</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Modals</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Breadcrumbs</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Blockquotes</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Progress Bars</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Navbars</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Alerts</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Pagination</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Typography</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Other Elements</span>
+                            <span class="title">正则表达式验证工具</span>
                         </a>
                     </li>
                 </ul>
@@ -355,47 +291,17 @@
             <li>
                 <a href="#">
                     <i class="linecons-params"></i>
-                    <span class="title">Forms</span>
+                    <span class="title">技术收藏</span>
                 </a>
                 <ul>
                     <li>
                         <a href="#">
-                            <span class="title">Native Elements</span>
+                            <span class="title">收藏管理</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <span class="title">Advanced Plugins</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Form Wizard</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Form Validation</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Input Masks</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">File Upload</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Editors</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="title">Sliders</span>
+                            <span class="title">添加收藏</span>
                         </a>
                     </li>
                 </ul>
@@ -403,328 +309,29 @@
             <li>
                 <a href="">
                     <i class="linecons-diamond"></i>
-                    <span class="title">Other</span>
+                    <span class="title">个人生活</span>
                 </a>
                 <ul>
                     <li>
                         <a href="#">
                             <i class="linecons-star"></i>
-                            <span class="title">Widgets</span>
+                            <span class="title">生活感悟</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="linecons-mail"></i>
-                            <span class="title">Mailbox</span>
-                            <span class="label label-success pull-right">5</span>
+                            <span class="title">相册</span>
                         </a>
                         <ul>
                             <li>
                                 <a href="#">
-                                    <span class="title">Inbox</span>
+                                    <span class="title">公开相册</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="title">Compose Message</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">View Message</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="linecons-database"></i>
-                            <span class="title">Tables</span>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Basic Tables</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Responsive Table</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Data Tables</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="linecons-beaker"></i>
-                            <span class="title">Extra</span>
-                            <span class="label label-purple pull-right hidden-collapsed">New Items</span>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Icons</span>
-                                    <span class="label label-warning pull-right">4</span>
-                                </a>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <span class="title">Font Awesome</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="title">Linecons</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="title">Elusive</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="title">Meteocons</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Maps</span>
-                                </a>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <span class="title">Google Maps</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="title">Advanced Map</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="title">Vector Map</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Gallery</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Calendar</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Profile</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Login</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Lockscreen</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Login Light</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Timeline</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Timeline Centerd</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Notes</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Image Crop</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Portlets</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Blank Page</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Search</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Invoice</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">404 Page</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Tocify</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Loading Progress</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Page Loading Overlay</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Notifications</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Nestable Lists</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Scrollable</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="linecons-globe"></i>
-                            <span class="title">Charts</span>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Chart Variants</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Range Selector</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Sparklines</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Map Charts</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Circular Gauges</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="title">Bar Gauges</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="linecons-cloud"></i>
-                            <span class="title">Menu Levels</span>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="entypo-flow-line"></i>
-                                    <span class="title">Menu Level 1.1</span>
-                                </a>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="entypo-flow-parallel"></i>
-                                            <span class="title">Menu Level 2.1</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="entypo-flow-parallel"></i>
-                                            <span class="title">Menu Level 2.2</span>
-                                        </a>
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="entypo-flow-cascade"></i>
-                                                    <span class="title">Menu Level 3.1</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="entypo-flow-cascade"></i>
-                                                    <span class="title">Menu Level 3.2</span>
-                                                </a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="entypo-flow-branch"></i>
-                                                            <span class="title">Menu Level 4.1</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="entypo-flow-parallel"></i>
-                                            <span class="title">Menu Level 2.3</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="entypo-flow-line"></i>
-                                    <span class="title">Menu Level 1.2</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="entypo-flow-line"></i>
-                                    <span class="title">Menu Level 1.3</span>
+                                    <span class="title">私有相册</span>
                                 </a>
                             </li>
                         </ul>
@@ -997,7 +604,7 @@
                     <img src="{% static 'images/user-1.png' %}" alt="user-image"
                          class="img-circle img-inline userpic-32" width="28"/>
 						<span>
-							Arlind Nushi
+							詹学佳
 							<i class=" fa-angle-down"></i>
                     </span>
                 </a>
@@ -1117,7 +724,7 @@
 
 
     <!-- start: Chat Section -->
-    <div id="chat" class="fixed">
+    <div id="chat" class="fixed widget-shadow">
 
         <div class="chat-inner">
 

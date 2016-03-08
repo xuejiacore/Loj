@@ -36,6 +36,32 @@
         $(function () {
             setTimeout(function () {
                 GitHubActivity.feed({username: "xuejiacore", selector: "#ghfeed", limit: 20});
+                $('.level-bar-inner').each(function () {
+                    var itemWidth = $(this).data('level');
+                    $(this).animate({
+                        width: itemWidth
+                    }, 800);
+                });
+
+                /* jQuery RSS - https://github.com/sdepold/jquery-rss */
+                $("#rss-feeds").rss(
+                        // 使用知乎每日精选的内容作为订阅源
+                        "http://zhihu.com/rss",
+                        {
+                            limit: 4,
+                            // valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
+                            effect: 'slideFastSynced',
+                            // outer template for the html transformation
+                            // default: "<ul>{entries}</ul>"
+                            layoutTemplate: "<div class='item'>{entries}</div>",
+                            // inner template for each entry
+                            // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
+                            entryTemplate: '<h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fa fa-external-link"></i>查看详情</a></div>'
+                        }
+                );
+
+                $('.level-bar-inner').css('width', '0');
+                $('.level-label').tooltip();
             }, 200);
         });
     </script>
@@ -441,7 +467,8 @@
                 <div class="section-inner">
                     <h2 class="heading">我的 GitHub</h2>
                     <p>以下是我的GitHub中贡献的代码
-                        <a style="font-size: 12px;" href="http://caseyscarborough.com/projects/github-activity/" target="_blank">
+                        <a style="font-size: 12px;" href="http://caseyscarborough.com/projects/github-activity/"
+                           target="_blank">
                             Tips: 使用 GitHub Activity Stream 获取</a>.
                         <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
                     <div id="ghfeed" class="ghfeed">
@@ -450,45 +477,35 @@
                 </div><!--//secton-inner-->
             </section><!--//section-->
 
-            <section class="about section">
-                <div class="section-inner">
-                    <h2 class="heading">About Me</h2>
-                    <div class="content">
-                        <p>Write a brief intro about yourself. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                            parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
-
-                        <p>It's a good idea to include your personal interests and hobbies as well. Commodo ligula eget
-                            dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                            ridiculus mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus
-                            error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </section><!--//section-->
-
         </div><!--//primary-->
         <div class="secondary col-md-4 col-sm-12 col-xs-12">
             <aside class="info aside section">
                 <div class="section-inner">
-                    <h2 class="heading sr-only">Basic Information</h2>
+                    <h2 class="heading sr-only">我的基本信息</h2>
                     <div class="content">
                         <ul class="list-unstyled">
-                            <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>San Francisco, US
+                            <li><i class="fa fa-map-marker"></i><span class="sr-only">位置:</span>广东省广州市
                             </li>
-                            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a>
+                            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a
+                                    href="mailto:xuejiacore@sina.com">xuejiacore@sina.com</a>
                             </li>
-                            <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a>
+                            <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a
+                                    href="http://www.zigui.site" target="_blank">http://www.zigui.site</a>
                             </li>
                         </ul>
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </aside><!--//aside-->
 
+            <aside class="blog aside section">
+                <div class="section-inner">
+                    <h2 class="heading">博客分类</h2>
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
             <aside class="skills aside section">
                 <div class="section-inner">
-                    <h2 class="heading">Skills</h2>
+                    <h2 class="heading">专业技能</h2>
                     <div class="content">
                         <p class="intro">
                             Intro about your skills goes here. Keep the list lean and only show your primary skillset.
@@ -505,40 +522,57 @@
                                                                                  title="You can use the tooltip to add more info...">Expert</span>
                                 </h3>
                                 <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="96%">
+                                    <div class="level-bar-inner" data-level="90%">
                                     </div>
                                 </div><!--//level-bar-->
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Expert</span>
+                                <h3 class="level-title">Java<span class="level-label">Expert</span>
                                 </h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="96%">
-                                    </div>
-                                </div><!--//level-bar-->
-                            </div><!--//item-->
-
-                            <div class="item">
-                                <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span
-                                        class="level-label">Expert</span></h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="96%">
-                                    </div>
-                                </div><!--//level-bar-->
-                            </div><!--//item-->
-
-                            <div class="item">
-                                <h3 class="level-title">Ruby on Rails<span class="level-label">Pro</span></h3>
                                 <div class="level-bar">
                                     <div class="level-bar-inner" data-level="85%">
                                     </div>
                                 </div><!--//level-bar-->
                             </div><!--//item-->
 
-                            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a>
-                            </p>
+                            <div class="item">
+                                <h3 class="level-title">HTML5, CSS3, JavaScript<span
+                                        class="level-label">Expert</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="85%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">MySql, Oracle<span class="level-label">Pro</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="80%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">PyCharm, LinuxOS<span
+                                        class="level-label">Pro</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="80%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
                         </div>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="blog aside section">
+                <div class="section-inner">
+                    <h2 class="heading">知乎每日精选</h2>
+                    <p><a style="font-size: 12px;" href="https://github.com/sdepold/jquery-rss" target="_blank">
+                        使用 jQuery RSS plugin</a></p>
+                    <div id="rss-feeds" class="content">
+
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </aside><!--//section-->
@@ -565,53 +599,16 @@
 
             <aside class="education aside section">
                 <div class="section-inner">
-                    <h2 class="heading">Education</h2>
+                    <h2 class="heading">文化背景</h2>
                     <div class="content">
                         <div class="item">
-                            <h3 class="title"><i class="fa fa-graduation-cap"></i> MSc Psychology and Computer Science
-                            </h3>
-                            <h4 class="university">University College London <span class="year">(2011-2012)</span></h4>
-                        </div><!--//item-->
-                        <div class="item">
-                            <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Computer Science</h3>
-                            <h4 class="university">University of Bristol <span class="year">(2008-2011)</span></h4>
+                            <h3 class="title"><i class="fa fa-graduation-cap"></i>信息科学与工程学院</h3>
+                            <h4 class="university">韶关大学<span class="year">(2012 - 2016)</span></h4>
                         </div><!--//item-->
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </aside><!--//section-->
 
-            <aside class="languages aside section">
-                <div class="section-inner">
-                    <h2 class="heading">Languages</h2>
-                    <div class="content">
-                        <ul class="list-unstyled">
-                            <li class="item">
-                                <span class="title"><strong>English:</strong></span>
-                                <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                                        class="fa fa-star"></i> </span>
-                            </li><!--//item-->
-                            <li class="item">
-                                <span class="title"><strong>Spanish:</strong></span>
-                                <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                                        class="fa fa-star-half"></i></span>
-                            </li><!--//item-->
-                        </ul>
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </aside><!--//section-->
-
-            <aside class="blog aside section">
-                <div class="section-inner">
-                    <h2 class="heading">Latest Blog Posts</h2>
-                    <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery
-                        RSS plugin</a> to pull in your blog post feeds.</p>
-                    <div id="rss-feeds" class="content">
-
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </aside><!--//section-->
 
             <aside class="list music aside section">
                 <div class="section-inner">

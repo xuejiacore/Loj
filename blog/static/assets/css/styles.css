@@ -2,7 +2,7 @@
 body {
     font-family: 'Lato', arial, sans-serif;
     color: #434343;
-    background: rgba(255, 255, 255, 0.52);
+    background: rgba(255, 255, 255, 0.05);
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -191,13 +191,13 @@ iframe {
 /* ======= Sections======= */
 .sections-wrapper {
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .section {
     margin-bottom: 30px;
-    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .08);
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 0 12px 0 rgba(255, 255, 255, 0.77);
+    box-shadow: 0 0 12px 0 rgba(255, 255, 255, 0.77);
 }
 
 .section .section-inner {
@@ -248,7 +248,7 @@ iframe {
 }
 
 .latest .divider {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .latest .featured {
@@ -427,7 +427,7 @@ iframe {
     font-size: 16px;
     position: relative;
     margin-top: 0;
-    margin-bottom: 10;
+    margin-bottom: 10px;
 }
 
 .skills .skillset .level-title .level-label {

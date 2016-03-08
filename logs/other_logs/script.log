@@ -4427,3 +4427,4 @@ blog.models.DoesNotExist: Blog matching query does not exist.
 - [WARNING] [Mon, 07 Mar 2016 20:22:58] [Thread-55:16172] [base.py:182] - Not Found: /favicon.ico
 - [WARNING] [Tue, 08 Mar 2016 13:01:29] [Thread-3:9180] [base.py:182] - Not Found: /favicon.ico
 - [WARNING] [Tue, 08 Mar 2016 13:01:29] [Thread-4:9184] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Tue, 08 Mar 2016 14:07:49] [Thread-19:8380] [base.py:182] - Not Found: /zigui/main
