@@ -4428,3 +4428,117 @@ blog.models.DoesNotExist: Blog matching query does not exist.
 - [WARNING] [Tue, 08 Mar 2016 13:01:29] [Thread-3:9180] [base.py:182] - Not Found: /favicon.ico
 - [WARNING] [Tue, 08 Mar 2016 13:01:29] [Thread-4:9184] [base.py:182] - Not Found: /favicon.ico
 - [WARNING] [Tue, 08 Mar 2016 14:07:49] [Thread-19:8380] [base.py:182] - Not Found: /zigui/main
+- [WARNING] [Tue, 08 Mar 2016 16:19:08] [Thread-1:3468] [base.py:182] - Not Found: /welcome
+- [WARNING] [Tue, 08 Mar 2016 18:40:26] [Thread-1:3868] [base.py:182] - Not Found: /welcome
+- [WARNING] [Tue, 08 Mar 2016 18:40:27] [Thread-24:7280] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Tue, 08 Mar 2016 18:40:27] [Thread-23:7036] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Tue, 08 Mar 2016 20:58:24] [Thread-1:19180] [base.py:182] - Not Found: /welcome
+- [WARNING] [Tue, 08 Mar 2016 21:04:45] [Thread-369:20556] [base.py:182] - Not Found: /zigui/main
+- [WARNING] [Tue, 08 Mar 2016 22:13:08] [Thread-1:37520] [base.py:182] - Not Found: /welcome
+- [ERROR] [Tue, 08 Mar 2016 22:51:54] [Thread-92:13768] [base.py:284] - Internal Server Error: /zigui/blog/outline/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'Personal.blog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'Personal.blog' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 18, in blog_outline
+    return render(request, 'blog/outline.html', {
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blogDetail' with arguments '(1,)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/blog/(?P<blog_id>\\w+)/content/$']
+- [ERROR] [Tue, 08 Mar 2016 22:52:26] [Thread-148:11260] [base.py:284] - Internal Server Error: /zigui/blog/1/content/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 59, in blog_detail
+    blog = Blog.objects.get(blog_id=blog_id, user=User.objects.get(login_id=whose))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+blog.models.DoesNotExist: Blog matching query does not exist.
+- [ERROR] [Tue, 08 Mar 2016 22:52:54] [Thread-165:37344] [base.py:284] - Internal Server Error: /zigui/blog/demo/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\demoview.py", line 13, in demo
+    return render(request, 'blog/index.html')
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 43, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/index.html
+- [ERROR] [Tue, 08 Mar 2016 22:53:31] [Thread-175:16044] [base.py:284] - Internal Server Error: /zigui/blog/1/content/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 59, in blog_detail
+    blog = Blog.objects.get(blog_id=blog_id, user=User.objects.get(login_id=whose))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+blog.models.DoesNotExist: Blog matching query does not exist.
+- [ERROR] [Tue, 08 Mar 2016 22:53:32] [Thread-178:7748] [base.py:284] - Internal Server Error: /zigui/blog/1/content/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 59, in blog_detail
+    blog = Blog.objects.get(blog_id=blog_id, user=User.objects.get(login_id=whose))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+blog.models.DoesNotExist: Blog matching query does not exist.
+- [WARNING] [Tue, 08 Mar 2016 23:18:34] [Thread-1:17216] [base.py:182] - Not Found: /welcome
+- [WARNING] [Tue, 08 Mar 2016 23:33:25] [Thread-1:23196] [base.py:182] - Not Found: /welcome
+- [WARNING] [Wed, 09 Mar 2016 09:39:11] [Thread-6:78668] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Wed, 09 Mar 2016 09:39:11] [Thread-5:76312] [base.py:182] - Not Found: /favicon.ico

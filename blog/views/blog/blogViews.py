@@ -14,7 +14,19 @@ from lib.visualization.ColorPrint import color_format
 logger = logging.getLogger('app')
 
 
+def blog_outline(request, whose):
+    return render(request, 'blog/outline.html', {
+
+    })
+
+
 def blog_editor(request, whose):
+    """
+    博客编辑页面逻辑
+    :param request: 请求
+    :param whose: 博客的拥有者
+    :return:
+    """
     category = BlogCategory.objects.filter(user=User.objects.get(login_id=request.session['login_id']))
     print(category)
     return render(request, 'blog/blogEditor.html', {
@@ -23,6 +35,12 @@ def blog_editor(request, whose):
 
 
 def blog_catalog(request, whose):
+    """
+    博客目录显示
+    :param request: 请求
+    :param whose: 博客的拥有者
+    :return:
+    """
     catalog = Blog.objects.filter(user=User.objects.get(login_id=whose))
     print(catalog)
     return render(request, 'blog/blogCatalog.html', {
@@ -31,6 +49,13 @@ def blog_catalog(request, whose):
 
 
 def blog_detail(request, whose, blog_id):
+    """
+    博客的详细内容
+    :param request: 请求
+    :param whose: 博客的拥有者
+    :param blog_id: 博客的ID号
+    :return:
+    """
     blog = Blog.objects.get(blog_id=blog_id, user=User.objects.get(login_id=whose))
     blog.read_times += 1
     blog.save()
@@ -40,6 +65,13 @@ def blog_detail(request, whose, blog_id):
 
 
 def blog_delete(request, whose, blog_id):
+    """
+    删除博客的操作
+    :param request: 请求
+    :param whose: 博客的拥有者
+    :param blog_id: 博客的ID号
+    :return:
+    """
     response = {}
     try:
         result = Blog.objects.get(blog_id=blog_id).delete()

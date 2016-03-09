@@ -1,44 +1,73 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>博客详文</title>
-    <script src="{% static 'js/jquery-2.2.1.min.js' %}"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/font-awesome/css/font-awesome.css' %}">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="{% static 'assets/css/detail.css' %}">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js' %}"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js' %}"></script>
+    <![endif]-->
+
 </head>
 
-<script type="text/javascript">
-    function onBlogDelete() {
-        if (confirm('确认删除这篇文章吗？')) {
-            $.ajax({
-                url: "{% url 'blog:blogDelete' request.session.host blog.blog_id %}",
-                method: "POST",
-                dataType: "json",
-                success: function (resp) {
-                    if (resp.error == "ok") {
-                        alert('文章删除成功');
-                        window.location.href = '{% url 'blog:blogCatalog' request.session.host %}';
-                    } else {
-                        alert('文章删除失败');
-                    }
-                }
-            })
-        }
-    }
-</script>
-
 <body>
-<h2>博客的详细内容</h2>
-{% if request.session.visit_role == 'user' %}
-    <a href="javascript:alert('编辑博文');">编辑</a>
-    <a href="javascript:" onclick="onBlogDelete()">删除</a>
-{% endif %}
-<h1>{{ blog.blog_title }}</h1>
-<h5>标签：{{ blog.keywords }}</h5>
-<span>{{ blog.publish_date }}</span>
-<span>阅读次数：{{ blog.read_times }}, 评论数：{{ blog.replied_times }}</span><br/>
-{% autoescape off %}
-    {{ blog.blog_content }}
-{% endautoescape %}
+
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-md-8 col-sm-12 col-xs-12">
+            <section class="latest section">
+                <div class="section-inner">
+                    <h2 class="heading">{{ blog.blog_title }}</h2>
+                    <h5>标签：{{ blog.keywords }}</h5>
+                    <span>{{ blog.publish_date }}</span>
+                    <span>阅读次数：{{ blog.read_times }}, 评论数：{{ blog.replied_times }}</span>
+                    <div class="content">
+
+                        <hr class="divider"/>
+
+                        {% if request.session.visit_role == 'user' %}
+                            <a href="javascript:alert('编辑博文');">编辑</a>
+                            <a href="javascript:" onclick="onBlogDelete()">删除</a>
+                        {% endif %}
+
+                        {% autoescape off %}
+                            {{ blog.blog_content }}
+                        {% endautoescape %}
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+        </div><!--//primary-->
+        <div class="secondary col-md-4 col-sm-12 col-xs-12">
+            <aside class="info aside section">
+                <div class="section-inner">
+                    <h2 class="heading sr-only">我的基本信息</h2>
+                    <div class="content">
+                       
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//aside-->
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+
+<!-- Javascript -->
+<script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js ' %}"></script>
+<script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
 </body>
 </html>
+

@@ -1,7 +1,7 @@
 from django.conf.urls import url
 
 from blog.views.blog.demoview import demo, ckeditor, upload_file, download_file
-from blog.views.blog.blogViews import blog_editor, blog_publish, blog_catalog, blog_detail, blog_delete
+from blog.views.blog.blogViews import blog_editor, blog_publish, blog_catalog, blog_detail, blog_delete, blog_outline
 
 app_name = 'blog'
 
@@ -12,6 +12,8 @@ urlpatterns = [
     url(r'^download/$', download_file, name='download'),
 
     # 进入到博客的某一个视图中，在开发阶段可以进行配置
+    # 博客的概括内容（首页）
+    url(r'^outline/$', blog_outline, name='outline'),
     # 博客编辑发表
     url(r'^editor/$', blog_editor, name='blogEditor'),
     url(r'^publish/$', blog_publish, name='publishBlog'),

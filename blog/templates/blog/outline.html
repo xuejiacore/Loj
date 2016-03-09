@@ -5,13 +5,9 @@
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Responsive HTML5 Website Template for Developers | 3rd Wave Media</title>
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
-    <meta name="author" content="3rd Wave Media">
     <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
@@ -21,50 +17,14 @@
     <!-- github acitivity css -->
     <link rel="stylesheet" href="{% static 'assets/plugins/github-activity/dist/github-activity-0.1.1.min.css' %}">
     <link rel="stylesheet" href="{% static 'assets/plugins/github-activity/dist/octicons/octicons.min.css' %}">
-
-
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
-    <script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js ' %}"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js' %}"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js' %}"></script>
     <![endif]-->
 
-    <script type="text/javascript">
-        $(function () {
-            setTimeout(function () {
-                GitHubActivity.feed({username: "xuejiacore", selector: "#ghfeed", limit: 20});
-                $('.level-bar-inner').each(function () {
-                    var itemWidth = $(this).data('level');
-                    $(this).animate({
-                        width: itemWidth
-                    }, 800);
-                });
-
-                /* jQuery RSS - https://github.com/sdepold/jquery-rss */
-                $("#rss-feeds").rss(
-                        // 使用知乎每日精选的内容作为订阅源
-                        "http://zhihu.com/rss",
-                        {
-                            limit: 4,
-                            // valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
-                            effect: 'slideFastSynced',
-                            // outer template for the html transformation
-                            // default: "<ul>{entries}</ul>"
-                            layoutTemplate: "<div class='item'>{entries}</div>",
-                            // inner template for each entry
-                            // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
-                            entryTemplate: '<h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fa fa-external-link"></i>查看详情</a></div>'
-                        }
-                );
-
-                $('.level-bar-inner').css('width', '0');
-                $('.level-label').tooltip();
-            }, 200);
-        });
-    </script>
 
 </head>
 
@@ -97,8 +57,8 @@
                                     suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non
                                     turpis.</p>
                                 <p><a class="more-link"
-                                      href="#website-templates/responsive-bootstrap-theme-mobile-apps-atom/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      href="{% url 'blog:blogDetail' request.session.host 20 %}"><i
+                                        class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -120,7 +80,7 @@
                                     turpis.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -141,7 +101,7 @@
                                     turpis.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-for-startups-tempo/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -163,7 +123,7 @@
                                     libero, sit amet adipiscing sem neque sed ipsum.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -185,7 +145,7 @@
                                     turpis.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -207,7 +167,7 @@
                                     libero, sit amet adipiscing sem neque sed ipsum.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -229,7 +189,7 @@
                                     turpis.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -251,7 +211,7 @@
                                     libero, sit amet adipiscing sem neque sed ipsum.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -273,7 +233,7 @@
                                     libero, sit amet adipiscing sem neque sed ipsum.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -295,7 +255,7 @@
                                     libero, sit amet adipiscing sem neque sed ipsum.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -356,7 +316,7 @@
                                     turpis.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-mobile-apps-atom/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -378,7 +338,7 @@
                                     turpis.</p>
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/"
-                                      target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                      target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                             </div><!--//desc-->
                         </div><!--//item-->
 
@@ -395,7 +355,7 @@
                                         commodi consequatu.</p>
                                     <p><a class="more-link"
                                           href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
-                                          target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                          target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
                                 </div><!--//item-->
                                 <div class="item">
                                     <h3 class="title"><a href="#">Project Title Cras eget lacus</a> <span
@@ -687,7 +647,7 @@
 </div><!--//masonry-->
 
 <!-- Javascript -->
-<script type="text/javascript" src="{% static 'assets/plugins/jquery-1.11.2.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js ' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/jquery-rss/dist/jquery.rss.min.js' %}"></script>
@@ -696,8 +656,39 @@
         src="{% static 'assets/plugins/github-activity/dist/mustache/mustache.min.js' %}"></script>
 <script type="text/javascript"
         src="{% static 'assets/plugins/github-activity/dist/github-activity-0.1.1.min.js' %}"></script>
-<!-- custom js -->
-{#<script type="text/javascript" src="{% static 'assets/js/main.js' %}"></script>#}
+<script type="text/javascript">
+    $(function () {
+        setTimeout(function () {
+            GitHubActivity.feed({username: "xuejiacore", selector: "#ghfeed", limit: 20});
+            $('.level-bar-inner').each(function () {
+                var itemWidth = $(this).data('level');
+                $(this).animate({
+                    width: itemWidth
+                }, 800);
+            });
+
+            /* jQuery RSS - https://github.com/sdepold/jquery-rss */
+            $("#rss-feeds").rss(
+                    // 使用知乎每日精选的内容作为订阅源
+                    "http://zhihu.com/rss",
+                    {
+                        limit: 4,
+                        // valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
+                        effect: 'slideFastSynced',
+                        // outer template for the html transformation
+                        // default: "<ul>{entries}</ul>"
+                        layoutTemplate: "<div class='item'>{entries}</div>",
+                        // inner template for each entry
+                        // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
+                        entryTemplate: '<h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fa fa-external-link"></i>查看详情</a></div>'
+                    }
+            );
+            $('.level-bar-inner').css('width', '0');
+            $('.level-label').tooltip();
+        }, 200);
+    });
+</script>
+
 </body>
 </html> 
 
