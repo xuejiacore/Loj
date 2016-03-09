@@ -6057,3 +6057,14 @@ django.core.urlresolvers.NoReverseMatch: Reverse for 'blogDetail' with arguments
 - [WARNING] [Wed, 09 Mar 2016 17:37:55] [Thread-1:12464] [base.py:182] - Not Found: /welcome
 - [WARNING] [Wed, 09 Mar 2016 19:10:16] [Thread-342:53908] [base.py:182] - Not Found: /author/login
 - [WARNING] [Wed, 09 Mar 2016 19:10:44] [Thread-413:42904] [base.py:182] - Not Found: /zigui/main/anonymous
+- [WARNING] [Wed, 09 Mar 2016 20:01:24] [Thread-152:16076] [base.py:182] - Not Found: /zigui/main
+- [WARNING] [Wed, 09 Mar 2016 20:51:41] [Thread-1:90664] [base.py:182] - Not Found: /welcome
+- [ERROR] [Wed, 09 Mar 2016 20:52:19] [Thread-30:86716] [base.py:284] - Internal Server Error: /zigui/blog/catalog/1/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 49, in blog_catalog
+    CATALOG_COUNT_PER_PAGE * (page - 1):
+TypeError: unsupported operand type(s) for -: 'str' and 'int'

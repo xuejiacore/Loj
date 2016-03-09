@@ -2717,3 +2717,29 @@ handler404&nbsp;=&nbsp;&#39;mysite.views.my_custom_404_view&#39;</p>
 - [DEBUG] [Wed, 09 Mar 2016 19:11:02] [Thread-427:56812] [views.py:17] - * 访问 言子圭 的博客首页
 - [DEBUG] [Wed, 09 Mar 2016 19:11:11] [Thread-473:65676] [views.py:17] - * 访问 言子圭 的博客首页
 - [DEBUG] [Wed, 09 Mar 2016 19:11:58] [Thread-1:48140] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 19:37:57] [Thread-11:14936] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 19:53:20] [Thread-83:37036] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 19:53:48] [Thread-92:16576] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:01:33] [Thread-159:25888] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:01:53] [Thread-165:36064] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:09:28] [Thread-241:15020] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:12:24] [Thread-253:16820] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:30:54] [Thread-269:64608] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:31:08] [Thread-273:67544] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 09 Mar 2016 20:31:08] [Thread-275:62352] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:31:47] [Thread-293:24212] [blogViews.py:101] - * BLOG TITLE:萨达分
+- [DEBUG] [Wed, 09 Mar 2016 20:31:47] [Thread-293:24212] [blogViews.py:102] - * BLOG CONTENT:新的博客标题
+- [DEBUG] [Wed, 09 Mar 2016 20:31:47] [Thread-293:24212] [blogViews.py:103] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 09 Mar 2016 20:31:47] [Thread-293:24212] [blogViews.py:108] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 09 Mar 2016 20:52:07] [Thread-23:85996] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:53:14] [Thread-1:89456] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:53:39] [Thread-15:93448] [blogViews.py:110] - * BLOG TITLE:新的
+- [DEBUG] [Wed, 09 Mar 2016 20:53:39] [Thread-15:93448] [blogViews.py:111] - * BLOG CONTENT:阿斯顿阿斯顿支持下
+- [DEBUG] [Wed, 09 Mar 2016 20:53:39] [Thread-15:93448] [blogViews.py:112] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 09 Mar 2016 20:53:39] [Thread-15:93448] [blogViews.py:117] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 09 Mar 2016 20:53:59] [Thread-18:81796] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 20:54:34] [Thread-33:97564] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 21:00:23] [Thread-3:98348] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 21:01:13] [Thread-1:87032] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 21:03:14] [Thread-5:12140] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 21:45:36] [Thread-68:38684] [views.py:17] - * 访问 言子圭 的博客首页

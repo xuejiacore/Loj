@@ -47,6 +47,13 @@
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a
                                             href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">{{ blog.blog_title }}</a>
+                                        {% if blog.star %}
+                                            {# 星标 #}
+                                            <i class="fa fa-star" style="color: #79d19a;"></i>
+                                        {% endif %}
+                                        {% if blog.top %}
+                                            <i class="fa fa-thumbs-o-up" style="color: #79d19a;"></i>
+                                        {% endif %}
                                     </h3>
                                     <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}</span>
                                     <p>

@@ -190,7 +190,7 @@
 </div>
 
 <!-- 通过 navbar-fixed-top 设置 fixed position -->
-<nav class="navbar horizontal-menu navbar-fixed-top">
+<nav class="navbar horizontal-menu navbar-fixed-top" style="margin-top:4px;">
 
     <div class="navbar-inner widget-shadow">
 
@@ -308,7 +308,7 @@
                         </li>
                     {% endif %}
                     <li>
-                        <a href="{% url 'blog:blogCatalog' request.session.host %}" target="mainFrame">
+                        <a href="{% url 'blog:blogCatalog' request.session.host 1 %}" target="mainFrame">
                             <span class="title">博客目录</span>
                         </a>
                     </li>
@@ -368,11 +368,13 @@
                                     <span class="title">公开相册</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="javascript:">
-                                    <span class="title">私有相册</span>
-                                </a>
-                            </li>
+                            {% if request.session.visit_role != 'anonymous' %}
+                                <li>
+                                    <a href="javascript:">
+                                        <span class="title">私有相册</span>
+                                    </a>
+                                </li>
+                            {% endif %}
                         </ul>
                     </li>
                 </ul>

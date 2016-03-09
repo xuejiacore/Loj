@@ -36,7 +36,7 @@
                     <div class="content">
 
                         <hr class="divider"/>
-                        <a href="{% url 'main' request.session.host %}">返回博客首页</a>
+                        <a href="{% url 'blog:outline' request.session.host %}">返回博客首页</a>
 
                         <label for="blogTitle">博客标题</label>
                         <input type="text" id="blogTitle" placeholder="请输入博客的标题">

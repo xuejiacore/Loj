@@ -219,9 +219,11 @@ LOGGING = {
 # ######################################
 # 项目个性化配置
 # ######################################
+# 所有文件的上传路径
 FILE_UPLOAD_PATH = 'upload/'
+# 图片文件的上传路径
 IMAGE_UPLOAD_PATH = os.path.join(FILE_UPLOAD_PATH, 'image/')
-
+# 不需要进行用户认证的请求过滤
 AUTHOR_EXCLUDE_PATH = [
     'outline',
     'welcome',

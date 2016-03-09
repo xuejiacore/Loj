@@ -32,14 +32,23 @@ def blog_editor(request, whose):
     })
 
 
-def blog_catalog(request, whose):
+# 博客目录页每页显示的数量
+CATALOG_COUNT_PER_PAGE = 5
+
+
+def blog_catalog(request, whose, page):
     """
     博客目录显示
     :param request: 请求
     :param whose: 博客的拥有者
+    :param page: 当前需要显示的页码
     :return:
     """
-    catalog = Blog.objects.filter(user=User.objects.get(login_id=whose))
+    # 第一页 0:5  5:10 n * page-1 ： n * page
+    current_page = int(page)
+    catalog = Blog.objects.filter(user=User.objects.get(login_id=whose)).order_by('-top', '-publish_date')[
+              CATALOG_COUNT_PER_PAGE * (current_page - 1):
+              CATALOG_COUNT_PER_PAGE * current_page]
     request.session['host'] = whose
     print(catalog)
     return render(request, 'blog/blogCatalog.html', {
