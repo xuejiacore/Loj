@@ -1,20 +1,87 @@
-{% load humanize %}
+{% load staticfiles %}
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>博客目录</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/font-awesome/css/font-awesome.css' %}">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="{% static 'assets/css/detail.css' %}">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js' %}"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js' %}"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-<h2>博客目录页</h2>
-{% for blog in blogs %}
-    <div><h3><a href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">{{ blog.blog_title }}</a></h3></div>
-    <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}</span>
-    <br/>
-    {% autoescape off %}
-        {{ blog.blog_content | striptags | truncatechars:512 }}
-    {% endautoescape %}
-    <a href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">阅读全文</a>
-{% endfor %}
+
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-md-9 col-sm-12 col-xs-12">
+            <section class="latest section">
+                <div class="section-inner wrap-parent">
+                    <h2 class="heading">博客目录</h2>
+
+                    <div class="content">
+
+                        {% for blog in blogs %}
+                            <hr class="divider"/>
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12"
+                                   href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">
+                                    <img class="img-responsive project-image"
+                                         src="{% static 'assets/images/projects/project-5.png' %}"
+                                         alt="project name"/>
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a
+                                            href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">{{ blog.blog_title }}</a>
+                                    </h3>
+                                    <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}</span>
+                                    <p>
+                                        {% autoescape off %}
+                                            {{ blog.blog_content | striptags | truncatechars:125 }}
+                                        {% endautoescape %}
+                                    </p>
+                                    <p><a class="more-link"
+                                          href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}"><i
+                                            class="fa fa-external-link"></i>阅读原文</a></p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+                        {% endfor %}
+
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+        </div><!--//primary-->
+        <div class="secondary col-md-3 col-sm-12 col-xs-12">
+            <aside class="info aside section">
+                <div class="section-inner">
+                    <h2 class="heading sr-only">我的基本信息</h2>
+                    <div class="content">
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//aside-->
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+
+<!-- Javascript -->
+<script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js ' %}"></script>
+<script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
 </body>
 </html>

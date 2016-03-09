@@ -7,6 +7,10 @@ from author.views.author.authorization_view import Author
 from lib.visualization.ColorPrint import color_format
 
 
+def to_login(request):
+    return render(request, 'author/toLogin.html')
+
+
 def login(request):
     """
     登陆页

@@ -7,6 +7,24 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+    color: #3aaa64;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5f6b77;
+    color: #2d844e;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
 /* ======= Sections======= */
 .sections-wrapper {
     padding-top: 30px;
@@ -24,6 +42,10 @@ body {
     padding: 30px;
 }
 
+.section .wrap-parent {
+    min-height: 1366px;
+}
+
 .section .heading {
     margin-top: 0;
     margin-bottom: 30px;
@@ -35,7 +57,6 @@ body {
     margin-right: 5px;
     font-size: 14px;
 }
-
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */

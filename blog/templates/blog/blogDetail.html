@@ -30,19 +30,19 @@
     <div class="row">
         <div class="primary col-md-8 col-sm-12 col-xs-12">
             <section class="latest section">
-                <div class="section-inner">
+                <div class="section-inner wrap-parent">
                     <h2 class="heading">{{ blog.blog_title }}</h2>
+                    {% if request.session.visit_role == 'user' %}
+                        <a href="javascript:alert('编辑博文');">编辑</a>
+                        <a href="javascript:" onclick="onBlogDelete()">删除</a>
+                    {% endif %}
                     <h5>标签：{{ blog.keywords }}</h5>
                     <span>{{ blog.publish_date }}</span>
                     <span>阅读次数：{{ blog.read_times }}, 评论数：{{ blog.replied_times }}</span>
+
                     <div class="content">
 
                         <hr class="divider"/>
-
-                        {% if request.session.visit_role == 'user' %}
-                            <a href="javascript:alert('编辑博文');">编辑</a>
-                            <a href="javascript:" onclick="onBlogDelete()">删除</a>
-                        {% endif %}
 
                         {% autoescape off %}
                             {{ blog.blog_content }}
@@ -56,7 +56,7 @@
                 <div class="section-inner">
                     <h2 class="heading sr-only">我的基本信息</h2>
                     <div class="content">
-                       
+
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </aside><!--//aside-->

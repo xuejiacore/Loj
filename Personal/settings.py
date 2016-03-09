@@ -56,7 +56,8 @@ MIDDLEWARE_CLASSES = [
 ]
 
 # 设值Session的有效时长为30分钟
-SESSION_COOKIE_AGE = 60 * 30
+SESSION_COOKIE_AGE = 60 * 120
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 
 ROOT_URLCONF = 'Personal.urls'
 
@@ -222,6 +223,7 @@ FILE_UPLOAD_PATH = 'upload/'
 IMAGE_UPLOAD_PATH = os.path.join(FILE_UPLOAD_PATH, 'image/')
 
 AUTHOR_EXCLUDE_PATH = [
+    'outline',
     'welcome',
     'admin',
     'anonymous',

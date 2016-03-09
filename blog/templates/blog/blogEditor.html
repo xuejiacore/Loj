@@ -1,54 +1,103 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>编写博客</title>
-    <script type="text/javascript" src="{% static 'pure/ckeditor4.5.7/ckeditor.js' %}"></script>
-    <script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js' %}"></script>
-    <script type="text/javascript">
-        function doSubmit() {
-            $.ajax({
-                url: '{% url 'blog:publishBlog' request.session.host %}',
-                method: 'POST',
-                dataType: "json",
-                data: {
-                    blogTitle: $('#blogTitle').val(),
-                    blogCategory: $("#blogCatalog").find("option:selected").val(),
-                    blogContent: CKEDITOR.instances.editor.getData()
-                },
-                success: function (req) {
-                    if (req.error == 'success') {
-                        alert('提交博客成功');
-                    } else {
-                        alert('提交失败:' + req.msg);
-                    }
-                },
-                error: function () {
-                    alert('请求失败');
-                }
-            });
-        }
-    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/font-awesome/css/font-awesome.css' %}">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="{% static 'assets/css/detail.css' %}">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js' %}"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js' %}"></script>
+    <![endif]-->
+
 </head>
+
 <body>
 
-<a href="{% url 'main' request.session.host %}">返回博客首页</a>
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-md-9 col-sm-12 col-xs-12">
+            <section class="latest section">
+                <div class="section-inner wrap-parent">
+                    <h2 class="heading">编写博文</h2>
 
-<label for="blogTitle">博客标题</label>
-<input type="text" id="blogTitle" placeholder="请输入博客的标题">
-<select id="blogCatalog">
-    {% for category in blog_categories %}
-        <option name="{{ category.name }}" value="{{ category.category_id }}">{{ category.name }}</option>
-    {% endfor %}
-</select>
-<input type="button" id="publish" value="发表" onclick="doSubmit();">
-<input type="button" id="saveDraft" value="保存至草稿箱" onclick="alert('保存到草稿箱(开发中)');">
-<br/>
-<br/>
-<textarea style="overflow:visible" name="blogEditor" id="editor" rows="10" cols="80"></textarea>
-<br/>
-<br/>
+                    <div class="content">
+
+                        <hr class="divider"/>
+                        <a href="{% url 'main' request.session.host %}">返回博客首页</a>
+
+                        <label for="blogTitle">博客标题</label>
+                        <input type="text" id="blogTitle" placeholder="请输入博客的标题">
+                        <select id="blogCatalog">
+                            {% for category in blog_categories %}
+                                <option name="{{ category.name }}"
+                                        value="{{ category.category_id }}">{{ category.name }}</option>
+                            {% endfor %}
+                        </select>
+                        <input type="button" id="publish" value="发表" onclick="doSubmit();">
+                        <input type="button" id="saveDraft" value="保存至草稿箱" onclick="alert('保存到草稿箱(开发中)');">
+                        <br/>
+                        <br/>
+                        <textarea style="overflow:visible" name="blogEditor" id="editor" rows="10" cols="80"></textarea>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+        </div><!--//primary-->
+        <div class="secondary col-md-3 col-sm-12 col-xs-12">
+            <aside class="info aside section">
+                <div class="section-inner">
+                    <h2 class="heading sr-only">我的基本信息</h2>
+                    <div class="content">
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//aside-->
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+
+<!-- Javascript -->
+<script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js ' %}"></script>
+<script type="text/javascript" src="{% static 'pure/ckeditor4.5.7/ckeditor.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript">
+    function doSubmit() {
+        $.ajax({
+            url: '{% url 'blog:publishBlog' request.session.host %}',
+            method: 'POST',
+            dataType: "json",
+            data: {
+                blogTitle: $('#blogTitle').val(),
+                blogCategory: $("#blogCatalog").find("option:selected").val(),
+                blogContent: CKEDITOR.instances.editor.getData()
+            },
+            success: function (req) {
+                if (req.error == 'success') {
+                    alert('提交博客成功');
+                } else {
+                    alert('提交失败:' + req.msg);
+                }
+            },
+            error: function () {
+                alert('请求失败');
+            }
+        });
+    }
+</script>
 <script>
     var oCKeditor = CKEDITOR.replace('blogEditor', {
         customConfig: '{% static 'js/blog_ckeditor_config.js' %}'
@@ -69,6 +118,5 @@
         }, 0);
     }, null, null, 9999);
 </script>
-
 </body>
 </html>

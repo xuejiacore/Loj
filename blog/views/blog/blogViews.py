@@ -15,9 +15,7 @@ logger = logging.getLogger('app')
 
 
 def blog_outline(request, whose):
-    return render(request, 'blog/outline.html', {
-
-    })
+    return render(request, 'blog/outline.html')
 
 
 def blog_editor(request, whose):
@@ -42,6 +40,7 @@ def blog_catalog(request, whose):
     :return:
     """
     catalog = Blog.objects.filter(user=User.objects.get(login_id=whose))
+    request.session['host'] = whose
     print(catalog)
     return render(request, 'blog/blogCatalog.html', {
         'blogs': catalog

@@ -2654,3 +2654,66 @@ handler404&nbsp;=&nbsp;&#39;mysite.views.my_custom_404_view&#39;</p>
 - [DEBUG] [Tue, 08 Mar 2016 23:33:31] [Thread-23:21320] [views.py:17] - * 访问 言子圭 的博客首页
 - [DEBUG] [Wed, 09 Mar 2016 09:39:28] [Thread-11:72080] [authorization_view.py:35] - 没有捕获 req_target = 
 - [DEBUG] [Wed, 09 Mar 2016 09:39:29] [Thread-14:78852] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:48:31] [Thread-10:98584] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 09 Mar 2016 09:48:32] [Thread-11:100016] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:49:16] [Thread-26:102920] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:51:40] [Thread-70:4464] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:52:09] [Thread-121:36304] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:53:25] [Thread-170:1680] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:54:06] [Thread-215:44548] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:54:41] [Thread-261:103404] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:54:55] [Thread-303:14004] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:55:12] [Thread-377:5964] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:56:34] [Thread-436:24976] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:57:10] [Thread-487:9048] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 09:59:12] [Thread-533:39404] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 10:09:10] [Thread-615:74192] [blogViews.py:102] - * BLOG TITLE:
+- [DEBUG] [Wed, 09 Mar 2016 10:09:10] [Thread-615:74192] [blogViews.py:103] - * BLOG CONTENT:
+- [DEBUG] [Wed, 09 Mar 2016 10:09:10] [Thread-615:74192] [blogViews.py:104] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 09 Mar 2016 10:09:10] [Thread-615:74192] [blogViews.py:132] - * 博客内容不完整
+- [DEBUG] [Wed, 09 Mar 2016 10:09:19] [Thread-616:72416] [blogViews.py:102] - * BLOG TITLE:测试便写的博文
+- [DEBUG] [Wed, 09 Mar 2016 10:09:19] [Thread-616:72416] [blogViews.py:103] - * BLOG CONTENT:手动阀手动阀
+- [DEBUG] [Wed, 09 Mar 2016 10:09:19] [Thread-616:72416] [blogViews.py:104] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 09 Mar 2016 10:09:19] [Thread-616:72416] [blogViews.py:109] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 09 Mar 2016 10:11:54] [Thread-641:72216] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 10:13:57] [Thread-683:77600] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 10:22:48] [Thread-734:97964] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 10:23:01] [Thread-776:97696] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 10:25:49] [Thread-853:35780] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 10:26:00] [Thread-859:100916] [blogViews.py:102] - * BLOG TITLE:NewBlog
+- [DEBUG] [Wed, 09 Mar 2016 10:26:00] [Thread-859:100916] [blogViews.py:103] - * BLOG CONTENT:This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog. This is a new blog.
+- [DEBUG] [Wed, 09 Mar 2016 10:26:00] [Thread-859:100916] [blogViews.py:104] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 09 Mar 2016 10:26:00] [Thread-859:100916] [blogViews.py:109] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 09 Mar 2016 10:29:46] [Thread-939:26408] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 13:06:47] [Thread-1131:81088] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 13:22:10] [Thread-1170:100728] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 14:15:07] [Thread-8:20352] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 14:30:29] [Thread-51:45236] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 14:46:35] [Thread-9:69628] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 16:34:47] [Thread-68:91152] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 09 Mar 2016 16:34:48] [Thread-69:82436] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 16:35:27] [Thread-153:101168] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 09 Mar 2016 16:35:28] [Thread-154:85508] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 16:39:35] [Thread-40:52580] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 16:40:06] [Thread-51:23852] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 09 Mar 2016 16:40:06] [Thread-52:88324] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 16:42:02] [Thread-49:71236] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 09 Mar 2016 16:42:03] [Thread-50:96652] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 16:45:31] [Thread-3:6436] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 16:53:13] [Thread-86:28084] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 16:54:45] [Thread-49:35000] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 09 Mar 2016 16:54:46] [Thread-50:27316] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 17:05:55] [Thread-5:36012] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 17:34:18] [Thread-26:88236] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 17:38:12] [Thread-52:92056] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 17:39:33] [Thread-5:100300] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 17:41:18] [Thread-87:3600] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 17:41:57] [Thread-173:15052] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 17:42:00] [Thread-196:89096] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 17:42:17] [Thread-244:89396] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 19:10:20] [Thread-369:97376] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 09 Mar 2016 19:10:21] [Thread-370:101324] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 19:10:44] [Thread-414:44776] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 19:11:02] [Thread-427:56812] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 19:11:11] [Thread-473:65676] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 09 Mar 2016 19:11:58] [Thread-1:48140] [views.py:17] - * 访问 言子圭 的博客首页
