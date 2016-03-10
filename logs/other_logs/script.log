@@ -6068,3 +6068,38 @@ Traceback (most recent call last):
   File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 49, in blog_catalog
     CATALOG_COUNT_PER_PAGE * (page - 1):
 TypeError: unsupported operand type(s) for -: 'str' and 'int'
+- [WARNING] [Thu, 10 Mar 2016 11:17:35] [Thread-1:12668] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Thu, 10 Mar 2016 11:17:35] [Thread-4:3044] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Thu, 10 Mar 2016 11:17:55] [Thread-6:1868] [base.py:182] - Not Found: /author/login
+- [WARNING] [Thu, 10 Mar 2016 11:34:26] [Thread-11:8160] [base.py:182] - Not Found: /author/profile/assets/css/fonts/elusive/css/elusive.css
+- [WARNING] [Thu, 10 Mar 2016 11:34:26] [Thread-13:5804] [base.py:182] - Not Found: /author/profile/assets/images/user-4.png
+- [WARNING] [Thu, 10 Mar 2016 11:34:26] [Thread-14:9528] [base.py:182] - Not Found: /author/profile/assets/images/user-2.png
+- [WARNING] [Thu, 10 Mar 2016 11:34:26] [Thread-15:6236] [base.py:182] - Not Found: /author/profile/assets/images/user-3.png
+- [WARNING] [Thu, 10 Mar 2016 11:34:26] [Thread-16:9564] [base.py:182] - Not Found: /author/profile/assets/images/user-1.png
+- [WARNING] [Thu, 10 Mar 2016 11:34:26] [Thread-17:8048] [base.py:182] - Not Found: /author/profile/assets/images/image-1.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:34:26] [Thread-18:12004] [base.py:182] - Not Found: /author/profile/assets/images/image-2.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:34:26] [Thread-19:10612] [base.py:182] - Not Found: /author/profile/assets/images/image-3.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:35:12] [Thread-91:4452] [base.py:182] - Not Found: /author/profile/assets/css/fonts/elusive/css/elusive.css
+- [WARNING] [Thu, 10 Mar 2016 11:35:12] [Thread-92:12436] [base.py:182] - Not Found: /author/profile/assets/images/user-4.png
+- [WARNING] [Thu, 10 Mar 2016 11:35:12] [Thread-93:12896] [base.py:182] - Not Found: /author/profile/assets/images/user-2.png
+- [WARNING] [Thu, 10 Mar 2016 11:35:12] [Thread-94:11340] [base.py:182] - Not Found: /author/profile/assets/images/user-3.png
+- [WARNING] [Thu, 10 Mar 2016 11:35:12] [Thread-95:12168] [base.py:182] - Not Found: /author/profile/assets/images/user-1.png
+- [WARNING] [Thu, 10 Mar 2016 11:35:12] [Thread-96:11448] [base.py:182] - Not Found: /author/profile/assets/images/image-1.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:35:12] [Thread-97:10280] [base.py:182] - Not Found: /author/profile/assets/images/image-2.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:35:12] [Thread-98:12580] [base.py:182] - Not Found: /author/profile/assets/images/image-3.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:35:41] [Thread-102:13156] [base.py:182] - Not Found: /author/profile/assets/css/fonts/elusive/css/elusive.css
+- [WARNING] [Thu, 10 Mar 2016 11:35:41] [Thread-105:7544] [base.py:182] - Not Found: /author/profile/assets/images/user-4.png
+- [WARNING] [Thu, 10 Mar 2016 11:35:41] [Thread-106:12520] [base.py:182] - Not Found: /author/profile/assets/images/user-3.png
+- [WARNING] [Thu, 10 Mar 2016 11:35:41] [Thread-107:1848] [base.py:182] - Not Found: /author/profile/assets/images/user-1.png
+- [WARNING] [Thu, 10 Mar 2016 11:35:41] [Thread-104:5324] [base.py:182] - Not Found: /author/profile/assets/images/user-2.png
+- [WARNING] [Thu, 10 Mar 2016 11:35:41] [Thread-108:8852] [base.py:182] - Not Found: /author/profile/assets/images/image-1.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:35:41] [Thread-109:4764] [base.py:182] - Not Found: /author/profile/assets/images/image-2.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:35:41] [Thread-110:12784] [base.py:182] - Not Found: /author/profile/assets/images/image-3.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:36:34] [Thread-115:9080] [base.py:182] - Not Found: /author/profile/assets/css/fonts/elusive/css/elusive.css
+- [WARNING] [Thu, 10 Mar 2016 11:36:36] [Thread-116:10492] [base.py:182] - Not Found: /author/profile/assets/images/user-4.png
+- [WARNING] [Thu, 10 Mar 2016 11:36:36] [Thread-117:8396] [base.py:182] - Not Found: /author/profile/assets/images/user-2.png
+- [WARNING] [Thu, 10 Mar 2016 11:36:36] [Thread-118:5116] [base.py:182] - Not Found: /author/profile/assets/images/user-3.png
+- [WARNING] [Thu, 10 Mar 2016 11:36:36] [Thread-119:12324] [base.py:182] - Not Found: /author/profile/assets/images/user-1.png
+- [WARNING] [Thu, 10 Mar 2016 11:36:36] [Thread-120:6548] [base.py:182] - Not Found: /author/profile/assets/images/image-1.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:36:36] [Thread-121:3708] [base.py:182] - Not Found: /author/profile/assets/images/image-2.jpg
+- [WARNING] [Thu, 10 Mar 2016 11:36:36] [Thread-122:11416] [base.py:182] - Not Found: /author/profile/assets/images/image-3.jpg

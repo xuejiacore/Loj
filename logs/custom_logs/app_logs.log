@@ -2743,3 +2743,15 @@ handler404&nbsp;=&nbsp;&#39;mysite.views.my_custom_404_view&#39;</p>
 - [DEBUG] [Wed, 09 Mar 2016 21:01:13] [Thread-1:87032] [views.py:17] - * 访问 言子圭 的博客首页
 - [DEBUG] [Wed, 09 Mar 2016 21:03:14] [Thread-5:12140] [views.py:17] - * 访问 言子圭 的博客首页
 - [DEBUG] [Wed, 09 Mar 2016 21:45:36] [Thread-68:38684] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:18:03] [Thread-13:2156] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Thu, 10 Mar 2016 11:18:03] [Thread-14:11148] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:26:19] [Thread-4:10656] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:26:50] [Thread-60:7812] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:34:19] [Thread-1:4736] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:35:03] [Thread-24:12848] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:35:09] [Thread-50:6960] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:45:04] [Thread-208:10072] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:46:40] [Thread-297:13000] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:52:43] [Thread-421:12896] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:53:40] [Thread-448:12200] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 10 Mar 2016 11:57:15] [Thread-528:3708] [views.py:17] - * 访问 言子圭 的博客首页

@@ -1,0 +1,434 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/fonts/linecons/css/linecons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts/fontawesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-core.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-forms.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-components.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-skins.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{% static 'assets/plugins/font-awesome/css/font-awesome.css' %}">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js' %}"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js' %}"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-md-12 col-sm-12 col-xs-12">
+
+            <section class="latest">
+                <div class="section-inner">
+                    <h2 class="heading">最新的文章</h2>
+                    <div class="content">
+
+                        <hr class="divider"/>
+
+                        <section class="profile-env">
+                            <div class="row" style="padding: 40px;">
+                                <div class="col-sm-3 section-shadow" style="background: #fff;padding: 30px;">
+                                    <!-- User Info Sidebar -->
+                                    <div class="user-info-sidebar">
+                                        <a href="#" class="user-img">
+                                            <img src="{% static 'images/user-4.png' %}" alt="user-img"
+                                                 class="img-cirlce img-responsive img-thumbnail"/>
+                                        </a>
+                                        <a href="#" class="user-name">
+                                            Art Ramadani
+                                            <span class="user-status is-online"></span>
+                                        </a>
+                                        <span class="user-title">
+                                            CEO at <strong>Google</strong>
+                                        </span>
+                                        <hr/>
+                                        <ul class="list-unstyled user-info-list">
+                                            <li>
+                                                <i class="fa-home"></i>
+                                                Prishtina, Kosovo
+                                            </li>
+                                            <li>
+                                                <i class="fa-briefcase"></i>
+                                                <a href="#">Laborator</a>
+                                            </li>
+                                            <li>
+                                                <i class="fa-graduation-cap"></i>
+                                                University of Bologna
+                                            </li>
+                                        </ul>
+                                        <hr/>
+                                        <ul class="list-unstyled user-friends-count">
+                                            <li>
+                                                <span>643</span>
+                                                followers
+                                            </li>
+                                            <li>
+                                                <span>108</span>
+                                                following
+                                            </li>
+                                        </ul>
+                                        <button type="button" class="btn btn-success btn-block text-left">
+                                            Following
+                                            <i class="fa-check pull-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9">
+                                    <!-- User Post form and Timeline -->
+                                    <form method="post" action="" class="profile-post-form section-shadow">
+                                            <textarea class="form-control input-unstyled input-lg autogrow"
+                                                      placeholder="What's on your mind?"></textarea>
+                                        <i class="el-edit block-icon"></i>
+                                        <ul class="list-unstyled list-inline form-action-buttons">
+                                            <li>
+                                                <button type="button" class="btn btn-unstyled">
+                                                    <i class="el-camera"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" class="btn btn-unstyled">
+                                                    <i class="el-attach"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" class="btn btn-unstyled">
+                                                    <i class="el-mic"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" class="btn btn-unstyled">
+                                                    <i class="el-music"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                        <button type="submit"
+                                                class="btn btn-single btn-xs btn-success post-story-button">Post
+                                        </button>
+                                    </form>
+
+                                    <!-- User timeline stories -->
+                                    <section class="user-timeline-stories">
+                                        <!-- Timeline Story Type: Status -->
+                                        <article class="timeline-story section-shadow">
+                                            <i class="fa-paper-plane-empty block-icon"></i>
+                                            <!-- User info -->
+                                            <header>
+                                                <a href="#" class="user-img">
+                                                    <img src="{% static 'images/user-4.png' %}" alt="user-img"
+                                                         class="img-responsive img-circle"/>
+                                                </a>
+                                                <div class="user-details">
+                                                    <a href="#">Art Ramadani</a> posted a status <a
+                                                        href="#">update</a>.
+                                                    <time>12 hours ago</time>
+                                                </div>
+                                            </header>
+                                            <div class="story-content">
+                                                <!-- Story Content Wrapped inside Paragraph -->
+                                                <p>Tolerably earnestly middleton extremely distrusts she boy now
+                                                    not. Add and offered prepare how cordial two promise. Greatly
+                                                    who affixed suppose but enquire compact prepare all put. Added
+                                                    forth chief trees but rooms think may.</p>
+                                                <!-- Story Options Links -->
+                                                <div class="story-options-links">
+                                                    <a href="#">
+                                                        <i class="linecons-heart"></i>
+                                                        Like
+                                                        <span>(3)</span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="linecons-comment"></i>
+                                                        Comments
+                                                        <span>(5)</span>
+                                                    </a>
+                                                </div>
+                                                <!-- Story Comments -->
+                                                <ul class="list-unstyled story-comments">
+                                                    <li>
+                                                        <div class="story-comment">
+                                                            <a href="#" class="comment-user-img">
+                                                                <img src="{% static 'images/user-2.png' %}"
+                                                                     alt="user-img"
+                                                                     class="img-circle img-responsive"/>
+                                                            </a>
+                                                            <div class="story-comment-content">
+                                                                <a href="#" class="story-comment-user-name">
+                                                                    Arlind Nushi
+                                                                    <time>28 September 2014 - 00:36</time>
+                                                                </a>
+                                                                <p>Him these are visit front end for seven walls.
+                                                                    Money eat scale now ask law learn.</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="story-comment">
+                                                            <a href="#" class="comment-user-img">
+                                                                <img src="{% static 'images/user-3.png' %}"
+                                                                     alt="user-img"
+                                                                     class="img-circle img-responsive"/>
+                                                            </a>
+                                                            <div class="story-comment-content">
+                                                                <a href="#" class="story-comment-user-name">
+                                                                    Eroll Maxhuni
+                                                                    <time>01 September 2014 - 00:36</time>
+                                                                </a>
+                                                                <p>Taken no great widow spoke of it small. Genius
+                                                                    use except son esteem merely her limits.</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <form method="post" action="" class="story-comment-form">
+                                                        <textarea class="form-control input-unstyled autogrow"
+                                                                  placeholder="Reply..."></textarea>
+                                                </form>
+                                            </div>
+                                        </article>
+
+                                        <!-- Timeline Story Type: Audio -->
+                                        <article class="timeline-story section-shadow">
+                                            <i class="fa-music block-icon"></i>
+                                            <!-- User info -->
+                                            <header>
+                                                <a href="#" class="user-img">
+                                                    <img src="{% static 'images/user-4.png' %}" alt="user-img"
+                                                         class="img-responsive img-circle"/>
+                                                </a>
+                                                <div class="user-details">
+                                                    <a href="#">Art Ramadani</a> posted an audio <a
+                                                        href="#">track</a>.
+                                                    <time>22 hours ago</time>
+                                                </div>
+                                            </header>
+
+                                            <!-- Audio Track -->
+                                            <div class="story-audio-item">
+                                                <div class="story-content">
+                                                    <div class="audio-track-info">
+                                                        <div class="artist-info">MC Kresha - Emceeclopedy</div>
+                                                        <div class="track-length">2:14 - 4:31</div>
+                                                    </div>
+                                                    <div class="audio-track-timeline">
+                                                        <div class="play-pause">
+                                                            <a href="#">
+                                                                <i class="fa-to-start"></i>
+                                                            </a>
+                                                            <a href="#">
+                                                                <i class="fa-pause"></i>
+                                                            </a>
+                                                            <a href="#">
+                                                                <i class="fa-to-end"></i>
+                                                            </a>
+                                                        </div>
+                                                        <div class="track-timeline">
+                                                            <div class="track-timeline-empty">
+                                                                <div class="track-fill" style="width:49.4%"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="track-volume">
+                                                            <a href="#">
+                                                                <i class="fa-volume-up"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="story-content">
+                                                <!-- Story Options Links -->
+                                                <div class="story-options-links">
+                                                    <a href="#" class="liked">
+                                                        <i class="linecons-heart"></i>
+                                                        Like
+                                                        <span>(10)</span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="linecons-comment"></i>
+                                                        Comments
+                                                        <span>(0)</span>
+                                                    </a>
+                                                </div>
+                                                <form method="post" action="" class="story-comment-form">
+                                                        <textarea class="form-control input-unstyled autogrow"
+                                                                  placeholder="Reply..."></textarea>
+                                                </form>
+                                            </div>
+                                        </article>
+
+                                        <!-- Timeline Story Type: Check-in -->
+                                        <article class="timeline-story section-shadow">
+                                            <i class="fa-pin block-icon"></i>
+                                            <!-- User info -->
+                                            <header>
+                                                <a href="#" class="user-img">
+                                                    <img src="{% static 'images/user-4.png' %}" alt="user-img"
+                                                         class="img-responsive img-circle"/>
+                                                </a>
+                                                <div class="user-details">
+                                                    <a href="#">Art Ramadani</a> checked in at <a
+                                                        href="#">Laborator</a>.
+                                                    <time>1 day ago</time>
+                                                </div>
+                                            </header>
+
+                                            <div class="story-content">
+                                                <div class="story-checkin">
+                                                    <div id="sample-checkin" class="map-checkin"
+                                                         style="height: 180px; width: 100%;"></div>
+                                                </div>
+                                                <!-- Story Options Links -->
+                                                <div class="story-options-links">
+                                                    <a href="#">
+                                                        <i class="linecons-heart"></i>
+                                                        Like
+                                                        <span>(4)</span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="linecons-comment"></i>
+                                                        Comment
+                                                        <span>(1)</span>
+                                                    </a>
+                                                </div>
+                                                <!-- Story Comments -->
+                                                <ul class="list-unstyled story-comments">
+                                                    <li>
+                                                        <div class="story-comment">
+                                                            <a href="#" class="comment-user-img">
+                                                                <img src="{% static 'images/user-1.png' %}"
+                                                                     alt="user-img"
+                                                                     class="img-circle img-responsive"/>
+                                                            </a>
+                                                            <div class="story-comment-content">
+                                                                <a href="#" class="story-comment-user-name">
+                                                                    Ylli Pylla
+                                                                    <time>19 August 2014 - 00:36</time>
+                                                                </a>
+                                                                <p>Appear an manner as no limits either praise in.
+                                                                    In in written on charmed justice is amiable
+                                                                    farther besides.</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                                <form method="post" action="" class="story-comment-form">
+                                                        <textarea class="form-control input-unstyled autogrow"
+                                                                  placeholder="Reply..."></textarea>
+                                                </form>
+                                            </div>
+                                        </article>
+
+                                        <!-- Timeline Story Type: Photos -->
+                                        <article class="timeline-story section-shadow">
+                                            <i class="fa-camera-retro block-icon"></i>
+                                            <!-- User info -->
+                                            <header>
+                                                <a href="#" class="user-img">
+                                                    <img src="{% static 'images/user-4.png' %}" alt="user-img"
+                                                         class="img-responsive img-circle"/>
+                                                </a>
+                                                <div class="user-details">
+                                                    <a href="#">Art Ramadani</a> added <strong>3</strong> photos to
+                                                    <a href="#">Holiday Trip</a> album.
+                                                    <time>a week ago</time>
+                                                </div>
+                                            </header>
+
+                                            <div class="story-content">
+                                                <div class="story-album">
+                                                    <div class="col-1">
+                                                        <a href="#">
+                                                            <img src="{% static 'images/image-1.jpg' %}"
+                                                                 alt="album-image"
+                                                                 class="img-responsive"/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <a href="#" class="base-padding">
+                                                            <img src="{% static 'images/image-2.jpg' %}"
+                                                                 alt="album-image"
+                                                                 class="img-responsive"/>
+                                                        </a>
+                                                        <div class="vspacer v2"></div>
+                                                        <a href="#">
+                                                            <img src="{% static 'images/image-3.jpg' %}"
+                                                                 alt="album-image"
+                                                                 class="img-responsive"/>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Story Options Links -->
+                                                <div class="story-options-links">
+                                                    <a href="#" class="liked">
+                                                        <i class="linecons-heart"></i>
+                                                        Like
+                                                        <span>(2)</span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="linecons-comment"></i>
+                                                        Comments
+                                                        <span>(0)</span>
+                                                    </a>
+                                                </div>
+
+                                                <form method="post" action="" class="story-comment-form">
+                                                        <textarea class="form-control input-unstyled autogrow"
+                                                                  placeholder="Reply..."></textarea>
+                                                </form>
+                                            </div>
+                                        </article>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+
+        </div><!--//primary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+
+<!-- Imported styles on this page -->
+<link rel="stylesheet" href="{% static 'css/fonts/elusive/css/elusive.css' %}">
+
+<!-- Bottom Scripts -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/TweenMax.min.js' %}"></script>
+<script src="{% static 'js/resizeable.js' %}"></script>
+<script src="{% static 'js/joinable.js' %}"></script>
+<script src="{% static 'js/xenon-api.js' %}"></script>
+<script src="{% static 'js/xenon-toggles.js' %}"></script>
+
+
+<!-- JavaScripts initializations and stuff -->
+<script src="{% static 'js/xenon-custom.js' %}"></script>
+
+<!-- Javascript -->
+<script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+</body>
+</html> 
+

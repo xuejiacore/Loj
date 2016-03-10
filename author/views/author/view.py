@@ -11,6 +11,10 @@ def to_login(request):
     return render(request, 'author/toLogin.html')
 
 
+def profile(request):
+    return render(request, 'author/profile.html')
+
+
 def login(request):
     """
     登陆页
