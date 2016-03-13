@@ -2755,3 +2755,29 @@ handler404&nbsp;=&nbsp;&#39;mysite.views.my_custom_404_view&#39;</p>
 - [DEBUG] [Thu, 10 Mar 2016 11:52:43] [Thread-421:12896] [views.py:17] - * 访问 言子圭 的博客首页
 - [DEBUG] [Thu, 10 Mar 2016 11:53:40] [Thread-448:12200] [views.py:17] - * 访问 言子圭 的博客首页
 - [DEBUG] [Thu, 10 Mar 2016 11:57:15] [Thread-528:3708] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sat, 12 Mar 2016 19:45:43] [Thread-27:10640] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sat, 12 Mar 2016 19:45:58] [Thread-95:11552] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sat, 12 Mar 2016 19:48:48] [Thread-150:2716] [blogViews.py:110] - * BLOG TITLE:2016年3月12日
+- [DEBUG] [Sat, 12 Mar 2016 19:48:48] [Thread-150:2716] [blogViews.py:111] - * BLOG CONTENT:<h1 style="text-align: center;">这个是文章的主题</h1>
+&nbsp;&nbsp;&nbsp; 正文的开始，第一段话<br />
+<br />
+&nbsp;&nbsp;&nbsp; 正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容。<br />
+<br />
+祝：<br />
+&nbsp;&nbsp;&nbsp; 工作顺利！
+<div style="text-align: right;">詹学佳&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+2016年3月12日</div>
+
+- [DEBUG] [Sat, 12 Mar 2016 19:48:48] [Thread-150:2716] [blogViews.py:112] - * BLOG CATALOG:1
+- [DEBUG] [Sat, 12 Mar 2016 19:48:48] [Thread-150:2716] [blogViews.py:117] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 13 Mar 2016 11:32:11] [Thread-51:14992] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Sun, 13 Mar 2016 11:32:12] [Thread-52:12320] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sun, 13 Mar 2016 15:44:31] [Thread-14:21872] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Sun, 13 Mar 2016 15:44:32] [Thread-15:19864] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sun, 13 Mar 2016 15:45:05] [Thread-24:13300] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sun, 13 Mar 2016 15:56:21] [Thread-5:21428] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Sun, 13 Mar 2016 15:56:22] [Thread-6:8972] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sun, 13 Mar 2016 16:01:45] [Thread-23:22276] [blogViews.py:139] - * BLOG TITLE:Django分类的文章
+- [DEBUG] [Sun, 13 Mar 2016 16:01:45] [Thread-23:22276] [blogViews.py:140] - * BLOG CONTENT:拉开松井大辅；啊绿色空间发主流显卡集成v
+- [DEBUG] [Sun, 13 Mar 2016 16:01:45] [Thread-23:22276] [blogViews.py:141] - * BLOG CATALOG:
+- [DEBUG] [Sun, 13 Mar 2016 16:01:45] [Thread-23:22276] [blogViews.py:146] - * 信息均已经填写完整，通过表单验证，写入数据库

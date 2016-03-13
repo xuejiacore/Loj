@@ -18,6 +18,35 @@ def blog_outline(request, whose):
     return render(request, 'blog/outline.html')
 
 
+def blog_create_category(request, whose):
+    response = {
+        'error': 'success'
+    }
+    if request.is_ajax() and request.method == 'POST':
+        # 查询当前创建的博客分类是否已经存在于数据库中，如果已经存在，提示用户分类已经存在，放弃入库
+        current_user = User.objects.get(login_id=request.session['login_id'])
+        try:
+            category = request.POST['categoryName']
+            count = BlogCategory.objects.filter(name=category, user=current_user).count()
+            if count:
+                response['error'] = 'failure'
+                response['msg'] = '创建的分类已经存在'
+            else:
+                blog_category = BlogCategory()
+                blog_category.name = category
+                blog_category.user = current_user
+                blog_category.save()
+                blog_category = BlogCategory.objects.filter(name=category, user=current_user).first()
+                response['category_id'] = blog_category.category_id
+        except KeyError:
+            response['error'] = 'failure'
+            response['msg'] = '非法请求'
+    else:
+        response['error'] = 'failure'
+        response['msg'] = '非法请求'
+    return HttpResponse(json.dumps(response), content_type="application/json")
+
+
 def blog_editor(request, whose):
     """
     博客编辑页面逻辑

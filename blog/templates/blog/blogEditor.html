@@ -46,6 +46,8 @@
                                         value="{{ category.category_id }}">{{ category.name }}</option>
                             {% endfor %}
                         </select>
+                        <input type="text" id="category-name" placeholder="输入新的分类名称">
+                        <input type="button" id="create-category" onclick="onCategoryCreate()" value="创建分类">
                         <input type="button" id="publish" value="发表" onclick="doSubmit();">
                         <input type="button" id="saveDraft" value="保存至草稿箱" onclick="alert('保存到草稿箱(开发中)');">
                         <br/>
@@ -75,6 +77,41 @@
 <script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
 <script type="text/javascript">
+    /**
+     * 创建博客的分类
+     */
+    function onCategoryCreate() {
+        alert('获取到需要进行创建的分类：' + $('#category-name').val());
+        $.ajax({
+            url: "{% url 'blog:createCategory' request.session.host %}",
+            method: 'POST',
+            dataType: 'json',
+            data: {
+                categoryName: $('#category-name').val()
+            },
+            success: function (resp) {
+                if (resp.error == 'success') {
+                    alert('博客分类创建成功');
+                    refreshCategory($('#category-name').val(), resp.category_id);
+                } else {
+                    alert('博客分类创建失败' + resp.msg);
+                }
+            },
+            error: function () {
+                alert('请求失败');
+            }
+        })
+    }
+
+    function refreshCategory(name, category_id) {
+        try {
+            var categorySel = $('#blogCatalog');
+            categorySel.html(categorySel.html() + '<option name=' + name + ' value="{{ category_id }}">' + name + '</option>');
+        } catch (e) {
+            alert(e.message);
+        }
+    }
+
     function doSubmit() {
         $.ajax({
             url: '{% url 'blog:publishBlog' request.session.host %}',
