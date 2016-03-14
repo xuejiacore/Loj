@@ -18,6 +18,10 @@ def blog_outline(request, whose):
     return render(request, 'blog/outline.html')
 
 
+def blog_category(request, whose):
+    return render(request, 'blog/categories.html')
+
+
 def blog_create_category(request, whose):
     response = {
         'error': 'success'

@@ -43,7 +43,7 @@ a:focus {
 }
 
 .section .wrap-parent {
-    min-height: 1366px;
+    /*min-height: 1366px;*/
 }
 
 .section .heading {

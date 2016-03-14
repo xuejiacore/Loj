@@ -81,6 +81,10 @@
             else
                 iframeTime = window.setInterval("reinitIframe('" + iframeId + "'," + minHeight + ")", 100);
         }
+
+        $(function () {
+
+        });
     </script>
 </head>
 <body class="page-body" style="background: url('{% static 'loj/images/charcoal.gif' %}') repeat;">
@@ -304,6 +308,11 @@
                         <li>
                             <a href="{% url 'blog:blogEditor' request.session.host %}" target="mainFrame">
                                 <span class="title">博文发表</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'blog:blogCategories' request.session.host %}" target="mainFrame">
+                                <span class="title">博客分类管理</span>
                             </a>
                         </li>
                     {% endif %}
@@ -710,8 +719,8 @@
     <div class="main-content">
         <iframe class="main-frame" id="mainFrame" name="mainFrame" scrolling="no"
                 src="{% url 'blog:outline' request.session.host %}"
-                frameborder="0" style="padding: 0px; width: 100%; height: 768px;"
-                onload="startInit('mainFrame', 1366);"></iframe>
+                frameborder="0" style="padding: 0px; width: 100%; height: 300px;"
+                onload="startInit('mainFrame', 900);"></iframe>
         <div class="fbg">
             <div class="fbg_resize">
                 <div class="col c1">

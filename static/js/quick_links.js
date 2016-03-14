@@ -8,7 +8,7 @@ jQuery(function ($) {
     var
         quickHTML = '<div class="quick_links_panel">' +
             '<div id="quick_links" class="quick_links">' +
-            '<a href="#top" class="return_top"><i class="top"></i><span>返回顶部</span></a>' +
+            '<a id="return_top" href="#top" class="return_top"><i class="top"></i><span>返回顶部</span></a>' +
             '<a href="#" class="my_qlinks"><i class="setting"></i><span>个人中心</span></a>' +
             '</div></div>',
         quickShell = $(document.createElement('div')).html(quickHTML).addClass('quick_links_wrap'),
@@ -128,4 +128,9 @@ jQuery(function ($) {
     quickLinkCollapsed && quickShell.addClass('quick_links_min');
     resizeHandler();
     scrollHandler();
+
+    // 对所有的下拉菜单进行点击事件的绑定，如果点击了下拉菜单，那么对frame进行刷新后自动将滚动条拉至顶端
+    $(".title").on('click', function () {
+        $('#return_top').trigger('click');
+    });
 });

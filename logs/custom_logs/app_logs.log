@@ -2781,3 +2781,28 @@ handler404&nbsp;=&nbsp;&#39;mysite.views.my_custom_404_view&#39;</p>
 - [DEBUG] [Sun, 13 Mar 2016 16:01:45] [Thread-23:22276] [blogViews.py:140] - * BLOG CONTENT:拉开松井大辅；啊绿色空间发主流显卡集成v
 - [DEBUG] [Sun, 13 Mar 2016 16:01:45] [Thread-23:22276] [blogViews.py:141] - * BLOG CATALOG:
 - [DEBUG] [Sun, 13 Mar 2016 16:01:45] [Thread-23:22276] [blogViews.py:146] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 14 Mar 2016 10:44:37] [Thread-37:18928] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Mon, 14 Mar 2016 10:44:38] [Thread-38:26544] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 10:48:19] [Thread-100:4140] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 10:52:07] [Thread-170:19996] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 10:52:52] [Thread-214:23692] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 10:58:42] [Thread-1:884] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 10:59:36] [Thread-47:12592] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:00:19] [Thread-94:24804] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:01:01] [Thread-141:18216] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:01:15] [Thread-185:13084] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:02:36] [Thread-261:11040] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:03:29] [Thread-327:26060] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:03:52] [Thread-342:27340] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:04:08] [Thread-387:23528] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:04:18] [Thread-430:24756] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:10:17] [Thread-479:15176] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:11:08] [Thread-528:13880] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:11:23] [Thread-600:11664] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:11:59] [Thread-654:10460] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:12:17] [Thread-694:25816] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:13:04] [Thread-746:9292] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:13:33] [Thread-796:16596] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:15:37] [Thread-849:4756] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:18:14] [Thread-906:15604] [views.py:17] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 14 Mar 2016 11:20:19] [Thread-956:16740] [views.py:17] - * 访问 言子圭 的博客首页

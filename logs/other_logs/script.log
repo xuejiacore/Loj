@@ -6176,3 +6176,6 @@ Traceback (most recent call last):
   File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 40, in blog_create_category
     response['category_id'] = blog_category.category_id
 AttributeError: 'QuerySet' object has no attribute 'category_id'
+- [WARNING] [Mon, 14 Mar 2016 10:44:25] [Thread-1:19784] [base.py:182] - Not Found: /welcome
+- [WARNING] [Mon, 14 Mar 2016 10:44:26] [Thread-23:26028] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 14 Mar 2016 10:44:26] [Thread-24:19388] [base.py:182] - Not Found: /favicon.ico
