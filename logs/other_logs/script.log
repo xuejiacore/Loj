@@ -6179,3 +6179,376 @@ AttributeError: 'QuerySet' object has no attribute 'category_id'
 - [WARNING] [Mon, 14 Mar 2016 10:44:25] [Thread-1:19784] [base.py:182] - Not Found: /welcome
 - [WARNING] [Mon, 14 Mar 2016 10:44:26] [Thread-23:26028] [base.py:182] - Not Found: /favicon.ico
 - [WARNING] [Mon, 14 Mar 2016 10:44:26] [Thread-24:19388] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 28 Mar 2016 17:21:58] [Thread-1:7836] [base.py:182] - Not Found: /welcome
+- [WARNING] [Mon, 28 Mar 2016 17:22:04] [Thread-23:28756] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 28 Mar 2016 17:22:04] [Thread-24:17176] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 28 Mar 2016 17:48:33] [Thread-3:9596] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Mon, 28 Mar 2016 17:48:33] [Thread-4:38092] [base.py:182] - Not Found: /favicon.ico
+- [ERROR] [Mon, 28 Mar 2016 23:38:16] [Thread-7:9292] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\middleware\clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'function' object has no attribute 'get'
+- [ERROR] [Mon, 28 Mar 2016 23:43:25] [Thread-1:33224] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: _decorate() missing 1 required positional argument: 'func'
+- [WARNING] [Mon, 28 Mar 2016 23:45:15] [Thread-4:45676] [base.py:182] - Not Found: /author/login
+- [ERROR] [Mon, 28 Mar 2016 23:45:15] [Thread-5:45984] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\middleware\clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'function' object has no attribute 'get'
+- [ERROR] [Mon, 28 Mar 2016 23:45:40] [Thread-1:17292] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\middleware\clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'function' object has no attribute 'get'
+- [ERROR] [Mon, 28 Mar 2016 23:45:54] [Thread-9:19360] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\middleware\clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'function' object has no attribute 'get'
+- [ERROR] [Mon, 28 Mar 2016 23:46:08] [Thread-1:28364] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: _decorate() missing 1 required positional argument: 'func'
+- [ERROR] [Mon, 28 Mar 2016 23:46:24] [Thread-1:6212] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\middleware\clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'function' object has no attribute 'get'
+- [ERROR] [Mon, 28 Mar 2016 23:47:00] [Thread-1:15576] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\middleware\clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'function' object has no attribute 'get'
+- [ERROR] [Mon, 28 Mar 2016 23:51:19] [Thread-1:40868] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\middleware\clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'function' object has no attribute 'get'
+- [ERROR] [Mon, 28 Mar 2016 23:52:30] [Thread-1:35336] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 49, in __decorate
+    raise KeyError
+KeyError
+- [ERROR] [Mon, 28 Mar 2016 23:53:09] [Thread-1:39988] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 49, in __decorate
+    raise KeyError
+KeyError
+- [ERROR] [Mon, 28 Mar 2016 23:54:05] [Thread-1:12132] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 49, in __decorate
+    raise KeyError
+KeyError
+- [ERROR] [Mon, 28 Mar 2016 23:55:26] [Thread-1:30284] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 45, in __decorate
+    request = fn_kwargs[0]
+KeyError: 0
+- [ERROR] [Mon, 28 Mar 2016 23:56:03] [Thread-1:10664] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 50, in __decorate
+    raise KeyError
+KeyError
+- [ERROR] [Mon, 28 Mar 2016 23:56:27] [Thread-1:5828] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 50, in __decorate
+    raise KeyError
+KeyError
+- [ERROR] [Mon, 28 Mar 2016 23:56:44] [Thread-1:35492] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 50, in __decorate
+    raise KeyError
+KeyError
+- [WARNING] [Tue, 29 Mar 2016 00:03:52] [Thread-1:10712] [base.py:182] - Not Found: /welcome
+- [ERROR] [Tue, 29 Mar 2016 00:09:36] [Thread-1:45864] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 43, in __decorate
+    pre_result = pre_deal(*fn_args, **fn_kwargs)
+TypeError: demo_func() takes 0 positional arguments but 1 was given
+- [ERROR] [Tue, 29 Mar 2016 00:11:17] [Thread-1:6196] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 43, in __decorate
+    pre_result = pre_deal(*fn_args, **fn_kwargs)
+TypeError: demo_func() takes 0 positional arguments but 1 was given
+- [ERROR] [Tue, 29 Mar 2016 00:11:52] [Thread-1:11384] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 43, in __decorate
+    pre_result = pre_deal(*fn_args, **fn_kwargs)
+TypeError: demo_func() takes 0 positional arguments but 1 was given
+- [ERROR] [Tue, 29 Mar 2016 00:12:05] [Thread-1:12384] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 43, in __decorate
+    pre_result = pre_deal(*fn_args, **fn_kwargs)
+TypeError: demo_func() takes 0 positional arguments but 1 was given
+- [ERROR] [Tue, 29 Mar 2016 00:14:47] [Thread-1:40032] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 43, in __decorate
+    pre_result = pre_deal(*fn_args, **fn_kwargs)
+TypeError: demo_func() takes 0 positional arguments but 1 was given
+- [ERROR] [Tue, 29 Mar 2016 00:15:15] [Thread-1:25760] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 43, in __decorate
+    pre_result = pre_deal(**kwargs)
+TypeError: demo_func() got an unexpected keyword argument 'req'
+- [ERROR] [Tue, 29 Mar 2016 00:16:06] [Thread-1:43480] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 43, in __decorate
+    pre_result = pre_deal(**kwargs)
+TypeError: demo_func() got an unexpected keyword argument 'pre_func'
+- [ERROR] [Tue, 29 Mar 2016 00:16:11] [Thread-3:39816] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 43, in __decorate
+    pre_result = pre_deal(**kwargs)
+TypeError: demo_func() got an unexpected keyword argument 'pre_func'
+- [ERROR] [Tue, 29 Mar 2016 00:17:43] [Thread-1:34124] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 44, in __decorate
+    pre_result = pre_deal(**kwargs)
+TypeError: demo_func() got an unexpected keyword argument 'req'
+- [ERROR] [Tue, 29 Mar 2016 00:17:53] [Thread-1:2768] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 44, in __decorate
+    pre_result = pre_deal(**kwargs)
+TypeError: demo_func() got an unexpected keyword argument 'req'
+- [ERROR] [Tue, 29 Mar 2016 07:47:46] [Thread-1:5152] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 44, in __decorate
+    pre_result = pre_deal(**kwargs)
+TypeError: demo_func() got an unexpected keyword argument 'other'
+- [ERROR] [Tue, 29 Mar 2016 07:49:00] [Thread-1:38976] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 44, in __decorate
+    pre_result = pre_deal(**kwargs)
+TypeError: demo_func() got an unexpected keyword argument 'other'
+- [ERROR] [Tue, 29 Mar 2016 07:52:29] [Thread-1:35224] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 41, in __decorate
+    pre_result = pre_deal(**fn_kwargs)
+TypeError: demo_func() missing 1 required positional argument: 'req'
+- [ERROR] [Tue, 29 Mar 2016 07:52:53] [Thread-1:39904] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 41, in __decorate
+    pre_result = pre_deal(**fn_kwargs)
+TypeError: demo_func() missing 1 required positional argument: 'request'
+- [ERROR] [Tue, 29 Mar 2016 07:53:14] [Thread-1:23972] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 41, in __decorate
+    pre_result = pre_deal(**fn_kwargs)
+TypeError: demo_func() missing 1 required positional argument: 'request'
+- [ERROR] [Tue, 29 Mar 2016 07:54:04] [Thread-1:33804] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\oauthor.py", line 41, in __decorate
+    pre_result = pre_deal(*fn_args, **fn_kwargs)
+TypeError: demo_func() missing 1 required positional argument: 'other'
+- [WARNING] [Tue, 29 Mar 2016 13:11:22] [Thread-1:47924] [base.py:182] - Not Found: /welcome
+- [WARNING] [Tue, 29 Mar 2016 13:11:30] [Thread-23:38980] [base.py:182] - Not Found: /author/login
+- [ERROR] [Tue, 29 Mar 2016 13:11:30] [Thread-24:36680] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 51, in __decorate
+    pre_result = pre_deal(*fn_args, **fn_kwargs)
+TypeError: demo_func() missing 1 required positional argument: 'other'
+- [WARNING] [Tue, 29 Mar 2016 15:17:02] [Thread-3:2056] [base.py:182] - Not Found: /author/login/unknown
+- [WARNING] [Tue, 29 Mar 2016 15:51:59] [Thread-34:23196] [base.py:182] - Not Found: /author/author
+- [WARNING] [Tue, 29 Mar 2016 15:52:10] [Thread-39:41132] [base.py:182] - Not Found: /author/main
+- [ERROR] [Tue, 29 Mar 2016 16:05:05] [Thread-1:39412] [base.py:284] - Internal Server Error: /author/login/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 69, in __decorate
+    del request.session['login_id']
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __delitem__
+    del self._session[key]
+KeyError: 'login_id'
+- [WARNING] [Tue, 29 Mar 2016 16:09:01] [Thread-1:22664] [base.py:182] - Not Found: /zigui/blog/2/content
+- [ERROR] [Tue, 29 Mar 2016 16:09:01] [Thread-3:43620] [base.py:284] - Internal Server Error: /zigui/blog/2/content/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 100, in blog_detail
+    blog = Blog.objects.get(blog_id=blog_id, user=User.objects.get(login_id=whose))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+blog.models.DoesNotExist: Blog matching query does not exist.
+- [ERROR] [Tue, 29 Mar 2016 16:09:10] [Thread-4:36508] [base.py:284] - Internal Server Error: /zigui/blog/3/content/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 100, in blog_detail
+    blog = Blog.objects.get(blog_id=blog_id, user=User.objects.get(login_id=whose))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+blog.models.DoesNotExist: Blog matching query does not exist.
+- [ERROR] [Tue, 29 Mar 2016 16:09:15] [Thread-5:38396] [base.py:284] - Internal Server Error: /zigui/blog/4/content/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 100, in blog_detail
+    blog = Blog.objects.get(blog_id=blog_id, user=User.objects.get(login_id=whose))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\query.py", line 387, in get
+    self.model._meta.object_name
+blog.models.DoesNotExist: Blog matching query does not exist.
+- [WARNING] [Tue, 29 Mar 2016 16:09:24] [Thread-6:3528] [base.py:182] - Not Found: /main
+- [WARNING] [Tue, 29 Mar 2016 16:09:34] [Thread-7:7108] [base.py:182] - Not Found: /main
+- [WARNING] [Tue, 29 Mar 2016 16:09:46] [Thread-8:12632] [base.py:182] - Not Found: /zigui/main
+- [WARNING] [Tue, 29 Mar 2016 19:33:06] [Thread-1:15904] [base.py:182] - Not Found: /welcome
+- [WARNING] [Tue, 29 Mar 2016 19:35:26] [Thread-27:14216] [base.py:182] - Not Found: /main
+- [WARNING] [Tue, 29 Mar 2016 19:58:50] [Thread-12:45604] [base.py:182] - Not Found: /author/login
+- [WARNING] [Tue, 29 Mar 2016 20:34:52] [Thread-3:14744] [base.py:182] - Not Found: /welcome
+- [ERROR] [Tue, 29 Mar 2016 20:46:37] [Thread-1:45020] [base.py:284] - Internal Server Error: /root/main/anonymous/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 74, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\loj\views\main\views.py", line 23, in main
+    return render(request, 'loj/main.html', context={"host", whose})
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 92, in render
+    context = make_context(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\context.py", line 291, in make_context
+    context.push(original_context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\context.py", line 61, in push
+    return ContextDict(self, *dicts, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\context.py", line 20, in __init__
+    super(ContextDict, self).__init__(*args, **kwargs)
+ValueError: dictionary update sequence element #0 has length 4; 2 is required
+- [WARNING] [Tue, 29 Mar 2016 20:55:50] [Thread-82:25308] [base.py:182] - Not Found: /ziui/main/anonymous/

@@ -1,10 +1,10 @@
 import json
 
-from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
 
+from author.views.author.author import authorize
 from author.views.author.authorization_view import Author
-from lib.visualization.ColorPrint import color_format
 
 
 def to_login(request):
@@ -15,6 +15,11 @@ def profile(request):
     return render(request, 'author/profile.html')
 
 
+def demo_func(request):
+    print("这是从预处理函数传入的", request)
+
+
+@authorize()
 def login(request):
     """
     登陆页
@@ -24,6 +29,7 @@ def login(request):
     return render(request, 'author/login.html')
 
 
+@authorize()
 def author(request):
     """
     用户的登陆认证

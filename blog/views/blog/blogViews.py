@@ -1,11 +1,11 @@
 import json
 import logging
 
-from django.contrib.auth.signals import user_logged_in
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse, Http404
 from django.shortcuts import render
 
+from author.views.author.author import authorize
 from author.models import User
 from blog.forms import BlogPublishForm
 from blog.models import Blog, BlogCategory
@@ -51,6 +51,7 @@ def blog_create_category(request, whose):
     return HttpResponse(json.dumps(response), content_type="application/json")
 
 
+@authorize()
 def blog_editor(request, whose):
     """
     博客编辑页面逻辑
@@ -79,6 +80,7 @@ def blog_catalog(request, whose, page):
     """
     # 第一页 0:5  5:10 n * page-1 ： n * page
     current_page = int(page)
+    print("博客内容", whose)
     catalog = Blog.objects.filter(user=User.objects.get(login_id=whose)).order_by('-top', '-publish_date')[
               CATALOG_COUNT_PER_PAGE * (current_page - 1):
               CATALOG_COUNT_PER_PAGE * current_page]

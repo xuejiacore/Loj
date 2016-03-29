@@ -81,7 +81,7 @@ def color_format(string, mode='', fore='', back=''):
 
     end = '\033[%sm' % STYLE['default']['end'] if style else ''
 
-    return '%s%s%s\n' % (style, string, end)
+    return '%s%s%s' % (style, string, end)
 
 
 def color_test():

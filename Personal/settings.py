@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from django.core.urlresolvers import reverse
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -52,7 +54,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'loj.filter.loginMiddle.QtsAuthenticationMiddleware',
+    # 'loj.filter.loginMiddle.QtsAuthenticationMiddleware',
 ]
 
 # 设值Session的有效时长为30分钟
@@ -232,3 +234,24 @@ AUTHOR_EXCLUDE_PATH = [
     'blog/catalog',
     'tagdemo',
 ]
+# 登录认证的配置
+AUTHOR_SETTINGS = {
+    # 是否启用调试模式
+    'debug': DEBUG,
+    # 默认的重定向地址
+    'redirect': 'author:login',
+    # 不拦截请求
+    'ignore_req': [
+        # 认证登录
+        'login',
+        # 认证登陆
+        'author',
+    ],
+    # 如果请求下面的内容将会清楚存留的用户信息
+    'clear_req': [
+        # 重新访问login
+        'login',
+        # 重新访问author
+        'author',
+    ]
+}
