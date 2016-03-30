@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from loj.views.main.views import welcome, main, tagdemo
+from loj.views.main.views import welcome, main, tagdemo, nestable, menu_manager
 
 # 整站的URL配置
 urlpatterns = [
@@ -50,4 +50,6 @@ urlpatterns = [
 
     # 测试页面
     url(r'^tagdemo/$', tagdemo, name='tagdemo'),
+    url(r'^nestable/$', nestable, name='nestable'),
+    url(r'^resManager/$', menu_manager, name='menuManager')
 ]

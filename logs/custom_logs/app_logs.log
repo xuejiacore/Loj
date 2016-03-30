@@ -3162,3 +3162,635 @@ if __name__ == &#39;__main__&#39;:
 - [DEBUG] [Tue, 29 Mar 2016 23:11:23] [Thread-1:22624] [views.py:21] - * 访问 言子圭 的博客首页
 - [DEBUG] [Wed, 30 Mar 2016 08:08:22] [Thread-12:13636] [views.py:21] - * 访问 言子圭 的博客首页
 - [DEBUG] [Wed, 30 Mar 2016 09:03:12] [Thread-10:36740] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:10:25] [Thread-5:25384] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:10:38] [Thread-10:24456] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:11:10] [Thread-15:65688] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:11:20] [Thread-19:65604] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:14:49] [Thread-40:62444] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:15:10] [Thread-51:66516] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:21:35] [Thread-93:62292] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:22:38] [Thread-133:65096] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:23:08] [Thread-184:66228] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:23:16] [Thread-229:64288] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 14:23:17] [Thread-230:1296] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:23:38] [Thread-239:66368] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 14:23:38] [Thread-240:66004] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:24:03] [Thread-260:65604] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 14:24:03] [Thread-261:1828] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:24:44] [Thread-271:65884] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:25:58] [Thread-283:65876] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 14:26:01] [Thread-284:65588] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:28:15] [Thread-1:40492] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:28:29] [Thread-11:65912] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 14:28:30] [Thread-12:63848] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:30:40] [Thread-1:65040] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:30:58] [Thread-9:64720] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 14:30:58] [Thread-10:60636] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:31:43] [Thread-19:64144] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 14:31:43] [Thread-20:64456] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:33:28] [Thread-24:12364] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:34:17] [Thread-65:65604] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:39:11] [Thread-118:66388] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:39:17] [Thread-121:65008] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:39:19] [Thread-119:61204] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:40:03] [Thread-131:14400] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:41:19] [Thread-136:65108] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:43:02] [Thread-144:63424] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:44:04] [Thread-153:64540] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:44:54] [Thread-194:64632] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:46:29] [Thread-247:34588] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:46:45] [Thread-253:66184] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:47:14] [Thread-300:66216] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:47:50] [Thread-309:66520] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:48:43] [Thread-321:66152] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:58:36] [Thread-331:22004] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:58:44] [Thread-336:66288] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 14:58:45] [Thread-337:65700] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 14:59:58] [Thread-341:62444] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:00:16] [Thread-347:1988] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 15:00:18] [Thread-348:26068] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:01:06] [Thread-351:62356] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:01:58] [Thread-392:65644] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:02:35] [Thread-435:64844] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:03:15] [Thread-476:39656] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:07:00] [Thread-520:63936] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:10:00] [Thread-529:65968] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:10:35] [Thread-570:63900] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:11:18] [Thread-579:63864] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 15:12:02] [Thread-623:66260] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:39:27] [Thread-62:69596] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:43:42] [Thread-24:64940] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:44:20] [Thread-37:48784] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:45:07] [Thread-85:16296] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:45:38] [Thread-130:68232] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:46:34] [Thread-173:68724] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:47:54] [Thread-216:24644] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:48:50] [Thread-266:66380] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:49:48] [Thread-309:68068] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:55:52] [Thread-353:67664] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:56:55] [Thread-397:41504] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 19:58:29] [Thread-441:62916] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:32:21] [Thread-63:41700] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 22:32:22] [Thread-64:21740] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:34:29] [Thread-68:46060] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:35:00] [Thread-72:23076] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:35:40] [Thread-114:11988] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:36:47] [Thread-158:27684] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:37:20] [Thread-201:49368] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:39:06] [Thread-244:50800] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:40:10] [Thread-251:51076] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:40:44] [Thread-303:51512] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:43:38] [Thread-4:55200] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:45:17] [Thread-4:56468] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 22:45:18] [Thread-5:56276] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:45:26] [Thread-10:56960] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 22:45:27] [Thread-11:56760] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:46:47] [Thread-31:58148] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:46:47] [Thread-31:58148] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:46:47] [Thread-31:58148] [blogViews.py:165] - * BLOG CATALOG:
+- [DEBUG] [Wed, 30 Mar 2016 22:46:47] [Thread-31:58148] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:47:14] [Thread-32:59108] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:47:14] [Thread-32:59108] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:47:14] [Thread-32:59108] [blogViews.py:165] - * BLOG CATALOG:
+- [DEBUG] [Wed, 30 Mar 2016 22:47:14] [Thread-32:59108] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:47:19] [Thread-33:59360] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:47:19] [Thread-33:59360] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:47:19] [Thread-33:59360] [blogViews.py:165] - * BLOG CATALOG:
+- [DEBUG] [Wed, 30 Mar 2016 22:47:19] [Thread-33:59360] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:47:39] [Thread-35:59040] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:47:39] [Thread-35:59040] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:47:39] [Thread-35:59040] [blogViews.py:165] - * BLOG CATALOG:
+- [DEBUG] [Wed, 30 Mar 2016 22:47:39] [Thread-35:59040] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:48:18] [Thread-43:59480] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:48:18] [Thread-43:59480] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:48:18] [Thread-43:59480] [blogViews.py:165] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 30 Mar 2016 22:48:18] [Thread-43:59480] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:48:56] [Thread-47:61180] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:48:56] [Thread-47:61180] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:48:56] [Thread-47:61180] [blogViews.py:165] - * BLOG CATALOG:
+- [DEBUG] [Wed, 30 Mar 2016 22:48:56] [Thread-47:61180] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:49:00] [Thread-48:60440] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:49:00] [Thread-48:60440] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:49:00] [Thread-48:60440] [blogViews.py:165] - * BLOG CATALOG:
+- [DEBUG] [Wed, 30 Mar 2016 22:49:00] [Thread-48:60440] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:51:16] [Thread-49:61764] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:51:16] [Thread-49:61764] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:51:16] [Thread-49:61764] [blogViews.py:165] - * BLOG CATALOG:
+- [DEBUG] [Wed, 30 Mar 2016 22:51:16] [Thread-49:61764] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:51:21] [Thread-50:60620] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:51:21] [Thread-50:60620] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:51:21] [Thread-50:60620] [blogViews.py:165] - * BLOG CATALOG:
+- [DEBUG] [Wed, 30 Mar 2016 22:51:21] [Thread-50:60620] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:52:38] [Thread-51:40044] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 22:52:55] [Thread-55:18488] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:52:55] [Thread-55:18488] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:52:55] [Thread-55:18488] [blogViews.py:165] - * BLOG CATALOG:3
+- [DEBUG] [Wed, 30 Mar 2016 22:52:55] [Thread-55:18488] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:54:43] [Thread-56:66620] [blogViews.py:163] - * BLOG TITLE:2016年3月30日
+- [DEBUG] [Wed, 30 Mar 2016 22:54:43] [Thread-56:66620] [blogViews.py:164] - * BLOG CONTENT:<ol>
+	<li>Django book 2.0 的中文翻译。</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/changelog/">最近更新</a> - <a href="http://djangobook.py3k.cn/2.0/hero/">贡献者</a></li>
+	<li>方便自己也方便大家，敬请积极参与翻译！</li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter01/">第一章：介紹Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter01/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter01/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter02/">第二章 入门 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter02/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter02/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter03/">第三章 视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter03/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter03/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter04/">第四章：模版 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter04/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter04/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter05/">第五章：模型 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter05/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter05/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter06/">第六章：Admin 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter06/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter06/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter07/">第七章：表单 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter07/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter07/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter08/">第八章 高级视图和URL配置 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter08/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter08/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter09/">第九章：模版高级进阶 完成度 99.74% </a> <a href="http://djangobook.py3k.cn/2.0/chapter09/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter09/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter10/">第十章 模型高级进阶 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter10/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter10/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter11/">第十一章：通用视图 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter11/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter11/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter12/">第二十章： 部署Django 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter12/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter12/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter13/">第十三章： 输出非HTML内容 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter13/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter13/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter14/">第十四章： 会话、用户和注册 完成度 86.16% </a> <a href="http://djangobook.py3k.cn/2.0/chapter14/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter14/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter15/">第十五章： 缓存机制 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter15/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter15/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter16/">第十四章 集成的子框架 django.contrib 完成度 99.72% </a> <a href="http://djangobook.py3k.cn/2.0/chapter16/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter16/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter17/">第十七章： 中间件 完成度 95.08% </a> <a href="http://djangobook.py3k.cn/2.0/chapter17/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter17/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter18/">第十八章： 集成已有的数据库和应用 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter18/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter18/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter19/">第十九章： 国际化 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter19/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter19/translate/">翻译</a></li>
+	<li><a href="http://djangobook.py3k.cn/2.0/chapter20/">第二十章： 安全 完成度 100.00% </a> <a href="http://djangobook.py3k.cn/2.0/chapter20/">阅读</a> <a href="http://djangobook.py3k.cn/2.0/chapter20/translate/">翻译</a></li>
+	<li>本站由<a href="http://djangopeople.com/vcc/">VCC</a>使用<a href="http://www.djangoproject.com/">Django</a>搭建。</li>
+</ol>
+
+- [DEBUG] [Wed, 30 Mar 2016 22:54:43] [Thread-56:66620] [blogViews.py:165] - * BLOG CATALOG:3
+- [DEBUG] [Wed, 30 Mar 2016 22:54:43] [Thread-56:66620] [blogViews.py:170] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 22:56:41] [Thread-1:70920] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:12:28] [Thread-1:46448] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:13:00] [Thread-10:32448] [blogViews.py:169] - * BLOG TITLE:23:12:43
+- [DEBUG] [Wed, 30 Mar 2016 23:13:00] [Thread-10:32448] [blogViews.py:170] - * BLOG CONTENT:<div class="row">
+<div class="col-sm-7">
+<div class="panel panel-default">
+<div class="panel-heading">Badges and Labels</div>
+
+<div class="panel-body">
+<div class="row">
+<div class="col-sm-5">
+<ul>
+	<li>Default label 5</li>
+	<li>Primary label 4</li>
+	<li>Secondary label 8</li>
+	<li>Warning label 3</li>
+	<li>Danger label 9</li>
+	<li>Info label 1</li>
+	<li>Success label 5</li>
+	<li>Purple label 2</li>
+	<li>Blue label 7</li>
+	<li>Red label 1</li>
+	<li>Black label 8</li>
+	<li>White label 6</li>
+</ul>
+</div>
+
+<div class="col-sm-5 col-sm-offset-2">
+<ul>
+	<li>Default badge 5</li>
+	<li>Primary badge 4</li>
+	<li>Secondary badge 8</li>
+	<li>Warning badge 3</li>
+	<li>Danger badge 9</li>
+	<li>Info badge 1</li>
+	<li>Success badge 5</li>
+	<li>Purple badge 2</li>
+	<li>Blue badge 7</li>
+	<li>Red badge 1</li>
+	<li>Black badge 8</li>
+	<li>White badge 6</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel-body">
+<hr />
+<h5>Labels with Text</h5>
+
+<div class="bs-example">
+<div class="label label-default">Default</div>
+
+<div class="label label-primary">Primary</div>
+
+<div class="label label-secondary">Secondary</div>
+
+<div class="label label-info">Info</div>
+
+<div class="label label-warning">Warning</div>
+
+<div class="label label-danger">Danger</div>
+
+<div class="label label-success">Success</div>
+
+<div class="label label-purple">Purple</div>
+
+<div class="label label-red">Red</div>
+
+<div class="label label-blue">Blue</div>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">Code</div>
+
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6">
+<h5>PRE Tags</h5>
+
+<pre>
+&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+</div>
+
+<div class="col-md-6">
+<h5>CODE Tags</h5>
+For example, <code>&lt;section&gt;</code> should be wrapped as inline.</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-5">
+<div class="panel panel-default">
+<div class="panel-heading">Popovers and Tooltips</div>
+
+<div class="panel-body">
+<h5>Popovers</h5>
+
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+&nbsp;
+
+<div class="panel-body">
+<p>&nbsp;</p>
+</div>
+
+<div class="panel-body">
+<h5>Tooltips</h5>
+
+<p>&nbsp;</p>
+</div>
+&nbsp;
+
+<div class="row">
+<div class="col-sm-5">
+<div class="panel panel-default">
+<div class="panel-body">
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">Wells</div>
+
+<div class="panel-body">
+<div class="well">Look, I&#39;m in a well!</div>
+
+<div class="well well-lg">Look, I&#39;m in a well, but a large well!</div>
+
+<div class="well well-sm">Look, I&#39;m in a small well!</div>
+</div>
+</div>
+</div>
+</div>
+
+- [DEBUG] [Wed, 30 Mar 2016 23:13:00] [Thread-10:32448] [blogViews.py:171] - * BLOG CATALOG:1
+- [DEBUG] [Wed, 30 Mar 2016 23:13:00] [Thread-10:32448] [blogViews.py:176] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Wed, 30 Mar 2016 23:13:19] [Thread-15:47160] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 23:13:20] [Thread-16:43420] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:13:40] [Thread-19:35624] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:14:43] [Thread-26:45384] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:14:53] [Thread-29:5612] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:14:58] [Thread-31:48524] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:19:35] [Thread-1:43116] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:21:20] [Thread-46:50208] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 23:21:20] [Thread-47:17668] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:21:28] [Thread-53:50740] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 23:21:28] [Thread-54:50820] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:21:53] [Thread-57:49276] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:22:04] [Thread-100:50124] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:22:27] [Thread-142:51232] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:22:40] [Thread-184:53736] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:22:59] [Thread-226:54836] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:23:21] [Thread-230:54972] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:27:50] [Thread-272:62424] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:28:06] [Thread-275:22772] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:28:54] [Thread-315:66780] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:29:19] [Thread-356:66348] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:30:13] [Thread-397:65000] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:30:31] [Thread-437:61928] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:31:16] [Thread-477:62744] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:32:20] [Thread-518:71428] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:32:47] [Thread-556:22572] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:34:32] [Thread-595:60148] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:35:29] [Thread-636:16616] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:35:34] [Thread-676:1428] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:37:11] [Thread-685:5308] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Wed, 30 Mar 2016 23:37:12] [Thread-686:12808] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:37:30] [Thread-690:6820] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:38:13] [Thread-731:42888] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:39:14] [Thread-771:39960] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:39:27] [Thread-812:15640] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:39:42] [Thread-881:7064] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:40:08] [Thread-919:46620] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:40:27] [Thread-960:16140] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:40:34] [Thread-1000:11488] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:41:19] [Thread-1041:8976] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:41:43] [Thread-1111:9692] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:43:03] [Thread-23:30980] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:44:10] [Thread-31:30832] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:44:33] [Thread-71:17848] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:44:55] [Thread-111:25984] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:45:16] [Thread-152:44044] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:45:41] [Thread-193:49072] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:46:00] [Thread-262:51432] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:46:20] [Thread-301:12180] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:47:56] [Thread-341:55168] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:48:39] [Thread-381:58572] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:48:50] [Thread-421:57368] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:49:28] [Thread-461:60240] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:52:07] [Thread-501:69036] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:52:22] [Thread-542:67760] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:53:04] [Thread-582:64592] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:53:16] [Thread-622:67948] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:55:06] [Thread-662:34000] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:55:28] [Thread-730:71252] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:56:47] [Thread-769:36232] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:56:59] [Thread-809:15164] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:57:47] [Thread-850:316] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:57:57] [Thread-890:70936] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:58:06] [Thread-944:45540] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:58:13] [Thread-947:7768] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:58:21] [Thread-950:41980] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:59:08] [Thread-953:22624] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:59:22] [Thread-993:24928] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:59:40] [Thread-1034:25484] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Wed, 30 Mar 2016 23:59:48] [Thread-1074:44172] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 00:00:26] [Thread-1114:19308] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 00:00:46] [Thread-1155:30792] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 00:01:39] [Thread-1196:29444] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 00:02:49] [Thread-1237:48060] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 00:03:13] [Thread-1278:16576] [views.py:21] - * 访问 言子圭 的博客首页

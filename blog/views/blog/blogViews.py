@@ -4,6 +4,7 @@ import logging
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse, Http404
 from django.shortcuts import render
+from math import ceil
 
 from author.views.author.author import authorize
 from author.models import User
@@ -15,7 +16,12 @@ logger = logging.getLogger('app')
 
 
 def blog_outline(request, whose):
-    return render(request, 'blog/outline.html')
+    # 第一页 0:5  5:10 n * page-1 ： n * page
+    blog_list = Blog.objects.filter(user=User.objects.get(login_id=whose)).order_by('-top', '-publish_date')[0:8]
+    return render(request, 'blog/outline.html', context={
+        'blog_list': blog_list,
+        'host': whose
+    })
 
 
 def blog_category(request, whose):
@@ -87,7 +93,7 @@ def blog_catalog(request, whose, page):
     request.session['host'] = whose
 
     # 页码总数
-    page_size = int(round(blog_list.count() / CATALOG_COUNT_PER_PAGE))
+    page_size = int(ceil(blog_list.count() / CATALOG_COUNT_PER_PAGE))
 
     # 从当前页开始，向两边进行探测，如果没有超出最小值和最大值，那么就是界
     low_limit = current_page - 1 if current_page - 1 > 0 else 1

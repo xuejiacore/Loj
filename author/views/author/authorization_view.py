@@ -37,6 +37,7 @@ class Author(object):
                     request.session['login_id'] = correct_user.login_id
                     request.session['real_name'] = correct_user.real_name
                     request.session['visit_role'] = 'user'
+                    request.session['is_admin'] = False if self.username != 'root' else True
                     request.session['host'] = self.username
                     target = response['req_target']
                     tmp = target.split(sep='/')

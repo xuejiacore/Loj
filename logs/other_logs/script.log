@@ -7252,3 +7252,221 @@ Traceback (most recent call last):
   File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 99, in blog_catalog
     pages = [page for page in range(low_limit, upper_limit + 1, 1)]
 TypeError: 'float' object cannot be interpreted as an integer
+- [ERROR] [Wed, 30 Mar 2016 14:10:29] [Thread-7:62420] [base.py:284] - Internal Server Error: /zigui/blog/outline/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'Personal.blog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'Personal.blog' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 18, in blog_outline
+    return render(request, 'blog/outline.html')
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blogDetail' with arguments '('', 20)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/blog/(?P<blog_id>\\w+)/content/$']
+- [ERROR] [Wed, 30 Mar 2016 14:10:39] [Thread-9:7160] [base.py:284] - Internal Server Error: /zigui/blog/outline/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'Personal.blog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'Personal.blog' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 18, in blog_outline
+    return render(request, 'blog/outline.html')
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blogDetail' with arguments '('', 20)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/blog/(?P<blog_id>\\w+)/content/$']
+- [WARNING] [Wed, 30 Mar 2016 14:24:29] [Thread-269:61824] [base.py:182] - Not Found: /xuejia/main/anynomous
+- [WARNING] [Wed, 30 Mar 2016 14:24:35] [Thread-270:63452] [base.py:182] - Not Found: /xuejia/main/anynomous/
+- [WARNING] [Wed, 30 Mar 2016 15:33:06] [Thread-1:66512] [base.py:182] - Not Found: /nestable
+- [WARNING] [Wed, 30 Mar 2016 15:33:06] [Thread-5:62492] [base.py:182] - Not Found: /nestable/jquery.nestable.js
+- [WARNING] [Wed, 30 Mar 2016 15:33:06] [Thread-6:24456] [base.py:182] - Not Found: /nestable/jquery.nestable.js
+- [WARNING] [Wed, 30 Mar 2016 19:43:34] [Thread-1:11396] [base.py:182] - Not Found: /welcome
+- [WARNING] [Wed, 30 Mar 2016 22:27:42] [Thread-3:30500] [base.py:182] - Not Found: /favicon.ico
+- [WARNING] [Wed, 30 Mar 2016 22:27:42] [Thread-4:18416] [base.py:182] - Not Found: /favicon.ico
+- [ERROR] [Wed, 30 Mar 2016 22:46:47] [Thread-31:58148] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:47:14] [Thread-32:59108] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:47:19] [Thread-33:59360] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:47:39] [Thread-35:59040] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:48:18] [Thread-43:59480] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:48:56] [Thread-47:61180] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:49:00] [Thread-48:60440] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:51:16] [Thread-49:61764] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:51:21] [Thread-50:60620] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [ERROR] [Wed, 30 Mar 2016 22:52:55] [Thread-55:18488] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 185, in blog_publish
+    name='默认').first()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in __set__
+    (instance._meta.object_name, self.field.name)
+ValueError: Cannot assign None: "Blog.category" does not allow null values.
+- [WARNING] [Wed, 30 Mar 2016 23:14:43] [Thread-25:12584] [base.py:182] - Not Found: /zigui/main/anonymous
+- [WARNING] [Wed, 30 Mar 2016 23:42:59] [Thread-1:6596] [base.py:182] - Not Found: /welcome

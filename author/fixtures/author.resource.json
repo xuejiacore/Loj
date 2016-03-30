@@ -1,0 +1,17 @@
+[
+  {
+    "model": "author.resource",
+    "fields": {
+      "res_type": "1",
+      "res_name": "首页",
+      "res_url": "/welcome",
+      "remark": "备注",
+      "status": "1",
+      "extend_1": "",
+      "extend_2": "",
+      "extend_3": "",
+      "extend_4": "",
+      "extend_5": ""
+    }
+  }
+]

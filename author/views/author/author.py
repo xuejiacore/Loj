@@ -65,7 +65,7 @@ def authorize(*args, **kwargs):
             if view.__name__ in author_settings['ignore_req'] or 'anonymous' in request.path:
                 if is_debug:
                     print(color_format("不拦截的请求: {}".format(view.__name__), fore='cyan'))
-                if view.__name__ in author_settings['clear_req']:
+                if view.__name__ in author_settings['clear_req'] or 'anonymous' in request.path:
                     if 'login_id' in request.session:
                         del request.session['login_id']
                     if 'visit_role' in request.session:
@@ -107,6 +107,8 @@ def authorize(*args, **kwargs):
                     return ret
             elif role == 'user' and 'login_id' in session:
                 # TODO:登录用户
+                if 'whose' in fn_kwargs and session['login_id'] != fn_kwargs['whose']:
+                    return HttpResponseRedirect(reverse(author_settings['redirect']))
                 print(color_format("当前登录用户的id是：{}".format(session['login_id']), fore='cyan'))
 
             print("-----------------------------------------------------------------")

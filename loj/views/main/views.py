@@ -33,3 +33,12 @@ def tagdemo(request):
     return render(request, 'loj/tagdemo.html',
                   {'users': User.objects.all(),
                    'uldata': ['asd', 'asd', ['sdsff', 'fgfg'], 'sdsd']})
+
+
+def nestable(request):
+    return render(request, 'loj/nestable.html')
+
+
+@authorize()
+def menu_manager(request):
+    return render(request, 'loj/resManage.html')

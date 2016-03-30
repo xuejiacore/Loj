@@ -20,18 +20,9 @@
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link href="{% static 'css/xj_blog.css' %}" rel="stylesheet" type="text/css"/>
-
-    <script type="text/javascript" src="{% static 'js/cufon-yui.js' %}"></script>
-    <script type="text/javascript" src="{% static 'js/arial.js' %}"></script>
-    <script type="text/javascript" src="{% static 'js/cuf_run.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/float_nav.css' %}"/>
 
     <script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
-
-
-    <link rel="stylesheet" type="text/css" href="{% static 'css/float_nav.css' %}"/>
-    <script type="text/javascript" src="{% static 'js/jquery-1.7.min.js' %}"></script>
-    <script type="text/javascript" src="{% static 'js/float_nav.js' %}"></script>
-    <script type="text/javascript" src="{% static 'js/quick_links.js' %}"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -39,7 +30,7 @@
 		<script src="{% static 'js/respond.min.js' %}"></script>
 	<![endif]-->
 
-    <script type="text/javascript" language="javascript">
+    <script type="text/javascript">
         // iframe自适应高度
         var browserVersion = window.navigator.userAgent.toUpperCase();
         var isOpera = false;
@@ -87,6 +78,30 @@
             $('#mainFrame').load(function () {
                 $('#return_top').trigger('click');
             });
+
+            {% if request.session.visit_role == 'user' %}
+                setTimeout(function () {
+                    var opts = {
+                                "closeButton": true,
+                                "debug": false,
+                                "positionClass": "toast-top-full-width",
+                                "onclick": null,
+                                "showDuration": "300",
+                                "hideDuration": "1000",
+                                "timeOut": "5000",
+                                "extendedTimeOut": "1000",
+                                "showEasing": "swing",
+                                "hideEasing": "linear",
+                                "showMethod": "fadeIn",
+                                "hideMethod": "fadeOut"
+                            };
+                    {% if request.session.is_admin %}
+                        toastr.info("尊敬的超级管理员，欢迎您登陆，请确保登录安全!", opts);
+                    {% else %}
+                        toastr.info("尊敬的 " + '{{ request.session.real_name }}' + " 欢迎您登陆", opts);
+                    {% endif %}
+                }, 1500);
+            {% endif %}
         })
     </script>
 </head>
@@ -120,7 +135,7 @@
 
                         <div class="user-links">
                             <a href="javascript:" class="btn btn-primary">编辑简介</a>
-                            <a href="javascript:" class="btn btn-success">Upgrade</a>
+                            <a href="javascript:" class="btn btn-success">待定</a>
                         </div>
                     </div>
                 </div>
@@ -207,11 +222,12 @@
                 <img src="{% static 'images/logo-white-bg@2x.png' %}" width="80" alt="" class="hidden-xs"/>
                 <img src="{% static 'images/logo@2x.png' %}" width="80" alt="" class="visible-xs"/>
             </a>
-            <a href="javascript:" data-toggle="settings-pane" data-animate="true">
-                <i class="linecons-cog"></i>
-            </a>
+            {% if request.session.visit_role == 'user' %}
+                <a href="javascript:" data-toggle="settings-pane" data-animate="true">
+                    <i class="linecons-cog"></i>
+                </a>
+            {% endif %}
         </div>
-
         <div class="nav navbar-mobile">
 
             <!-- 适应移动设备的菜单 -->
@@ -237,7 +253,6 @@
         </div>
 
         <div class="navbar-mobile-clear"></div>
-
 
         <!-- TODO 主菜单 -->
 
@@ -358,7 +373,7 @@
                 </ul>
             </li>
             <li>
-                <a href="">
+                <a href="javascript:">
                     <i class="linecons-diamond"></i>
                     <span class="title">个人生活</span>
                 </a>
@@ -391,24 +406,31 @@
                     </li>
                 </ul>
             </li>
+            {% if request.session.is_admin %}
+                <li>
+                    <a href="javascript:">
+                        <i class="linecons-fire"></i>
+                        <span class="title">超级管理员菜单</span>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{% url 'menuManager' %}" target="mainFrame">
+                                <span class="title">菜单管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <span class="title">权限管理</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            {% endif %}
         </ul>
-
 
         <!-- notifications and other links -->
         {% if request.session.visit_role == 'user' %}
             <ul class="nav nav-userinfo navbar-right">
-
-                <li class="search-form"><!-- You can add "always-visible" to show make the search input visible -->
-
-                    <form method="get" action="javascript:">
-                        <input type="text" name="s" class="form-control search-field" placeholder="Type to search..."/>
-
-                        <button type="submit" class="btn btn-link">
-                            <i class="linecons-search"></i>
-                        </button>
-                    </form>
-
-                </li>
 
                 <li class="dropdown xs-left">
 
@@ -664,7 +686,7 @@
                     </a>
 
                     <ul class="dropdown-menu user-profile-menu list-unstyled">
-                        {% if request.session.visit_role == 'user' %}
+                        {% if request.session.is_admin %}
                             {# 禁止匿名用户使用 #}
                             <li>
                                 <a href="{% url 'admin:index' %}">
@@ -675,26 +697,20 @@
                         {% endif %}
                         <li>
                             <a href="javascript:">
-                                <i class="fa-edit"></i>
-                                New Post
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:">
                                 <i class="fa-wrench"></i>
-                                Settings
+                                设置
                             </a>
                         </li>
                         <li>
                             <a href="{% url 'author:profile' %}" target="mainFrame">
                                 <i class="fa-user"></i>
-                                Profile
+                                用户配置
                             </a>
                         </li>
                         <li>
                             <a href="javascript:">
                                 <i class="fa-info"></i>
-                                Help
+                                帮助
                             </a>
                         </li>
                         <li class="last">
@@ -710,6 +726,36 @@
                     <a href="javascript:" data-toggle="chat">
                         <i class="fa-comments-o"></i>
                     </a>
+                </li>
+
+            </ul>
+        {% else %}
+            <ul class="nav nav-userinfo navbar-right">
+
+                <li class="dropdown user-profile">
+                    <a href="javascript:" data-toggle="dropdown">
+                        <img src="{% static 'images/user-1.png' %}" alt="user-image"
+                             class="img-circle img-inline userpic-32" width="28"/>
+						<span>
+							游客
+							<i class=" fa-angle-down"></i>
+                    </span>
+                    </a>
+
+                    <ul class="dropdown-menu user-profile-menu list-unstyled">
+                        <li>
+                            <a href="{% url 'author:login' %}">
+                                <i class="linecons-key"></i>
+                                登录
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="javascript:">
+                                <i class="linecons-pencil"></i>
+                                注册
+                            </a>
+                        </li>
+                    </ul>
                 </li>
 
             </ul>
@@ -905,7 +951,6 @@
 
 </div>
 
-
 <!-- Bottom Scripts -->
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
 <script src="{% static 'js/TweenMax.min.js' %}"></script>
@@ -913,8 +958,13 @@
 <script src="{% static 'js/joinable.js' %}"></script>
 <script src="{% static 'js/xenon-api.js' %}"></script>
 <script src="{% static 'js/xenon-toggles.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/cufon-yui.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/arial.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/cuf_run.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/float_nav.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/quick_links.js' %}"></script>
 
-
+<script type="text/javascript" src="{% static 'js/toastr/toastr.min.js' %}"></script>
 <!-- JavaScripts initializations and stuff -->
 <script src="{% static 'js/xenon-custom.js' %}"></script>
 

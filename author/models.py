@@ -62,7 +62,7 @@ class Resource(models.Model):
     res_type = models.IntegerField('资源类型')
     res_name = models.CharField('资源名称', max_length=50, null=False, blank=False)
     res_url = models.CharField('资源url', max_length=1024, null=False, blank=False)
-    child_node = models.ForeignKey('self', verbose_name='子节点', related_name='child_resource', null=True, blank=True)
+    parent_node = models.ForeignKey('self', verbose_name='父节点', related_name='parent_resource', null=True, blank=True)
     remark = models.CharField('备注', max_length=255, null=True, blank=True)
     status = models.IntegerField('资源状态', default=0, null=False, blank=True)
     extend_1 = models.CharField('扩展字段1', max_length=30, null=True, blank=True)
