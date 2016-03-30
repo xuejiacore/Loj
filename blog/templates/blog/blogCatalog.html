@@ -10,6 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="{% static 'css/fonts/fontawesome/css/font-awesome.css' %}">
+
     <!-- Global CSS -->
     <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
     <!-- Plugins CSS -->
@@ -22,6 +25,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js' %}"></script>
     <![endif]-->
 
+    <script type="text/javascript">
+
+        $(function () {
+            try {
+
+                window.parent.scrollTo(0, 0);
+                window.parent.parent.scroll(0, 0);
+            } catch (e) {
+                alert(e.message);
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -35,7 +50,7 @@
 
                     <div class="content">
 
-                        {% for blog in blogs %}
+                        {% for blog in blog_list %}
                             <hr class="divider"/>
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12"
@@ -62,13 +77,48 @@
                                         {% endautoescape %}
                                     </p>
                                     <p><a class="more-link"
-                                          href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}"><i
+                                          href="{% url 'blog:blogDetail' host blog.blog_id %}"><i
                                             class="fa fa-external-link"></i>阅读原文</a></p>
                                 </div><!--//desc-->
                             </div><!--//item-->
                         {% endfor %}
 
-
+                        <div style="text-align: center;">
+                            <ul class="pagination">
+                                {% with curr_page=current_page %}
+                                    {% with last_page=last_page %}
+                                        {% ifequal last_page 0 %}
+                                            <li class="disabled"><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa-angle-left"></i></a>
+                                            </li>
+                                        {% else %}
+                                            <li><a href="{% url 'blog:blogCatalog' host last_page %}"><i
+                                                    class="fa-angle-left"></i></a>
+                                            </li>
+                                        {% endifequal %}
+                                    {% endwith %}
+                                    {% for page in page_list %}
+                                        {% ifequal page curr_page %}
+                                            <li class="active"><a
+                                                    href="{% url 'blog:blogCatalog' host page %}">{{ current_page }}</a>
+                                            </li>
+                                        {% else %}
+                                            <li><a href="{% url 'blog:blogCatalog' host page %}">{{ page }}</a></li>
+                                        {% endifequal %}
+                                    {% endfor %}
+                                    {% with next_page=next_page %}
+                                        {% if next_page > page_size %}
+                                            <li class="disabled"><a href="javascript:void(0);"><i
+                                                    class="fa-angle-right"></i></a></li>
+                                        {% else %}
+                                            <li><a href="{% url 'blog:blogCatalog' host next_page %}"><i
+                                                    class="fa-angle-right"></i></a></li>
+                                        {% endif %}
+                                    {% endwith %}
+                                {% endwith %}
+                            </ul>
+                        </div>
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </section><!--//section-->

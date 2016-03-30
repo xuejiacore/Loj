@@ -82,6 +82,12 @@
                 iframeTime = window.setInterval("reinitIframe('" + iframeId + "'," + minHeight + ")", 100);
         }
 
+        $(function () {
+            // 重新加载后将滚动条置顶
+            $('#mainFrame').load(function () {
+                $('#return_top').trigger('click');
+            });
+        })
     </script>
 </head>
 <body class="page-body" style="background: url('{% static 'loj/images/charcoal.gif' %}') repeat;">

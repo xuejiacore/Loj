@@ -80,14 +80,32 @@ def blog_catalog(request, whose, page):
     """
     # 第一页 0:5  5:10 n * page-1 ： n * page
     current_page = int(page)
-    print("博客内容", whose)
-    catalog = Blog.objects.filter(user=User.objects.get(login_id=whose)).order_by('-top', '-publish_date')[
+    blog_list = Blog.objects.filter(user=User.objects.get(login_id=whose))
+    catalog = blog_list.order_by('-top', '-publish_date')[
               CATALOG_COUNT_PER_PAGE * (current_page - 1):
               CATALOG_COUNT_PER_PAGE * current_page]
     request.session['host'] = whose
-    print(catalog)
+
+    # 页码总数
+    page_size = int(round(blog_list.count() / CATALOG_COUNT_PER_PAGE))
+
+    # 从当前页开始，向两边进行探测，如果没有超出最小值和最大值，那么就是界
+    low_limit = current_page - 1 if current_page - 1 > 0 else 1
+    low_limit = low_limit - 1 if low_limit - 1 > 0 else 1
+
+    upper_limit = current_page + 1 if current_page + 1 <= page_size else page_size
+    upper_limit = upper_limit + 1 if upper_limit + 1 <= page_size else page_size
+
+    # 生成用于显示的页码
+    pages = [page for page in range(low_limit, upper_limit + 1, 1)]
     return render(request, 'blog/blogCatalog.html', {
-        'blogs': catalog
+        'blog_list': catalog,
+        'host': whose,
+        'last_page': current_page - 1,
+        'current_page': current_page,
+        'next_page': current_page + 1,
+        'page_list': pages,
+        'page_size': page_size
     })
 
 
