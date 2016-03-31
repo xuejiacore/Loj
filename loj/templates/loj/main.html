@@ -9,7 +9,6 @@
 
     <title>{{ request.session.real_name }} 的个人博客</title>
 
-    <link rel="stylesheet" href="http://fonts.useso.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="{% static 'css/fonts/linecons/css/linecons.css' %}">
     <link rel="stylesheet" href="{% static 'css/fonts/fontawesome/css/font-awesome.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
@@ -265,8 +264,8 @@
             </li>
             <li>
                 <a href="javascript:">
-                    <i class="linecons-cog"></i>
-                    <span class="title">个人项目</span>
+                    <i class="linecons-fire" style="color:red;font-size: 16px;"></i>
+                    <b><i><span class="title">博客专题</span></i></b>
                 </a>
                 <ul>
                     <li>
@@ -318,7 +317,7 @@
             </li>
             <li>
                 <a href="javascript:">
-                    <i class="linecons-desktop"></i>
+                    <i class="linecons-database"></i>
                     <span class="title">博客管理</span>
                 </a>
                 <ul>
@@ -329,13 +328,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{% url 'blog:blogCategories' host %}" target="mainFrame">
+                            <a href="{% url 'blog:categoryManager' host %}" target="mainFrame">
                                 <span class="title">博客分类管理</span>
                             </a>
                         </li>
                     {% endif %}
                     <li>
-                        <a href="{% url 'blog:blogCatalog' host 'ALL_CATEGORIES' 1 %}" target="mainFrame">
+                        <a href="{% url 'blog:blogCatalog' host '全部' 1 %}" target="mainFrame">
                             <span class="title">博客目录</span>
                         </a>
                     </li>
@@ -379,7 +378,7 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="javascript:">
+                        <a href="{% url 'blog:blogCatalog' host '生活感悟' 1 %}" target="mainFrame">
                             <i class="linecons-star"></i>
                             <span class="title">生活感悟</span>
                         </a>
@@ -446,53 +445,53 @@
 
                                 <li class="active"><!-- "active" class means message is unread -->
                                     <a href="javascript:">
-									<span class="line">
-										<strong>Luc Chartier</strong>
-										<span class="light small">- yesterday</span>
-									</span>
+                                    <span class="line">
+                                        <strong>Luc Chartier</strong>
+                                        <span class="light small">- yesterday</span>
+                                    </span>
 
-									<span class="line desc small">
-										This ain’t our first item, it is the best of the rest.
-									</span>
+                                    <span class="line desc small">
+                                        This ain’t our first item, it is the best of the rest.
+                                    </span>
                                     </a>
                                 </li>
 
                                 <li class="active">
                                     <a href="javascript:">
-									<span class="line">
-										<strong>Salma Nyberg</strong>
-										<span class="light small">- 2 days ago</span>
-									</span>
+                                    <span class="line">
+                                        <strong>Salma Nyberg</strong>
+                                        <span class="light small">- 2 days ago</span>
+                                    </span>
 
-									<span class="line desc small">
-										Oh he decisively impression attachment friendship so if everything.
-									</span>
+                                    <span class="line desc small">
+                                        Oh he decisively impression attachment friendship so if everything.
+                                    </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="javascript:">
-									<span class="line">
-										Hayden Cartwright
-										<span class="light small">- a week ago</span>
-									</span>
+                                    <span class="line">
+                                        Hayden Cartwright
+                                        <span class="light small">- a week ago</span>
+                                    </span>
 
-									<span class="line desc small">
-										Whose her enjoy chief new young. Felicity if ye required likewise so doubtful.
-									</span>
+                                    <span class="line desc small">
+                                        Whose her enjoy chief new young. Felicity if ye required likewise so doubtful.
+                                    </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="javascript:">
-									<span class="line">
-										Sandra Eberhardt
-										<span class="light small">- 16 days ago</span>
-									</span>
+                                    <span class="line">
+                                        Sandra Eberhardt
+                                        <span class="light small">- 16 days ago</span>
+                                    </span>
 
-									<span class="line desc small">
-										On so attention necessary at by provision otherwise existence direction.
-									</span>
+                                    <span class="line desc small">
+                                        On so attention necessary at by provision otherwise existence direction.
+                                    </span>
                                     </a>
                                 </li>
 
@@ -500,53 +499,53 @@
 
                                 <li class="active"><!-- "active" class means message is unread -->
                                     <a href="javascript:">
-									<span class="line">
-										<strong>Luc Chartier</strong>
-										<span class="light small">- yesterday</span>
-									</span>
+                                    <span class="line">
+                                        <strong>Luc Chartier</strong>
+                                        <span class="light small">- yesterday</span>
+                                    </span>
 
-									<span class="line desc small">
-										This ain’t our first item, it is the best of the rest.
-									</span>
+                                    <span class="line desc small">
+                                        This ain’t our first item, it is the best of the rest.
+                                    </span>
                                     </a>
                                 </li>
 
                                 <li class="active">
                                     <a href="javascript:">
-									<span class="line">
-										<strong>Salma Nyberg</strong>
-										<span class="light small">- 2 days ago</span>
-									</span>
+                                    <span class="line">
+                                        <strong>Salma Nyberg</strong>
+                                        <span class="light small">- 2 days ago</span>
+                                    </span>
 
-									<span class="line desc small">
-										Oh he decisively impression attachment friendship so if everything.
-									</span>
+                                    <span class="line desc small">
+                                        Oh he decisively impression attachment friendship so if everything.
+                                    </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="javascript:">
-									<span class="line">
-										Hayden Cartwright
-										<span class="light small">- a week ago</span>
-									</span>
+                                    <span class="line">
+                                        Hayden Cartwright
+                                        <span class="light small">- a week ago</span>
+                                    </span>
 
-									<span class="line desc small">
-										Whose her enjoy chief new young. Felicity if ye required likewise so doubtful.
-									</span>
+                                    <span class="line desc small">
+                                        Whose her enjoy chief new young. Felicity if ye required likewise so doubtful.
+                                    </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="javascript:">
-									<span class="line">
-										Sandra Eberhardt
-										<span class="light small">- 16 days ago</span>
-									</span>
+                                    <span class="line">
+                                        Sandra Eberhardt
+                                        <span class="light small">- 16 days ago</span>
+                                    </span>
 
-									<span class="line desc small">
-										On so attention necessary at by provision otherwise existence direction.
-									</span>
+                                    <span class="line desc small">
+                                        On so attention necessary at by provision otherwise existence direction.
+                                    </span>
                                     </a>
                                 </li>
 
@@ -555,8 +554,8 @@
                         </li>
 
                         <li class="external">
-                            <a href="javascript:">
-                                <span>All Messages</span>
+                            <a href="{% url 'developing' host '查看所有邮件' %}" target="mainFrame">
+                                <span>查看所有邮件</span>
                                 <i class="fa-link-ext"></i>
                             </a>
                         </li>
@@ -584,13 +583,13 @@
                                     <a href="javascript:">
                                         <i class="fa-user"></i>
 
-									<span class="line">
-										<strong>New user registered</strong>
-									</span>
+                                    <span class="line">
+                                        <strong>New user registered</strong>
+                                    </span>
 
-									<span class="line small time">
-										30 seconds ago
-									</span>
+                                    <span class="line small time">
+                                        30 seconds ago
+                                    </span>
                                     </a>
                                 </li>
 
@@ -598,13 +597,13 @@
                                     <a href="javascript:">
                                         <i class="fa-lock"></i>
 
-									<span class="line">
-										<strong>Privacy settings have been changed</strong>
-									</span>
+                                    <span class="line">
+                                        <strong>Privacy settings have been changed</strong>
+                                    </span>
 
-									<span class="line small time">
-										3 hours ago
-									</span>
+                                    <span class="line small time">
+                                        3 hours ago
+                                    </span>
                                     </a>
                                 </li>
 
@@ -612,13 +611,13 @@
                                     <a href="javascript:">
                                         <i class="fa-thumbs-up"></i>
 
-									<span class="line">
-										<strong>Someone special liked this</strong>
-									</span>
+                                    <span class="line">
+                                        <strong>Someone special liked this</strong>
+                                    </span>
 
-									<span class="line small time">
-										2 minutes ago
-									</span>
+                                    <span class="line small time">
+                                        2 minutes ago
+                                    </span>
                                     </a>
                                 </li>
 
@@ -626,13 +625,13 @@
                                     <a href="javascript:">
                                         <i class="fa-calendar"></i>
 
-									<span class="line">
-										John cancelled the event
-									</span>
+                                    <span class="line">
+                                        John cancelled the event
+                                    </span>
 
-									<span class="line small time">
-										9 hours ago
-									</span>
+                                    <span class="line small time">
+                                        9 hours ago
+                                    </span>
                                     </a>
                                 </li>
 
@@ -640,13 +639,13 @@
                                     <a href="javascript:">
                                         <i class="fa-database"></i>
 
-									<span class="line">
-										The server is status is stable
-									</span>
+                                    <span class="line">
+                                        The server is status is stable
+                                    </span>
 
-									<span class="line small time">
-										yesterday at 10:30am
-									</span>
+                                    <span class="line small time">
+                                        yesterday at 10:30am
+                                    </span>
                                     </a>
                                 </li>
 
@@ -654,13 +653,13 @@
                                     <a href="javascript:">
                                         <i class="fa-envelope-o"></i>
 
-									<span class="line">
-										New comments waiting approval
-									</span>
+                                    <span class="line">
+                                        New comments waiting approval
+                                    </span>
 
-									<span class="line small time">
-										last week
-									</span>
+                                    <span class="line small time">
+                                        last week
+                                    </span>
                                     </a>
                                 </li>
                             </ul>

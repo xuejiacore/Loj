@@ -3,9 +3,9 @@
  */
 CKEDITOR.editorConfig = function (config) {
     // 设置宽高
-    config.height = 400;
-    config.width = 785;
-    config.resize_maxHeight = 1024;
+    config.height = 280;
+    config.width = 880;
+    config.resize_maxHeight = 450;
     config.autosave = false;
 
     //  屏蔽换行符<br>

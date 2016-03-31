@@ -42,3 +42,10 @@ def nestable(request):
 @authorize()
 def menu_manager(request):
     return render(request, 'loj/resManage.html')
+
+
+def developing(request, whose, description):
+    return render(request, 'loj/developingPage.html', context={
+        'description': description,
+        'host': whose
+    })

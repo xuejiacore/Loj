@@ -8,10 +8,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts/linecons/css/linecons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts/fontawesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-core.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-forms.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-components.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-skins.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="{% static 'assets/plugins/font-awesome/css/font-awesome.css' %}">
     <!-- Theme CSS -->
@@ -28,7 +34,7 @@
 
 <div class="container sections-wrapper">
     <div class="row">
-        <div class="primary col-md-9 col-sm-12 col-xs-12">
+        <div class="primary col-md-10 col-sm-12 col-xs-12">
             <section class="latest section">
                 <div class="section-inner wrap-parent">
                     <h2 class="heading">编写博文</h2>
@@ -36,40 +42,74 @@
                     <div class="content">
 
                         <hr class="divider"/>
-                        <a href="{% url 'blog:outline' request.session.host %}">返回博客首页</a>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="blogTitle">博客主题</label>
 
-                        <label for="blogTitle">博客标题</label>
-                        <input type="text" id="blogTitle" placeholder="请输入博客的标题">
-                        <select id="blogCatalog">
-                            {% for category in blog_categories %}
-                                <option name="{{ category.name }}"
-                                        value="{{ category.category_id }}">{{ category.name }}</option>
-                            {% endfor %}
-                        </select>
-                        <input type="text" id="category-name" placeholder="输入新的分类名称">
-                        <input type="button" id="create-category" onclick="onCategoryCreate()" value="创建分类">
-                        <input type="button" id="publish" value="发表" onclick="doSubmit();">
-                        <input type="button" id="saveDraft" value="保存至草稿箱" onclick="alert('保存到草稿箱(开发中)');">
-                        <br/>
-                        <br/>
-                        <textarea style="overflow:visible" name="blogEditor" id="editor" rows="10" cols="80"></textarea>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="blogTitle" placeholder="请填写博客主题" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group-separator"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="blogKeys">关&nbsp;&nbsp;键&nbsp;&nbsp;字</label>
 
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </section><!--//section-->
-        </div><!--//primary-->
-        <div class="secondary col-md-3 col-sm-12 col-xs-12">
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="blogKeys" placeholder="博客关键字，圆角逗号分隔" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group-separator"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="blogCatalog">博客分类</label>
+                                <div class="col-sm-10">
+                                    <div class="col-sm-4">
+                                        <select id="blogCatalog" class="form-control">
+                                            {% for category in blog_categories %}
+                                                <option name="{{ category.name }}"
+                                                        value="{{ category.category_id }}">{{ category.name }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" type="text" id="category-name"
+                                               placeholder="输入新的分类名称">
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <input class="form-control" type="button" id="create-category"
+                                               onclick="onCategoryCreate()"
+                                               value="创建分类">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group-separator"></div>
+                                <textarea style="overflow:visible" name="blogEditor" id="editor" rows="10"
+                                          cols="80"></textarea>
+                            <div class="form-group-separator"></div>
+                            <div class="form-group">
+                                <input class="form-control" type="button" id="publish" value="发表" onclick="doSubmit();">
+                                <div class="form-group-separator"></div>
+                                <input class="form-control" type="button" id="saveDraft" value="保存至草稿箱"
+                                       onclick="alert('保存到草稿箱(开发中)');">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="secondary col-md-2 col-sm-12 col-xs-12">
             <aside class="info aside section">
                 <div class="section-inner">
                     <h2 class="heading sr-only">我的基本信息</h2>
                     <div class="content">
 
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </aside><!--//aside-->
-        </div><!--//secondary-->
-    </div><!--//row-->
-</div><!--//masonry-->
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
 
 <!-- Javascript -->
 <script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js ' %}"></script>
@@ -124,7 +164,10 @@
             },
             success: function (req) {
                 if (req.error == 'success') {
-                    alert('提交博客成功');
+                    {% with host as host %}
+                        window.location.href = "{% url 'blog:blogCatalog' host '全部' 1 %}";
+                    {% endwith %}
+                    alert('发布成功');
                 } else {
                     alert('提交失败:' + req.msg);
                 }
@@ -155,5 +198,6 @@
         }, 0);
     }, null, null, 9999);
 </script>
+
 </body>
 </html>

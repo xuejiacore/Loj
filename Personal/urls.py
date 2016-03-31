@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from loj.views.main.views import welcome, main, tagdemo, nestable, menu_manager
+from loj.views.main.views import welcome, main, tagdemo, nestable, menu_manager, developing
 
 # 整站的URL配置
 urlpatterns = [
@@ -38,9 +38,9 @@ urlpatterns = [
     # ##################################################################################################################
     #
     # 使用用户登录的方式进入主页面
-    url(r'^(?P<whose>\w+)/main/$', main, name="main"),
+    url(r'^(?P<whose>\w+)/blog/$', main, name="main"),
     # 使用匿名用户进入主页面
-    url(r'^(?P<whose>\w+)/main/anonymous/$', main, name='anonymous'),
+    url(r'^(?P<whose>\w+)/blog/anonymous/$', main, name='anonymous'),
     # TODO:管理员页面，部署时可以考虑是否对该页面进行安全限制，如IP鉴权或者是用户鉴权的方式等
     url(r'^admin/', admin.site.urls),
     # 欢迎页面
@@ -51,5 +51,6 @@ urlpatterns = [
     # 测试页面
     url(r'^tagdemo/$', tagdemo, name='tagdemo'),
     url(r'^nestable/$', nestable, name='nestable'),
-    url(r'^resManager/$', menu_manager, name='menuManager')
+    url(r'^resManager/$', menu_manager, name='menuManager'),
+    url(r'^(?P<whose>\w+)/developing/(?P<description>\w+)/$', developing, name='developing')
 ]

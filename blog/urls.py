@@ -1,8 +1,8 @@
 from django.conf.urls import url
 
-from blog.views.blog.demoview import demo, ckeditor, upload_file, download_file
 from blog.views.blog.blogViews import blog_editor, blog_publish, blog_catalog, blog_detail, blog_delete, blog_outline, \
-    blog_create_category, blog_category
+    blog_create_category, category_manage
+from blog.views.blog.demoview import demo, ckeditor, upload_file, download_file
 
 app_name = 'blog'
 
@@ -27,5 +27,5 @@ urlpatterns = [
     # 删除博客
     url(r'^(?P<blog_id>\w+)/delete/$', blog_delete, name='blogDelete'),
     # 博客分类管理
-    url('^categories/$', blog_category, name='blogCategories')
+    url('^categoryMan/$', category_manage, name='categoryManager')
 ]

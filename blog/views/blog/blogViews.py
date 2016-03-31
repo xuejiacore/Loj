@@ -27,10 +27,7 @@ def blog_outline(request, whose):
     })
 
 
-def blog_category(request, whose):
-    return render(request, 'blog/categories.html')
-
-
+@authorize()
 def blog_create_category(request, whose):
     response = {
         'error': 'success'
@@ -71,7 +68,8 @@ def blog_editor(request, whose):
     category = BlogCategory.objects.filter(user=User.objects.get(login_id=request.session['login_id']))
     print(category)
     return render(request, 'blog/blogEditor.html', {
-        'blog_categories': category
+        'blog_categories': category,
+        'host': whose
     })
 
 
@@ -142,6 +140,7 @@ def blog_detail(request, whose, blog_id):
     })
 
 
+@authorize()
 def blog_delete(request, whose, blog_id):
     """
     删除博客的操作
@@ -160,6 +159,7 @@ def blog_delete(request, whose, blog_id):
     return HttpResponse(json.dumps(response), content_type="application/json")
 
 
+@authorize()
 def blog_publish(request, whose):
     """
     发表博客
@@ -213,3 +213,118 @@ def blog_publish(request, whose):
     else:
         logger.debug('* 非法请求方式，已经拒绝用户')
         raise Http404
+
+
+# **********************************************************************************************************************
+# 博客分类管理处理
+# **********************************************************************************************************************
+@authorize()
+def category_manage(request, whose):
+    # TODO:博客分类管理
+    # 跳转到分类管理页面，在该页面中能够添加/修改已经存在的博客分类
+    # 同时允许创建专题分类，在专题分类中，能够调整菜单的层级
+    #
+    #
+    # 专题分类的特点：本质是悬挂菜单资源，用户能够自行创建菜单资源，专题菜单的菜单资源关联到博客分类
+    # 用户点击专题菜单时，实际上是点击分类，只有叶子节点能够点击并进行跳转
+    #
+    # 专题分类的创建过程：点击创建专题-->创建（允许创建子专题）-->创建成功后跳转到专题菜单的调整页面-->专题菜单调整后
+    return render(request, 'blog/categoryManager.html')
+
+
+@authorize()
+def create_subject(request, whose):
+    # TODO:创建专题菜单项
+    """
+    创建专题菜单项
+    :param request:
+    :param whose:
+    :return:创建成功返回值为ok，否则返回值为failure
+    """
+    # 创建博客专题
+
+    # 1、根据提供的名称创建博客分类
+    # 2、根据提供的博客分类名称创建菜单资源，扩展字段中标记对应的博客分类的主键，关联专题菜单和博客分类，新创建的专题菜单
+    # # #的父节点默认为根节点
+    # 3、返回专题菜单的创建结果
+    pass
+
+
+@authorize()
+def delete_subject(request, whose):
+    # TODO:删除专题菜单项
+    """
+    删除专题菜单项
+    :param request:
+    :param whose:
+    :return: 删除成功返回ok，失败返回failure
+    """
+    # 删除博客专题
+    # 1、根据删除的博客专题菜单，判断是否是非叶子节点
+    # # 如果是非叶子节点，继续搜索直到叶子节点，如果叶子节点对应的博客分类中包含了博文，提醒用户是否强制删除
+    # # 如果是叶子节点，如果叶子节点对应的博客分类中包含了博文，提醒用户是否强制删除
+    # 2、
+    pass
+
+
+@authorize()
+def adjust_subject(request, whose):
+    # TODO:调整专题菜单
+    # 根据提交的菜单层级状况进行专题菜单的调整
+    """
+    调整专题菜单
+    :param request:
+    :param whose:
+    :return:调整成功返回值为ok，否则返回值为failure
+    """
+    pass
+
+
+@authorize()
+def create_category(request, whose):
+    # TODO:创建博客分类
+    """
+    创建博客分类
+    :param request:
+    :param whose:
+    :return: 分类创建成功返回值为ok，否则返回值为failure
+    """
+    pass
+
+
+@authorize()
+def delete_category(request, whose):
+    # TODO:删除博客分类
+    """
+    删除博客分类
+    :param request:
+    :param whose:
+    :return:
+    """
+    pass
+
+
+@authorize()
+def update_category(request, whose):
+    # TODO:更新一个博客分类信息
+    """
+    更新一个博客分类信息
+    :param request:
+    :param whose:
+    :return: 更新成功返回值为ok，否则返回值为failure
+    """
+    pass
+
+
+@authorize()
+def update_subject(request, whose):
+    # TODO:更新一个专题菜单
+    """
+    更新一个专题菜单
+    :param request:
+    :param whose:
+    :return: 更新成功返回值为ok，否则返回值为failure
+    """
+    pass
+
+# **********************************************************************************************************************
