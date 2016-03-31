@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/xenon-core.css' %}">
+
     <!-- Global CSS -->
     <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
     <!-- Plugins CSS -->
@@ -51,12 +53,19 @@
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a
                                             href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">{{ blog.blog_title }}</a>
+                                        <div class="label label-secondary"
+                                             style="font-size: 10px;">{{ blog.category.name }}</div>
                                         {% if blog.star %}
                                             {# 星标 #}
-                                            <i class="fa fa-star" style="color: #79d19a;"></i>
+                                            <div class="label label-warning"
+                                                 style="font-size: 10px;"> 推荐
+                                            </div>
+
                                         {% endif %}
                                         {% if blog.top %}
-                                            <i class="fa fa-thumbs-o-up" style="color: #79d19a;"></i>
+                                            <div class="label label-red"
+                                                 style="font-size: 10px;"> 置顶
+                                            </div>
                                         {% endif %}
                                     </h3>
                                     <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}</span>
@@ -68,13 +77,13 @@
                                     <p><a class="more-link"
                                           href="{% url 'blog:blogDetail' host blog.blog_id %}"><i
                                             class="fa fa-external-link"></i>阅读原文</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
+                                </div>
+                            </div>
                         {% endfor %}
 
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </section><!--//section-->
+                    </div>
+                </div>
+            </section>
 
             <section class="latest section">
                 <div class="section-inner">
@@ -105,11 +114,11 @@
                                 <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
                                     laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et
                                     iusto odio dignissimos ducimus.</p>
-                            </div><!--//desc-->
+                            </div>
                             <a class="btn btn-cta-secondary"
                                href="#website-templates/responsive-bootstrap-theme-for-products-velocity/"
                                target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>
-                        </div><!--//item-->
+                        </div>
 
                         <hr class="divider"/>
                         <div class="item row">
@@ -130,8 +139,8 @@
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-mobile-apps-atom/"
                                       target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
-                            </div><!--//desc-->
-                        </div><!--//item-->
+                            </div>
+                        </div>
 
                         <div class="item row">
                             <a class="col-md-4 col-sm-4 col-xs-12"
@@ -152,8 +161,8 @@
                                 <p><a class="more-link"
                                       href="#website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/"
                                       target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
-                            </div><!--//desc-->
-                        </div><!--//item-->
+                            </div>
+                        </div>
 
                         <hr class="divider"/>
                         <div class="section-inner">
@@ -169,7 +178,7 @@
                                     <p><a class="more-link"
                                           href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
                                           target="_blank"><i class="fa fa-external-link"></i>阅读原文</a></p>
-                                </div><!--//item-->
+                                </div>
                                 <div class="item">
                                     <h3 class="title"><a href="#">Project Title Cras eget lacus</a> <span
                                             class="label label-theme">Open Source</span></h3>
@@ -181,7 +190,7 @@
                                     <p><a class="more-link"
                                           href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
                                           target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                                </div><!--//item-->
+                                </div>
                                 <div class="item">
                                     <h3 class="title"><a href="#">Project Title Maecenas Ornare</a> <span
                                             class="label label-theme">Open Source</span></h3>
@@ -192,18 +201,17 @@
                                     <p><a class="more-link"
                                           href="#website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/"
                                           target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                                </div><!--//item-->
+                                </div>
 
                                 <a class="btn btn-cta-secondary" href="#">More on CoderWall <i
                                         class="fa fa-chevron-right"></i></a>
 
-                            </div><!--//content-->
-                        </div><!--//section-inner-->
+                            </div>
+                        </div>
 
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </section><!--//section-->
-
+                    </div>
+                </div>
+            </section>
 
             <section class="experience section">
                 <div class="section-inner">
@@ -216,25 +224,25 @@
                                 dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
                                 laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit
                                 amet orci eget eros faucibus tincidunt.</p>
-                        </div><!--//item-->
+                        </div>
                         <div class="item">
                             <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span>
                                 <span class="year">(2013 - 2014)</span></h3>
                             <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu
                                 suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh.
                                 Donec sodales sagittis magna.</p>
-                        </div><!--//item-->
+                        </div>
 
                         <div class="item">
                             <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span
                                     class="year">(2012 - 2013)</span></h3>
                             <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
                                 adipiscing sem neque sed ipsum.</p>
-                        </div><!--//item-->
+                        </div>
 
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </section><!--//section-->
+                    </div>
+                </div>
+            </section>
 
             <section class="github section">
                 <div class="section-inner">
@@ -243,14 +251,13 @@
                         <a style="font-size: 12px;" href="http://caseyscarborough.com/projects/github-activity/"
                            target="_blank">
                             Tips: 使用 GitHub Activity Stream 获取</a>.
-                        <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
                     <div id="ghfeed" class="ghfeed">
-                    </div><!--//ghfeed-->
+                    </div>
 
-                </div><!--//secton-inner-->
-            </section><!--//section-->
+                </div>
+            </section>
 
-        </div><!--//primary-->
+        </div>
         <div class="secondary col-md-4 col-sm-12 col-xs-12">
             <aside class="info aside section">
                 <div class="section-inner">
@@ -266,15 +273,27 @@
                                     href="http://www.zigui.site" target="_blank">http://www.zigui.site</a>
                             </li>
                         </ul>
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </aside><!--//aside-->
+                    </div>
+                </div>
+            </aside>
 
             <aside class="blog aside section">
                 <div class="section-inner">
                     <h2 class="heading">博客分类</h2>
-                </div><!--//section-inner-->
-            </aside><!--//section-->
+                    <p><a class="more-link" href="{% url 'blog:blogCatalog' host '全部' 1 %}"><i
+                            class="fa fa-external-link"></i> 全部</a></p>
+                    <p style="border-bottom: 1px dashed #5e5e5e;padding-bottom: 10px;">
+                        <a class="more-link" href="{% url 'blog:blogCatalog' host '默认分类' 1 %}">
+                            <i class="fa fa-external-link"></i> 默认分类</a>
+                    </p>
+                    {% for category in categories %}
+                        {% if category.name != '默认分类' %}
+                            <p><a class="more-link" href="{% url 'blog:blogCatalog' host category.name 1 %}"><i
+                                    class="fa fa-external-link"></i> {{ category.name }}</a></p>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </aside>
 
             <aside class="skills aside section">
                 <div class="section-inner">

@@ -17,9 +17,12 @@ logger = logging.getLogger('app')
 
 def blog_outline(request, whose):
     # 第一页 0:5  5:10 n * page-1 ： n * page
-    blog_list = Blog.objects.filter(user=User.objects.get(login_id=whose)).order_by('-top', '-publish_date')[0:8]
+    user = User.objects.get(login_id=whose)
+    blog_list = Blog.objects.filter(user=user).order_by('-top', '-publish_date')[0:8]
+    categories = BlogCategory.objects.filter(user=user).order_by('-create_date', '-level')
     return render(request, 'blog/outline.html', context={
         'blog_list': blog_list,
+        'categories': categories,
         'host': whose
     })
 
@@ -42,12 +45,12 @@ def blog_create_category(request, whose):
                 response['error'] = 'failure'
                 response['msg'] = '创建的分类已经存在'
             else:
-                blog_category = BlogCategory()
-                blog_category.name = category
-                blog_category.user = current_user
-                blog_category.save()
-                blog_category = BlogCategory.objects.filter(name=category, user=current_user).first()
-                response['category_id'] = blog_category.category_id
+                category = BlogCategory()
+                category.name = category
+                category.user = current_user
+                category.save()
+                category = BlogCategory.objects.filter(name=category, user=current_user).first()
+                response['category_id'] = category.category_id
         except KeyError:
             response['error'] = 'failure'
             response['msg'] = '非法请求'
@@ -76,9 +79,10 @@ def blog_editor(request, whose):
 CATALOG_COUNT_PER_PAGE = 5
 
 
-def blog_catalog(request, whose, page):
+def blog_catalog(request, whose, page, category):
     """
     博客目录显示
+    :param category: 博客的分类名称
     :param request: 请求
     :param whose: 博客的拥有者
     :param page: 当前需要显示的页码
@@ -86,7 +90,12 @@ def blog_catalog(request, whose, page):
     """
     # 第一页 0:5  5:10 n * page-1 ： n * page
     current_page = int(page)
-    blog_list = Blog.objects.filter(user=User.objects.get(login_id=whose))
+    user = User.objects.get(login_id=whose)
+    category_list = BlogCategory.objects.filter(user=user).order_by('-create_date', '-level')
+    if category != '全部':
+        blog_list = Blog.objects.filter(user=user, category__name=category)
+    else:
+        blog_list = Blog.objects.filter(user=user)
     catalog = blog_list.order_by('-top', '-publish_date')[
               CATALOG_COUNT_PER_PAGE * (current_page - 1):
               CATALOG_COUNT_PER_PAGE * current_page]
@@ -111,7 +120,9 @@ def blog_catalog(request, whose, page):
         'current_page': current_page,
         'next_page': current_page + 1,
         'page_list': pages,
-        'page_size': page_size
+        'page_size': page_size,
+        'category': category,
+        'category_list': category_list,
     })
 
 
@@ -187,8 +198,7 @@ def blog_publish(request, whose):
             # 设置博文发表者的IP
             blog.publish_ip = publish_ip
             # 设置博文的分类
-            blog.category = BlogCategory.objects.filter(user=user,
-                                                        name='默认').first()
+            blog.category = BlogCategory.objects.filter(user=user, category_id=category).first()
             blog.keywords = '测试关键字'
             blog.user_id = user.user_id
             blog.save()

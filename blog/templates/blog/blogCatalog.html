@@ -12,6 +12,11 @@
     <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="{% static 'css/fonts/fontawesome/css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'js/daterangepicker/daterangepicker-bs3.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-core.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-components.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-skins.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-forms.css' %}">
 
     <!-- Global CSS -->
     <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
@@ -46,99 +51,146 @@
         <div class="primary col-md-9 col-sm-12 col-xs-12">
             <section class="latest section section-shadow">
                 <div class="section-inner wrap-parent">
-                    <h2 class="heading">{{ request.session.real_name }} 的博客目录</h2>
+                    {% with category as category %}
+                        <h2 class="heading">{{ request.session.real_name }} 的博客目录
+                            <div class="label label-secondary"
+                                 style="font-size: 15px;">{{ category }}</div>
+                        </h2>
 
-                    <div class="content">
+                        <div class="content">
 
-                        {% for blog in blog_list %}
-                            <hr class="divider"/>
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12"
-                                   href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">
-                                    <img class="img-responsive project-image"
-                                         src="{% static 'assets/images/projects/project-5.png' %}"
-                                         alt="project name"/>
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a
-                                            href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">{{ blog.blog_title }}</a>
-                                        {% if blog.star %}
-                                            {# 星标 #}
-                                            <i class="fa fa-star" style="color: #79d19a;"></i>
-                                        {% endif %}
-                                        {% if blog.top %}
-                                            <i class="fa fa-thumbs-o-up" style="color: #79d19a;"></i>
-                                        {% endif %}
-                                    </h3>
-                                    <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}</span>
-                                    <p>
-                                        {% autoescape off %}
-                                            {{ blog.blog_content | striptags | truncatechars:125 }}
-                                        {% endautoescape %}
-                                    </p>
-                                    <p><a class="more-link"
-                                          href="{% url 'blog:blogDetail' host blog.blog_id %}"><i
-                                            class="fa fa-external-link"></i>阅读原文</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-                        {% endfor %}
+                            {% for blog in blog_list %}
+                                <hr class="divider"/>
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12"
+                                       href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">
+                                        <img class="img-responsive project-image"
+                                             src="{% static 'assets/images/projects/project-5.png' %}"
+                                             alt="project name"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a
+                                                href="{% url 'blog:blogDetail' request.session.host blog.blog_id %}">{{ blog.blog_title }}</a>
+                                            {% if category == '全部' %}
+                                                <div class="label label-secondary"
+                                                     style="font-size: 10px;">{{ blog.category.name }}</div>
+                                            {% endif %}
 
-                        <div style="text-align: center;">
-                            <ul class="pagination">
-                                {% with curr_page=current_page %}
-                                    {% with last_page=last_page %}
-                                        {% ifequal last_page 0 %}
-                                            <li class="disabled"><a
-                                                    href="javascript:void(0);"><i
-                                                    class="fa-angle-left"></i></a>
-                                            </li>
-                                        {% else %}
-                                            <li><a href="{% url 'blog:blogCatalog' host last_page %}"><i
-                                                    class="fa-angle-left"></i></a>
-                                            </li>
-                                        {% endifequal %}
+                                            {% if blog.star %}
+                                                {# 星标 #}
+                                                <div class="label label-warning"
+                                                     style="font-size: 10px;"> 推荐
+                                                </div>
+
+                                            {% endif %}
+                                            {% if blog.top %}
+                                                <div class="label label-red"
+                                                     style="font-size: 10px;"> 置顶
+                                                </div>
+                                            {% endif %}
+                                        </h3>
+                                        <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}&nbsp;&nbsp;</span>
+                                        <p>
+                                            {% autoescape off %}
+                                                {{ blog.blog_content | striptags | truncatechars:125 }}
+                                            {% endautoescape %}
+                                        </p>
+                                        <p><a class="more-link"
+                                              href="{% url 'blog:blogDetail' host blog.blog_id %}"><i
+                                                class="fa fa-external-link"></i>阅读原文</a></p>
+                                    </div><!--//desc-->
+                                </div><!--//item-->
+                            {% endfor %}
+
+
+                            <div style="text-align: center;">
+                                <ul class="pagination">
+                                    {% with curr_page=current_page %}
+                                        {% with last_page=last_page %}
+                                            {% ifequal last_page 0 %}
+                                                <li class="disabled"><a
+                                                        href="javascript:void(0);"><i
+                                                        class="fa-angle-left"></i></a>
+                                                </li>
+                                            {% else %}
+                                                <li><a href="{% url 'blog:blogCatalog' host category last_page %}"><i
+                                                        class="fa-angle-left"></i></a>
+                                                </li>
+                                            {% endifequal %}
+                                        {% endwith %}
+                                        {% for page in page_list %}
+                                            {% ifequal page curr_page %}
+                                                <li class="active"><a
+                                                        href="{% url 'blog:blogCatalog' host category page %}">{{ current_page }}</a>
+                                                </li>
+                                            {% else %}
+                                                <li>
+                                                    <a href="{% url 'blog:blogCatalog' host category page %}">{{ page }}</a>
+                                                </li>
+                                            {% endifequal %}
+                                        {% endfor %}
+                                        {% with next_page=next_page %}
+                                            {% if next_page > page_size %}
+                                                <li class="disabled"><a href="javascript:void(0);"><i
+                                                        class="fa-angle-right"></i></a></li>
+                                            {% else %}
+                                                <li><a href="{% url 'blog:blogCatalog' host category next_page %}"><i
+                                                        class="fa-angle-right"></i></a></li>
+                                            {% endif %}
+                                        {% endwith %}
                                     {% endwith %}
-                                    {% for page in page_list %}
-                                        {% ifequal page curr_page %}
-                                            <li class="active"><a
-                                                    href="{% url 'blog:blogCatalog' host page %}">{{ current_page }}</a>
-                                            </li>
-                                        {% else %}
-                                            <li><a href="{% url 'blog:blogCatalog' host page %}">{{ page }}</a></li>
-                                        {% endifequal %}
-                                    {% endfor %}
-                                    {% with next_page=next_page %}
-                                        {% if next_page > page_size %}
-                                            <li class="disabled"><a href="javascript:void(0);"><i
-                                                    class="fa-angle-right"></i></a></li>
-                                        {% else %}
-                                            <li><a href="{% url 'blog:blogCatalog' host next_page %}"><i
-                                                    class="fa-angle-right"></i></a></li>
-                                        {% endif %}
-                                    {% endwith %}
-                                {% endwith %}
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </section><!--//section-->
-        </div><!--//primary-->
-        <div class="secondary col-md-3 col-sm-12 col-xs-12">
-            <aside class="info aside section section-shadow">
-                <div class="section-inner">
-                    <h2 class="heading sr-only">我的基本信息</h2>
-                    <div class="content">
+                    {% endwith %}
 
-                    </div><!--//content-->
-                </div><!--//section-inner-->
-            </aside><!--//aside-->
-        </div><!--//secondary-->
-    </div><!--//row-->
-</div><!--//masonry-->
+                </div>
+            </section>
+        </div>
+
+        <div class="secondary col-md-3 col-sm-12 col-xs-12">
+            <aside class="blog aside section section-shadow">
+                <div class="section-inner">
+                    <h2 class="heading">日历</h2>
+                    <div class="content">
+                        <div class="datepicker no-border" style="font-size: 12px;"></div>
+                    </div>
+                </div>
+            </aside>
+            <aside class="blog aside section section-shadow">
+                <div class="section-inner">
+                    <h2 class="heading">博客分类</h2>
+                    <div class="content">
+                        <p><a class="more-link" href="{% url 'blog:blogCatalog' host '全部' 1 %}"><i
+                                class="fa fa-external-link"></i> 全部</a></p>
+                        <p style="border-bottom: 1px dashed #5e5e5e;padding-bottom: 10px;">
+                            <a class="more-link" href="{% url 'blog:blogCatalog' host '默认分类' 1 %}">
+                                <i class="fa fa-external-link"></i> 默认分类</a>
+                        </p>
+                        {% for category in category_list %}
+                            {% if category.name != '默认分类' %}
+                                <p><a class="more-link" href="{% url 'blog:blogCatalog' host category.name 1 %}"><i
+                                        class="fa fa-external-link"></i> {{ category.name }}</a></p>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
 
 <!-- Javascript -->
 <script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js ' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<!-- Bottom Scripts -->
+<script src="{% static 'js/xenon-api.js' %}"></script>
+<script src="{% static 'js/xenon-toggles.js' %}"></script>
+<script src="{% static 'js/datepicker/bootstrap-datepicker.js' %}"></script>
+<script src="{% static 'js/xenon-widgets.js' %}"></script>
+
+<!-- JavaScripts initializations and stuff -->
+<script src="{% static 'js/xenon-custom.js' %}"></script>
 </body>
 </html>

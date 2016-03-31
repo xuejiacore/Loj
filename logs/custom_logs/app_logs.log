@@ -3794,3 +3794,94 @@ For example, <code>&lt;section&gt;</code> should be wrapped as inline.</div>
 - [DEBUG] [Thu, 31 Mar 2016 00:01:39] [Thread-1196:29444] [views.py:21] - * 访问 言子圭 的博客首页
 - [DEBUG] [Thu, 31 Mar 2016 00:02:49] [Thread-1237:48060] [views.py:21] - * 访问 言子圭 的博客首页
 - [DEBUG] [Thu, 31 Mar 2016 00:03:13] [Thread-1278:16576] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 08:00:25] [Thread-1325:46952] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:02:43] [Thread-1350:38888] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:07:25] [Thread-1:62304] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:12:16] [Thread-1:65140] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:13:31] [Thread-29:59124] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Thu, 31 Mar 2016 09:13:32] [Thread-30:66800] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:13:58] [Thread-31:20040] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:14:22] [Thread-72:28732] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:14:34] [Thread-117:66240] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:15:46] [Thread-1:20288] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:16:25] [Thread-44:5948] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:16:46] [Thread-86:45980] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:17:38] [Thread-128:19060] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:18:00] [Thread-180:47468] [blogViews.py:176] - * BLOG TITLE:新分类
+- [DEBUG] [Thu, 31 Mar 2016 09:18:00] [Thread-180:47468] [blogViews.py:177] - * BLOG CONTENT:新分类的博客内容
+- [DEBUG] [Thu, 31 Mar 2016 09:18:00] [Thread-180:47468] [blogViews.py:178] - * BLOG CATALOG:1
+- [DEBUG] [Thu, 31 Mar 2016 09:18:00] [Thread-180:47468] [blogViews.py:183] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Thu, 31 Mar 2016 09:22:10] [Thread-1:35044] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:22:31] [Thread-49:13552] [blogViews.py:176] - * BLOG TITLE:新分类2
+- [DEBUG] [Thu, 31 Mar 2016 09:22:31] [Thread-49:13552] [blogViews.py:177] - * BLOG CONTENT:哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
+- [DEBUG] [Thu, 31 Mar 2016 09:22:31] [Thread-49:13552] [blogViews.py:178] - * BLOG CATALOG:1
+- [DEBUG] [Thu, 31 Mar 2016 09:22:31] [Thread-49:13552] [blogViews.py:183] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Thu, 31 Mar 2016 09:26:20] [Thread-1:12080] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:27:14] [Thread-52:60100] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:27:59] [Thread-101:46964] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:28:36] [Thread-143:35952] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:29:57] [Thread-191:10724] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:33:44] [Thread-244:20884] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Thu, 31 Mar 2016 09:33:45] [Thread-245:18740] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:34:23] [Thread-249:19316] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:36:27] [Thread-297:55160] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:43:44] [Thread-301:33152] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:44:44] [Thread-355:27880] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:46:04] [Thread-402:50116] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:46:34] [Thread-445:39072] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:47:03] [Thread-488:28252] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:48:07] [Thread-530:52980] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:48:47] [Thread-572:16188] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:49:02] [Thread-615:42984] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:51:55] [Thread-662:20300] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:53:06] [Thread-704:35144] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:53:22] [Thread-748:30036] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 09:54:35] [Thread-790:23212] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:00:13] [Thread-833:7492] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:01:09] [Thread-876:65336] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:09:08] [Thread-972:39916] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Thu, 31 Mar 2016 10:09:09] [Thread-973:42380] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:09:41] [Thread-981:12248] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Thu, 31 Mar 2016 10:09:42] [Thread-982:35692] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:13:14] [Thread-989:60012] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:13:57] [Thread-1034:60116] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:14:06] [Thread-1076:7784] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:14:13] [Thread-1117:70928] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:14:40] [Thread-1159:58156] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:19:38] [Thread-1203:67872] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:20:00] [Thread-1250:22396] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:22:49] [Thread-1297:63092] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:25:58] [Thread-1341:51260] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:27:40] [Thread-1382:51072] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:28:00] [Thread-1422:7996] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:28:10] [Thread-1462:31080] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:28:33] [Thread-1504:60632] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:29:07] [Thread-1546:60480] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:29:36] [Thread-1588:62728] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:30:46] [Thread-1630:12440] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:31:34] [Thread-1672:41076] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:32:09] [Thread-1714:9816] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:32:26] [Thread-1757:8940] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:33:14] [Thread-1799:18952] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:33:47] [Thread-1841:1940] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:34:35] [Thread-1884:7456] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:34:53] [Thread-1926:59452] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:35:27] [Thread-1969:62344] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:35:38] [Thread-2011:53696] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:36:01] [Thread-2053:7916] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:36:40] [Thread-2093:5208] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:37:38] [Thread-2134:34600] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:38:00] [Thread-2176:28172] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:39:50] [Thread-2224:13736] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:40:49] [Thread-2267:55060] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:41:39] [Thread-2314:26348] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:42:51] [Thread-2362:14848] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:43:37] [Thread-2406:55084] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:44:32] [Thread-2458:56120] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:47:18] [Thread-1:48496] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:47:41] [Thread-44:30852] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:48:02] [Thread-93:64260] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:48:16] [Thread-136:39440] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:48:54] [Thread-181:31596] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:49:25] [Thread-226:48172] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 10:49:51] [Thread-1:22480] [views.py:21] - * 访问 言子圭 的博客首页

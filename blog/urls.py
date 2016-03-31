@@ -21,7 +21,7 @@ urlpatterns = [
     url(r'^editor/$', blog_editor, name='blogEditor'),
     url(r'^publish/$', blog_publish, name='publishBlog'),
     # 博客目录页
-    url(r'^catalog/(?P<page>\d+)/$', blog_catalog, name='blogCatalog'),
+    url(r'^catalog/(?P<category>\w+)/(?P<page>\d+)/$', blog_catalog, name='blogCatalog'),
     # 博客详细内容页
     url(r'^(?P<blog_id>\w+)/content/$', blog_detail, name='blogDetail'),
     # 删除博客

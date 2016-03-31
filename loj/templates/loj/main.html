@@ -82,19 +82,19 @@
             {% if request.session.visit_role == 'user' %}
                 setTimeout(function () {
                     var opts = {
-                                "closeButton": true,
-                                "debug": false,
-                                "positionClass": "toast-top-full-width",
-                                "onclick": null,
-                                "showDuration": "300",
-                                "hideDuration": "1000",
-                                "timeOut": "5000",
-                                "extendedTimeOut": "1000",
-                                "showEasing": "swing",
-                                "hideEasing": "linear",
-                                "showMethod": "fadeIn",
-                                "hideMethod": "fadeOut"
-                            };
+                        "closeButton": true,
+                        "debug": false,
+                        "positionClass": "toast-top-full-width",
+                        "onclick": null,
+                        "showDuration": "300",
+                        "hideDuration": "1000",
+                        "timeOut": "5000",
+                        "extendedTimeOut": "1000",
+                        "showEasing": "swing",
+                        "hideEasing": "linear",
+                        "showMethod": "fadeIn",
+                        "hideMethod": "fadeOut"
+                    };
                     {% if request.session.is_admin %}
                         toastr.info("尊敬的超级管理员，欢迎您登陆，请确保登录安全!", opts);
                     {% else %}
@@ -335,7 +335,7 @@
                         </li>
                     {% endif %}
                     <li>
-                        <a href="{% url 'blog:blogCatalog' host 1 %}" target="mainFrame">
+                        <a href="{% url 'blog:blogCatalog' host 'ALL_CATEGORIES' 1 %}" target="mainFrame">
                             <span class="title">博客目录</span>
                         </a>
                     </li>
