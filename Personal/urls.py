@@ -52,5 +52,5 @@ urlpatterns = [
     url(r'^tagdemo/$', tagdemo, name='tagdemo'),
     url(r'^nestable/$', nestable, name='nestable'),
     url(r'^resManager/$', menu_manager, name='menuManager'),
-    url(r'^(?P<whose>\w+)/developing/(?P<description>\w+)/$', developing, name='developing')
+    url(r'^(?P<whose>\w+)/developing/(?P<description>.*)/$', developing, name='developing')
 ]

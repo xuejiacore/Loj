@@ -35,14 +35,13 @@
 <div class="container sections-wrapper">
     <div class="row">
         <div class="primary col-md-10 col-sm-12 col-xs-12">
-            <section class="latest section">
+            <section class="latest section section-shadow">
                 <div class="section-inner wrap-parent">
                     <h2 class="heading">编写博文</h2>
 
                     <div class="content">
-
                         <hr class="divider"/>
-                        <form class="form-horizontal" role="form">
+                        <form class="form-horizontal" role="form" onsubmit="return false;">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label" for="blogTitle">博客主题</label>
 
@@ -70,27 +69,68 @@
                                             {% endfor %}
                                         </select>
                                     </div>
-
                                     <div class="col-sm-4">
-                                        <input class="form-control" type="text" id="category-name"
-                                               placeholder="输入新的分类名称">
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <input class="form-control" type="button" id="create-category"
-                                               onclick="onCategoryCreate()"
-                                               value="创建分类">
+                                        <div class="input-group">
+                                            <input id="category-name"
+                                                   class="form-control no-right-border form-focus-purple" type="text">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-purple" type="button"
+                                                        onclick="onCategoryCreate();">创建新分类
+                                                </button>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group-separator"></div>
-                                <textarea style="overflow:visible" name="blogEditor" id="editor" rows="10"
+                                <textarea style="overflow:visible" name="blogEditor" id="editor" rows="28"
                                           cols="80"></textarea>
                             <div class="form-group-separator"></div>
                             <div class="form-group">
-                                <input class="form-control" type="button" id="publish" value="发表" onclick="doSubmit();">
-                                <div class="form-group-separator"></div>
-                                <input class="form-control" type="button" id="saveDraft" value="保存至草稿箱"
-                                       onclick="alert('保存到草稿箱(开发中)');">
+                                <p style="font-size: 12px;padding: 15px;;">
+                                    <label class="checkbox-inline">
+                                        其它选项：
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input id="top" type="checkbox">
+                                        置顶
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input id="star" type="checkbox">
+                                        星标
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox">
+                                        发布到博客专题
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        优先级
+                                        <select id="level">
+                                            <option id="id1">1</option>
+                                            <option id="id2">2</option>
+                                        </select>
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        开放权限
+                                        <select id="privilege">
+                                            <option id="id11">隐藏</option>
+                                            <option id="id22">公开</option>
+                                        </select>
+                                    </label>
+                                </p>
+                            </div>
+                            <div class="form-group-separator"></div>
+                            <div class="vertical-top" style="text-align: center">
+                                <button id="publish" class="btn btn-secondary btn-icon btn-icon-standalone"
+                                        onclick="doSubmit();">
+                                    <i class="fa-share"></i>
+                                    <span>发表博文</span>
+                                </button>
+                                <button id="saveDraft" class="btn btn-purple btn-icon btn-icon-standalone"
+                                        onclick="alert('保存到草稿箱(开发中)');">
+                                    <i class="fa-newspaper-o"></i>
+                                    <span>保存至草稿箱</span>
+                                </button>
                             </div>
                         </form>
 
@@ -116,29 +156,31 @@
 <script type="text/javascript" src="{% static 'pure/ckeditor4.5.7/ckeditor.js' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/toastr/toastr.min.js' %}"></script>
+
 <script type="text/javascript">
     /**
      * 创建博客的分类
      */
     function onCategoryCreate() {
-        alert('获取到需要进行创建的分类：' + $('#category-name').val());
+        var categoryName = $('#category-name').val();
         $.ajax({
             url: "{% url 'blog:createCategory' request.session.host %}",
             method: 'POST',
             dataType: 'json',
             data: {
-                categoryName: $('#category-name').val()
+                categoryName: categoryName
             },
             success: function (resp) {
                 if (resp.error == 'success') {
-                    alert('博客分类创建成功');
-                    refreshCategory($('#category-name').val(), resp.category_id);
+                    window.parent.infoToast('分类 ' + categoryName + ' 创建成功', '分类创建成功');
+                    refreshCategory(categoryName, resp.category_id);
                 } else {
-                    alert('博客分类创建失败' + resp.msg);
+                    window.parent.errToast(resp.msg, "分类 " + categoryName + " 创建失败");
                 }
             },
             error: function () {
-                alert('请求失败');
+                window.parent.errToast("内部发生错误，请邮件至：xuejiacore@sina.com", "内部错误");
             }
         })
     }
@@ -153,27 +195,32 @@
     }
 
     function doSubmit() {
+        var blogTitle = $('#blogTitle').val();
         $.ajax({
-            url: '{% url 'blog:publishBlog' request.session.host %}',
+            url: '{% url 'blog:publishBlog' host %}',
             method: 'POST',
             dataType: "json",
             data: {
-                blogTitle: $('#blogTitle').val(),
+                blogTitle: blogTitle,
                 blogCategory: $("#blogCatalog").find("option:selected").val(),
-                blogContent: CKEDITOR.instances.editor.getData()
+                blogContent: CKEDITOR.instances.editor.getData(),
+                top: $("#top").attr('checked') == 'checked',
+                star: $("#star").attr('checked') == 'checked',
+                level: $("#level").find("option:selected").val(),
+                keyWords: $('#blogKeys').val()
             },
             success: function (req) {
                 if (req.error == 'success') {
+                    window.parent.infoToast('博文 ' + blogTitle + ' 发布成功', '博文发布成功');
                     {% with host as host %}
                         window.location.href = "{% url 'blog:blogCatalog' host '全部' 1 %}";
                     {% endwith %}
-                    alert('发布成功');
                 } else {
-                    alert('提交失败:' + req.msg);
+                    window.parent.error('博文 ' + blogTitle + ' 发布失败', '发布失败')
                 }
             },
             error: function () {
-                alert('请求失败');
+                window.parent.errToast("内部发生错误，请邮件至：xuejiacore@sina.com", "内部错误");
             }
         });
     }

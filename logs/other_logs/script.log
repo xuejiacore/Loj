@@ -11436,3 +11436,692 @@ Traceback (most recent call last):
   File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
     (lookup_view_s, args, kwargs, len(patterns), patterns))
 django.core.urlresolvers.NoReverseMatch: Reverse for 'blogCatalog' with arguments '('zigui',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/blog/catalog/(?P<category>\\w+)/(?P<page>\\d+)/$']
+- [ERROR] [Fri, 01 Apr 2016 10:15:47] [Thread-167:56784] [base.py:284] - Internal Server Error: /zigui/blog/outline/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'Personal.blog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'Personal.blog' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 26, in blog_outline
+    'host': whose
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blogCatalog' with arguments '('zigui', 'd ', 1)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/blog/catalog/(?P<category>\\w+)/(?P<page>\\d+)/$']
+- [ERROR] [Fri, 01 Apr 2016 10:15:51] [Thread-169:62020] [base.py:284] - Internal Server Error: /zigui/blog/outline/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'Personal.blog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'Personal.blog' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 26, in blog_outline
+    'host': whose
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blogCatalog' with arguments '('zigui', 'd ', 1)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/blog/catalog/(?P<category>\\w+)/(?P<page>\\d+)/$']
+- [WARNING] [Fri, 01 Apr 2016 10:35:19] [Thread-7:40912] [base.py:182] - Not Found: /zigui/blog/publish/
+- [WARNING] [Fri, 01 Apr 2016 10:35:50] [Thread-8:69636] [base.py:182] - Not Found: /zigui/blog/publish/
+- [WARNING] [Fri, 01 Apr 2016 10:36:13] [Thread-9:65432] [base.py:182] - Not Found: /zigui/blog/publish/
+- [ERROR] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 122, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 219, in blog_publish
+    blog.save()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\base.py", line 700, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\base.py", line 728, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\base.py", line 812, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\base.py", line 851, in _do_insert
+    using=using, raw=raw)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\__init__.py", line 728, in get_db_prep_save
+    prepared=False)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\__init__.py", line 720, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\__init__.py", line 1853, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'false'
+- [ERROR] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [base.py:284] - Internal Server Error: /zigui/blog/publish/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 122, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 219, in blog_publish
+    blog.save()
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\base.py", line 700, in save
+    force_update=force_update, update_fields=update_fields)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\base.py", line 728, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\base.py", line 812, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\base.py", line 851, in _do_insert
+    using=using, raw=raw)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 1059, in execute_sql
+    for sql, params in self.as_sql():
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 1019, in as_sql
+    for obj in self.query.objs
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 1019, in <listcomp>
+    for obj in self.query.objs
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 1018, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\sql\compiler.py", line 958, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\__init__.py", line 728, in get_db_prep_save
+    prepared=False)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\__init__.py", line 720, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\db\models\fields\__init__.py", line 1853, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'false'
+- [ERROR] [Fri, 01 Apr 2016 11:50:49] [Thread-1:52416] [base.py:284] - Internal Server Error: /zigui/blog/outline/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 29, in blog_outline
+    } for category in categories]
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 29, in <listcomp>
+    } for category in categories]
+AttributeError: 'BlogCategory' object has no attribute 'blog_categories'
+- [ERROR] [Fri, 01 Apr 2016 13:04:42] [Thread-5:52212] [base.py:284] - Internal Server Error: /zigui/blog/catalog/全部/1/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: blog_catalog() got an unexpected keyword argument 'category'
+- [ERROR] [Fri, 01 Apr 2016 13:54:53] [Thread-76:23728] [base.py:284] - Internal Server Error: /zigui/blog/outline/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'Personal.blog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'Personal.blog' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 42, in blog_outline
+    'default_count': default_bcc_count
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blogDetail' with arguments '('', 15)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/blog/(?P<blog_id>\\w+)/content/$']
+- [WARNING] [Fri, 01 Apr 2016 13:56:59] [Thread-85:70704] [base.py:182] - Not Found: /zigui/blog
+- [WARNING] [Fri, 01 Apr 2016 13:57:10] [Thread-89:24704] [base.py:182] - Not Found: /zigui/blog/anonymous
+- [ERROR] [Fri, 01 Apr 2016 13:57:21] [Thread-93:32888] [base.py:284] - Internal Server Error: /zigui/blog/catalog/全部/1/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'Personal.blog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'Personal.blog' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\blog\views\blog\blogViews.py", line 157, in blog_catalog
+    'default_count': default_bcc_count
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blogDetail' with arguments '('', 15)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/blog/(?P<blog_id>\\w+)/content/$']
+- [ERROR] [Fri, 01 Apr 2016 14:13:28] [Thread-157:49560] [base.py:284] - Internal Server Error: /xuejia/blog/anonymous/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'Personal.developing' with arguments '('︸_︸目前正在内测期间，敬请期待!',)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 74, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\loj\views\main\views.py", line 24, in main
+    "host": whose,
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'developing' with arguments '('︸_︸目前正在内测期间，敬请期待!',)' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/developing/(?P<description>\\w+)/$']
+- [ERROR] [Fri, 01 Apr 2016 14:13:56] [Thread-158:28516] [base.py:284] - Internal Server Error: /xuejia/blog/anonymous/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'Personal.developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 74, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\loj\views\main\views.py", line 24, in main
+    "host": whose,
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/developing/(?P<description>\\w+)/$']
+- [ERROR] [Fri, 01 Apr 2016 14:16:06] [Thread-1:16560] [base.py:284] - Internal Server Error: /xuejia/blog/anonymous/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'Personal.developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 74, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\loj\views\main\views.py", line 24, in main
+    "host": whose,
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/developing/(?P<description>[\\w+\\W+])/$']
+- [ERROR] [Fri, 01 Apr 2016 14:16:17] [Thread-1:68152] [base.py:284] - Internal Server Error: /xuejia/blog/anonymous/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'Personal.developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 74, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\loj\views\main\views.py", line 24, in main
+    "host": whose,
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/developing/(?P<description>\\W+)/$']
+- [ERROR] [Fri, 01 Apr 2016 14:16:20] [Thread-3:19864] [base.py:284] - Internal Server Error: /xuejia/blog/anonymous/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'Personal.developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 74, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\loj\views\main\views.py", line 24, in main
+    "host": whose,
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/developing/(?P<description>\\W+)/$']
+- [ERROR] [Fri, 01 Apr 2016 14:16:26] [Thread-1:63032] [base.py:284] - Internal Server Error: /xuejia/blog/anonymous/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'Personal.developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 74, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\loj\views\main\views.py", line 24, in main
+    "host": whose,
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/developing/(?P<description>)/$']
+- [ERROR] [Fri, 01 Apr 2016 14:17:01] [Thread-1:57528] [base.py:284] - Internal Server Error: /xuejia/blog/anonymous/
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'Personal.developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\Projects\Python Project\Life of Join\author\views\author\author.py", line 74, in __decorate
+    ret = view(*fn_args, **fn_kwargs)
+  File "F:\Projects\Python Project\Life of Join\loj\views\main\views.py", line 24, in main
+    "host": whose,
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\backends\django.py", line 95, in render
+    return self.template.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 206, in render
+    return self._render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\base.py", line 959, in render_annotated
+    return self.render(context)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\template\defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "F:\Tool Kit\Python\3.5.1\lib\site-packages\django\core\urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'developing' with arguments '('xuejia', '︸_︸目前正在内测期间，敬请期待!')' and keyword arguments '{}' not found. 1 pattern(s) tried: ['(?P<whose>\\w+)/developing/(?P<description>[\\w+\\W])/$']

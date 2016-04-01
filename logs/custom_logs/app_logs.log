@@ -4080,3 +4080,122 @@ For example, <code>&lt;section&gt;</code> should be wrapped as inline.</div>
 - [DEBUG] [Thu, 31 Mar 2016 21:19:56] [Thread-13:56268] [views.py:21] - * 访问 言子圭 的博客首页
 - [DEBUG] [Thu, 31 Mar 2016 21:20:51] [Thread-14:29820] [views.py:21] - * 访问 言子圭 的博客首页
 - [DEBUG] [Thu, 31 Mar 2016 21:21:30] [Thread-76:21324] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 21:25:50] [Thread-139:68800] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Thu, 31 Mar 2016 21:25:51] [Thread-140:27476] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 22:49:23] [Thread-146:66636] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 22:49:34] [Thread-153:64908] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Thu, 31 Mar 2016 22:49:35] [Thread-154:57992] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 22:57:59] [Thread-166:19932] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 23:19:51] [Thread-249:18648] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Thu, 31 Mar 2016 23:24:45] [Thread-323:34440] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 09:27:32] [Thread-26:30600] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:01:11] [Thread-30:18808] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:02:17] [Thread-78:62268] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:03:04] [Thread-122:11944] [blogViews.py:184] - * BLOG TITLE:新分类2测试
+- [DEBUG] [Fri, 01 Apr 2016 10:03:04] [Thread-122:11944] [blogViews.py:185] - * BLOG CONTENT:阿德是否
+- [DEBUG] [Fri, 01 Apr 2016 10:03:04] [Thread-122:11944] [blogViews.py:186] - * BLOG CATALOG:8
+- [DEBUG] [Fri, 01 Apr 2016 10:03:04] [Thread-122:11944] [blogViews.py:191] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:15:45] [Thread-166:18660] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:15:50] [Thread-168:12044] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:16:15] [Thread-171:68732] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:16:55] [Thread-176:69612] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:20:13] [Thread-181:24244] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:21:35] [Thread-196:42424] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:25:30] [Thread-245:4196] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:26:00] [Thread-288:35240] [blogViews.py:184] - * BLOG TITLE:博客编辑测试
+- [DEBUG] [Fri, 01 Apr 2016 10:26:00] [Thread-288:35240] [blogViews.py:185] - * BLOG CONTENT:阿斯顿分
+- [DEBUG] [Fri, 01 Apr 2016 10:26:00] [Thread-288:35240] [blogViews.py:186] - * BLOG CATALOG:3
+- [DEBUG] [Fri, 01 Apr 2016 10:26:00] [Thread-288:35240] [blogViews.py:191] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:34:55] [Thread-1:38136] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:35:19] [Thread-7:40912] [blogViews.py:184] - * 带非法参数请求，已经拒绝用户
+- [DEBUG] [Fri, 01 Apr 2016 10:35:50] [Thread-8:69636] [blogViews.py:184] - * 带非法参数请求，已经拒绝用户
+- [DEBUG] [Fri, 01 Apr 2016 10:36:13] [Thread-9:65432] [blogViews.py:184] - * 带非法参数请求，已经拒绝用户
+- [DEBUG] [Fri, 01 Apr 2016 10:36:56] [Thread-12:9816] [blogViews.py:187] - * BLOG TITLE:阿斯顿发顺丰
+- [DEBUG] [Fri, 01 Apr 2016 10:36:56] [Thread-12:9816] [blogViews.py:188] - * BLOG CONTENT:撒旦发顺丰
+- [DEBUG] [Fri, 01 Apr 2016 10:36:56] [Thread-12:9816] [blogViews.py:189] - * BLOG CATALOG:3
+- [DEBUG] [Fri, 01 Apr 2016 10:36:56] [Thread-12:9816] [blogViews.py:190] - * BLOG TOP:true
+- [DEBUG] [Fri, 01 Apr 2016 10:36:56] [Thread-12:9816] [blogViews.py:191] - * BLOG STAR:false
+- [DEBUG] [Fri, 01 Apr 2016 10:36:56] [Thread-12:9816] [blogViews.py:192] - * BLOG LEVEL:1
+- [DEBUG] [Fri, 01 Apr 2016 10:36:56] [Thread-12:9816] [blogViews.py:197] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:41:29] [Thread-1:14068] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [blogViews.py:188] - * BLOG TITLE:置顶
+- [DEBUG] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [blogViews.py:189] - * BLOG CONTENT:阿迪斯
+- [DEBUG] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [blogViews.py:190] - * BLOG CATALOG:3
+- [DEBUG] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [blogViews.py:191] - * BLOG TOP:true
+- [DEBUG] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [blogViews.py:192] - * BLOG STAR:false
+- [DEBUG] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [blogViews.py:193] - * BLOG LEVEL:1
+- [DEBUG] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [blogViews.py:194] - * BLOG KEYS:关键字1；关键字2；关键字3
+- [DEBUG] [Fri, 01 Apr 2016 10:41:48] [Thread-6:31748] [blogViews.py:199] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [blogViews.py:188] - * BLOG TITLE:置顶
+- [DEBUG] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [blogViews.py:189] - * BLOG CONTENT:阿迪斯
+- [DEBUG] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [blogViews.py:190] - * BLOG CATALOG:3
+- [DEBUG] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [blogViews.py:191] - * BLOG TOP:true
+- [DEBUG] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [blogViews.py:192] - * BLOG STAR:false
+- [DEBUG] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [blogViews.py:193] - * BLOG LEVEL:1
+- [DEBUG] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [blogViews.py:194] - * BLOG KEYS:关键字1；关键字2；关键字3
+- [DEBUG] [Fri, 01 Apr 2016 10:42:05] [Thread-7:23124] [blogViews.py:199] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:42:55] [Thread-1:40748] [blogViews.py:188] - * BLOG TITLE:置顶
+- [DEBUG] [Fri, 01 Apr 2016 10:42:55] [Thread-1:40748] [blogViews.py:189] - * BLOG CONTENT:阿迪斯
+- [DEBUG] [Fri, 01 Apr 2016 10:42:55] [Thread-1:40748] [blogViews.py:190] - * BLOG CATALOG:3
+- [DEBUG] [Fri, 01 Apr 2016 10:42:55] [Thread-1:40748] [blogViews.py:191] - * BLOG TOP:true
+- [DEBUG] [Fri, 01 Apr 2016 10:42:55] [Thread-1:40748] [blogViews.py:192] - * BLOG STAR:false
+- [DEBUG] [Fri, 01 Apr 2016 10:42:55] [Thread-1:40748] [blogViews.py:193] - * BLOG LEVEL:1
+- [DEBUG] [Fri, 01 Apr 2016 10:42:55] [Thread-1:40748] [blogViews.py:194] - * BLOG KEYS:关键字1；关键字2；关键字3
+- [DEBUG] [Fri, 01 Apr 2016 10:42:55] [Thread-1:40748] [blogViews.py:199] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:44:20] [Thread-4:26688] [blogViews.py:188] - * BLOG TITLE:置顶2
+- [DEBUG] [Fri, 01 Apr 2016 10:44:20] [Thread-4:26688] [blogViews.py:189] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Fri, 01 Apr 2016 10:44:20] [Thread-4:26688] [blogViews.py:190] - * BLOG CATALOG:3
+- [DEBUG] [Fri, 01 Apr 2016 10:44:20] [Thread-4:26688] [blogViews.py:191] - * BLOG TOP:true
+- [DEBUG] [Fri, 01 Apr 2016 10:44:20] [Thread-4:26688] [blogViews.py:192] - * BLOG STAR:false
+- [DEBUG] [Fri, 01 Apr 2016 10:44:20] [Thread-4:26688] [blogViews.py:193] - * BLOG LEVEL:1
+- [DEBUG] [Fri, 01 Apr 2016 10:44:20] [Thread-4:26688] [blogViews.py:194] - * BLOG KEYS:关键字1；关键字2；关键字3
+- [DEBUG] [Fri, 01 Apr 2016 10:44:20] [Thread-4:26688] [blogViews.py:199] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:44:52] [Thread-9:37508] [blogViews.py:188] - * BLOG TITLE:星标
+- [DEBUG] [Fri, 01 Apr 2016 10:44:52] [Thread-9:37508] [blogViews.py:189] - * BLOG CONTENT:阿斯顿分
+- [DEBUG] [Fri, 01 Apr 2016 10:44:52] [Thread-9:37508] [blogViews.py:190] - * BLOG CATALOG:18
+- [DEBUG] [Fri, 01 Apr 2016 10:44:52] [Thread-9:37508] [blogViews.py:191] - * BLOG TOP:false
+- [DEBUG] [Fri, 01 Apr 2016 10:44:52] [Thread-9:37508] [blogViews.py:192] - * BLOG STAR:true
+- [DEBUG] [Fri, 01 Apr 2016 10:44:52] [Thread-9:37508] [blogViews.py:193] - * BLOG LEVEL:1
+- [DEBUG] [Fri, 01 Apr 2016 10:44:52] [Thread-9:37508] [blogViews.py:194] - * BLOG KEYS:关键字1；关键字2；关键字3
+- [DEBUG] [Fri, 01 Apr 2016 10:44:52] [Thread-9:37508] [blogViews.py:199] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:45:19] [Thread-14:45504] [blogViews.py:188] - * BLOG TITLE:置顶星标
+- [DEBUG] [Fri, 01 Apr 2016 10:45:19] [Thread-14:45504] [blogViews.py:189] - * BLOG CONTENT:暗室逢灯
+- [DEBUG] [Fri, 01 Apr 2016 10:45:19] [Thread-14:45504] [blogViews.py:190] - * BLOG CATALOG:19
+- [DEBUG] [Fri, 01 Apr 2016 10:45:19] [Thread-14:45504] [blogViews.py:191] - * BLOG TOP:true
+- [DEBUG] [Fri, 01 Apr 2016 10:45:19] [Thread-14:45504] [blogViews.py:192] - * BLOG STAR:true
+- [DEBUG] [Fri, 01 Apr 2016 10:45:19] [Thread-14:45504] [blogViews.py:193] - * BLOG LEVEL:1
+- [DEBUG] [Fri, 01 Apr 2016 10:45:19] [Thread-14:45504] [blogViews.py:194] - * BLOG KEYS:阿斯顿分
+- [DEBUG] [Fri, 01 Apr 2016 10:45:19] [Thread-14:45504] [blogViews.py:199] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Fri, 01 Apr 2016 10:47:25] [Thread-1:51688] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:48:29] [Thread-1:24204] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:48:51] [Thread-1:19212] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:51:05] [Thread-6:43436] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 10:52:30] [Thread-3:2964] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 13:57:10] [Thread-90:14392] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 13:58:26] [Thread-97:45744] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 13:58:32] [Thread-106:29296] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 13:58:43] [Thread-109:55644] [views.py:21] - * 访问 超级管理员 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 13:58:56] [Thread-112:70908] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:04:20] [Thread-118:50912] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:06:17] [Thread-123:56804] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:06:26] [Thread-126:47704] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:07:05] [Thread-132:33452] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:07:28] [Thread-136:19964] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:08:30] [Thread-139:26476] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:09:00] [Thread-144:71624] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:09:34] [Thread-147:10584] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:09:54] [Thread-150:48988] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:13:27] [Thread-157:49560] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:13:56] [Thread-158:28516] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:16:06] [Thread-1:16560] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:16:17] [Thread-1:68152] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:16:20] [Thread-3:19864] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:16:26] [Thread-1:63032] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:17:01] [Thread-1:57528] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:17:19] [Thread-1:1768] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:18:02] [Thread-47:54280] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:18:23] [Thread-60:70092] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:19:10] [Thread-64:33388] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:22:54] [Thread-106:60084] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:23:14] [Thread-114:21860] [views.py:21] - * 访问 詹学佳 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 14:25:13] [Thread-124:63904] [views.py:21] - * 访问 言子圭 的博客首页

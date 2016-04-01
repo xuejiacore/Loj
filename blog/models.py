@@ -42,7 +42,7 @@ class Blog(models.Model):
     read_times = models.IntegerField('阅读次数', default=0, null=False, blank=False)
     replied_times = models.IntegerField('回复次数', default=0, null=False, blank=False)
     top = models.BooleanField('是否置顶', choices=((True, '是'), (False, '否')), default=False, null=False, blank=True)
-    star = models.IntegerField('星标', choices=((1, '是'), (0, '否')), default=False, null=False, blank=True)
+    star = models.BooleanField('星标', choices=((True, '是'), (False, '否')), default=False, null=False, blank=True)
 
     class Meta:
         db_table = 'T_BLOG'

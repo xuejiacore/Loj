@@ -101,7 +101,19 @@
                     {% endif %}
                 }, 1500);
             {% endif %}
-        })
+        });
+
+        function infoToast(msg, title) {
+            toastr.info(msg, title, {});
+        }
+
+        function warningToast(msg, title) {
+            toastr.warning(msg, title, {});
+        }
+
+        function errToast(msg, title) {
+            toastr.error(msg, title, {});
+        }
     </script>
 </head>
 <body class="page-body" style="background: url('{% static 'loj/images/charcoal.gif' %}') repeat;">
@@ -743,13 +755,13 @@
 
                     <ul class="dropdown-menu user-profile-menu list-unstyled">
                         <li>
-                            <a href="{% url 'author:login' %}">
+                            <a href="{% url 'author:login' %}?host={{ host }}">
                                 <i class="linecons-key"></i>
                                 登录
                             </a>
                         </li>
                         <li class="last">
-                            <a href="javascript:">
+                            <a href="{% url 'developing' host  '︸_︸目前正在内测期间，敬请期待!' %}" target="mainFrame">
                                 <i class="linecons-pencil"></i>
                                 注册
                             </a>

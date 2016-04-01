@@ -18,12 +18,28 @@ logger = logging.getLogger('app')
 def blog_outline(request, whose):
     # 第一页 0:5  5:10 n * page-1 ： n * page
     user = User.objects.get(login_id=whose)
-    blog_list = Blog.objects.filter(user=user).order_by('-top', '-publish_date')[0:8]
-    categories = BlogCategory.objects.filter(user=user).order_by('-create_date', '-level')
+    all_blog = Blog.objects.filter(user=user)
+    categories = BlogCategory.objects.filter(user=user).order_by('-level', 'create_date')
+
+    # 获得博客分类对应的博客数量
+    blog_category_count = [{
+                               'category_id': category.category_id,
+                               'name': category.name,
+                               'count': category.blog_category.count()
+                           } for category in categories]
+
+    default_bcc_count = 0
+    for bcc in blog_category_count:
+        if bcc['name'] == '默认分类':
+            default_bcc_count = bcc['count']
+            break
+
     return render(request, 'blog/outline.html', context={
-        'blog_list': blog_list,
-        'categories': categories,
-        'host': whose
+        'blog_list': all_blog.order_by('-top', '-star', '-publish_date', '-blog_id')[0:8],
+        'categories': blog_category_count,
+        'host': whose,
+        'blog_count': all_blog.count(),
+        'default_count': default_bcc_count
     })
 
 
@@ -36,18 +52,22 @@ def blog_create_category(request, whose):
         # 查询当前创建的博客分类是否已经存在于数据库中，如果已经存在，提示用户分类已经存在，放弃入库
         current_user = User.objects.get(login_id=request.session['login_id'])
         try:
-            category = request.POST['categoryName']
-            count = BlogCategory.objects.filter(name=category, user=current_user).count()
-            if count:
-                response['error'] = 'failure'
-                response['msg'] = '创建的分类已经存在'
+            category_name = request.POST['categoryName']
+            if category_name:
+                count = BlogCategory.objects.filter(name=category_name, user=current_user).count()
+                if count:
+                    response['error'] = 'failure'
+                    response['msg'] = '创建的分类已经存在'
+                else:
+                    category = BlogCategory()
+                    category.name = category_name
+                    category.user = current_user
+                    category.save()
+                    category = BlogCategory.objects.filter(name=category_name, user=current_user).first()
+                    response['category_id'] = category.category_id
             else:
-                category = BlogCategory()
-                category.name = category
-                category.user = current_user
-                category.save()
-                category = BlogCategory.objects.filter(name=category, user=current_user).first()
-                response['category_id'] = category.category_id
+                response['error'] = 'failure'
+                response['msg'] = '分类名称不允许为空'
         except KeyError:
             response['error'] = 'failure'
             response['msg'] = '非法请求'
@@ -65,7 +85,8 @@ def blog_editor(request, whose):
     :param whose: 博客的拥有者
     :return:
     """
-    category = BlogCategory.objects.filter(user=User.objects.get(login_id=request.session['login_id']))
+    category = BlogCategory.objects.filter(user=User.objects.get(login_id=request.session['login_id'])).order_by(
+            '-level', 'create_date')
     print(category)
     return render(request, 'blog/blogEditor.html', {
         'blog_categories': category,
@@ -77,10 +98,10 @@ def blog_editor(request, whose):
 CATALOG_COUNT_PER_PAGE = 5
 
 
-def blog_catalog(request, whose, page, category):
+def blog_catalog(request, whose, page, category_name):
     """
     博客目录显示
-    :param category: 博客的分类名称
+    :param category_name: 博客的分类名称
     :param request: 请求
     :param whose: 博客的拥有者
     :param page: 当前需要显示的页码
@@ -90,15 +111,26 @@ def blog_catalog(request, whose, page, category):
     current_page = int(page)
     user = User.objects.get(login_id=whose)
     category_list = BlogCategory.objects.filter(user=user).order_by('-create_date', '-level')
-    if category != '全部':
-        blog_list = Blog.objects.filter(user=user, category__name=category)
+    all_blog = Blog.objects.filter(user=user)
+    if category_name != '全部':
+        blog_list = all_blog.filter(user=user, category__name=category_name)
     else:
-        blog_list = Blog.objects.filter(user=user)
-    catalog = blog_list.order_by('-top', '-publish_date')[
+        blog_list = all_blog
+    catalog = blog_list.order_by('-top', '-star', '-publish_date', '-blog_id')[
               CATALOG_COUNT_PER_PAGE * (current_page - 1):
               CATALOG_COUNT_PER_PAGE * current_page]
-    request.session['host'] = whose
 
+    # 获得博客分类对应的博客数量
+    blog_category_count = [{
+                               'category_id': category.category_id,
+                               'name': category.name,
+                               'count': category.blog_category.count()
+                           } for category in category_list]
+    default_bcc_count = 0
+    for bcc in blog_category_count:
+        if bcc['name'] == '默认分类':
+            default_bcc_count = bcc['count']
+            break
     # 页码总数
     page_size = int(ceil(blog_list.count() / CATALOG_COUNT_PER_PAGE))
 
@@ -119,8 +151,10 @@ def blog_catalog(request, whose, page, category):
         'next_page': current_page + 1,
         'page_list': pages,
         'page_size': page_size,
-        'category': category,
-        'category_list': category_list,
+        'category_name': category_name,
+        'category_list': blog_category_count,
+        'blog_count': blog_list.count(),
+        'default_count': default_bcc_count
     })
 
 
@@ -173,6 +207,10 @@ def blog_publish(request, whose):
             blog_title = request.POST['blogTitle']
             blog_content = request.POST['blogContent']
             category = request.POST['blogCategory']
+            is_top = request.POST['top']
+            is_star = request.POST['star']
+            level = request.POST['level']
+            key_words = request.POST['keyWords']
         except KeyError:
             logger.debug('* 带非法参数请求，已经拒绝用户')
             raise Http404
@@ -180,6 +218,10 @@ def blog_publish(request, whose):
         logger.debug('* BLOG TITLE:' + blog_title)
         logger.debug('* BLOG CONTENT:' + blog_content)
         logger.debug('* BLOG CATALOG:' + category)
+        logger.debug('* BLOG TOP:' + is_top)
+        logger.debug('* BLOG STAR:' + is_star)
+        logger.debug('* BLOG LEVEL:' + level)
+        logger.debug('* BLOG KEYS:' + key_words)
         # 使用博文表单验证对表单的合法性做确认
         form = BlogPublishForm(request.POST)
         response = {}
@@ -199,10 +241,12 @@ def blog_publish(request, whose):
             blog.publish_ip = publish_ip
             # 设置博文的分类
             blog.category = BlogCategory.objects.filter(user=user, category_id=category).first()
-            blog.keywords = '测试关键字'
+            blog.keywords = key_words
+            blog.level = level
+            blog.star = is_star == 'true'
+            blog.top = is_top == 'true'
             blog.user_id = user.user_id
             blog.save()
-
             response['error'] = 'success'
             response['msg'] = '博客进入审核阶段，审核合法后发表'
         else:
