@@ -1,3 +1,4 @@
+import datetime
 import json
 import logging
 
@@ -85,12 +86,19 @@ def blog_editor(request, whose):
     :param whose: 博客的拥有者
     :return:
     """
-    category = BlogCategory.objects.filter(user=User.objects.get(login_id=request.session['login_id'])).order_by(
+    user = User.objects.get(login_id=request.session['login_id'])
+    blog = None
+    if 'blog_id' in request.GET:
+        # 如果有携带博客ID号，需要从数据库中抽取数据填充到对应的输入中
+        blog = Blog.objects.get(user=user, blog_id=request.GET['blog_id'])
+
+    category = BlogCategory.objects.filter(user=user).order_by(
             '-level', 'create_date')
-    print(category)
     return render(request, 'blog/blogEditor.html', {
         'blog_categories': category,
-        'host': whose
+        'host': whose,
+        'blog': blog,
+        'level_range': [0, 1, 2, 3, 4]
     })
 
 
@@ -170,7 +178,8 @@ def blog_detail(request, whose, blog_id):
     blog.read_times += 1
     blog.save()
     return render(request, 'blog/blogDetail.html', {
-        'blog': blog
+        'blog': blog,
+        'host': whose
     })
 
 
@@ -189,7 +198,7 @@ def blog_delete(request, whose, blog_id):
     except ObjectDoesNotExist:
         response['error'] = 'error'
     else:
-        response['error'] = 'ok' if result[0] == 1 else 'error'
+        response['error'] = 'success' if result[0] == 1 else 'error'
     return HttpResponse(json.dumps(response), content_type="application/json")
 
 
@@ -227,12 +236,20 @@ def blog_publish(request, whose):
         response = {}
         if form.is_valid():
             logger.debug('* 信息均已经填写完整，通过表单验证，写入数据库')
-            # TODO:在这里对数据的内容进行入库操作
+            is_update_op = False
+            if 'blogId' in request.POST:
+                logger.debug("* 当前进行的操作是更新博文操作")
+                is_update_op = True
 
             publish_ip = request.META['REMOTE_ADDR']
             print(color_format("* 客户端的IP地址是：{}".format(publish_ip), fore='cyan'))
             user = User.objects.get(login_id=request.session['login_id'])
-            blog = Blog()
+            if is_update_op:
+                blog = Blog.objects.get(user=user, blog_id=request.POST['blogId'])
+                blog.update_date = datetime.datetime.now()
+            else:
+                blog = Blog()
+
             # 设值博文的标题
             blog.blog_title = blog_title
             # 设值博文发表的内容

@@ -17,8 +17,9 @@ urlpatterns = [
     url(r'^newcategory/$', blog_create_category, name='createCategory'),
     # 博客的概括内容（首页）
     url(r'^outline/$', blog_outline, name='outline'),
-    # 博客编辑发表
+    # 博客编辑
     url(r'^editor/$', blog_editor, name='blogEditor'),
+    # 博客发表
     url(r'^publish/$', blog_publish, name='publishBlog'),
     # 博客目录页
     url(r'^catalog/(?P<category_name>\w+)/(?P<page>\d+)/$', blog_catalog, name='blogCatalog'),

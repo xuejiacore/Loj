@@ -4199,3 +4199,227 @@ For example, <code>&lt;section&gt;</code> should be wrapped as inline.</div>
 - [DEBUG] [Fri, 01 Apr 2016 14:22:54] [Thread-106:60084] [views.py:21] - * 访问 詹学佳 的博客首页
 - [DEBUG] [Fri, 01 Apr 2016 14:23:14] [Thread-114:21860] [views.py:21] - * 访问 詹学佳 的博客首页
 - [DEBUG] [Fri, 01 Apr 2016 14:25:13] [Thread-124:63904] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Fri, 01 Apr 2016 15:00:24] [Thread-177:59544] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Fri, 01 Apr 2016 15:00:25] [Thread-178:11976] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sat, 02 Apr 2016 09:56:19] [Thread-265:37724] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Sat, 02 Apr 2016 09:56:20] [Thread-266:61512] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sun, 03 Apr 2016 20:18:13] [Thread-371:25748] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Sun, 03 Apr 2016 20:18:13] [Thread-372:18044] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sun, 03 Apr 2016 20:23:12] [Thread-432:64744] [blogViews.py:218] - * BLOG TITLE:这是我的第一篇博文
+- [DEBUG] [Sun, 03 Apr 2016 20:23:12] [Thread-432:64744] [blogViews.py:219] - * BLOG CONTENT:<h1 style="text-align: center;">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。
+- [DEBUG] [Sun, 03 Apr 2016 20:23:12] [Thread-432:64744] [blogViews.py:220] - * BLOG CATALOG:
+- [DEBUG] [Sun, 03 Apr 2016 20:23:12] [Thread-432:64744] [blogViews.py:221] - * BLOG TOP:true
+- [DEBUG] [Sun, 03 Apr 2016 20:23:12] [Thread-432:64744] [blogViews.py:222] - * BLOG STAR:true
+- [DEBUG] [Sun, 03 Apr 2016 20:23:12] [Thread-432:64744] [blogViews.py:223] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 20:23:12] [Thread-432:64744] [blogViews.py:224] - * BLOG KEYS:Django
+- [DEBUG] [Sun, 03 Apr 2016 20:23:12] [Thread-432:64744] [blogViews.py:229] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 20:23:24] [Thread-433:53972] [blogViews.py:218] - * BLOG TITLE:这是我的第一篇博文
+- [DEBUG] [Sun, 03 Apr 2016 20:23:24] [Thread-433:53972] [blogViews.py:219] - * BLOG CONTENT:<h1 style="text-align: center;">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。
+- [DEBUG] [Sun, 03 Apr 2016 20:23:24] [Thread-433:53972] [blogViews.py:220] - * BLOG CATALOG:
+- [DEBUG] [Sun, 03 Apr 2016 20:23:24] [Thread-433:53972] [blogViews.py:221] - * BLOG TOP:true
+- [DEBUG] [Sun, 03 Apr 2016 20:23:24] [Thread-433:53972] [blogViews.py:222] - * BLOG STAR:true
+- [DEBUG] [Sun, 03 Apr 2016 20:23:24] [Thread-433:53972] [blogViews.py:223] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 20:23:24] [Thread-433:53972] [blogViews.py:224] - * BLOG KEYS:Django
+- [DEBUG] [Sun, 03 Apr 2016 20:23:24] [Thread-433:53972] [blogViews.py:229] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 20:24:34] [Thread-434:41400] [blogViews.py:218] - * BLOG TITLE:这是我的第一篇博文
+- [DEBUG] [Sun, 03 Apr 2016 20:24:34] [Thread-434:41400] [blogViews.py:219] - * BLOG CONTENT:<h1 style="text-align: center;">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。
+- [DEBUG] [Sun, 03 Apr 2016 20:24:34] [Thread-434:41400] [blogViews.py:220] - * BLOG CATALOG:
+- [DEBUG] [Sun, 03 Apr 2016 20:24:34] [Thread-434:41400] [blogViews.py:221] - * BLOG TOP:true
+- [DEBUG] [Sun, 03 Apr 2016 20:24:34] [Thread-434:41400] [blogViews.py:222] - * BLOG STAR:true
+- [DEBUG] [Sun, 03 Apr 2016 20:24:34] [Thread-434:41400] [blogViews.py:223] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 20:24:34] [Thread-434:41400] [blogViews.py:224] - * BLOG KEYS:Django
+- [DEBUG] [Sun, 03 Apr 2016 20:24:34] [Thread-434:41400] [blogViews.py:229] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 20:24:47] [Thread-444:35392] [blogViews.py:218] - * BLOG TITLE:Django开发
+- [DEBUG] [Sun, 03 Apr 2016 20:24:47] [Thread-444:35392] [blogViews.py:219] - * BLOG CONTENT:<h1 style="text-align:center">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。
+- [DEBUG] [Sun, 03 Apr 2016 20:24:47] [Thread-444:35392] [blogViews.py:220] - * BLOG CATALOG:20
+- [DEBUG] [Sun, 03 Apr 2016 20:24:47] [Thread-444:35392] [blogViews.py:221] - * BLOG TOP:false
+- [DEBUG] [Sun, 03 Apr 2016 20:24:47] [Thread-444:35392] [blogViews.py:222] - * BLOG STAR:false
+- [DEBUG] [Sun, 03 Apr 2016 20:24:47] [Thread-444:35392] [blogViews.py:223] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 20:24:47] [Thread-444:35392] [blogViews.py:224] - * BLOG KEYS:
+- [DEBUG] [Sun, 03 Apr 2016 20:24:47] [Thread-444:35392] [blogViews.py:229] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 20:41:37] [Thread-29:61240] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sun, 03 Apr 2016 21:23:16] [Thread-99:7060] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Sun, 03 Apr 2016 21:31:19] [Thread-4:61188] [blogViews.py:229] - * BLOG TITLE:测试
+- [DEBUG] [Sun, 03 Apr 2016 21:31:19] [Thread-4:61188] [blogViews.py:230] - * BLOG CONTENT:<div class="copyright-area">本资源由 <a href="http://www.jobbole.com">伯乐在线</a> - <a href="http://www.jobbole.com/members/aoi">伯小乐</a> 整理，您也想贡献一份力量？欢迎<a href="http://group.jobbole.com/category/feedback/tech-res-team/" target="_blank">加入我们 &raquo;</a></div>
+
+<p><code>prompt_toolkit</code>&nbsp;是一个用于构建强大交互式命令行的 Python 工具库。</p>
+
+<h2>你在找 Python 的交互式解释器 ptpython 么？</h2>
+
+<p>你是不是在找交互式的 Python shell 工具&nbsp;<code>ptpython</code> 呢？我们把&nbsp;<code>ptpython</code>&nbsp;的源码转移到了一个独立的仓库。如此一来，我们确信 &nbsp;<code>prompt_toolkit</code>&nbsp;库不会被其他 <code>ptpython</code> 东西&ldquo;污染&rdquo;，并且&nbsp;<code>ptpython</code>&nbsp;也可以独立开发。现在必须用下面这个命令安装 <code>ptpython</code> ：</p>
+
+<div class="crayon-syntax crayon-theme-github crayon-font-monaco crayon-os-pc print-yes notranslate" id="crayon-570021c519fd3182482560" style="margin-top: 12px; margin-bottom: 12px; font-size: 12px ! important; line-height: 15px ! important; height: auto;">
+<div class="crayon-toolbar" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;">
+<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;">
+<div class="crayon-button crayon-nums-button crayon-pressed" title="切换是否显示行编号">
+<div class="crayon-button-icon">&nbsp;</div>
+</div>
+
+<div class="crayon-button crayon-plain-button" title="纯文本显示代码">
+<div class="crayon-button-icon">&nbsp;</div>
+</div>
+
+<div class="crayon-button crayon-wrap-button" title="切换自动换行">
+<div class="crayon-button-icon">&nbsp;</div>
+</div>
+
+<div class="crayon-button crayon-copy-button" title="复制代码">
+<div class="crayon-button-icon">&nbsp;</div>
+</div>
+
+<div class="crayon-button crayon-popup-button" title="在新窗口中显示代码">
+<div class="crayon-button-icon">&nbsp;</div>
+</div>
+</div>
+</div>
+
+<div class="crayon-plain-wrap"><textarea>pip install ptpython</textarea></div>
+
+<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+<table class="crayon-table">
+	<tbody>
+		<tr>
+			<td>
+			<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;">
+			<div class="crayon-num">1</div>
+			</div>
+			</td>
+			<td>
+			<div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">
+			<div class="crayon-line" id="crayon-570021c519fd3182482560-1">pip install ptpython</div>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<p><a href="http://github.com/jonathanslenders/ptpython/" target="_blank">前往 ptpython 主页&hellip;</a></p>
+
+<p>（伯乐在线注：<code>prompt_toolkit</code> 和 <code>ptpython</code> 都是同一个开发者 Jonathan Slenders&nbsp;的作品。）</p>
+
+<p><img alt="" src="http://jbcdn1.b0.upaiyun.com/2015/11/6800fa20a5000352ce6090cb09163121.png" /></p>
+
+<h2>prompt-toolkit 的特性features</h2>
+
+<p><code>prompt_toolkit</code>&nbsp;可用作&nbsp;<a href="http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html" target="_blank">GNU readline</a>&nbsp;的替代品，但其实比后者还好得多。</p>
+
+<p>部分特性：</p>
+
+<ul>
+	<li>纯 Python；</li>
+	<li>输入时支持语法高亮；（有 Pygments 词法分析器）</li>
+	<li>支持多行输入编辑；</li>
+	<li>高级代码补全；</li>
+	<li>支持 &nbsp;Emacs 和 Vi 热键绑定；（和 readline 类似）</li>
+	<li>支持反向和正向的增量搜索；</li>
+	<li>支持 Python 2.6 &nbsp;到 3.4 之间的版本；</li>
+	<li>支持 Unicode 双宽字符；（比如：中文输入）</li>
+	<li>选择文本复制/粘贴&nbsp;(Both Emacs and Vi style.)</li>
+	<li>多输入缓存</li>
+	<li>轻量级，只依赖于 Pygments、six 和 wcwidth；</li>
+	<li>Code written with love.</li>
+	<li>支持 Linux、OS X、OpenBSD 和 Windows 系统；</li>
+</ul>
+
+<h2>安装</h2>
+
+- [DEBUG] [Sun, 03 Apr 2016 21:31:19] [Thread-4:61188] [blogViews.py:231] - * BLOG CATALOG:3
+- [DEBUG] [Sun, 03 Apr 2016 21:31:19] [Thread-4:61188] [blogViews.py:232] - * BLOG TOP:false
+- [DEBUG] [Sun, 03 Apr 2016 21:31:19] [Thread-4:61188] [blogViews.py:233] - * BLOG STAR:false
+- [DEBUG] [Sun, 03 Apr 2016 21:31:19] [Thread-4:61188] [blogViews.py:234] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 21:31:19] [Thread-4:61188] [blogViews.py:235] - * BLOG KEYS:测
+- [DEBUG] [Sun, 03 Apr 2016 21:31:19] [Thread-4:61188] [blogViews.py:240] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 22:16:34] [Thread-7:61368] [blogViews.py:231] - * BLOG TITLE:Django开发更新
+- [DEBUG] [Sun, 03 Apr 2016 22:16:34] [Thread-7:61368] [blogViews.py:232] - * BLOG CONTENT:<h1 style="text-align:center">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。
+- [DEBUG] [Sun, 03 Apr 2016 22:16:34] [Thread-7:61368] [blogViews.py:233] - * BLOG CATALOG:20
+- [DEBUG] [Sun, 03 Apr 2016 22:16:34] [Thread-7:61368] [blogViews.py:234] - * BLOG TOP:false
+- [DEBUG] [Sun, 03 Apr 2016 22:16:34] [Thread-7:61368] [blogViews.py:235] - * BLOG STAR:false
+- [DEBUG] [Sun, 03 Apr 2016 22:16:34] [Thread-7:61368] [blogViews.py:236] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 22:16:34] [Thread-7:61368] [blogViews.py:237] - * BLOG KEYS:
+- [DEBUG] [Sun, 03 Apr 2016 22:16:34] [Thread-7:61368] [blogViews.py:242] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:231] - * BLOG TITLE:Django开发更新2
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:232] - * BLOG CONTENT:<h1 style="text-align:center">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:233] - * BLOG CATALOG:20
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:234] - * BLOG TOP:false
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:235] - * BLOG STAR:false
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:236] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:237] - * BLOG KEYS:
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:242] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 22:17:33] [Thread-7:67068] [blogViews.py:245] - * 当前进行的操作是更新博文操作
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:231] - * BLOG TITLE:Django开发更新2
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:232] - * BLOG CONTENT:<h1 style="text-align:center">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:233] - * BLOG CATALOG:20
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:234] - * BLOG TOP:false
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:235] - * BLOG STAR:false
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:236] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:237] - * BLOG KEYS:
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:242] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 22:17:44] [Thread-8:63364] [blogViews.py:245] - * 当前进行的操作是更新博文操作
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:231] - * BLOG TITLE:Django开发更新2
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:232] - * BLOG CONTENT:<h1 style="text-align:center">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:233] - * BLOG CATALOG:20
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:234] - * BLOG TOP:false
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:235] - * BLOG STAR:false
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:236] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:237] - * BLOG KEYS:
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:242] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 22:17:56] [Thread-1:66796] [blogViews.py:245] - * 当前进行的操作是更新博文操作
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:231] - * BLOG TITLE:Django
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:232] - * BLOG CONTENT:<h1 style="text-align:center">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#FF0000">额。。。</span>
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:233] - * BLOG CATALOG:1
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:234] - * BLOG TOP:true
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:235] - * BLOG STAR:true
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:236] - * BLOG LEVEL:1
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:237] - * BLOG KEYS:关键字2
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:242] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Sun, 03 Apr 2016 22:19:03] [Thread-14:25292] [blogViews.py:245] - * 当前进行的操作是更新博文操作
+- [DEBUG] [Sun, 03 Apr 2016 22:34:05] [Thread-116:63160] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 04 Apr 2016 10:42:07] [Thread-11:61732] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Mon, 04 Apr 2016 10:42:07] [Thread-12:37276] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:228] - * BLOG TITLE:Django
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:229] - * BLOG CONTENT:<h1 style="text-align:center">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#FF0000">额。。。</span>
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:230] - * BLOG CATALOG:1
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:231] - * BLOG TOP:true
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:232] - * BLOG STAR:true
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:233] - * BLOG LEVEL:3
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:234] - * BLOG KEYS:关键字2
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:239] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 10:42:20] [Thread-20:59196] [blogViews.py:242] - * 当前进行的操作是更新博文操作
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:228] - * BLOG TITLE:Django
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:229] - * BLOG CONTENT:<h1 style="text-align:center">使用Django编写一个个人网站</h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是一篇使用Django开发一个网站的简易教程，使用Python语言进行开发。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本篇主要是对开发的技术进行简要的介绍，同时还会有一些技术要点的说明，包括了Django的<strong>模型</strong>部分，<strong>视图</strong>部分，<strong>模板</strong>部分等等。同时还会介绍开发过程中遇到的<em><u><strong>困难</strong></u></em>。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#FF0000">额。。。</span>
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:230] - * BLOG CATALOG:1
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:231] - * BLOG TOP:true
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:232] - * BLOG STAR:true
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:233] - * BLOG LEVEL:1
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:234] - * BLOG KEYS:关键字2
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:239] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:242] - * 当前进行的操作是更新博文操作
+- [DEBUG] [Mon, 04 Apr 2016 11:03:30] [Thread-30:32184] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Mon, 04 Apr 2016 11:03:31] [Thread-31:62452] [views.py:21] - * 访问 言子圭 的博客首页
