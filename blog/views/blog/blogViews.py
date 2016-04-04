@@ -19,14 +19,14 @@ logger = logging.getLogger('app')
 def blog_outline(request, whose):
     # 第一页 0:5  5:10 n * page-1 ： n * page
     user = User.objects.get(login_id=whose)
-    all_blog = Blog.objects.filter(user=user)
+    all_blog = Blog.objects.filter(user=user).exclude(status=-1)
     categories = BlogCategory.objects.filter(user=user).order_by('-level', 'create_date')
 
     # 获得博客分类对应的博客数量
     blog_category_count = [{
                                'category_id': category.category_id,
                                'name': category.name,
-                               'count': category.blog_category.count()
+                               'count': category.blog_category.exclude(status=-1).count()
                            } for category in categories]
 
     default_bcc_count = 0
@@ -64,7 +64,6 @@ def blog_create_category(request, whose):
                     category.name = category_name
                     category.user = current_user
                     category.save()
-                    category = BlogCategory.objects.filter(name=category_name, user=current_user).first()
                     response['category_id'] = category.category_id
             else:
                 response['error'] = 'failure'
@@ -119,7 +118,7 @@ def blog_catalog(request, whose, page, category_name):
     current_page = int(page)
     user = User.objects.get(login_id=whose)
     category_list = BlogCategory.objects.filter(user=user).order_by('-create_date', '-level')
-    all_blog = Blog.objects.filter(user=user)
+    all_blog = Blog.objects.filter(user=user).exclude(status=-1)
     if category_name != '全部':
         blog_list = all_blog.filter(user=user, category__name=category_name)
     else:
@@ -132,7 +131,7 @@ def blog_catalog(request, whose, page, category_name):
     blog_category_count = [{
                                'category_id': category.category_id,
                                'name': category.name,
-                               'count': category.blog_category.count()
+                               'count': category.blog_category.exclude(status=-1).count()
                            } for category in category_list]
     default_bcc_count = 0
     for bcc in blog_category_count:
@@ -161,7 +160,7 @@ def blog_catalog(request, whose, page, category_name):
         'page_size': page_size,
         'category_name': category_name,
         'category_list': blog_category_count,
-        'blog_count': blog_list.count(),
+        'blog_count': all_blog.count(),
         'default_count': default_bcc_count
     })
 
@@ -220,6 +219,7 @@ def blog_publish(request, whose):
             is_star = request.POST['star']
             level = request.POST['level']
             key_words = request.POST['keyWords']
+            status = request.POST['status']
         except KeyError:
             logger.debug('* 带非法参数请求，已经拒绝用户')
             raise Http404
@@ -231,10 +231,17 @@ def blog_publish(request, whose):
         logger.debug('* BLOG STAR:' + is_star)
         logger.debug('* BLOG LEVEL:' + level)
         logger.debug('* BLOG KEYS:' + key_words)
+        logger.debug('* STATUS:' + status)
         # 使用博文表单验证对表单的合法性做确认
         form = BlogPublishForm(request.POST)
+        user = User.objects.get(login_id=request.session['login_id'])
+        exist = Blog.objects.filter(user=user, blog_title=blog_title).count() != 0
         response = {}
-        if form.is_valid():
+        if exist:
+            response['error'] = 'error'
+            response['msg'] = '当前博文标题已经存在于您的博客中，请修改标题'
+            return HttpResponse(json.dumps(response), content_type='application/json')
+        elif form.is_valid():
             logger.debug('* 信息均已经填写完整，通过表单验证，写入数据库')
             is_update_op = False
             if 'blogId' in request.POST:
@@ -243,7 +250,6 @@ def blog_publish(request, whose):
 
             publish_ip = request.META['REMOTE_ADDR']
             print(color_format("* 客户端的IP地址是：{}".format(publish_ip), fore='cyan'))
-            user = User.objects.get(login_id=request.session['login_id'])
             if is_update_op:
                 blog = Blog.objects.get(user=user, blog_id=request.POST['blogId'])
                 blog.update_date = datetime.datetime.now()
@@ -262,6 +268,7 @@ def blog_publish(request, whose):
             blog.level = level
             blog.star = is_star == 'true'
             blog.top = is_top == 'true'
+            blog.status = status
             blog.user_id = user.user_id
             blog.save()
             response['error'] = 'success'
@@ -290,7 +297,27 @@ def category_manage(request, whose):
     # 用户点击专题菜单时，实际上是点击分类，只有叶子节点能够点击并进行跳转
     #
     # 专题分类的创建过程：点击创建专题-->创建（允许创建子专题）-->创建成功后跳转到专题菜单的调整页面-->专题菜单调整后
-    return render(request, 'blog/categoryManager.html')
+    logger.debug("* 当前开发的页面是：category_manage")
+    user = User.objects.get(login_id=whose)
+    # TODO:在用户进行创建的时候需要初始化用户的博客分类，其中一项便是默认的博客分类
+    # 出了默认分类都能够被管理
+
+    category_infos = [
+        {
+            'index': idx + 1,
+            'id': category.category_id,
+            'name': category.name,
+            'create_date': category.create_date.strftime('%Y-%m-%d %H:%M:%S'),
+            'level': category.level,
+            'blog_count': category.blog_category.count()
+        }
+        for idx, category in
+        enumerate(BlogCategory.objects.filter(user=user).order_by('-level', 'create_date'))]
+
+    return render(request, 'blog/categoryManager.html', context={
+        'categories': category_infos,
+        'host': whose
+    })
 
 
 @authorize()
@@ -354,7 +381,7 @@ def create_category(request, whose):
 
 
 @authorize()
-def delete_category(request, whose):
+def delete_category(request, whose, category_id):
     # TODO:删除博客分类
     """
     删除博客分类
@@ -362,7 +389,23 @@ def delete_category(request, whose):
     :param whose:
     :return:
     """
-    pass
+    response = {'error': 'success'}
+    user = User.objects.get(login_id=whose)
+    category_will_del = BlogCategory.objects.get(user=user, category_id=category_id)
+    if category_will_del:
+        category_will_del.delete(keep_parents=True)
+    response['data'] = [
+        {
+            'index': idx + 1,
+            'id': category.category_id,
+            'name': category.name,
+            'create_date': category.create_date.strftime('%Y-%m-%d %H:%M:%S'),
+            'level': category.level,
+            'blog_count': category.blog_category.count()
+        }
+        for idx, category in
+        enumerate(BlogCategory.objects.filter(user=user).exclude(name='默认分类').order_by('-level', 'create_date'))]
+    return HttpResponse(json.dumps(response), content_type='application/json')
 
 
 @authorize()

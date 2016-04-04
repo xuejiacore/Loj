@@ -91,87 +91,92 @@
                     </div>
 
                     <div class="content">
-                        {% for blog in blog_list %}
-                            <hr class="divider"/>
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12"
-                                   href="{% url 'blog:blogDetail' host blog.blog_id %}">
-                                    <img class="img-responsive project-image"
-                                         src="{% static 'assets/images/projects/project-5.png' %}"
-                                         alt="project name"/>
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a
-                                            href="{% url 'blog:blogDetail' host blog.blog_id %}">{{ blog.blog_title }}</a>
-                                        {% if category_name == '全部' %}
-                                            <div class="label label-secondary"
-                                                 style="font-size: 10px;">{{ blog.category.name }}</div>
-                                        {% endif %}
+                        {% if blog_list|length == 0 %}
+                            <div class="row" style="text-align: center;">
+                                ︸_︸<i>&nbsp;!</i>&nbsp;&nbsp;&nbsp;当前分类下什么文章也没有......
+                            </div>
+                        {% else %}
 
-                                        {% if blog.star %}
-                                            {# 星标 #}
-                                            <div class="label label-warning"
-                                                 style="font-size: 10px;"> 推荐
-                                            </div>
-                                        {% endif %}
-                                        {% if blog.top %}
-                                            <div class="label label-red"
-                                                 style="font-size: 10px;"> 置顶
-                                            </div>
-                                        {% endif %}
-                                    </h3>
-                                    <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}&nbsp;&nbsp;</span>
-                                    <p>
-                                        {% autoescape off %}
-                                            {{ blog.blog_content | striptags | truncatechars:125 }}
-                                        {% endautoescape %}
-                                    </p>
-                                    <p><a class="more-link"
-                                          href="{% url 'blog:blogDetail' host blog.blog_id %}"><i
-                                            class="fa fa-external-link"></i>阅读原文</a></p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-                        {% endfor %}
+                            {% for blog in blog_list %}
+                                <hr class="divider"/>
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12"
+                                       href="{% url 'blog:blogDetail' host blog.blog_id %}">
+                                        <img class="img-responsive project-image"
+                                             src="{% static 'assets/images/projects/project-5.png' %}"
+                                             alt="project name"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a
+                                                href="{% url 'blog:blogDetail' host blog.blog_id %}">{{ blog.blog_title }}</a>
+                                            {% if category_name == '全部' %}
+                                                <div class="label label-secondary"
+                                                     style="font-size: 10px;">{{ blog.category.name }}</div>
+                                            {% endif %}
 
-
-                        <div style="text-align: center;">
-                            <ul class="pagination">
-                                {% with curr_page=current_page %}
-                                    {% with last_page=last_page %}
-                                        {% ifequal last_page 0 %}
-                                            <li class="disabled"><a
-                                                    href="javascript:void(0);"><i
-                                                    class="fa-angle-left"></i></a>
-                                            </li>
-                                        {% else %}
-                                            <li><a href="{% url 'blog:blogCatalog' host category_name last_page %}"><i
-                                                    class="fa-angle-left"></i></a>
-                                            </li>
-                                        {% endifequal %}
+                                            {% if blog.star %}
+                                                {# 星标 #}
+                                                <div class="label label-warning"
+                                                     style="font-size: 10px;"> 推荐
+                                                </div>
+                                            {% endif %}
+                                            {% if blog.top %}
+                                                <div class="label label-red"
+                                                     style="font-size: 10px;"> 置顶
+                                                </div>
+                                            {% endif %}
+                                        </h3>
+                                        <span>{{ blog.publish_date }}&nbsp;&nbsp;阅读次数:{{ blog.read_times }}&nbsp;&nbsp;评论数:{{ blog.replied_times }}&nbsp;&nbsp;</span>
+                                        <p>
+                                            {% autoescape off %}
+                                                {{ blog.blog_content | striptags | truncatechars:125 }}
+                                            {% endautoescape %}
+                                        </p>
+                                        <p><a class="more-link"
+                                              href="{% url 'blog:blogDetail' host blog.blog_id %}"><i
+                                                class="fa fa-external-link"></i>阅读原文</a></p>
+                                    </div><!--//desc-->
+                                </div><!--//item-->
+                            {% endfor %}
+                            <div style="text-align: center;">
+                                <ul class="pagination">
+                                    {% with curr_page=current_page %}
+                                        {% with last_page=last_page %}
+                                            {% ifequal last_page 0 %}
+                                                <li class="disabled"><a
+                                                        href="javascript:void(0);"><i
+                                                        class="fa-angle-left"></i></a>
+                                                </li>
+                                            {% else %}
+                                                <li><a href="{% url 'blog:blogCatalog' host category_name last_page %}"><i
+                                                        class="fa-angle-left"></i></a>
+                                                </li>
+                                            {% endifequal %}
+                                        {% endwith %}
+                                        {% for page in page_list %}
+                                            {% ifequal page curr_page %}
+                                                <li class="active"><a
+                                                        href="{% url 'blog:blogCatalog' host category_name page %}">{{ current_page }}</a>
+                                                </li>
+                                            {% else %}
+                                                <li>
+                                                    <a href="{% url 'blog:blogCatalog' host category_name page %}">{{ page }}</a>
+                                                </li>
+                                            {% endifequal %}
+                                        {% endfor %}
+                                        {% with next_page=next_page %}
+                                            {% if next_page > page_size %}
+                                                <li class="disabled"><a href="javascript:void(0);"><i
+                                                        class="fa-angle-right"></i></a></li>
+                                            {% else %}
+                                                <li><a href="{% url 'blog:blogCatalog' host category_name next_page %}"><i
+                                                        class="fa-angle-right"></i></a></li>
+                                            {% endif %}
+                                        {% endwith %}
                                     {% endwith %}
-                                    {% for page in page_list %}
-                                        {% ifequal page curr_page %}
-                                            <li class="active"><a
-                                                    href="{% url 'blog:blogCatalog' host category_name page %}">{{ current_page }}</a>
-                                            </li>
-                                        {% else %}
-                                            <li>
-                                                <a href="{% url 'blog:blogCatalog' host category_name page %}">{{ page }}</a>
-                                            </li>
-                                        {% endifequal %}
-                                    {% endfor %}
-                                    {% with next_page=next_page %}
-                                        {% if next_page > page_size %}
-                                            <li class="disabled"><a href="javascript:void(0);"><i
-                                                    class="fa-angle-right"></i></a></li>
-                                        {% else %}
-                                            <li><a href="{% url 'blog:blogCatalog' host category_name next_page %}"><i
-                                                    class="fa-angle-right"></i></a></li>
-                                        {% endif %}
-                                    {% endwith %}
-                                {% endwith %}
-                            </ul>
-                        </div>
+                                </ul>
+                            </div>
+                        {% endif %}
                     </div>
 
                 </div>

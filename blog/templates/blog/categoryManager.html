@@ -10,12 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.useso.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/xenon-core.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-forms.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-components.css' %}">
+    <link rel="stylesheet" href="{% static 'css/xenon-skins.css' %}">
     <!-- Global CSS -->
     <link rel="stylesheet" href="{% static 'assets/plugins/bootstrap/css/bootstrap.min.css' %}">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="{% static 'assets/plugins/font-awesome/css/font-awesome.css' %}">
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="{% static 'assets/css/detail.css' %}">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js' %}"></script>
@@ -32,9 +37,59 @@
             <section class="latest section section-shadow">
                 <div class="section-inner wrap-parent">
                     <h2 class="heading">博客分类管理</h2>
-
+                    <div class="input-group">
+                        <input id="category-name"
+                               class="form-control no-right-border form-focus-purple" type="text">
+                            <span class="input-group-btn">
+                                <button class="btn btn-purple" type="button"
+                                        onclick="onCategoryCreate();">创建新分类
+                                </button>
+                            </span>
+                    </div>
+                    <br/>
                     <div class="content">
 
+                        <table class="table table-striped" style="font-size: 14px;">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>分类名称</th>
+                                <th>分类文章数</th>
+                                <th>创建日期</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody id="dataTable">
+                            {% for category in categories %}
+                                <tr>
+                                    <td>{{ category.index }}</td>
+                                    <td>
+                                        <a href="{% url 'blog:blogCatalog' host category.name 1 %}">{{ category.name }}</a>
+                                    </td>
+                                    <td>{{ category.blog_count }}</td>
+                                    <td>{{ category.create_date }}</td>
+                                    {% if category.name == '默认分类' %}
+                                        <td></td>
+                                    {% else %}
+                                        <td>
+                                            <div class="btn-group">
+                                                <button id="publish"
+                                                        class="btn btn-secondary btn-icon btn-icon-standalone btn-xs"
+                                                        onclick="onCategoryEdit();">
+                                                    <i class="fa-edit"></i>
+                                                </button>
+                                            </div>
+                                            <button id="publish"
+                                                    class="btn btn-secondary btn-icon btn-icon-standalone btn-xs"
+                                                    onclick="onCategoryDelete('{% url 'blog:categoryDel' host category.id %}', '{{ blog.name }}', '{{ category.blog_count }}');">
+                                                <i class="fa-trash"></i>
+                                            </button>
+                                        </td>
+                                    {% endif %}
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </section><!--//section-->
@@ -56,5 +111,81 @@
 <script type="text/javascript" src="{% static 'js/jquery-2.2.1.min.js ' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/jquery-migrate-1.2.1.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'assets/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript">
+    /**
+     * 创建博客的分类
+     */
+    function onCategoryCreate() {
+        var categoryName = $('#category-name').val();
+        $.ajax({
+            url: "{% url 'blog:createCategory' request.session.host %}",
+            method: 'POST',
+            dataType: 'json',
+            data: {
+                categoryName: categoryName
+            },
+            success: function (resp) {
+                if (resp.error == 'success') {
+                    window.parent.infoToast('分类 ' + categoryName + ' 创建成功', '分类创建成功');
+                    window.location.reload();
+                } else {
+                    window.parent.errToast(resp.msg, "分类 " + categoryName + " 创建失败");
+                }
+            },
+            error: function () {
+                window.parent.errToast("内部发生错误，请邮件至：xuejiacore@sina.com", "内部错误");
+            }
+        })
+    }
+
+    /**
+     * 分类编辑
+     */
+    function onCategoryEdit() {
+        alert('编辑操作');
+    }
+
+    /**
+     * 删除分类
+     */
+    function onCategoryDelete(url, blogName, count) {
+        var delete_category = function () {
+            $.ajax({
+                url: url,
+                dataType: 'json',
+                success: function (resp) {
+                    if (resp.error == 'success') {
+                        window.parent.infoToast("分类 " + blogName + " 删除成功", "分类删除");
+                        refreshTable(resp);
+                    } else {
+                        window.parent.errToast("博客分类删除失败，请重试", "删除失败");
+                    }
+                },
+                error: function () {
+                    window.parent.errToast("内部发生错误，请邮件至：xuejiacore@sina.com", "内部错误");
+                }
+            });
+        };
+        if (count != '0') {
+            if (confirm("当前分类下有 " + count + " 博文，您确定要删除该分类下的所有博文吗？")) {
+                delete_category();
+            } else {
+                window.parent.warningToast('因当前分类下有博文存在，用户取消删除分类!', '用户放弃删除');
+            }
+        } else {
+            if (confirm("您确认要删除该分类：" + blogName + "吗？")) {
+                delete_category();
+            }
+        }
+    }
+
+    /**
+     * 重新加载分类数据
+     */
+    function refreshTable(resp) {
+        window.location.reload();
+    }
+</script>
+
 </body>
 </html>

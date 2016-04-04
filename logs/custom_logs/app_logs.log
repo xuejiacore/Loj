@@ -4423,3 +4423,400 @@ For example, <code>&lt;section&gt;</code> should be wrapped as inline.</div>
 - [DEBUG] [Mon, 04 Apr 2016 10:45:36] [Thread-37:26440] [blogViews.py:242] - * 当前进行的操作是更新博文操作
 - [DEBUG] [Mon, 04 Apr 2016 11:03:30] [Thread-30:32184] [authorization_view.py:35] - 没有捕获 req_target = 
 - [DEBUG] [Mon, 04 Apr 2016 11:03:31] [Thread-31:62452] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 04 Apr 2016 12:04:34] [Thread-60:64332] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Mon, 04 Apr 2016 12:04:35] [Thread-61:3060] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 04 Apr 2016 12:05:35] [Thread-74:48512] [authorization_view.py:35] - 没有捕获 req_target = 
+- [DEBUG] [Mon, 04 Apr 2016 12:05:36] [Thread-75:15868] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 04 Apr 2016 15:12:53] [Thread-31:25744] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:24:18] [Thread-1:50932] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:49:12] [Thread-6:60216] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:50:00] [Thread-9:25764] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:50:15] [Thread-12:41076] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:50:25] [Thread-15:26108] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:50:32] [Thread-17:5084] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:50:41] [Thread-20:57156] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:50:42] [Thread-21:62960] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:51:10] [Thread-23:40228] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:51:11] [Thread-24:432] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:51:12] [Thread-25:30872] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:51:35] [Thread-27:15440] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:51:49] [Thread-57:16480] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:52:28] [Thread-65:25576] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:52:55] [Thread-68:34340] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:57:24] [Thread-1:34948] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 15:59:41] [Thread-7:58828] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:00:06] [Thread-10:34860] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:00:42] [Thread-14:33232] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:01:03] [Thread-16:11104] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:02:15] [Thread-19:49776] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:02:49] [Thread-21:49996] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:03:29] [Thread-23:11228] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:03:31] [Thread-24:60484] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:03:36] [Thread-25:43672] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:05:01] [Thread-28:5412] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:05:30] [Thread-31:68292] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:05:46] [Thread-35:15712] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:05:56] [Thread-38:3724] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:06:35] [Thread-41:10608] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:11:02] [Thread-46:3868] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:11:04] [Thread-47:63508] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:11:05] [Thread-48:24336] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:11:22] [Thread-50:50144] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:12:34] [Thread-53:39732] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:12:42] [Thread-57:40776] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:13:06] [Thread-72:26432] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:14:44] [Thread-74:18836] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:17:29] [Thread-78:4904] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:18:23] [Thread-81:19520] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:19:02] [Thread-83:13464] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:21:45] [Thread-86:69292] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:22:02] [Thread-88:67608] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:32:16] [Thread-1:29188] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:41:08] [Thread-4:62980] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:44:24] [Thread-9:54748] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:45:03] [Thread-11:70236] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:47:52] [Thread-1:45564] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:48:36] [Thread-1:3056] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:49:03] [Thread-1:48888] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:50:01] [Thread-25:57708] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:50:55] [Thread-28:21956] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:51:46] [Thread-1:26700] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 16:59:20] [Thread-1:2852] [blogViews.py:294] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:27:43] [Thread-5:31508] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:27:48] [Thread-8:58644] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:32:27] [Thread-1:8628] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:32:36] [Thread-4:58408] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:32:39] [Thread-5:41856] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:32:44] [Thread-7:62912] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:40:29] [Thread-1:47956] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:42:13] [Thread-1:35932] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:42:51] [Thread-1:39036] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:43:01] [Thread-1:41656] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:43:09] [Thread-1:37992] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:43:17] [Thread-1:62380] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:43:32] [Thread-1:50756] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:43:33] [Thread-3:15456] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:44:18] [Thread-1:32300] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:44:26] [Thread-1:31544] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:44:42] [Thread-1:32408] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:47:55] [Thread-12:18924] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:49:56] [Thread-14:32804] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 20:59:58] [Thread-16:47892] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:00:22] [Thread-18:41596] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:01:29] [Thread-21:52392] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:04:42] [Thread-23:42588] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:10:06] [Thread-26:5868] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:10:37] [Thread-28:29676] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:11:07] [Thread-30:50872] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:12:31] [Thread-32:7460] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:16:45] [Thread-34:37720] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:17:26] [Thread-48:30084] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:17:43] [Thread-50:42952] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:20:39] [Thread-1:33888] [blogViews.py:294] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:22:55] [Thread-1:3024] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:23:25] [Thread-1:71380] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:23:34] [Thread-4:1272] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:24:42] [Thread-1:57868] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:25:09] [Thread-4:55644] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:26:47] [Thread-6:23664] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:26:58] [Thread-8:49816] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:27:22] [Thread-11:5756] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:27:24] [Thread-12:29968] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:27:52] [Thread-14:61500] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:28:29] [Thread-16:43552] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:30:16] [Thread-18:51656] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:31:24] [Thread-20:70932] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:31:27] [Thread-22:27444] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:31:33] [Thread-34:20392] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:31:37] [Thread-46:4652] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:31:43] [Thread-58:27064] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:31:45] [Thread-59:46920] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:32:40] [Thread-1:27016] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:32:44] [Thread-4:53716] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:33:28] [Thread-1:53900] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:33:32] [Thread-4:12732] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:33:35] [Thread-16:43056] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:34:39] [Thread-29:27144] [views.py:21] - * 访问 言子圭 的博客首页
+- [DEBUG] [Mon, 04 Apr 2016 21:37:38] [Thread-1:49988] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:37:41] [Thread-3:30440] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:37:45] [Thread-5:54412] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:38:17] [Thread-1:24280] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:38:21] [Thread-4:62164] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:44:40] [Thread-19:21052] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:45:03] [Thread-24:14360] [blogViews.py:227] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 21:45:03] [Thread-24:14360] [blogViews.py:228] - * BLOG CONTENT:撒旦发射点发
+- [DEBUG] [Mon, 04 Apr 2016 21:45:03] [Thread-24:14360] [blogViews.py:229] - * BLOG CATALOG:18
+- [DEBUG] [Mon, 04 Apr 2016 21:45:03] [Thread-24:14360] [blogViews.py:230] - * BLOG TOP:true
+- [DEBUG] [Mon, 04 Apr 2016 21:45:03] [Thread-24:14360] [blogViews.py:231] - * BLOG STAR:true
+- [DEBUG] [Mon, 04 Apr 2016 21:45:03] [Thread-24:14360] [blogViews.py:232] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 21:45:03] [Thread-24:14360] [blogViews.py:233] - * BLOG KEYS:啊手动阀手动阀
+- [DEBUG] [Mon, 04 Apr 2016 21:45:03] [Thread-24:14360] [blogViews.py:238] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 21:45:08] [Thread-27:12204] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:46:42] [Thread-31:16168] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:49:00] [Thread-33:28064] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:49:02] [Thread-34:52652] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:49:07] [Thread-36:21512] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:49:10] [Thread-48:25516] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:49:13] [Thread-59:36704] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:49:20] [Thread-62:62756] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:49:30] [Thread-65:60920] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:49:58] [Thread-67:148] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:50:06] [Thread-70:6996] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:50:13] [Thread-82:19252] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:50:15] [Thread-94:25712] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:227] - * BLOG TITLE:23:12:43
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:228] - * BLOG CONTENT:<div class="row">
+<div class="col-sm-7">
+<div class="panel panel-default">
+<div class="panel-heading">Badges and Labels</div>
+
+<div class="panel-body">
+<div class="row">
+<div class="col-sm-5">
+<ul>
+	<li>Default label 5</li>
+	<li>Primary label 4</li>
+	<li>Secondary label 8</li>
+	<li>Warning label 3</li>
+	<li>Danger label 9</li>
+	<li>Info label 1</li>
+	<li>Success label 5</li>
+	<li>Purple label 2</li>
+	<li>Blue label 7</li>
+	<li>Red label 1</li>
+	<li>Black label 8</li>
+	<li>White label 6</li>
+</ul>
+</div>
+
+<div class="col-sm-5 col-sm-offset-2">
+<ul>
+	<li>Default badge 5</li>
+	<li>Primary badge 4</li>
+	<li>Secondary badge 8</li>
+	<li>Warning badge 3</li>
+	<li>Danger badge 9</li>
+	<li>Info badge 1</li>
+	<li>Success badge 5</li>
+	<li>Purple badge 2</li>
+	<li>Blue badge 7</li>
+	<li>Red badge 1</li>
+	<li>Black badge 8</li>
+	<li>White badge 6</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel-body">
+<hr />
+<h5>Labels with Text</h5>
+
+<div class="bs-example">
+<div class="label label-default">Default</div>
+
+<div class="label label-primary">Primary</div>
+
+<div class="label label-secondary">Secondary</div>
+
+<div class="label label-info">Info</div>
+
+<div class="label label-warning">Warning</div>
+
+<div class="label label-danger">Danger</div>
+
+<div class="label label-success">Success</div>
+
+<div class="label label-purple">Purple</div>
+
+<div class="label label-red">Red</div>
+
+<div class="label label-blue">Blue</div>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">Code</div>
+
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6">
+<h5>PRE Tags</h5>
+
+<pre>
+&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+</div>
+
+<div class="col-md-6">
+<h5>CODE Tags</h5>
+For example, <code>&lt;section&gt;</code> should be wrapped as inline.</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-5">
+<div class="panel panel-default">
+<div class="panel-heading">Popovers and Tooltips</div>
+
+<div class="panel-body">
+<h5>Popovers</h5>
+
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+&nbsp;
+
+<div class="panel-body">
+<p>&nbsp;</p>
+</div>
+
+<div class="panel-body">
+<h5>Tooltips</h5>
+
+<p>&nbsp;</p>
+</div>
+&nbsp;
+
+<div class="row">
+<div class="col-sm-5">
+<div class="panel panel-default">
+<div class="panel-body">
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">Wells</div>
+
+<div class="panel-body">
+<div class="well">Look, I&#39;m in a well!</div>
+
+<div class="well well-lg">Look, I&#39;m in a well, but a large well!</div>
+
+<div class="well well-sm">Look, I&#39;m in a small well!</div>
+</div>
+</div>
+</div>
+</div>
+
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:229] - * BLOG CATALOG:22
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:230] - * BLOG TOP:true
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:231] - * BLOG STAR:true
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:232] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:233] - * BLOG KEYS:测试关键字
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:238] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 21:50:30] [Thread-109:37548] [blogViews.py:241] - * 当前进行的操作是更新博文操作
+- [DEBUG] [Mon, 04 Apr 2016 21:50:51] [Thread-114:53524] [blogViews.py:293] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:01:35] [Thread-121:6700] [blogViews.py:227] - * BLOG TITLE:测试搜索
+- [DEBUG] [Mon, 04 Apr 2016 22:01:35] [Thread-121:6700] [blogViews.py:228] - * BLOG CONTENT:撒旦发射点发
+- [DEBUG] [Mon, 04 Apr 2016 22:01:35] [Thread-121:6700] [blogViews.py:229] - * BLOG CATALOG:
+- [DEBUG] [Mon, 04 Apr 2016 22:01:35] [Thread-121:6700] [blogViews.py:230] - * BLOG TOP:true
+- [DEBUG] [Mon, 04 Apr 2016 22:01:35] [Thread-121:6700] [blogViews.py:231] - * BLOG STAR:true
+- [DEBUG] [Mon, 04 Apr 2016 22:01:35] [Thread-121:6700] [blogViews.py:232] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:01:35] [Thread-121:6700] [blogViews.py:233] - * BLOG KEYS:收到
+- [DEBUG] [Mon, 04 Apr 2016 22:01:35] [Thread-121:6700] [blogViews.py:238] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 22:01:44] [Thread-122:71456] [blogViews.py:227] - * BLOG TITLE:测试搜索
+- [DEBUG] [Mon, 04 Apr 2016 22:01:44] [Thread-122:71456] [blogViews.py:228] - * BLOG CONTENT:撒旦发射点发
+- [DEBUG] [Mon, 04 Apr 2016 22:01:44] [Thread-122:71456] [blogViews.py:229] - * BLOG CATALOG:
+- [DEBUG] [Mon, 04 Apr 2016 22:01:44] [Thread-122:71456] [blogViews.py:230] - * BLOG TOP:true
+- [DEBUG] [Mon, 04 Apr 2016 22:01:44] [Thread-122:71456] [blogViews.py:231] - * BLOG STAR:true
+- [DEBUG] [Mon, 04 Apr 2016 22:01:44] [Thread-122:71456] [blogViews.py:232] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:01:44] [Thread-122:71456] [blogViews.py:233] - * BLOG KEYS:收到
+- [DEBUG] [Mon, 04 Apr 2016 22:01:44] [Thread-122:71456] [blogViews.py:238] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 22:08:28] [Thread-3:20872] [blogViews.py:295] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:05] [Thread-1:8740] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:22] [Thread-5:10816] [blogViews.py:226] - * BLOG TITLE:阿斯顿q为
+- [DEBUG] [Mon, 04 Apr 2016 22:10:22] [Thread-5:10816] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:10:22] [Thread-5:10816] [blogViews.py:228] - * BLOG CATALOG:29
+- [DEBUG] [Mon, 04 Apr 2016 22:10:22] [Thread-5:10816] [blogViews.py:229] - * BLOG TOP:true
+- [DEBUG] [Mon, 04 Apr 2016 22:10:22] [Thread-5:10816] [blogViews.py:230] - * BLOG STAR:true
+- [DEBUG] [Mon, 04 Apr 2016 22:10:22] [Thread-5:10816] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:10:22] [Thread-5:10816] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:10:22] [Thread-5:10816] [blogViews.py:237] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 22:10:38] [Thread-8:26304] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:41] [Thread-10:47836] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:45] [Thread-22:54704] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:46] [Thread-34:32808] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:48] [Thread-46:66232] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:50] [Thread-58:52260] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:53] [Thread-70:692] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:10:57] [Thread-81:18220] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:11:07] [Thread-84:65820] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:12:56] [Thread-87:49452] [blogViews.py:292] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:17:21] [Thread-4:37012] [blogViews.py:226] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:21] [Thread-4:37012] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:21] [Thread-4:37012] [blogViews.py:228] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:17:21] [Thread-4:37012] [blogViews.py:229] - * BLOG TOP:false
+- [DEBUG] [Mon, 04 Apr 2016 22:17:21] [Thread-4:37012] [blogViews.py:230] - * BLOG STAR:false
+- [DEBUG] [Mon, 04 Apr 2016 22:17:21] [Thread-4:37012] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:17:21] [Thread-4:37012] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:21] [Thread-4:37012] [blogViews.py:242] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 22:17:34] [Thread-8:47904] [blogViews.py:226] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:34] [Thread-8:47904] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:34] [Thread-8:47904] [blogViews.py:228] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:17:34] [Thread-8:47904] [blogViews.py:229] - * BLOG TOP:false
+- [DEBUG] [Mon, 04 Apr 2016 22:17:34] [Thread-8:47904] [blogViews.py:230] - * BLOG STAR:false
+- [DEBUG] [Mon, 04 Apr 2016 22:17:34] [Thread-8:47904] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:17:34] [Thread-8:47904] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:42] [Thread-9:60504] [blogViews.py:226] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:42] [Thread-9:60504] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:42] [Thread-9:60504] [blogViews.py:228] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:17:42] [Thread-9:60504] [blogViews.py:229] - * BLOG TOP:false
+- [DEBUG] [Mon, 04 Apr 2016 22:17:42] [Thread-9:60504] [blogViews.py:230] - * BLOG STAR:false
+- [DEBUG] [Mon, 04 Apr 2016 22:17:42] [Thread-9:60504] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:17:42] [Thread-9:60504] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:46] [Thread-10:57272] [blogViews.py:226] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:46] [Thread-10:57272] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:17:46] [Thread-10:57272] [blogViews.py:228] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:17:46] [Thread-10:57272] [blogViews.py:229] - * BLOG TOP:false
+- [DEBUG] [Mon, 04 Apr 2016 22:17:46] [Thread-10:57272] [blogViews.py:230] - * BLOG STAR:false
+- [DEBUG] [Mon, 04 Apr 2016 22:17:46] [Thread-10:57272] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:17:46] [Thread-10:57272] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:18:51] [Thread-1:50944] [blogViews.py:226] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:18:51] [Thread-1:50944] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:18:51] [Thread-1:50944] [blogViews.py:228] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:18:51] [Thread-1:50944] [blogViews.py:229] - * BLOG TOP:false
+- [DEBUG] [Mon, 04 Apr 2016 22:18:51] [Thread-1:50944] [blogViews.py:230] - * BLOG STAR:false
+- [DEBUG] [Mon, 04 Apr 2016 22:18:51] [Thread-1:50944] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:18:51] [Thread-1:50944] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:19:06] [Thread-3:43280] [blogViews.py:226] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:19:06] [Thread-3:43280] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:19:06] [Thread-3:43280] [blogViews.py:228] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:19:06] [Thread-3:43280] [blogViews.py:229] - * BLOG TOP:false
+- [DEBUG] [Mon, 04 Apr 2016 22:19:06] [Thread-3:43280] [blogViews.py:230] - * BLOG STAR:false
+- [DEBUG] [Mon, 04 Apr 2016 22:19:06] [Thread-3:43280] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:19:06] [Thread-3:43280] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:20:30] [Thread-6:46052] [blogViews.py:226] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:20:30] [Thread-6:46052] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:20:30] [Thread-6:46052] [blogViews.py:228] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:20:30] [Thread-6:46052] [blogViews.py:229] - * BLOG TOP:false
+- [DEBUG] [Mon, 04 Apr 2016 22:20:30] [Thread-6:46052] [blogViews.py:230] - * BLOG STAR:false
+- [DEBUG] [Mon, 04 Apr 2016 22:20:30] [Thread-6:46052] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:20:30] [Thread-6:46052] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:21:03] [Thread-9:5404] [blogViews.py:226] - * BLOG TITLE:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:21:03] [Thread-9:5404] [blogViews.py:227] - * BLOG CONTENT:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:21:03] [Thread-9:5404] [blogViews.py:228] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:21:03] [Thread-9:5404] [blogViews.py:229] - * BLOG TOP:false
+- [DEBUG] [Mon, 04 Apr 2016 22:21:03] [Thread-9:5404] [blogViews.py:230] - * BLOG STAR:false
+- [DEBUG] [Mon, 04 Apr 2016 22:21:03] [Thread-9:5404] [blogViews.py:231] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:21:03] [Thread-9:5404] [blogViews.py:232] - * BLOG KEYS:阿斯顿
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:227] - * BLOG TITLE:这是在草稿中的
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:228] - * BLOG CONTENT:阿斯顿分
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:229] - * BLOG CATALOG:3
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:230] - * BLOG TOP:true
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:231] - * BLOG STAR:true
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:232] - * BLOG LEVEL:0
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:233] - * BLOG KEYS:as地方
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:234] - * STATUS:-1
+- [DEBUG] [Mon, 04 Apr 2016 22:25:39] [Thread-4:27080] [blogViews.py:245] - * 信息均已经填写完整，通过表单验证，写入数据库
+- [DEBUG] [Mon, 04 Apr 2016 22:31:23] [Thread-3:60128] [blogViews.py:300] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:32:27] [Thread-14:16824] [blogViews.py:300] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:34:29] [Thread-19:53476] [blogViews.py:300] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:35:29] [Thread-1:62564] [blogViews.py:300] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:36:56] [Thread-14:18836] [blogViews.py:300] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:37:10] [Thread-19:69152] [blogViews.py:300] - * 当前开发的页面是：category_manage
+- [DEBUG] [Mon, 04 Apr 2016 22:37:22] [Thread-21:19640] [blogViews.py:300] - * 当前开发的页面是：category_manage

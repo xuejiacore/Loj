@@ -141,12 +141,12 @@
                             <div class="form-group-separator"></div>
                             <div class="vertical-top" style="text-align: center">
                                 <button id="publish" class="btn btn-secondary btn-icon btn-icon-standalone"
-                                        onclick="doSubmit();">
+                                        onclick="doSubmit(true);">
                                     <i class="fa-share"></i>
                                     <span>发表博文</span>
                                 </button>
                                 <button id="saveDraft" class="btn btn-purple btn-icon btn-icon-standalone"
-                                        onclick="alert('保存到草稿箱(开发中)');">
+                                        onclick="doSubmit(false);">
                                     <i class="fa-newspaper-o"></i>
                                     <span>保存至草稿箱</span>
                                 </button>
@@ -208,15 +208,16 @@
     function refreshCategory(name, category_id) {
         try {
             var categorySel = $('#blogCatalog');
-            categorySel.html(categorySel.html() + '<option name=' + name + ' value="{{ category_id }}">' + name + '</option>');
+            categorySel.html(categorySel.html() + '<option name=' + name + ' value="' + category_id + '">' + name + '</option>');
         } catch (e) {
             alert(e.message);
         }
     }
 
-    function doSubmit() {
+    function doSubmit(isPub) {
         isSubmit = true;
         var blogTitle = $('#blogTitle').val();
+        var status = isPub ? 0 : -1;
         $.ajax({
             url: '{% url 'blog:publishBlog' host %}',
             method: 'POST',
@@ -231,16 +232,17 @@
                 top: $("#top").attr('checked') == 'checked',
                 star: $("#star").attr('checked') == 'checked',
                 level: $("#level").find("option:selected").val(),
-                keyWords: $('#blogKeys').val()
+                keyWords: $('#blogKeys').val(),
+                status: status
             },
-            success: function (req) {
-                if (req.error == 'success') {
+            success: function (resp) {
+                if (resp.error == 'success') {
                     window.parent.infoToast('博文 ' + blogTitle + ' 发布成功', '博文发布成功');
                     {% with host as host %}
                         window.location.href = "{% url 'blog:blogCatalog' host '全部' 1 %}";
                     {% endwith %}
                 } else {
-                    window.parent.error('博文 ' + blogTitle + ' 发布失败', '发布失败')
+                    window.parent.errToast(resp.msg, '发布失败')
                 }
             },
             error: function () {
@@ -271,8 +273,10 @@
     }, null, null, 9999);
 
     window.onbeforeunload = function () {
-        if (!isSubmit)
-            return '';
+        {% if blog %}
+            if (!isSubmit)
+                return '';
+        {% endif %}
     }
 </script>
 
